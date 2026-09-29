@@ -379,20 +379,6 @@
 "source": "https://www.bleepingcomputer.com/news/security/fbi-alert-urges-companies-to-secure-ftp-servers/"
 },
 {
-"id": 28,
-"institution": "Indiana University / Xiao Wang FBI Investigation",
-"year": "2025.0",
-"summary": "Prominent cybersecurity/privacy professor Xiao Wang had his home raided by the FBI in spring 2025 amid questions about undisclosed Chinese research funding from 2017\u20132018. No arrests or criminal charges had been filed at time of the raid.",
-"category": "Legal Boundaries & CFAA Overreach",
-"intent": "Ambiguous / gray area (mixed or unclear intent)",
-"actor_type": "Academic researcher",
-"disclosure": "None (withheld)",
-"outcome": "Under investigation (no charges filed at time of reporting)",
-"chilling": "Yes",
-"dilemmas": "(i) Duty to disclose foreign research funding on US federal grant applications; (ii) Academic freedom vs. national security concerns about foreign research entanglement; (iii) Due process when law enforcement raids without public criminal charges; (iv) Chilling effect on international research collaboration",
-"source": "https://arizonadigitalfreepress.com/lawyer-sheds-light-on-status-of-cybersecurity-professor-targeted-by-fbi/"
-},
-{
 "id": 29,
 "institution": "Ola Bini / Ecuador / Privacy Tool Developer",
 "year": "2019.0",
