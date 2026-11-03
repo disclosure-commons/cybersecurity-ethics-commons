@@ -11,12 +11,19 @@ which are hand-maintained. Safe to re-run any time data/cases.json changes.
 import json
 import re
 import shutil
+from datetime import date
 from pathlib import Path
 from collections import Counter
 
 ROOT = Path(__file__).resolve().parent.parent
 DATA = ROOT / "data" / "cases.json"
 DOCS = ROOT / "docs"
+
+# Shown in every page footer. It is the date you run this build, so rebuild
+# (python3 scripts/build_site.py) whenever you publish a change you want dated.
+_TODAY = date.today()
+LAST_UPDATED_TEXT = f"Last updated {_TODAY:%b} {_TODAY.day}, {_TODAY.year}"
+LAST_UPDATED_ISO = _TODAY.isoformat()
 
 FONT_LINK = (
     '<link rel="preconnect" href="https://fonts.googleapis.com">\n'
@@ -76,7 +83,8 @@ def footer_html(depth):
     prefix = "../" * depth if depth else "./"
     return (
         '<footer class="sitefooter"><div class="sitefooter-inner">'
-        '<span>Disclosure Commons &middot; cybersecurity ethics case library</span>'
+        '<span>Disclosure Commons &middot; cybersecurity ethics case library &middot; '
+        f'<time datetime="{LAST_UPDATED_ISO}">{LAST_UPDATED_TEXT}</time></span>'
         f'<span><a href="{prefix}cite/">Cite this dataset</a> &middot; '
         '<a href="https://github.com/disclosure-commons/cybersecurity-ethics-commons" '
         'target="_blank" rel="noopener">GitHub</a> &middot; '
@@ -328,7 +336,16 @@ in addition to citing the dataset as a whole.</p>
 def main():
     data = json.loads(DATA.read_text(encoding="utf-8"))
     cases = data["cases"]
+    for case in cases:
+        year = case.get("year")
+        if isinstance(year, str):
+            case["year"] = re.sub(r"^(\d{4})\.0$", r"\1", year)
+
     categories = data["categories"]
+    expected_ids = list(range(1, len(cases) + 1))
+    actual_ids = [case.get("id") for case in cases]
+    if actual_ids != expected_ids:
+        raise ValueError("Case IDs must be sequential integers from 1 through the case count.")
 
     years = []
     for c in cases:
@@ -386,6 +403,11 @@ def main():
     write(DOCS / "index.html", home_html)
 
     # --- Case pages ---
+    case_pages = DOCS / "cases"
+    for page_dir in case_pages.iterdir():
+        if page_dir.is_dir() and page_dir.name.isdigit() and int(page_dir.name) > len(cases):
+            shutil.rmtree(page_dir)
+
     for i, case in enumerate(cases):
         html = build_case_page(case, cases, i)
         write(DOCS / "cases" / f"{case['id']:03d}" / "index.html", html)
@@ -408,8 +430,19 @@ def main():
     # --- Copy data for the browse app to fetch client-side ---
     write(DOCS / "assets" / "cases.json", json.dumps(data, indent=0))
 
-    print(f"Built {len(cases)} case pages + 6 section pages + home.")
+    # --- Stamp the hand-maintained browse page's footer (only the marked span) ---
+    browse = DOCS / "browse" / "index.html"
+    html = browse.read_text(encoding="utf-8")
+    stamped, n = re.subn(
+        r"<!--updated-->.*?<!--/updated-->",
+        f'<!--updated--><time datetime="{LAST_UPDATED_ISO}">{LAST_UPDATED_TEXT}</time><!--/updated-->',
+        html, flags=re.S)
+    if n:
+        browse.write_text(stamped, encoding="utf-8")
+    else:
+        print("WARNING: <!--updated--> marker not found in docs/browse/index.html; its footer date was not updated.")
 
+    print(f"Built {len(cases)} case pages + 6 section pages + home.")
 
 if __name__ == "__main__":
     main()

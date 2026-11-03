@@ -24,8 +24,8 @@
     padding:1.75rem 1.5rem 3rem 2rem;
     border-right:1px solid var(--rule);
     position:sticky;
-    top:0;
-    max-height:100vh;
+    top:var(--nav-h, 4.25rem);               /* sit just below the locked top bar */
+    max-height:calc(100vh - var(--nav-h, 4.25rem));
     overflow-y:auto;
   }
   @media (max-width:860px){
@@ -96,6 +96,19 @@
   .overlay-cat{display:inline-block;font-family:var(--mono);font-size:0.76rem;font-weight:600;margin-bottom:1.3rem;color:var(--cat-color,var(--ink));}
   .overlay-summary{font-size:0.98rem;margin-bottom:1.5rem;}
   .overlay-permalink{font-family:var(--mono);font-size:0.78rem;text-decoration:underline;display:inline-block;margin-bottom:1.2rem;}
+  
+  /* ============ Back-to-top arrow (appears after scrolling down) ============ */
+  .to-top{
+    position:fixed;right:1.25rem;bottom:1.25rem;z-index:30;
+    width:44px;height:44px;display:flex;align-items:center;justify-content:center;
+    background:var(--paper-raised);color:var(--ink);border:1px solid var(--ink);cursor:pointer;
+    opacity:0;visibility:hidden;transform:translateY(8px);
+    transition:opacity 0.2s ease, transform 0.2s ease, visibility 0.2s;
+  }
+  .to-top.show{opacity:1;visibility:visible;transform:none;}
+  .to-top:hover{background:var(--ink);color:var(--paper);}
+  .to-top:focus-visible{outline:2px solid var(--flag-red);outline-offset:2px;}
+  @media (prefers-reduced-motion: reduce){ .to-top{transition:none;} }
 </style>
 </head>
 <body>
@@ -138,11 +151,15 @@
   </main>
 </div>
 
+<button type="button" class="to-top" id="to-top" aria-label="Back to top" title="Back to top">
+  <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="square" aria-hidden="true"><line x1="12" y1="19" x2="12" y2="5"/><polyline points="5 12 12 5 19 12"/></svg>
+</button>
+
 <div class="overlay-scrim" id="scrim"></div>
 <div class="overlay-panel" id="overlay-panel"></div>
 
 <footer class="sitefooter"><div class="sitefooter-inner">
-  <span>Disclosure Commons &middot; cybersecurity ethics case library</span>
+  <span>Disclosure Commons &middot; cybersecurity ethics case library &middot; <!--updated--><time datetime="2026-10-23">Last updated Oct 23, 2026</time><!--/updated--></span>
   <span><a href="../cite/">Cite this dataset</a> &middot; <a href="https://github.com/disclosure-commons/cybersecurity-ethics-commons" target="_blank" rel="noopener">GitHub</a> &middot; <a href="../contribute/">Report a correction</a></span>
 </div></footer>
 
@@ -278,6 +295,22 @@ document.getElementById('reset-btn').onclick = () => {
 };
 
 function renderAll(){ renderCategoryFilters(); renderActorFilters(); renderChillingFilters(); renderList(); }
+</script>
+<script>
+  /* top bar height -> CSS variable (sidebar sticks just below it); back-to-top button */
+  (function(){
+    var nav = document.querySelector('.sitenav');
+    var btn = document.getElementById('to-top');
+    function setNavHeight(){ if (nav) document.documentElement.style.setProperty('--nav-h', nav.offsetHeight + 'px'); }
+    function toggleBtn(){ btn.classList.toggle('show', window.scrollY > 600); }
+    btn.addEventListener('click', function(){
+      var reduce = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+      window.scrollTo({ top: 0, behavior: reduce ? 'auto' : 'smooth' });
+    });
+    window.addEventListener('scroll', toggleBtn, { passive: true });
+    window.addEventListener('resize', setNavHeight);
+    setNavHeight(); toggleBtn();
+  })();
 </script>
 </body>
 </html>
