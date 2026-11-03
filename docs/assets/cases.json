@@ -157,7 +157,7 @@
 {
 "id": 15,
 "institution": "J. Alex Halderman / Georgia Dominion Voting Machines",
-"year": "2020\u20132024",
+"year": "2020",
 "summary": "University of Michigan researcher J. Alex Halderman examined Georgia's Dominion ImageCast X ballot-marking devices under court-authorized access and found vulnerabilities that could allow attackers to manipulate recorded votes under certain conditions. His findings raised concerns about election security, vulnerability remediation, and the potential misuse of security research to promote unfounded election fraud claims.",
 "category": "Critical Infrastructure & Public Trust",
 "intent": "Good faith (intended public benefit)",
@@ -558,7 +558,7 @@
 "outcome": "No charges filed; civil suit allowed to proceed",
 "chilling": "No",
 "dilemmas": "(i) Is a dramatic public stunt the only way to force a slow-moving manufacturer to patch a safety-critical flaw?; (ii) Consumer standing to sue over a vulnerability patched before real-world exploitation; (iii) Coupling safety-critical vehicle systems to internet-facing infotainment",
-"source": "https://www.ioactive.com/remote-exploitation-of-an-unaltered-passen"
+"source": "https://www.ioactive.com/remote-exploitation-of-an-unaltered-passenger-vehicle/"
 },
 {
 "id": 45,
@@ -2238,7 +2238,7 @@
 "outcome": "Federal investigation reported; no criminal charges publicly announced at the time of reporting",
 "chilling": "Yes",
 "dilemmas": "(i) How should universities safeguard due process while responding to federal investigations?; (ii) When does scrutiny of international research funding risk stigmatizing legitimate collaboration?; (iii) What information should institutions disclose when allegations remain unproven?; (iv) How can research-integrity procedures avoid causing disproportionate reputational harm?",
-"source": "https://www.wired.id/story/xiaofeng-wang-indiana-university-research-probe-china/"
+"source": "https://www.wired.com/story/xiaofeng-wang-indiana-university-research-probe-china/"
 },
 {
 "id": 170,
