@@ -3,8 +3,8 @@
     {
       "id": 1,
       "institution": "Rochester Institute of Technology (RIT)",
-      "year": "~2018",
-      "summary": "- what is tor: the open-source privacy network that hides your IP address and online activity - Used deep learning tactics to create \"deep fingerprinting\" to find patterns in web traffic - Seems like a research project: multiple students and a professor - They created their own line of defense against their attack (adding noise) but then they looked into ways to attack their own defense (packet timing information) - Tor was notified about this and were supportive research partners",
+      "year": "2019",
+      "summary": "Rochester Institute of Technology researchers used deep learning to study website-fingerprinting attacks against Tor, an anonymity network. They developed attack methods and evaluated countermeasures, including traffic obfuscation, to help improve users' privacy.",
       "category": "Dual-Use Research",
       "intent": "Good faith (intended public benefit)",
       "actor_type": "Academic researcher",
@@ -31,13 +31,13 @@
     {
       "id": 3,
       "institution": "Andrew 'Weev' Auernheimer / AT&T (Arkansas)",
-      "year": "2010–2014",
-      "summary": "- AT&Ts website showed iPad users email address through their public website. - two researchers ran a script to retrieve the information about 114,000 emails. - the exploit used the fact that at&t allocated sim cards for the ipad with no security checks to prevent anyone accessing the details - used url for public api, changed the numbers to get different emails - main guy went to jail, but people are petitioning for him to be released.",
+      "year": "2010",
+      "summary": "Andrew Auernheimer and a collaborator automated requests to a publicly accessible AT&T interface and collected email addresses associated with approximately 114,000 iPad users. Auernheimer was convicted under U.S. computer-crime law, but an appeals court later overturned the conviction on venue grounds.",
       "category": "Legal Boundaries & CFAA Overreach",
       "intent": "Ambiguous / gray area (mixed or unclear intent)",
       "actor_type": "Independent / contractor",
       "disclosure": "Media-first",
-      "outcome": "Convicted (later overturned/expunged)",
+      "outcome": "Conviction overturned on appeal",
       "chilling": "Yes",
       "dilemmas": "(i) Is scraping publicly accessible but unintended data unauthorized access under CFAA?; (ii) Responsible disclosure vs. media disclosure to maximize embarrassment; (iii) Chilling effect on legitimate security research; (iv) Corporate negligence vs. researcher culpability",
       "source": "https://www.theguardian.com/technology/2013/mar/18/at-and-t-hacker-jailed-ipad-email"
@@ -51,16 +51,16 @@
       "intent": "Good faith (intended public benefit)",
       "actor_type": "Academic researcher",
       "disclosure": "Provocation",
-      "outcome": "Charged / dropped",
+      "outcome": "FBI investigation closed; no criminal charges filed",
       "chilling": "Yes",
       "dilemmas": "(i) Is creating a working exploit to force policy change ethically justified?; (ii) Research freedom vs. real-world risk of tool misuse; (iii) Government pressure to suppress valid security findings; (iv) When does responsible disclosure become irresponsible provocation?",
       "source": "https://www.computerworld.com/article/1503458/fbi-smashes-fake-boarding-pass-guy-s-door-and-new-ghp.html"
     },
     {
       "id": 5,
-      "institution": "University of Sydney",
-      "year": "~2018",
-      "summary": "Researchers sent realistic fake phishing emails to university staff and students without consent or prior debriefing to study social engineering responses. Some recipients experienced genuine stress.",
+      "institution": "Rick Wash Michigan & Molly Cooper / Michigan State University ",
+      "year": "2018",
+      "summary": "Rick Wash and Molly Cooper examined phishing-awareness training by sending simulated phishing emails to university employees without advance notice. Their research compared factual and story-based educational messages, raising questions about the use of deception, informed consent, and debriefing in cybersecurity experiments.",
       "category": "Informed Consent & Human Subjects",
       "intent": "Good faith (intended public benefit)",
       "actor_type": "Academic researcher",
@@ -68,7 +68,7 @@
       "outcome": "No charges filed",
       "chilling": "No",
       "dilemmas": "(i) Informed consent in deception-based cybersecurity experiments; (ii) Psychological harm to non-consenting participants; (iii) Whether IRBs are equipped to evaluate realistic cyber-deception studies; (iv) Institutional obligations when using own community as test subjects",
-      "source": "https://www.sydney.edu.au/news-opinion/news/2025/12/18/notification-of-cyber-and-data-breach.html"
+      "source": "https://rickwash.com/papers/phishing-stories.pdf"
     },
     {
       "id": 6,
@@ -88,7 +88,7 @@
       "id": 7,
       "institution": "Carnegie Mellon University (CMU / SEI)",
       "year": "2014",
-      "summary": "CMU researchers discovered a technique to de-anonymize Tor users by running malicious relay nodes. They planned to present at Black Hat but canceled. The FBI allegedly paid ~$1M to use the technique against Silk Road 2.0 users, sweeping thousands of non-criminal Tor users.",
+      "summary": "In 2014, the Tor Project identified a traffic-confirmation attack involving malicious Tor relays, while a related Carnegie Mellon University presentation about identifying Tor users was withdrawn from Black Hat. Allegations of law-enforcement involvement raised questions about research authorization, user consent, and disclosure; the precise relationship between the work and later investigations was contested.",
       "category": "Informed Consent & Human Subjects",
       "intent": "Ambiguous / gray area (mixed or unclear intent)",
       "actor_type": "Academic researcher",
@@ -96,24 +96,10 @@
       "outcome": "No charges filed",
       "chilling": "Yes",
       "dilemmas": "(i) Research on human subjects without consent; (ii) Withholding a vulnerability from the affected party (Tor Project); (iii) Financial incentives vs. ethical responsibility; (iv) Using academic research as outsourced law enforcement",
-      "source": "https://blog.torproject.org/tor-security-advisory-relay-early-traffic-confirmation-attack/"
+      "source": "https://blog.torproject.org/did-fbi-pay-university-attack-tor-users/"
     },
     {
       "id": 8,
-      "institution": "Multiple Universities (Honeypot Research)",
-      "year": "Ongoing",
-      "summary": "Security researchers at multiple institutions deploy honeypot systems to attract and log real attacker activity without consent. Some cases involve researcher interaction with attackers, raising entrapment concerns.",
-      "category": "Informed Consent & Human Subjects",
-      "intent": "Good faith (intended public benefit)",
-      "actor_type": "Academic researcher",
-      "disclosure": "None (withheld)",
-      "outcome": "No charges filed",
-      "chilling": "No",
-      "dilemmas": "(i) Is studying criminal activity without consent ethical when 'subjects' are themselves acting illegally?; (ii) Entrapment vs. observation; (iii) Publishing attacker IP addresses and tools; (iv) Liability if honeypot is misused as a lateral pivot by attackers",
-      "source": "https://cjil.uchicago.edu/print-archive/honeypot-stings-back-entrapment-age-cybercrime-and-proposed-pathway-forward"
-    },
-    {
-      "id": 9,
       "institution": "University of Michigan (e-Voting)",
       "year": "2010",
       "summary": "A Michigan security team authorized by DC election officials hacked a Washington DC internet voting pilot within 36 hours, gaining full control and modifying vote totals. DC cancelled the system; the team published full technical details.",
@@ -127,7 +113,7 @@
       "source": "https://blog.citp.princeton.edu/2010/10/05/hacking-dc-internet-voting-pilot/"
     },
     {
-      "id": 10,
+      "id": 9,
       "institution": "MedSec Holdings / Muddy Waters (St. Jude Medical)",
       "year": "2016",
       "summary": "MedSec found serious vulnerabilities in St. Jude Medical cardiac implant devices. Rather than disclosing to the vendor, they partnered with investment firm Muddy Waters to short St. Jude's stock and released partial vulnerability details publicly.",
@@ -141,7 +127,7 @@
       "source": "https://ismg-cdn.nyc3.cdn.digitaloceanspaces.com/asset_files/external/St-Jude-Medical-vs-Muddy-Waters-and-MedSec-complaint-9-7-16.pdf"
     },
     {
-      "id": 11,
+      "id": 10,
       "institution": "David Levin / Vanguard Cybersecurity / Florida Elections",
       "year": "2016",
       "summary": "Pen-tester David Levin tested SQL injection vulnerabilities on a Florida county elections website without written authorization and was arrested for unauthorized access.",
@@ -155,35 +141,7 @@
       "source": "https://digitaltrends.com/?p=964877"
     },
     {
-      "id": 12,
-      "institution": "NSO Group / Pegasus Spyware",
-      "year": "2016–2021",
-      "summary": "NSO Group sold Pegasus zero-click exploit suite to governments worldwide. A 2021 investigation found 50,000+ surveillance targets including journalists, human rights defenders, and opposition leaders across 45+ countries.",
-      "category": "Surveillance & Offensive Tools",
-      "intent": "Malicious / reckless (knowingly harmful)",
-      "actor_type": "Corporate / private sector",
-      "disclosure": "None (withheld)",
-      "outcome": "Sanctions / export restrictions (no criminal charges)",
-      "chilling": "Yes",
-      "dilemmas": "(i) Ethics of selling powerful offensive cyber tools to authoritarian governments; (ii) Dual-use technology: legitimate law enforcement vs. repression of civil society; (iii) Liability of tool creators for end-user misuse; (iv) Whether private companies should be permitted to develop nation-state-grade offensive spyware",
-      "source": "https://securitylab.amnesty.org/case-study-the-pegasus-project/"
-    },
-    {
-      "id": 13,
-      "institution": "DarkMatter / Project Raven / Ex-NSA Operatives",
-      "year": "2019–2022",
-      "summary": "Three former U.S. intelligence and military personnel participated in cyber operations supporting the United Arab Emirates through Project Raven. The operation used sophisticated surveillance and intrusion capabilities against targets including dissidents, journalists, and U.S. persons. Their activities led to U.S. legal and administrative enforcement actions.",
-      "category": "Surveillance & Offensive Tools",
-      "intent": "Malicious / reckless (knowingly harmful)",
-      "actor_type": "Government / law enforcement",
-      "disclosure": "None (withheld)",
-      "outcome": "Deferred prosecution agreement",
-      "chilling": "Yes",
-      "dilemmas": "(i) Cyber-mercenaries using US intelligence training to oppress foreign dissidents; (ii) Export control violations (ITAR) for offensive cyber tools; (iii) Accountability gap: deferred prosecution lets former intelligence officers pay their way out; (iv) Revolving door between intelligence agencies and private offensive-cyber firms",
-      "source": "https://cyberscoop.com/former-us-intelligence-ops-state-department/2"
-    },
-    {
-      "id": 14,
+      "id": 11,
       "institution": "Hacking Team Data Breach / Leak Ethics",
       "year": "2015",
       "summary": "An unidentified hacker or hacking group compromised the Italian surveillance company Hacking Team and publicly released approximately 400 GB of internal data, including correspondence, customer information, source code, and exploits. The leak exposed the company's business relationships with governments accused of human rights abuses and created additional security risks by exposing attack tools.",
@@ -194,12 +152,12 @@
       "outcome": "No charges filed",
       "chilling": "No",
       "dilemmas": "(i) Research ethics of using stolen/leaked corporate data; (ii) Whether exposing surveillance vendors justifies privacy violations of their employees; (iii) Researchers re-releasing zero-day exploits found in leaked data; (iv) Corporate accountability for selling offensive tools to authoritarian states",
-      "source": "https://www.wired.com/2015/07/hacking-team-breach-shows-global-spying-firm-run-amok/2"
+      "source": "https://www.wired.com/2015/07/hacking-team-breach-shows-global-spying-firm-run-amok/"
     },
     {
-      "id": 15,
+      "id": 12,
       "institution": "J. Alex Halderman / Georgia Dominion Voting Machines",
-      "year": "2020–2024",
+      "year": "2020",
       "summary": "University of Michigan researcher J. Alex Halderman examined Georgia's Dominion ImageCast X ballot-marking devices under court-authorized access and found vulnerabilities that could allow attackers to manipulate recorded votes under certain conditions. His findings raised concerns about election security, vulnerability remediation, and the potential misuse of security research to promote unfounded election fraud claims.",
       "category": "Critical Infrastructure & Public Trust",
       "intent": "Good faith (intended public benefit)",
@@ -211,9 +169,9 @@
       "source": "https://news.engin.umich.edu/2024/10/four-election-vulnerabilities-uncovered-by-a-michigan-engineer/2"
     },
     {
-      "id": 16,
+      "id": 13,
       "institution": "Citizen Lab / FinFisher / State Surveillance",
-      "year": "2012–2018",
+      "year": "2012",
       "summary": "Citizen Lab (University of Toronto) repeatedly identified and exposed governments using FinFisher spyware to surveil dissidents and journalists in Bahrain, Ethiopia, and Turkey, potentially tipping off targeted governments to improve their tradecraft.",
       "category": "Surveillance & Offensive Tools",
       "intent": "Good faith (intended public benefit)",
@@ -225,9 +183,9 @@
       "source": "https://citizenlab.ca/research/mapping-finfishers-continuing-proliferation/"
     },
     {
-      "id": 17,
+      "id": 14,
       "institution": "Justin Shafer / Patterson Dental / FBI Raids",
-      "year": "2016–2018",
+      "year": "2016",
       "summary": "Texas dental IT researcher Shafer found patient health data on a publicly accessible anonymous FTP server and reported it responsibly. Patterson Dental complained to the FBI; Shafer's home was raided three times. He spent 8 months in pretrial detention on cyberstalking charges (for Facebook posts), ultimately pleading to one misdemeanor.",
       "category": "Institutional Suppression",
       "intent": "Good faith (intended public benefit)",
@@ -239,10 +197,10 @@
       "source": "https://www.theregister.com/security/2017/12/05/dentist-turned-bug-biter-given-a-taste-of-freedom/528449"
     },
     {
-      "id": 18,
+      "id": 15,
       "institution": "Aaron Swartz / MIT / JSTOR",
-      "year": "2011–2013",
-      "summary": "Swartz bulk-downloaded ~4.8M academic articles from JSTOR using MIT's network, apparently intending to release them freely. JSTOR settled civilly and dropped charges; federal prosecutors charged him with 13 CFAA felonies (up to 50 years). Swartz died by suicide two days after rejecting a plea deal.",
+      "year": "2011",
+      "summary": "Aaron Swartz downloaded millions of academic articles from JSTOR using MIT's network, reportedly intending to make research more widely accessible. Although JSTOR settled its civil dispute, federal prosecutors continued criminal charges under the Computer Fraud and Abuse Act and other statutes. Swartz died by suicide in January 2013 before trial.",
       "category": "Legal Boundaries & CFAA Overreach",
       "intent": "Good faith (intended public benefit)",
       "actor_type": "Journalist / activist / independent",
@@ -253,7 +211,7 @@
       "source": "https://news.mit.edu/2013/mit-swartz-report-faq-0730"
     },
     {
-      "id": 19,
+      "id": 16,
       "institution": "Marcus Hutchins / WannaCry / Kronos Malware",
       "year": "2017",
       "summary": "Hutchins stopped the WannaCry ransomware by registering its kill-switch domain. Months later the FBI arrested him at DEF CON, alleging he helped develop the Kronos banking trojan in 2014–2015. He pleaded guilty to two CFAA counts and was sentenced to time served.",
@@ -267,7 +225,7 @@
       "source": "https://www.theguardian.com/technology/2019/jul/26/marcus-hutchins-wannacry-ransomware-malware-charges"
     },
     {
-      "id": 20,
+      "id": 17,
       "institution": "PunkSpider / QOMPLX (DEF CON)",
       "year": "2021",
       "summary": "QOMPLX relaunched PunkSpider at DEF CON — a tool that mass-crawls the web for SQL injection, XSS, and path-traversal vulnerabilities and publishes results in a searchable public database, exposing real flaws in Kickstarter and LendingTree before notification.",
@@ -281,10 +239,10 @@
       "source": "https://vulners.com/threatpost/THREATPOST%3ABFC2F4466AEF2AB41A45052A4EFCCD79"
     },
     {
-      "id": 21,
+      "id": 18,
       "institution": "University of Michigan / FTP: The Forgotten Cloud",
       "year": "2015",
-      "summary": "- researchers looked into ftp servers - 1.1 million servers allowed anonymous access",
+      "summary": "University of Michigan researchers surveyed internet-facing FTP servers and found approximately 13.8 million servers, including 1.1 million allowing anonymous access. Their study documented exposures of sensitive files and the misuse of publicly writable FTP directories, raising questions about the ethics of internet-wide measurement.",
       "category": "Dual-Use Research",
       "intent": "Good faith (intended public benefit)",
       "actor_type": "Academic researcher",
@@ -295,10 +253,10 @@
       "source": "https://jhalderm.com/pub/papers/ftp-dsn16.pdf"
     },
     {
-      "id": 22,
+      "id": 19,
       "institution": "Ola Bini / Ecuador / Privacy Tool Developer",
       "year": "2019",
-      "summary": "Swedish software developer and digital privacy advocate Ola Bini was arrested in Ecuador in 2019 and accused of unauthorized access to computer systems. Authorities and prosecutors treated elements of his technical expertise and privacy-related activities as suspicious. Following years of disputed proceedings, a 2023 acquittal, and a subsequent appellate conviction, he was deported to Sweden in October 2026 under disputed national security allegations.",
+      "summary": "Swedish programmer and privacy advocate Ola Bini was arrested in Ecuador in 2019 on computer-access allegations that he disputed. The proceedings, including an acquittal and later appeals, drew criticism from digital-rights groups. Ecuador revoked his visa and deported him to Sweden in October 2026, prompting renewed questions about due process and the treatment of security expertise.",
       "category": "Legal Boundaries & CFAA Overreach",
       "intent": "Good faith (intended public benefit)",
       "actor_type": "Journalist / activist / independent",
@@ -306,27 +264,13 @@
       "outcome": "Charged (politically motivated; international support campaign)",
       "chilling": "Yes",
       "dilemmas": "(i) Criminalization of possession of security tools and technical literature as evidence of malicious intent; (ii) Politically motivated prosecution of security researchers; (iii) Due process rights of open-source developers; (iv) Chilling effect on privacy-tool development",
-      "source": "https://www.eff.org/deeplinks/2025/04/six-years-dangerous-misconceptions-targeting-ola-bini-and-digital-rights-ecuador2"
+      "source": "https://www.eff.org/deeplinks/2025/04/six-years-dangerous-misconceptions-targeting-ola-bini-and-digital-rights-ecuador"
     },
     {
-      "id": 23,
-      "institution": "Crisis Text Line / Data Sharing with Loris.ai",
-      "year": "2022",
-      "summary": "Nonprofit Crisis Text Line shared scrubbed and anonymized crisis-conversation data and insights with its for-profit spin-off Loris.ai, prompting concerns about secondary use of sensitive communications and meaningful consent from people in crisis.",
-      "category": "Informed Consent & Human Subjects",
-      "intent": "Financially motivated (profit, stock, bounty)",
-      "actor_type": "Corporate / private sector",
-      "disclosure": "None (withheld)",
-      "outcome": "Regulatory investigation",
-      "chilling": "Yes",
-      "dilemmas": "(i) Informed consent: crisis users cannot meaningfully consent to commercial AI training of their data; (ii) Re-identification risk from 'anonymized' highly sensitive mental health data; (iii) Conflict of interest when nonprofit mission is compromised by commercial data partnerships; (iv) Whether 'disclosed in privacy policy' constitutes adequate consent",
-      "source": "https://www.crisistextline.org/blog/2022/01/31/an-update-on-data-privacy-our-community-and-our-service/2"
-    },
-    {
-      "id": 24,
-      "institution": "Kennesaw State University / Georgia Election Server",
-      "year": "2016–2017",
-      "summary": "- a researcher discovered an exposed election-related server that was operated by his uni - sensitive election related files and information was accessible through the servers (google) - downloaded 15gb of data (voter info, election database, admin passwords) - this could lead to interference with the election - notified director, but remained unresolved for months - no one broke the law, election security lawsuit was filed but no election results were changed",
+      "id": 20,
+      "institution": "Logan Lamb / Kennesaw State University Election Server",
+      "year": "2016",
+      "summary": "In 2016, security researcher Logan Lamb found that a misconfigured server operated by Kennesaw State University's Center for Election Systems exposed Georgia election files, including voter data and administrative credentials. The issue reportedly remained unresolved for months, and the server was later wiped amid election-security litigation; no altered election results were established.",
       "category": "Critical Infrastructure & Public Trust",
       "intent": "Good faith (intended public benefit)",
       "actor_type": "Independent / contractor",
@@ -334,10 +278,10 @@
       "outcome": "No charges filed (KSU; evidence destruction concerns)",
       "chilling": "Yes",
       "dilemmas": "(i) Responsible disclosure failure when institutions do not respond to researcher notifications; (ii) Destruction of evidence after a researcher goes public; (iii) Whether researchers have an obligation to escalate beyond the institution when critical infrastructure is at risk; (iv) Accountability gap when election infrastructure is housed at an academic institution",
-      "source": "https://atlantaciviccircle.org/2024/01/25/state-doesnt-understand-the-technology-plaintiffs-rest-their-case-in-trial-over-georgias-voting-machines/"
+      "source": "https://www.nbcdfw.com/news/national-international/researcher-finds-georgia-voter-records-internet/2042262/"
     },
     {
-      "id": 25,
+      "id": 21,
       "institution": "Jason Parker / Georgia Voter Cancellation Portal",
       "year": "2024",
       "summary": "Independent researcher Jason Parker found a critical flaw in Georgia's online voter-cancellation portal: anyone knowing a voter's name, birth date, and county could cancel any voter's registration. He notified the Secretary of State's office; the office denied receiving the notification. ProPublica published the story; the flaw was quickly patched.",
@@ -351,10 +295,10 @@
       "source": "https://www.propublica.org/article/cybersecurity-expert-finds-another-flaw-in-georgia-voter-portal"
     },
     {
-      "id": 26,
+      "id": 22,
       "institution": "FBI / Operation Pacifier (Playpen / Tor)",
-      "year": "2014–2016",
-      "summary": "- playpen (tor network where users showed child sa material) - tor concealed ip address which made it difficult - FBi found the server but kept it on for 13 more days, to get users information (got a warrant to deploy a NIT which caused users computers to send identifying info back to investigators) - THey removed the section that promoted more production of material, but let the site run regularly, (if site was changed, people might flee/delete content) - led to rescue of victims, prosections, etc - defendants challenged the operation saying it exceeded the warrant authority, they did not disclose the NIT code therefore is the evidence valid?",
+      "year": "2014",
+      "summary": "During Operation Pacifier, the FBI took control of a Tor-hosted child sexual abuse material site and kept it operating for a limited period while deploying a court-authorized network investigative technique to identify visitors. The operation prompted challenges to the scope of the warrant, disclosure of investigative code, and the ethical costs of continuing to operate the site during the investigation.",
       "category": "Surveillance & Offensive Tools",
       "intent": "Good faith (intended public benefit)",
       "actor_type": "Government / law enforcement",
@@ -365,9 +309,9 @@
       "source": "https://www.congress.gov/crs_external_products/R/PDF/R44827/R44827.4.pdf"
     },
     {
-      "id": 27,
+      "id": 23,
       "institution": "IOActive / Smart City Infrastructure Research",
-      "year": "2015–2018",
+      "year": "2015",
       "summary": "IOActive researchers found critical flaws in smart city infrastructure — traffic sensors, emergency-alert systems, water-control systems — through some unauthorized testing ('fire and forget' scan-and-test). Vendors were slow to patch; IOActive published technical details at DEF CON.",
       "category": "Vulnerability Disclosure",
       "intent": "Good faith (intended public benefit)",
@@ -379,7 +323,7 @@
       "source": "https://www.darkreading.com/vulnerabilities-threats/researcher-finds-potholes-in-vehicle-traffic-control-systems"
     },
     {
-      "id": 28,
+      "id": 24,
       "institution": "iSight Partners / Sandworm Zero-Day",
       "year": "2014",
       "summary": "iSight Partners discovered Russian group Sandworm exploiting a Windows zero-day (CVE-2014-4114) to target NATO and Ukrainian government systems. iSight had used the intelligence for weeks before coordinating a patch release with Microsoft, monetizing it as a client intelligence product.",
@@ -393,7 +337,7 @@
       "source": "https://www.wired.com/2014/10/russian-sandworm-hack-isight/"
     },
     {
-      "id": 29,
+      "id": 25,
       "institution": "University of Dhaka (Honeynet)",
       "year": "2026",
       "summary": "University of Dhaka deployed an APNIC honeynet sensor exposing SSH and Telnet services and observed 63,247 attacks from 4,262 unique source IP addresses in 12 days, sharing threat-intelligence lessons.",
@@ -407,7 +351,7 @@
       "source": "https://blog.apnic.net/2026/01/14/what-we-learned-from-63000-attacks-in-12-days-on-apnic-honeynet-sensors-at-university-of-dhaka/"
     },
     {
-      "id": 30,
+      "id": 26,
       "institution": "Johns Hopkins University (High-Interaction Honeypots)",
       "year": "2024",
       "summary": "JHU researchers deployed high-interaction honeypots to study real attacker behavior and TTPs in depth.",
@@ -421,21 +365,21 @@
       "source": "https://isi.jhu.edu/wp-content/uploads/2024/02/Honeypot_Paper_for_HoTSoS-2024-2.pdf"
     },
     {
-      "id": 31,
+      "id": 27,
       "institution": "Bret McDanel / Tornado Development Inc.",
       "year": "2000",
-      "summary": "- computer security for tornado devleopment (web-based email, voicemail, fx) - found vulneratbilityin webmail system that allowed unauthroized people to access customers' private messages - the weakness was session information that could be exposed through web addresses - warned supervisions about the problem, was not fixed even after he left and was asked again to fix it - messaged 5,600 emails to tornado customers about this. -company fixed the bug but contacted the law enforcement - said he interfered with torndao servers and damaged the companies reputation - convicted under the Computer fraud and abuse act and served 16 months in prison - it was overturned due to interpretiation of law being incorrect (still served his sentence)",
+      "summary": "Former Tornado Development employee Bret McDanel warned of a webmail flaw that could expose customers' private messages. After the company failed to address it, he emailed thousands of customers directly; prosecutors treated the mass message as a computer offense. McDanel served a prison sentence before his conviction was overturned.",
       "category": "Legal Boundaries & CFAA Overreach",
       "intent": "Good faith (intended public benefit)",
       "actor_type": "Independent / contractor",
       "disclosure": "Media-first",
-      "outcome": "Convicted (later overturned)",
+      "outcome": "Conviction overturned after sentence served",
       "chilling": "Yes",
       "dilemmas": "(i) Should warning customers about a security flaw ever count as a 'malicious code' offense?; (ii) What recourse exists for a wrongful felony conviction already served?; (iii) Chilling effect of CFAA's vague 'damage' language on good-faith disclosure",
       "source": "https://www.theregister.com/2003/10/15/prosecutors_admit_error_in_whistleblower"
     },
     {
-      "id": 32,
+      "id": 28,
       "institution": "Daniel Cuthbert / Disaster Emergency Committee (UK)",
       "year": "2004",
       "summary": "After donating to a tsunami relief site and receiving no confirmation page, security consultant Daniel Cuthbert manually tested the donation page for phishing signs. He was convicted under the UK Computer Misuse Act and fined — the first such conviction under that section.",
@@ -449,7 +393,7 @@
       "source": "https://www.theregister.com/2005/10/06/tsunami_hacker_convicted/"
     },
     {
-      "id": 33,
+      "id": 29,
       "institution": "Kevin Finisterre / DJI Bug Bounty",
       "year": "2017",
       "summary": "Finisterre found DJI's wildcard SSL certificate and AWS keys exposed on GitHub, accessing customer flight logs, passports, and IDs. After reporting through DJI's bug bounty, DJI allegedly threatened CFAA charges and required a restrictive NDA before paying the $30,000 bounty. Finisterre declined and published the dispute publicly.",
@@ -463,9 +407,9 @@
       "source": "https://www.theregister.com/security/2017/11/16/dji-bug-bounty-nda-is-not-signable-say-irate-infosec-researchers/393190"
     },
     {
-      "id": 34,
+      "id": 30,
       "institution": "Joseph Sullivan / Uber Data Breach Cover-Up",
-      "year": "2016–2023",
+      "year": "2016",
       "summary": "Ten days after testifying to the FTC about Uber's security, Sullivan learned of a breach of 57M records. He arranged a $100K payment to hackers framed as a bug bounty and concealed the breach from the FTC. Convicted of obstruction and misprision of a felony; sentenced to three years' probation and $50K fine.",
       "category": "Financial Conflict of Interest",
       "intent": "Malicious / reckless (knowingly harmful)",
@@ -477,9 +421,9 @@
       "source": "https://www.justice.gov/usao-ndca/pr/former-chief-security-officer-uber-sentenced-three-years-probation-covering-data"
     },
     {
-      "id": 35,
+      "id": 31,
       "institution": "Flavio Garcia / University of Birmingham (VW & Thales)",
-      "year": "2012–2015",
+      "year": "2012",
       "summary": "Garcia and Dutch colleagues cracked the Megamos Crypto algorithm used in vehicle immobilizers across 26 car brands. Volkswagen and Thales obtained a UK High Court injunction blocking publication for ~2 years; it was lifted after researchers agreed to redact a single sentence.",
       "category": "Institutional Suppression",
       "intent": "Good faith (intended public benefit)",
@@ -488,13 +432,13 @@
       "outcome": "Civil injunction (later lifted)",
       "chilling": "Yes",
       "dilemmas": "(i) Should a manufacturer be able to suppress academic publication of a flaw in its own product?; (ii) Reverse engineering legitimately purchased hardware vs. 'breach of confidence'; (iii) Public's right to know about car-theft vulnerabilities vs. risk of enabling theft",
-      "source": "https://www.lexology.com/library/detail.aspx?g=2d920b6d-6e18-42bd-b6db-6829e58fb71a"
+      "source": "https://arstechnica.com/information-technology/2015/08/researchers-reveal-electronic-car-lock-hack-after-2-year-injunction-by-volkswagen/"
     },
     {
-      "id": 36,
+      "id": 32,
       "institution": "Radboud University / Bart Jacobs (NXP / Mifare Classic)",
       "year": "2008",
-      "summary": "- the university investigated transit chips manufactured by NXP - chips are used for public transit, building access badges by using a encryption algo that they kept a secret - researchers reverse engineered it and was able to get secret keys and clone cards - in march 2008 they told the dutch gov and NXP the information so they could fix it, but thye wanted to publish a paper about it in June - July 2008 NXP took the reserachers to court to stop the publication - it was denied, researchers said they should let the public know about the technologies they use, court said freedom of expression is needed",
+      "summary": "Radboud University researchers reverse-engineered NXP's MIFARE Classic chip, used in transit and building-access cards, and demonstrated weaknesses that could allow cards to be cloned. They alerted NXP and Dutch authorities before planned publication. NXP sought a court order to block disclosure, but a Dutch court ruled in favor of the researchers.",
       "category": "Vulnerability Disclosure",
       "intent": "Good faith (intended public benefit)",
       "actor_type": "Academic researcher",
@@ -505,9 +449,9 @@
       "source": "https://www.sos.cs.ru.nl/applications/rfid/pressrelease-courtdecision.en.html"
     },
     {
-      "id": 37,
+      "id": 33,
       "institution": "Eric McCarty / University of Southern California",
-      "year": "2005–2006",
+      "year": "2005",
       "summary": "McCarty exploited a SQL injection flaw in USC's online applicant database, downloading seven records from a database containing 275,000+ applicants' SSNs, before anonymously reporting it. He pleaded guilty to CFAA charges; sentenced to probation and $36,800 restitution.",
       "category": "Legal Boundaries & CFAA Overreach",
       "intent": "Ambiguous / gray area (mixed or unclear intent)",
@@ -519,7 +463,7 @@
       "source": "https://www.justice.gov/archive/criminal/cybercrime/press-releases/2006/mccartyCharge.htm"
     },
     {
-      "id": 38,
+      "id": 34,
       "institution": "Michael Lynn / Cisco / Black Hat 2005",
       "year": "2005",
       "summary": "Lynn resigned from ISS on the morning of his Black Hat talk to warn that Cisco routers could be exploited for a self-propagating 'router worm.' Cisco and ISS obtained a federal injunction barring further dissemination; Lynn agreed to a permanent injunction surrendering all related materials.",
@@ -533,9 +477,9 @@
       "source": "https://en.wikipedia.org/wiki/Ciscogate"
     },
     {
-      "id": 39,
+      "id": 35,
       "institution": "Bill Demirkapi / Blackboard & Follett (Age 16)",
-      "year": "2016–2019",
+      "year": "2016",
       "summary": "Teenage researcher Bill Demirkapi discovered significant vulnerabilities in school software potentially exposing millions of student and teacher records. When vendor outreach was ineffective, he sent a mass notification through a flawed school platform and received a two-day suspension.",
       "category": "Vulnerability Disclosure",
       "intent": "Good faith (intended public benefit)",
@@ -547,21 +491,21 @@
       "source": "https://www.vice.com/en/article/teen-security-researcher-bill-demirkapi-suspended-for-exposing-vulnerabilities/2"
     },
     {
-      "id": 40,
+      "id": 36,
       "institution": "Paige Thompson / Capital One / AWS",
-      "year": "2019–2025",
-      "summary": "- former amazon web services software engineer who left AWS in 2016 - in 2019 she found a capital one web application firewall that was misconfigured - used it to trick the server into handing over temporary cloud credentials (a server-side request forgery attack) (verify the technique) - used those credentials to copy data stored in capital one’s AWS cloud storage ~100 million people in the US and ~6 million in canada were affected, including about 140,000 SSNs and 80,000 bank account numbers (verify numbers) - data from 30+ other organizations was also reportedly accessed, not just capital one - she posted about it on slack, twitter and github, which is how someone found out - a tipster emailed capital one’s responsible disclosure address in july 2019, capital one confirmed the breach and told the FBI-- - she was arrested within about 2 weeks of the tip - she also used some of the accessed servers for cryptomining (cryptojacking) - she said she was doing it to find and report vulnerabilities, prosecutors said she was after money and was bragging about it - jury convicted her in 2022 of wire fraud and 4 counts of unauthorized access to a protected computer, but not the identity theft or access device charges (verify counts) - sentenced to time served and 5 years of probation - capital one paid an $80 million regulatory fine and a $190 million class action settlement",
+      "year": "2019",
+      "summary": "Former Amazon Web Services employee Paige Thompson exploited a misconfiguration in Capital One's cloud environment in 2019 to obtain credentials and copy data affecting roughly 100 million people in the United States and six million in Canada. Prosecutors also alleged intrusions into other organizations and unauthorized cryptocurrency mining. She was convicted of wire fraud and computer-access offenses and was sentenced to time served, supervision, and restitution.",
       "category": "Legal Boundaries & CFAA Overreach",
       "intent": "Malicious / reckless (knowingly harmful)",
       "actor_type": "Corporate / private sector",
       "disclosure": "None (withheld)",
-      "outcome": "Convicted (time served, supervised release, $40.7M restitution)",
+      "outcome": "Convicted; time served, supervised release, and $40.745 million restitution",
       "chilling": "No",
       "dilemmas": "(i) Where is the line between legitimate cloud-misconfiguration research and felony data theft?; (ii) Should mental health and personal circumstances factor into sentencing for large-scale breaches?; (iii) Appellate oversight of 'too lenient' sentences for first-time offenders",
       "source": "https://cyberscoop.com/court-reimposes-original-sentence-for-capital-one-hacker/"
     },
     {
-      "id": 41,
+      "id": 37,
       "institution": "Sakura Samurai / UN & Indian Government",
       "year": "2021",
       "summary": "Volunteer research group Sakura Samurai targeted organizations with published VDPs, finding exposed credentials giving access to 100,000+ UN employee records and credentials across 26 Indian government departments. They limited actions to verification and disclosed through official channels; no charges were filed.",
@@ -575,7 +519,7 @@
       "source": "https://www.reversinglabs.com/blog/red-teaming-a-country-the-2021-indian-government-hack"
     },
     {
-      "id": 42,
+      "id": 38,
       "institution": "Stefan Puffer / Harris County TX (Wi-Fi)",
       "year": "2002",
       "summary": "Stefan Puffer detected an insecure wireless network associated with a Harris County court system and demonstrated access weaknesses to an official and reporter. Prosecutors alleged unauthorized access and damage, but a jury acquitted him.",
@@ -589,7 +533,7 @@
       "source": "https://www.theregister.com/2003/02/24/ethical_wireless_hacker_is_innocent/"
     },
     {
-      "id": 43,
+      "id": 39,
       "institution": "Clayton Taylor Dillard / Wake Internal Medicine (Wi-Fi)",
       "year": "2003",
       "summary": "An IT consultant accessed an unsecured medical practice wireless network, obtained patient billing and insurance records, and contacted the press and patients directly to publicize the clinic's lax security. He pleaded guilty to wireless computer intrusion — the first such conviction in the US.",
@@ -603,9 +547,9 @@
       "source": "https://www.theregister.com/2003/09/12/wifi_whistle_blower_faces_criminal/"
     },
     {
-      "id": 44,
+      "id": 40,
       "institution": "Charlie Miller & Chris Valasek / Jeep Cherokee",
-      "year": "2015–2019",
+      "year": "2015",
       "summary": "Researchers remotely disabled a Jeep's transmission and brakes over its cellular-connected infotainment system while a journalist drove on the highway. This forced a recall of ~1.4 million vehicles; owners filed a class-action suit against FCA alleging the company knew of the architectural flaw since 2011.",
       "category": "Vulnerability Disclosure",
       "intent": "Good faith (intended public benefit)",
@@ -614,10 +558,10 @@
       "outcome": "No charges filed; civil suit allowed to proceed",
       "chilling": "No",
       "dilemmas": "(i) Is a dramatic public stunt the only way to force a slow-moving manufacturer to patch a safety-critical flaw?; (ii) Consumer standing to sue over a vulnerability patched before real-world exploitation; (iii) Coupling safety-critical vehicle systems to internet-facing infotainment",
-      "source": "https://www.ioactive.com/remote-exploitation-of-an-unaltered-passen"
+      "source": "https://www.ioactive.com/remote-exploitation-of-an-unaltered-passenger-vehicle/"
     },
     {
-      "id": 45,
+      "id": 41,
       "institution": "David Ross ('Connor Goodwolf') / City of Columbus Ransomware",
       "year": "2024",
       "summary": "After ransomware actors exposed Columbus city data, cybersecurity researcher David Ross, known as Connor Goodwolf, publicly challenged official descriptions of the breach and warned that sensitive information was accessible. Columbus sued and obtained restrictions on disclosure, later dropping its lawsuit under conditions.",
@@ -628,13 +572,13 @@
       "outcome": "Civil suit (dropped)",
       "chilling": "Yes",
       "dilemmas": "(i) Suing a whistleblower to manage a government's own breach-disclosure narrative; (ii) First Amendment limits on restraining someone from discussing already-public leaked data; (iii) Power asymmetry between a city government and an individual researcher",
-      "source": "https://www.nbc4i.com/news/local-news/columbus/city-hack/columbus-drops-lawsuit-against-data-leak-whistleblower-connor-goodwolf-but-with-a-catch/"
+      "source": "https://www.wosu.org/politics-government/2024-10-25/columbus-city-attorney-drops-lawsuit-against-cybersecurity-whistleblower"
     },
     {
-      "id": 46,
+      "id": 42,
       "institution": "Dragon Sector / Newag SA (Poland)",
-      "year": "2026–present",
-      "summary": "When Newag-built Impuls trains began locking up after independent-shop maintenance, Dragon Sector reverse-engineered the onboard software and found GPS-triggered lockout code designed to disable trains serviced by competitors. Newag sued for copyright infringement and defamation; at the first hearing Newag conceded researchers had not modified any train software.",
+      "year": "2025",
+      "summary": "After Newag-built passenger trains repeatedly stopped working following maintenance by independent repair shops, Polish research group Dragon Sector examined the train software and identified code associated with location and servicing-related lockouts. Newag denied wrongdoing and pursued legal claims against the researchers. The dispute highlights the tensions among software inspection, right to repair, and railway safety.",
       "category": "Institutional Suppression",
       "intent": "Good faith (intended public benefit)",
       "actor_type": "Independent / contractor",
@@ -645,7 +589,7 @@
       "source": "https://fsfe.org/news/2025/news-20250407-01.en.html"
     },
     {
-      "id": 47,
+      "id": 43,
       "institution": "Wesley Wineberg / Facebook / Instagram Bug Bounty",
       "year": "2015",
       "summary": "Bug hunter Wesley Wineberg reported critical Instagram infrastructure flaws after obtaining access to sensitive keys and files. Facebook disputed the extent of his testing, accusing him of exceeding bug-bounty boundaries; Wineberg alleged intimidating contact with his employer.",
@@ -659,9 +603,9 @@
       "source": "https://www.theregister.com/2015/12/18/facebook_gagged_researcher_over_critical_flaw/"
     },
     {
-      "id": 48,
+      "id": 44,
       "institution": "Hendrik H. / Modern Solution GmbH (Germany)",
-      "year": "2021–2025",
+      "year": "2021",
       "summary": "A German IT professional discovered a shared database password embedded in Modern Solution software while investigating a customer problem, accessed an exposed database, and reported a vulnerability affecting data on roughly 700,000 consumers. Courts ruled that his access violated German criminal law.",
       "category": "Legal Boundaries & CFAA Overreach",
       "intent": "Good faith (intended public benefit)",
@@ -673,9 +617,9 @@
       "source": "https://www.heise.de/en/news/Modern-Solution-Convicted-IT-expert-files-constitutional-complaint-10573836.html"
     },
     {
-      "id": 49,
+      "id": 45,
       "institution": "Randal L. Schwartz / Intel Corporation",
-      "year": "1993–2007",
+      "year": "1993",
       "summary": "Perl programmer and Intel contractor Randal Schwartz copied password data and conducted unauthorized security testing that he said was intended to demonstrate weaknesses. He was convicted under Oregon computer crime law in the 1990s and later received an executive pardon.",
       "category": "Legal Boundaries & CFAA Overreach",
       "intent": "Ambiguous / gray area (mixed or unclear intent)",
@@ -687,7 +631,7 @@
       "source": "https://www.theregister.com/2007/03/05/intel_hacker_charges_quashed/2"
     },
     {
-      "id": 50,
+      "id": 46,
       "institution": "Dmitry Sklyarov / ElcomSoft / Adobe DMCA",
       "year": "2001",
       "summary": "Russian ElcomSoft employee Sklyarov was arrested by the FBI immediately after his DEF CON talk on breaking Adobe eBook encryption — the first criminal charge under the DMCA. Held in custody then under travel restriction before a deal requiring his testimony against ElcomSoft in exchange for dropped charges.",
@@ -701,9 +645,9 @@
       "source": "https://www.eff.org/cases/us-v-elcomsoft-sklyarov"
     },
     {
-      "id": 51,
+      "id": 47,
       "institution": "Matthew Green & bunnie Huang v. DOJ (DMCA / Section 1201)",
-      "year": "2016–2024",
+      "year": "2016",
       "summary": "Johns Hopkins cryptographer Matthew Green and engineer Andrew 'bunnie' Huang filed a First Amendment challenge (via EFF) against Section 1201 of the DMCA, arguing it unconstitutionally prevented Green from publishing security research on commercial devices and Huang from building a legitimate video-stream device. Green said DMCA fear caused him to decline to investigate certain devices and chilled him from disclosing vulnerabilities. The DC Circuit ultimately upheld the DMCA's anti-circumvention provisions in 2024, finding they regulate conduct not speech.",
       "category": "Legal Boundaries & CFAA Overreach",
       "intent": "Good faith (intended public benefit)",
@@ -715,9 +659,9 @@
       "source": "https://www.eff.org/cases/green-v-us-department-justice"
     },
     {
-      "id": 52,
+      "id": 48,
       "institution": "In Re Yahoo! Inc. Customer Data Security Breach Litigation",
-      "year": "2013–2020",
+      "year": "2013",
       "summary": "Lawsuits followed major Yahoo account breaches from 2013 onward and allegations of insufficient cybersecurity and delayed notification. Consumers challenged whether the company adequately protected and informed its users.",
       "category": "Financial Conflict of Interest",
       "intent": "Ambiguous / gray area (mixed or unclear intent)",
@@ -726,54 +670,54 @@
       "outcome": "Civil suit / Injunction",
       "chilling": "No",
       "dilemmas": "(i) At what point does delayed breach disclosure cross from incident response into material omission for securities fraud?; (ii) What is a CSO/CISO's personal duty when corporate leadership decides to delay disclosure?; (iii) Acquisition context: does a pending merger change the calculus of when a breach must be disclosed?; (iv) Are current securities laws adequate to deter corporate concealment of large-scale breaches?",
-      "source": "https://scholar.google.com/scholar_case?case=157481625807175343722"
+      "source": "https://yahoodatabreachsettlement.com/en"
     },
     {
-      "id": 53,
+      "id": 49,
       "institution": "In Re Okta, Inc. Securities Litigation",
-      "year": "2022–2023",
-      "summary": "Okta suffered a breach by the Lapsus$ hacking group in January 2022 but did not publicly disclose it for over two months, and only after a hacker posted screenshots publicly. When Okta did disclose, executives initially downplayed the scope, later admitting that all Okta customer support users' data had been accessed. Shareholders filed a securities class action alleging Okta made materially false and misleading statements about the breach's scope and timing.",
+      "year": "2022",
+      "summary": "After screenshots posted by Lapsus$ in March 2022 revealed an earlier compromise involving an Okta customer-support contractor, Okta faced criticism over the timing and clarity of its public disclosures. Investors filed securities litigation alleging misleading statements about security and the incident. A separate 2023 breach of Okta's support system should not be conflated with this case.",
       "category": "Financial Conflict of Interest",
       "intent": "Ambiguous / gray area (mixed or unclear intent)",
       "actor_type": "Corporate / private sector",
       "disclosure": "None (withheld)",
-      "outcome": "Civil suit / Injunction",
+      "outcome": "Securities class action; settlement",
       "chilling": "No",
       "dilemmas": "(i) When a company minimizes a breach publicly while knowing the full scope internally, is that fraud or legitimate incident response?; (ii) What is the appropriate disclosure timeline when breach scope is still being investigated?; (iii) Does downplaying a breach to avoid stock impact constitute securities fraud even if the company later corrects the record?; (iv) How should security executives balance legal counsel's advice against ethical obligations to customers?",
-      "source": "https://scholar.google.com/scholar_case?case=15500066642214428117"
+      "source": "https://www.sec.gov/Archives/edgar/data/1660134/000166013422000056/okta-20221031.htm"
     },
     {
-      "id": 54,
-      "institution": "In Re Equifax Inc. Securities Litigation",
-      "year": "2017–2020",
-      "summary": "Securities investors sued Equifax and executives following its massive 2017 data breach, alleging misleading statements and omissions concerning cybersecurity practices and exposure to risk.",
+      "id": 50,
+      "institution": "Equifax Inc",
+      "year": "2017",
+      "summary": "Following Equifax's 2017 data breach, investors brought a securities class action alleging misleading public statements about the company's security practices and risk exposure. The case was resolved through a civil settlement; it did not result in a criminal conviction in this litigation.",
       "category": "Financial Conflict of Interest",
       "intent": "Malicious / reckless (knowingly harmful)",
       "actor_type": "Corporate / private sector",
       "disclosure": "None (withheld)",
-      "outcome": "Convicted",
+      "outcome": "Civil securities settlement (2020)",
       "chilling": "No",
       "dilemmas": "(i) Does selling stock after learning of a breach but before public disclosure constitute insider trading, regardless of intent?; (ii) What personal criminal liability do security executives bear for their company's breach concealment?; (iii) Should a CISO who discovers a breach be required to immediately notify the board even if doing so triggers premature disclosure?; (iv) Are mandatory breach disclosure timelines the right policy lever, or do they just create liability without improving security?",
-      "source": "https://scholar.google.com/scholar_case?case=85865321260351089112"
+      "source": "https://www.blbglaw.com/cases-investigations/equifax-inc"
     },
     {
-      "id": 55,
-      "institution": "AFGE v. OPM (Federal Employee / Security Clearance Data Breach)",
-      "year": "2015–2019",
-      "summary": "The Office of Personnel Management (OPM) suffered a breach in 2014–2015 that exposed background investigation files of 21.5 million current and former federal employees, including SF-86 security clearance forms with deeply sensitive personal information. OPM had been warned repeatedly about its poor cybersecurity posture but failed to act. The American Federation of Government Employees sued; courts ultimately dismissed on standing grounds, but the case raised profound questions about government accountability for protecting its employees' most sensitive data.",
+      "id": 51,
+      "institution": "AFGE v. OPM",
+      "year": "2015",
+      "summary": "The 2014–2015 Office of Personnel Management breaches exposed sensitive information about more than 21 million people, including federal employees and applicants for security clearances. The American Federation of Government Employees and others brought suit over the government's protection of this data; a federal appeals court reinstated some claims after an initial dismissal.",
       "category": "Critical Infrastructure & Public Trust",
       "intent": "Ambiguous / gray area (mixed or unclear intent)",
       "actor_type": "Government / law enforcement",
       "disclosure": "None (withheld)",
-      "outcome": "Civil suit / Injunction",
+      "outcome": "Civil litigation; some claims reinstated on appeal",
       "chilling": "No",
       "dilemmas": "(i) What duty of care does a government agency owe its employees when it holds their most sensitive personal and national security data?; (ii) When repeated security warnings are ignored and a catastrophic breach occurs, who bears personal accountability?; (iii) Should federal employees whose security clearance files were stolen have a right to sue for damages?; (iv) Does sovereign immunity effectively shield government agencies from accountability for catastrophic security failures?",
-      "source": "https://scholar.google.com/scholar_case?case=4947494328751186587"
+      "source": "https://law.justia.com/cases/federal/appellate-courts/cadc/17-5117/17-5117-2019-06-21.html"
     },
     {
-      "id": 56,
+      "id": 52,
       "institution": "hiQ Labs v. LinkedIn Corp.",
-      "year": "2017–2022",
+      "year": "2017",
       "summary": "hiQ, a data analytics company, scraped public LinkedIn profiles using automated bots to build workforce analytics products. LinkedIn sent a cease-and-desist and blocked hiQ's access. hiQ sued; the Ninth Circuit twice ruled that scraping publicly accessible data likely does not violate the CFAA because 'without authorization' requires a gate/barrier the scraper bypassed. The Supreme Court vacated and remanded in light of Van Buren. Ultimately hiQ settled, agreeing to a $500K judgment and permanent injunction after LinkedIn won on breach-of-contract grounds using fake profile creation.",
       "category": "Legal Boundaries & CFAA Overreach",
       "intent": "Financially motivated (profit, stock, bounty)",
@@ -782,12 +726,12 @@
       "outcome": "Civil suit / Injunction",
       "chilling": "Yes",
       "dilemmas": "(i) Is scraping publicly accessible data 'unauthorized access' under the CFAA if no password or authentication barrier was bypassed?; (ii) Can a company weaponize the CFAA to prevent a competitor from accessing data that users themselves made public?; (iii) Where is the line between lawful data collection for research/analysis and commercial exploitation of user-generated public data?; (iv) Does the CFAA's broad interpretation give large platforms de facto monopoly control over public data?",
-      "source": "https://scholar.google.com/scholar_case?case=6480752451188041120"
+      "source": "https://law.justia.com/cases/federal/appellate-courts/ca9/17-16783/17-16783-2022-04-18.html"
     },
     {
-      "id": 57,
+      "id": 53,
       "institution": "Universal City Studios v. Corley / Reimerdes (DeCSS / DMCA)",
-      "year": "2000–2001",
+      "year": "2000",
       "summary": "2600 Magazine publisher Eric Corley (Emmanuel Goldstein) posted the DeCSS code — a program that decrypted DVD copy protection — on his website and linked to other sites hosting it. The movie studios sued under the DMCA's anti-trafficking provision. The Second Circuit upheld the injunction, ruling that computer code posting is regulable conduct under intermediate First Amendment scrutiny and that the DMCA's anti-trafficking provision was constitutional. The case became the defining early test of whether publishing security-relevant code is protected speech.",
       "category": "Institutional Suppression",
       "intent": "Good faith (intended public benefit)",
@@ -796,13 +740,13 @@
       "outcome": "Civil suit / Injunction",
       "chilling": "Yes",
       "dilemmas": "(i) Is publishing functional security/encryption code protected First Amendment speech?; (ii) Can the DMCA's anti-trafficking provision constitutionally prohibit publication of code that has legitimate research and interoperability uses?; (iii) Does linking to a site hosting prohibited code make a publisher liable under the DMCA?; (iv) Who gets to define the boundary between security research tools and circumvention devices?",
-      "source": "https://scholar.google.com/scholar_case?case=5930508913825375010"
+      "source": "https://cyber.harvard.edu/openlaw/dvd/ny/appeals/opinion.html"
     },
     {
-      "id": 58,
+      "id": 54,
       "institution": "DVD Copy Control Assn v. Bunner (DeCSS — California)",
-      "year": "2001–2003",
-      "summary": "Bunner posted DeCSS on his site the DVD industry sued under California trade secret law instead of the DMCA state courts argued about whether DeCSS was still secret once posted widely California Supreme Court said an injunction wasn’t automatically a speech violation later the injunction was thrown out since it was no longer secret",
+      "year": "2001",
+      "summary": "Andrew Bunner posted DeCSS code that could circumvent DVD copy protection. The DVD Copy Control Association sought an injunction under California trade-secret law. The California Supreme Court held that an injunction could be compatible with free-speech protections if the information remained a protected trade secret; on remand, the injunction was ultimately set aside.",
       "category": "Institutional Suppression",
       "intent": "Good faith (intended public benefit)",
       "actor_type": "Journalist / activist / independent",
@@ -810,10 +754,10 @@
       "outcome": "Civil suit / Injunction",
       "chilling": "Yes",
       "dilemmas": "(i) Can trade secret law justify a prior restraint on publication of security-relevant code that has already spread widely on the internet?; (ii) At what point does information become 'too public' to still qualify as a protectable trade secret?; (iii) Does the First Amendment protect redistribution of security code even if the original acquisition was improper?; (iv) Should courts balance the chilling effect on security research before granting injunctions against code publication?",
-      "source": "https://scholar.google.com/scholar_case?case=12355041791084550764"
+      "source": "https://law.justia.com/cases/california/supreme-court/2003/s102588.html"
     },
     {
-      "id": 59,
+      "id": 55,
       "institution": "Davidson & Associates v. Jung (Battle.net / bnetd reverse engineering)",
       "year": "2005",
       "summary": "Developers reverse-engineered Blizzard's Battle.net gaming service to build 'bnetd,' a free open-source server that let players run their own game servers. Blizzard sued under the DMCA and breach of the end-user license agreement (EULA). The Eighth Circuit ruled against the developers, finding that the EULA's prohibition on reverse engineering was enforceable and that reverse engineering to achieve interoperability did not qualify for the DMCA's interoperability exception because the developers had agreed to the EULA. The case chilled open-source interoperability work.",
@@ -824,27 +768,27 @@
       "outcome": "Civil suit / Injunction",
       "chilling": "Yes",
       "dilemmas": "(i) Can an EULA contractually waive the DMCA's statutory right to reverse engineer for interoperability?; (ii) Is building a compatible open-source alternative to a proprietary service a legitimate security/research activity or IP infringement?; (iii) Should agreeing to a ToS/EULA strip a researcher of rights they would otherwise have under the DMCA's interoperability exception?; (iv) How does this ruling affect security researchers who need to reverse-engineer software they've licensed to find vulnerabilities?",
-      "source": "https://scholar.google.com/scholar_case?case=5463280175310353497"
+      "source": "https://law.justia.com/cases/federal/appellate-courts/F3/422/630/569453/"
     },
     {
-      "id": 60,
-      "institution": "Bernstein v. US Dept. of State (Snuffle encryption export case)",
-      "year": "1995–1999",
-      "summary": "UC Berkeley grad student Daniel Bernstein wrote an encryption program called 'Snuffle' and wanted to publish it and an academic paper explaining it. The State Department classified the software as a 'munition' under the International Traffic in Arms Regulations (ITAR), requiring an export license to publish. EFF represented Bernstein; the Ninth Circuit ultimately ruled that source code is speech protected by the First Amendment and that the ITAR licensing scheme was an unconstitutional prior restraint. The case was foundational in establishing that encryption source code is protected expression and helped end ITAR controls on encryption.",
+      "id": 56,
+      "institution": "Bernstein v. US Dept. of State",
+      "year": "1995",
+      "summary": "Daniel Bernstein challenged U.S. export regulations that required government approval before he could publish his encryption algorithm, Snuffle, and its source code. Bernstein argued that these restrictions violated his First Amendment rights by treating academic research and computer code as regulated exports. In 1999, a Ninth Circuit panel ruled in his favor, recognizing encryption source code as protected speech. However, the opinion was subsequently withdrawn for rehearing, and the case was remanded following changes to export regulations, leaving the broader constitutional questions unresolved.",
       "category": "Legal Boundaries & CFAA Overreach",
       "intent": "Good faith (intended public benefit)",
       "actor_type": "Academic researcher",
       "disclosure": "None (withheld)",
-      "outcome": "Civil suit / Injunction",
+      "outcome": "Civil challenge; panel opinion withdrawn and case remanded",
       "chilling": "Yes",
       "dilemmas": "(i) Is encryption source code 'speech' protected by the First Amendment, or purely functional 'conduct' that can be regulated without First Amendment scrutiny?; (ii) Can the government require a license before a researcher publishes an academic paper containing functional encryption code?; (iii) Do national security interests in controlling encryption export justify prior restraint on academic publication?; (iv) How should the law treat dual-use academic research that has both civilian security value and potential military/intelligence applications?",
-      "source": "https://scholar.google.com/scholar_case?case=114991681069810012"
+      "source": "https://clearinghouse.net/case/13683/"
     },
     {
-      "id": 61,
-      "institution": "Cobell v. Norton — BIA Internet Disconnection / Security Audit",
+      "id": 57,
+      "institution": "Cobell v. Norton",
       "year": "2001",
-      "summary": "In a class action over mismanagement of Native American trust accounts, a court-appointed security expert found that the Bureau of Indian Affairs' computer systems were so insecure that the judge ordered the entire Interior Department's internet connectivity disconnected until security could be verified. The case raised profound questions about what a court can order when government IT security failures endanger beneficiaries' financial data — and who bears accountability when critical government systems fail basic security standards.",
+      "summary": "During litigation over mismanagement of Native American trust accounts, a court-appointed investigation identified serious weaknesses in Department of the Interior computer security. In 2001, a federal judge ordered systems holding or able to access individual Indian trust data to disconnect from the internet until their security could be assessed.",
       "category": "Critical Infrastructure & Public Trust",
       "intent": "Good faith (intended public benefit)",
       "actor_type": "Government / law enforcement",
@@ -852,41 +796,27 @@
       "outcome": "Civil suit / Injunction",
       "chilling": "No",
       "dilemmas": "(i) Can a court order a government agency to disconnect from the internet as a security remedy?; (ii) What accountability mechanisms exist when a government agency's repeated security failures endanger the financial data of a vulnerable population?; (iii) Who should conduct security audits of government systems — internal auditors, independent experts, or adversarial testers?; (iv) When a security audit reveals catastrophic failure, how should findings be disclosed without creating additional risk?",
-      "source": "https://scholar.google.com/scholar_case?case=15420219403183695313"
+      "source": "https://www.justice.gov/archive/civil/cases/cobell/12_2001.htm"
     },
     {
-      "id": 62,
-      "institution": "United States v. Verkada Inc. (Mass Surveillance Camera Breach)",
-      "year": "2021–2024",
-      "summary": "Hacker collective Tillie Kottmann breached Verkada, a cloud-based security camera company, accessing live feeds from 150,000+ cameras inside hospitals, prisons, Tesla factories, and schools. Kottmann claimed the breach was meant to expose the pervasiveness of mass surveillance. Verkada was later fined $2.95M by the FTC for inadequate security practices. Kottmann was indicted on conspiracy charges; the case raised questions about whether exposing surveillance infrastructure is a legitimate form of security activism.",
+      "id": 58,
+      "institution": "Verkada Camera Breach / Tillie Kottmann / FTC",
+      "year": "2021",
+      "summary": "In 2021, hackers accessed Verkada's cloud-camera infrastructure, exposing live feeds and other sensitive information from customer sites. The incident was attributed to hacker Tillie Kottmann, who faced separate federal charges relating to hacking activity. In 2024, the FTC required security improvements and a $2.95 million civil penalty for unrelated commercial-email violations; that dollar amount was not a fine for the camera breach.",
       "category": "Surveillance & Offensive Tools",
       "intent": "Ambiguous / gray area (mixed or unclear intent)",
       "actor_type": "Independent / contractor",
       "disclosure": "Media-first",
-      "outcome": "Indicted (Kottmann); FTC civil action against Verkada ($2.95M fine)",
+      "outcome": "Federal hacking indictment; FTC security order and separate CAN-SPAM penalty",
       "chilling": "No",
       "dilemmas": "(i) Is breaching a surveillance company to expose its reach a form of protected political/security activism or straightforward criminal hacking?; (ii) Does the target being a surveillance company change the ethical calculus of an unauthorized breach?; (iii) What accountability should cloud security camera vendors face when their poor security exposes sensitive environments like hospitals and prisons?; (iv) When a vendor's negligence enables mass surveillance exposure, who bears moral responsibility — the hacker or the vendor?",
-      "source": "https://scholar.google.com/scholar_case?case=13248348867955793436"
+      "source": "https://www.ftc.gov/news-events/news/press-releases/2024/08/ftc-takes-action-against-security-camera-firm-verkada-over-charges-it-failed-secure-videos-other"
     },
     {
-      "id": 63,
-      "institution": "IT Consultant Fined for Exposing Shoddy Security (Germany / Modern Solution parallel)",
-      "year": "2024",
-      "summary": "A German IT consultant discovered a security vulnerability at a client's system and reported it. Instead of addressing the flaw, the company reported the consultant to police. The consultant was fined for unauthorized access under German law, even though their intent was to expose and report the vulnerability. The case closely parallels the Modern Solution GmbH case (C056) and reflects a broader pattern in German jurisprudence of criminalizing good-faith vulnerability verification.",
-      "category": "Legal Boundaries & CFAA Overreach",
-      "intent": "Good faith (intended public benefit)",
-      "actor_type": "Independent / contractor",
-      "disclosure": "Responsible/coordinated",
-      "outcome": "Convicted",
-      "chilling": "Yes",
-      "dilemmas": "(i) Should accessing a system to verify the scope of a vulnerability you discovered constitute criminal 'unauthorized access'?; (ii) Is reporting a security flaw to the company that hired you sufficient authorization to investigate it?; (iii) How does German computer crime law compare to the CFAA in its treatment of good-faith security researchers?; (iv) What legal safe harbors should exist for contractors who discover vulnerabilities in systems they are hired to work on?",
-      "source": "https://forums.theregister.com/forum/all/2024/01/19/germany_fine_security/"
-    },
-    {
-      "id": 64,
+      "id": 59,
       "institution": "Microsoft / Nightmare Eclipse (Windows Defender & BitLocker Zero-Days)",
       "year": "2026",
-      "summary": "An anonymous researcher known as 'Nightmare Eclipse' publicly disclosed six unpatched Windows vulnerabilities — including flaws in Defender and BitLocker — after alleging that Microsoft deleted their MSRC (Security Response Center) account, withheld bounty payments, and removed their attribution from an advisory. Three of the six disclosed vulnerabilities (BlueHammer, RedSun, UnDefend) were subsequently exploited in real-world attacks and added to CISA's Known Exploited Vulnerabilities catalog. Microsoft's Digital Crimes Unit publicly threatened criminal prosecution; the researcher was also banned from GitHub and GitLab. The cybersecurity community largely sided with the researcher, with veterans warning Microsoft's stance would chill future disclosure.",
+      "summary": "In 2026, a researcher using the name Nightmare Eclipse released proof-of-concept code for multiple Windows vulnerabilities after alleging problems with Microsoft's disclosure and bounty process. Some techniques were later observed in intrusions, and Microsoft criticized the uncoordinated publication of exploitable flaws. Claims of account deletion, retaliation, and threatened prosecution should be attributed to the parties rather than treated as independently established facts.",
       "category": "Vulnerability Disclosure",
       "intent": "Ambiguous / gray area (mixed or unclear intent)",
       "actor_type": "Independent / contractor",
@@ -897,23 +827,9 @@
       "source": "https://www.pcmag.com/news/microsoft-threatens-researcher-over-bug-reports-triggers-cybersecurity"
     },
     {
-      "id": 65,
-      "institution": "DJI / Researcher Bug Bounty Quarrel (Kevin Finisterre — extended / SecurityWeek)",
-      "year": "2017",
-      "summary": "Security researcher Kevin Finisterre found DJI's wildcard SSL certificate and AWS S3 bucket access keys exposed on GitHub, potentially exposing customer flight logs, passports, and ID documents. When he reported through DJI's newly launched bug bounty program, DJI allegedly threatened CFAA prosecution and demanded he sign a restrictive NDA before receiving the $30,000 bounty. DJI disputed Finisterre's characterization. Finisterre declined the money and published his account publicly. The case became a template for how bug bounty programs can be used to silence researchers rather than reward them.",
-      "category": "Vulnerability Disclosure",
-      "intent": "Good faith (intended public benefit)",
-      "actor_type": "Independent / contractor",
-      "disclosure": "Responsible/coordinated",
-      "outcome": "No charges filed",
-      "chilling": "Yes",
-      "dilemmas": "(i) Can a bug bounty program's NDA terms be used to effectively suppress a researcher's ability to discuss findings that are already known to the company?; (ii) Is threatening CFAA prosecution against a researcher who operated within a company's own published bug bounty scope an abuse of the legal process?; (iii) What power imbalances exist between corporate legal teams and individual researchers, and how should bug bounty programs be regulated to address them?; (iv) Does a vendor's threat of prosecution after the fact constitute retroactive withdrawal of implied authorization to test?",
-      "source": "https://www.securityweek.com/drone-maker-dji-researcher-quarrel-over-bug-bounty-program/"
-    },
-    {
-      "id": 66,
+      "id": 60,
       "institution": "WinPot ATM Jackpotting Malware (Academic Study)",
-      "year": "~2023",
+      "year": "2026",
       "summary": "Academic researchers published a holistic study of WinPot ATM jackpotting malware — a strain used by criminal groups to force ATMs to dispense cash — analyzing its attack vectors, exploitation techniques, and defensive countermeasures in detail. The paper provided comprehensive technical documentation of how ATM jackpotting works, raising dual-use concerns that the level of technical detail could serve as an implementation guide for criminal actors even as it aimed to advance defensive knowledge.",
       "category": "Dual-Use Research",
       "intent": "Good faith (intended public benefit)",
@@ -925,7 +841,7 @@
       "source": "https://www.academia.edu/161271126/WinPot_ATM_Jackpotting_Malware_A_Holistic_and_Deterministic_Study_of_Attack_Vectors_Exploitation_Techniques_and_Defensive_Countermeasures_in_Cyber_Physical_Financial_Systems"
     },
     {
-      "id": 67,
+      "id": 61,
       "institution": "Timnit Gebru / Google / \"Stochastic Parrots\"",
       "year": "2020",
       "summary": "AI ethics researcher Timnit Gebru disputed Google management over a research paper criticizing the risks and limitations of large language models. Her December 2020 departure sparked a public debate about corporate influence on critical research.",
@@ -939,21 +855,7 @@
       "source": "https://www.technologyreview.com/2020/12/04/1013294/google-ai-ethics-research-paper-forced-out-timnit-gebru/2"
     },
     {
-      "id": 68,
-      "institution": "OpenAI NDA / SEC Whistleblower Complaint",
-      "year": "2024",
-      "summary": "Whistleblowers asked the US Securities and Exchange Commission to investigate allegations that OpenAI agreements improperly restricted employees’ ability to report potential wrongdoing to regulators and seek whistleblower awards.",
-      "category": "Institutional Suppression",
-      "intent": "Good faith (intended public benefit)",
-      "actor_type": "Corporate / private sector",
-      "disclosure": "Regulatory disclosure",
-      "outcome": "Regulatory investigation",
-      "chilling": "Yes",
-      "dilemmas": "(i) Whistleblower protections; (ii) AI safety transparency; (iii) Employer retaliation; (iv) Public interest vs. corporate secrecy",
-      "source": "https://www.reuters.com/technology/openai-whistleblowers-ask-sec-investigate-restrictive-non-disclosure-agreements-2024-07-13/"
-    },
-    {
-      "id": 69,
+      "id": 62,
       "institution": "Nasr, Carlini et al. / ChatGPT Training Data Extraction",
       "year": "2023",
       "summary": "Researchers demonstrated that ChatGPT could reveal portions of its training data through carefully crafted prompts.",
@@ -967,7 +869,7 @@
       "source": "https://arxiv.org/abs/2311.17035"
     },
     {
-      "id": 70,
+      "id": 63,
       "institution": "Suchir Balaji / OpenAI",
       "year": "2024",
       "summary": "Former OpenAI engineer Suchir Balaji publicly challenged the legality and ethics of training commercial generative AI systems on copyrighted works, arguing that resulting tools may compete with creators whose works they use.",
@@ -981,21 +883,7 @@
       "source": "https://www.nytimes.com/2024/10/23/technology/openai-copyright-law.html2"
     },
     {
-      "id": 71,
-      "institution": "Joy Buolamwini & Timnit Gebru / Gender Shades",
-      "year": "2018",
-      "summary": "Researchers demonstrated racial and gender bias in commercial facial recognition systems.",
-      "category": "Critical Infrastructure & Public Trust",
-      "intent": "Good faith (intended public benefit)",
-      "actor_type": "Academic researcher",
-      "disclosure": "Responsible/coordinated",
-      "outcome": "No charges filed",
-      "chilling": "No",
-      "dilemmas": "(i) Algorithmic bias; (ii) Public safety; (iii) Fairness in AI systems; (iv) Ethical deployment of facial recognition",
-      "source": "https://proceedings.mlr.press/v81/buolamwini18a.html"
-    },
-    {
-      "id": 72,
+      "id": 64,
       "institution": "Robert Williams / Detroit Police",
       "year": "2020",
       "summary": "Robert Williams was wrongfully arrested after being misidentified by facial recognition software.",
@@ -1009,7 +897,7 @@
       "source": "https://www.aclu.org/cases/williams-v-city-of-detroit-face-recognition-false-arrest"
     },
     {
-      "id": 73,
+      "id": 65,
       "institution": "Clearview AI / ACLU",
       "year": "2020",
       "summary": "ACLU sued Clearview AI over scraping billions of facial images without consent.",
@@ -1023,21 +911,21 @@
       "source": "https://www.aclu.org/cases/aclu-v-clearview-ai"
     },
     {
-      "id": 74,
+      "id": 66,
       "institution": "Apple v. Corellium",
-      "year": "2019-2023",
-      "summary": "Apple sued Corellium over software used by security researchers to analyze iOS vulnerabilities.",
+      "year": "2019",
+      "summary": "Apple sued Corellium over virtualized iOS technology used by security researchers to inspect software and test vulnerabilities. Courts considered copyright and fair-use issues, and an appeals court held that Corellium's virtualization could qualify as fair use while remanding some issues. The dispute illustrates how intellectual-property enforcement can affect security research tools.",
       "category": "Institutional Suppression",
       "intent": "Good faith (intended public benefit)",
       "actor_type": "Corporate / private sector",
       "disclosure": "Responsible/coordinated",
-      "outcome": "Civil suit / Injunction",
+      "outcome": "Civil copyright litigation; substantial fair-use ruling for Corellium",
       "chilling": "Yes",
       "dilemmas": "(i) Copyright vs. security research; (ii) Research tool legality; (iii) Vendor retaliation",
       "source": "https://law.justia.com/cases/federal/appellate-courts/ca11/21-12835/21-12835-2023-05-08.html"
     },
     {
-      "id": 75,
+      "id": 67,
       "institution": "Felten v. RIAA",
       "year": "2001",
       "summary": "Researchers were threatened with DMCA litigation for publishing research on breaking digital watermarking.",
@@ -1051,9 +939,9 @@
       "source": "https://www.eff.org/cases/felten-et-al-v-riaa-et-al"
     },
     {
-      "id": 76,
+      "id": 68,
       "institution": "Erik Johnson / Proctorio",
-      "year": "2020–2022",
+      "year": "2020",
       "summary": "Student and critic Erik Johnson published material criticizing Proctorio’s remote exam-monitoring software. Proctorio used copyright claims against excerpts used in criticism; the ensuing legal dispute raised concerns about fair use, surveillance, and attempts to silence scrutiny.",
       "category": "Institutional Suppression",
       "intent": "Good faith (intended public benefit)",
@@ -1065,21 +953,21 @@
       "source": "https://www.eff.org/deeplinks/2022/03/eff-client-eric-johnson-and-proctorio-settle-lawsuit-over-bogus-dmca-claims2"
     },
     {
-      "id": 77,
-      "institution": "Dennis Giese",
+      "id": 69,
+      "institution": "Dennis Giese and Braelynn Luedtke / Digilock",
       "year": "2024",
-      "summary": "Researcher disclosed vulnerabilities in robotic vacuums and received a cease-and-desist before DEF CON.",
+      "summary": "Before DEF CON 2024, security researchers Dennis Giese and Braelynn Luedtke received a cease-and-desist demand from electronic-lock maker Digilock over their planned presentation on vulnerabilities in keyless locks. The talk was postponed briefly while lawyers reviewed the dispute, then proceeded. This was a lock-security disclosure dispute, not a robot-vacuum dispute.",
       "category": "Institutional Suppression",
       "intent": "Good faith (intended public benefit)",
       "actor_type": "Independent / contractor",
       "disclosure": "Responsible/coordinated",
-      "outcome": "Civil threat",
+      "outcome": "Cease-and-desist dispute; presentation proceeded",
       "chilling": "Yes",
       "dilemmas": "(i) Corporate retaliation; (ii) Responsible disclosure; (iii) Research freedom",
-      "source": "https://dontvacuum.me/"
+      "source": "https://securityledger.com/2024/08/a-digital-lock-maker-tried-to-squash-a-def-con-talk-it-happened-anyway-heres-why/"
     },
     {
-      "id": 78,
+      "id": 70,
       "institution": "Canadian Security Researcher (FOIA records)",
       "year": "2018",
       "summary": "Researcher downloaded publicly exposed government records and was criminally charged.",
@@ -1093,7 +981,7 @@
       "source": "https://globalnews.ca/news/4191414/halifax-police-data-breach/"
     },
     {
-      "id": 79,
+      "id": 71,
       "institution": "Diego Gómez",
       "year": "2014",
       "summary": "Colombian graduate student was prosecuted for sharing an academic paper online.",
@@ -1107,21 +995,7 @@
       "source": "https://www.eff.org/deeplinks/2017/05/diego"
     },
     {
-      "id": 80,
-      "institution": "David Leroy Ross / City of Columbus",
-      "year": "2024",
-      "summary": "Researcher demonstrated the severity of a ransomware breach after officials downplayed it and was sued by the city.",
-      "category": "Institutional Suppression",
-      "intent": "Good faith (intended public benefit)",
-      "actor_type": "Independent / contractor",
-      "disclosure": "Media-first",
-      "outcome": "Civil suit / Injunction",
-      "chilling": "Yes",
-      "dilemmas": "(i) Government transparency; (ii) Whistleblowing; (iii) Retaliation against researchers",
-      "source": "https://arstechnica.com/security/2024/08/city-of-columbus-sues-man-after-he-discloses-severity-of-ransomware-attack/"
-    },
-    {
-      "id": 81,
+      "id": 72,
       "institution": "Josh Renaud / Missouri Teacher Database",
       "year": "2021",
       "summary": "Journalist discovered exposed teacher SSNs in webpage source code and was publicly accused of hacking.",
@@ -1135,21 +1009,21 @@
       "source": "https://statescoop.com/missouri-parson-reporter-did-nothing-wrong"
     },
     {
-      "id": 82,
-      "institution": "Andrew Lemon Cease-and-Desist",
+      "id": 73,
+      "institution": "Andrew Lemon / Traffic Signal Controller Disclosure",
       "year": "2024",
-      "summary": "Researcher reported a security flaw and allegedly received a cease-and-desist threatening legal action.",
+      "summary": "Security researcher Andrew Lemon reported that he found a critical vulnerability in a traffic-signal controller he had purchased secondhand. According to his public account, the vendor's lawyers responded with threats of prosecution and disputed his authorization to test the equipment, rather than engaging directly with the reported issue.",
       "category": "Institutional Suppression",
       "intent": "Good faith (intended public benefit)",
       "actor_type": "Independent / contractor",
       "disclosure": "Responsible/coordinated",
-      "outcome": "Civil threat",
+      "outcome": "Legal threat alleged by researcher",
       "chilling": "Yes",
       "dilemmas": "(i) Legal intimidation; (ii) Responsible disclosure; (iii) Chilling effect",
-      "source": "https://www.reuters.com/legal/us-sec-sues-citron-capital-founder-andrew-left-alleged-fraud-2024-07-26/"
+      "source": "https://www.linkedin.com/posts/lemonitup_i-submitted-a-critical-vulnerability-to-a-activity-7208886811480195072-aFU6"
     },
     {
-      "id": 83,
+      "id": 74,
       "institution": "Keeper Security v. Ars Technica",
       "year": "2017",
       "summary": "Following reporting on a critical vulnerability in a Keeper password-manager browser extension, Keeper Security sued Ars Technica and reporter Dan Goodin, disputing aspects of the coverage. The suit raised concerns about vendors using litigation in response to security journalism.",
@@ -1163,9 +1037,9 @@
       "source": "https://www.securityweek.com/keeper-sues-ars-technica-over-reporting-critical-flaw/2"
     },
     {
-      "id": 84,
+      "id": 75,
       "institution": "FreeHour / Malta Students (Grigolo, Debono, Scerri, Collins)",
-      "year": "2022–2023",
+      "year": "2022",
       "summary": "Four computer-science students reported vulnerabilities in the FreeHour student timetabling app with a 90-day disclosure window and asked whether the report might qualify for a bounty once fixed. FreeHour went to police; three students had their homes searched, were strip-searched and had devices seized. The company said the mention of payment, changes to the app's front end and the 90-day 'ultimatum' led its lawyers to treat the report as a threat.",
       "category": "Legal Boundaries & CFAA Overreach",
       "intent": "Good faith (intended public benefit)",
@@ -1177,9 +1051,9 @@
       "source": "https://timesofmalta.com/articles/view/we-wanted-help-students-arrested-exposing-freehour-security-flaw.1024757"
     },
     {
-      "id": 85,
+      "id": 76,
       "institution": "Coalfire / Iowa Judicial Branch & Dallas County Sheriff",
-      "year": "2019–2020",
+      "year": "2019",
       "summary": "The Iowa state court administration hired Coalfire to test the physical security of its courthouses. During an authorized after-hours test, the Dallas County sheriff arrested employees Gary DeMercurio and Justin Wynn and charged them with burglary, disputing the state's authority over a county building. Charges were dropped on January 30, 2020, four months later.",
       "category": "Legal Boundaries & CFAA Overreach",
       "intent": "Good faith (intended public benefit)",
@@ -1191,7 +1065,7 @@
       "source": "https://www.cnbc.com/2019/11/12/iowa-paid-coalfire-to-pen-test-courthouse-then-arrested-employees.html"
     },
     {
-      "id": 86,
+      "id": 77,
       "institution": "Denis Tokarev (illusionofchaos) / Apple Security Bounty",
       "year": "2021",
       "summary": "Tokarev submitted four iOS vulnerabilities to Apple's bug bounty between March and May 2021. After one was patched silently and he received neither credit nor payment, he published three unpatched zero-days with proof-of-concept code. Apple later sent DMCA takedowns over a documentation site he had mirrored, and credited one bug (CVE-2021-30871) in October 2021.",
@@ -1202,10 +1076,10 @@
       "outcome": "Civil threat (DMCA takedowns)",
       "chilling": "Yes",
       "dilemmas": "(i) Does a vendor breaking its bounty promises justify releasing unpatched zero-days that expose millions of users? (ii) Were the later DMCA takedowns legitimate IP enforcement or retaliation for the disclosure? (iii) Should bounty programs be held to enforceable timelines for credit and payment?",
-      "source": "https://habr.com/en/post/579714/"
+      "source": "https://www.bleepingcomputer.com/news/apple/apple-silently-fixes-ios-zero-day-asks-bug-reporter-to-keep-quiet/"
     },
     {
-      "id": 87,
+      "id": 78,
       "institution": "Maria Markstedter (Azeria) / Arm Ltd",
       "year": "2023",
       "summary": "Arm filed abuse reports and cease-and-desist demands over Markstedter's long-running educational domains, such as arm-assembly.com, which taught Arm assembly and exploitation. Her registrar took the domains down; she transferred the 'arm' domains to Arm and rebranded, despite years of known use and past talks given inside the company.",
@@ -1219,7 +1093,7 @@
       "source": "https://www.theregister.com/2023/08/31/a_star_star_domains/"
     },
     {
-      "id": 88,
+      "id": 79,
       "institution": "Ben Sadeghipour (NahamSec) / Ford via Rapid7",
       "year": "2023",
       "summary": "Rapid7, acting on Ford's behalf in a brand-protection effort, emailed NahamSec claiming one of his YouTube videos was illegal and that he was aiding criminals, and asked him to remove it. He replied that he had done nothing wrong and declined to remove it immediately.",
@@ -1233,7 +1107,7 @@
       "source": "https://x.com/nahamsec/status/1694388639994675568"
     },
     {
-      "id": 89,
+      "id": 80,
       "institution": "Lilith Wittmann / CDU connect app (Germany)",
       "year": "2021",
       "summary": "During Germany's 2021 federal election campaign, Wittmann found and published data-security problems in the campaign app used by the CDU, CSU and Austria's ÖVP. The CDU filed a criminal complaint against her, then withdrew it and apologized after public outcry.",
@@ -1247,9 +1121,9 @@
       "source": "https://www.heise.de/news/CDU-zieht-Anzeige-wegen-CDU-connect-App-zurueck-und-bittet-um-Entschuldigung-6155229.html"
     },
     {
-      "id": 90,
+      "id": 81,
       "institution": "Aaron Toponce / what3words (WhatFreeWords)",
-      "year": "2019–2021",
+      "year": "2019",
       "summary": "what3words, which sells its location-addressing system to emergency services, threatened the WhatFreeWords open-source reimplementation in 2019. In April 2021 Toponce received a legal letter demanding he stop sharing the software after researchers had analyzed how the wordlist could produce confusable addresses.",
       "category": "Institutional Suppression",
       "intent": "Good faith (intended public benefit)",
@@ -1261,7 +1135,7 @@
       "source": "https://techcrunch.com/2021/04/30/what3words-legal-threat-whatfreewords/"
     },
     {
-      "id": 91,
+      "id": 82,
       "institution": "Rob Dyke / Apperta Foundation (NHS-backed)",
       "year": "2021",
       "summary": "Dyke found sensitive information in a public GitHub repository of the Apperta Foundation, an NHS-backed nonprofit, and reported it. Apperta reported him to Northumbria Police and revoked licenses on materials he used.",
@@ -1275,7 +1149,7 @@
       "source": "https://www.bleepingcomputer.com/news/security/engineer-reports-data-leak-to-nonprofit-hears-from-the-police/"
     },
     {
-      "id": 92,
+      "id": 83,
       "institution": "Raphaël Rigo (Airbus Security Lab) / Xerox",
       "year": "2021",
       "summary": "Rigo's Infiltrate 2021 talk on vulnerabilities in Xerox multifunction printers was cancelled an hour before it was due, citing pending legal action. He gave the talk on April 22, 2021.",
@@ -1286,10 +1160,10 @@
       "outcome": "Civil threat (talk delayed)",
       "chilling": "Yes",
       "dilemmas": "(i) Should vendors be able to use last-minute legal threats to delay talks on already-reported flaws? (ii) What do conferences owe speakers facing legal pressure? (iii) When a vendor objects, does delaying a talk serve users or only the vendor?",
-      "source": "https://portswigger.net/daily-swig/xerox-legal-threat-reportedly-silences-researcher-at-infiltrate-security-conference"
+      "source": "https://airbus-seclab.github.io/xerox/INFILTRATE2020-RIGO-Xerox-final.pdf"
     },
     {
-      "id": 93,
+      "id": 84,
       "institution": "Digital Interruption / Giggle app",
       "year": "2020",
       "summary": "Saskia Coplans of Digital Interruption tried to report a vulnerability in the women-only Giggle app that exposed users' account information, including location data and photos, first through Twitter direct messages. Giggle's CEO denied the issue for days, blocked the researchers and threatened legal action, then issued a conciliatory statement; the bug was eventually patched without acknowledgment.",
@@ -1303,7 +1177,7 @@
       "source": "https://research.digitalinterruption.com/2020/09/10/giggle-laughable-security/"
     },
     {
-      "id": 94,
+      "id": 85,
       "institution": "John Jackson / Talkspace",
       "year": "2020",
       "summary": "Jackson found that promo codes belonging to companies that had paid for Talkspace's therapy service let anyone sign up for free. Talkspace denied the claim and sent him a cease-and-desist letter.",
@@ -1317,7 +1191,7 @@
       "source": "https://techcrunch.com/2020/03/09/talkspace-cease-desist/"
     },
     {
-      "id": 95,
+      "id": 86,
       "institution": "Chris Kubecka / Boeing",
       "year": "2019",
       "summary": "Kubecka reported finding serious weaknesses in Boeing's network, including internet-exposed test environments, malware infections and XSS flaws, and spoke publicly about them. Boeing, which had no disclosure policy, allegedly threatened legal action to stop her speaking and considered damaging her reputation.",
@@ -1331,7 +1205,7 @@
       "source": "https://www.csoonline.com/article/3451585/boeings-poor-information-security-posture-threatens-passenger-safety-national-security-researcher-s.html"
     },
     {
-      "id": 96,
+      "id": 87,
       "institution": "Bill Demirkapi / MIT Libraries (Age 16)",
       "year": "2017",
       "summary": "At 16, Demirkapi found a 4 GB WordPress debug log exposed on a public MIT service and reported it. An MIT staff member warned him of up to five years in jail and said he had caused significant disruption; MIT's IT head called his scanning 'problematic.'",
@@ -1345,7 +1219,7 @@
       "source": "https://github.com/disclose/research-threats/blob/master/goodies/MIT_threatened_to_sue_after_I_reported_a_security_vulnerability_%2327.pdf"
     },
     {
-      "id": 97,
+      "id": 88,
       "institution": "Unnamed 18-year-old / BKK & T-Systems (Budapest e-ticket)",
       "year": "2017",
       "summary": "An 18-year-old reported flaws in Budapest's new e-ticket system, including plain-text password emails, an IDOR exposing other users' data, ticket cloning, price manipulation and an admin password of 'adminadmin.' He was arrested; BKK claimed his report went to the wrong address, which he disputed with a screenshot. The arrest drew thousands of one-star reviews and a 500-person protest.",
@@ -1359,7 +1233,7 @@
       "source": "https://www.ibtimes.co.uk/dont-shoot-messenger-teenager-arrested-showing-security-flaw-hungarian-transport-system-1632472"
     },
     {
-      "id": 98,
+      "id": 89,
       "institution": "Chad Scira / Chase Bank",
       "year": "2016",
       "summary": "In 2016, before Chase had a disclosure program, Scira found that transferring Ultimate Rewards points under unstable network conditions could create unlimited points. He ran experiments while reporting them to Chase's support account on Twitter, and the issues were fixed. About a week later Chase sent a hostile email and closed his accounts, including checking and savings, and accounts of family members. He disclosed the story in 2020.",
@@ -1373,7 +1247,7 @@
       "source": "https://gigazine.net/gsc_news/en/20201105-unlimited-chase-ultimate-rewards-points"
     },
     {
-      "id": 99,
+      "id": 90,
       "institution": "ESNC GmbH / PwC (ACE software for SAP)",
       "year": "2016",
       "summary": "ESNC tried to coordinate disclosure of vulnerabilities in PwC's ACE software for SAP that could enable accounting fraud. PwC sent two cease-and-desist letters; ESNC published the vulnerabilities with a timeline anyway.",
@@ -1387,7 +1261,7 @@
       "source": "http://www.zdnet.com/article/pwc-sends-security-researchers-cease-and-desist-letter-instead-of-fixing-security-flaw/"
     },
     {
-      "id": 100,
+      "id": 91,
       "institution": "Steven Jensen / Nerium International",
       "year": "2016",
       "summary": "Jensen found an enumeration flaw in Nerium's customer portal that let any customer see others' details, including payment and address information. Nerium ignored his reports and contacted him only after he posted enough detail to prove the issue, with a cease-and-desist letter. He replaced the post with a timeline.",
@@ -1401,9 +1275,9 @@
       "source": "http://s3jensen.blogspot.com/2016/06/nerium-vulnerability-disclosure.html"
     },
     {
-      "id": 101,
+      "id": 92,
       "institution": "Henrik Høyer / Infoba (Denmark)",
-      "year": "2015–2017",
+      "year": "2015",
       "summary": "Høyer found vulnerabilities in the system his son's kindergarten used. He was accused of accessing other children's sensitive information, which he denied, and was charged rather than the flaws being fixed. He was convicted in local court and acquitted on appeal in March 2017 for lack of evidence.",
       "category": "Legal Boundaries & CFAA Overreach",
       "intent": "Good faith (intended public benefit)",
@@ -1415,7 +1289,7 @@
       "source": "https://www.version2.dk/artikel/derfor-blev-henrik-hoeyer-frifundet"
     },
     {
-      "id": 102,
+      "id": 93,
       "institution": "Gianni Gnesa / Surveillance Camera Vendor",
       "year": "2015",
       "summary": "Gnesa withdrew his Hack in the Box GSEC talk on surveillance camera vulnerabilities after a legal threat from one of the three vendors involved, despite having privately disclosed the flaws to the vendor in advance.",
@@ -1429,9 +1303,9 @@
       "source": "https://threatpost.com/canceled-talk-re-ignites-controversy-over-legitimate-security-research/114932/"
     },
     {
-      "id": 103,
+      "id": 94,
       "institution": "modzero / Good Technology",
-      "year": "2013–2015",
+      "year": "2013",
       "summary": "modzero reported flaws in Good for Enterprise, including an XSS in the admin console and later a remotely exploitable account-hijacking bug in its mobile device management suite. Good threatened legal action against publication, citing its license terms barring reverse engineering.",
       "category": "Institutional Suppression",
       "intent": "Good faith (intended public benefit)",
@@ -1443,7 +1317,7 @@
       "source": "https://www.modzero.com/modlog/archives/2015/09/24/on_responsible_full_disclosure/index.html"
     },
     {
-      "id": 104,
+      "id": 95,
       "institution": "slipstream / Impero Software",
       "year": "2015",
       "summary": "slipstream published details and a working exploit for a vulnerability in Impero Education Pro, classroom-monitoring software installed on school computers. Impero's lawyers alleged breach of the user agreement, disclosure of confidential information and reputational damage. The information stayed public.",
@@ -1457,7 +1331,7 @@
       "source": "http://theregister.co.uk/2015/07/16/school_software_firm_calls_in_lawyers_after_researcher_goes_full_disclosure/"
     },
     {
-      "id": 105,
+      "id": 96,
       "institution": "Joaquín Sorianello / MSA Vot.ar (Argentina)",
       "year": "2015",
       "summary": "Sorianello saw a publicly posted SSL certificate flaw in the Vot.ar electronic voting system and reported it to vendor MSA as a warning; he had not found or published it. After a different group published another Vot.ar vulnerability, police raided his home on a judge's order.",
@@ -1471,7 +1345,7 @@
       "source": "http://arstechnica.co.uk/tech-policy/2015/07/police-raid-programmer-who-reported-flaw-in-argentinian-e-voting-system/"
     },
     {
-      "id": 106,
+      "id": 97,
       "institution": "Mike Davis (IOActive) / CyberLock",
       "year": "2015",
       "summary": "A law firm representing CyberLock threatened a DMCA-based lawsuit over Davis's research into cloning CyberKey high-security keys. A day after the threat became public, IOActive published the advisory.",
@@ -1485,7 +1359,7 @@
       "source": "http://arstechnica.com/security/2015/05/05/lawyers-threaten-researcher-over-key-cloning-bug-in-high-security-lock/"
     },
     {
-      "id": 107,
+      "id": 98,
       "institution": "Raphaël Rigo / Blue Coat",
       "year": "2015",
       "summary": "Rigo cancelled his SyScan 2015 talk on Blue Coat ProxySG after pressure from Blue Coat, passed on through the conference founder. He later presented the research at Ruxcon and Black Hat Europe.",
@@ -1499,7 +1373,7 @@
       "source": "http://www.forbes.com/sites/thomasbrewster/2015/03/26/hackers-slam-blue-coat-claiming-it-pressured-security-researcher-into-cancelling-talk-on-its-tech/"
     },
     {
-      "id": 108,
+      "id": 99,
       "institution": "Jean-Marie Bourbon / FireEye",
       "year": "2014",
       "summary": "After Bourbon sent details of vulnerabilities in FireEye's Malware Analysis System to Exploit-DB, he was suspended from his day job, reportedly under pressure from FireEye, which denied involvement. FireEye later patched the issues and credited him.",
@@ -1513,7 +1387,7 @@
       "source": "http://www.forbes.com/sites/thomasbrewster/2014/07/09/researcher-i-was-suspended-for-finding-flaws-in-fireeye-security-kit/"
     },
     {
-      "id": 109,
+      "id": 100,
       "institution": "Kristian Hermansen & Matt Ploessel / Covered California",
       "year": "2014",
       "summary": "The researchers found security flaws in Covered California, the state's health-insurance exchange website. Their video about the flaws was taken down from YouTube, and the FBI visited them and asked them to stop discussing the issues.",
@@ -1527,7 +1401,7 @@
       "source": "http://www.forbes.com/sites/kashmirhill/2014/01/15/so-you-found-an-obamacare-website-is-hackable-now-what/print/"
     },
     {
-      "id": 110,
+      "id": 101,
       "institution": "Joshua Rogers / Public Transport Victoria",
       "year": "2014",
       "summary": "Rogers, a schoolboy, found security flaws in the Public Transport Victoria website that exposed customer data and reported them. PTV referred the incident to Victoria Police.",
@@ -1541,7 +1415,7 @@
       "source": "http://www.theage.com.au/technology/technology-news/schoolboy-hacks-public-transport-victoria-website-20140107-30fkg.html"
     },
     {
-      "id": 111,
+      "id": 102,
       "institution": "Daniel Wood / ZippyYum (Subway ordering app)",
       "year": "2013",
       "summary": "Wood published an insecure data storage issue in ZippyYum's iOS Subway ordering app on the Full Disclosure mailing list. Anticipating legal action, he noted he had signed no NDA and retained an attorney.",
@@ -1555,7 +1429,7 @@
       "source": "http://seclists.org/fulldisclosure/2013/Dec/39"
     },
     {
-      "id": 112,
+      "id": 103,
       "institution": "William 'AmmonRa' Turner / Environment Canterbury Metrocard",
       "year": "2013",
       "summary": "Turner reported flaws in Christchurch's Metrocard bus fare system to Environment Canterbury; three months later nothing had been fixed, and he disclosed them at Kiwicon 7. ECan called the police, and claims followed that about 70,000 free rides had been taken.",
@@ -1569,7 +1443,7 @@
       "source": "https://www.stuff.co.nz/the-press/news/transport/9386649/ECan-public-transport-card-hacked"
     },
     {
-      "id": 113,
+      "id": 104,
       "institution": "Secunia / VideoLAN (VLC)",
       "year": "2013",
       "summary": "Secunia reported a use-after-free bug in VLC Media Player. VideoLAN threatened legal action and disputed whether it was patched; Secunia changed its advisory to 'patched' and then back to 'unpatched' after further analysis, and both sides published accounts of the dispute.",
@@ -1583,7 +1457,7 @@
       "source": "https://web.archive.org/web/20151006081501/http://secunia.com/blog/shooting-the-messenger-372/"
     },
     {
-      "id": 114,
+      "id": 105,
       "institution": "'Patrick' / Zamfoo",
       "year": "2013",
       "summary": "After two weeks without a patch, a researcher told Zamfoo he would post a proof of concept if the fix didn't come faster. Zamfoo threatened to sue him.",
@@ -1594,10 +1468,10 @@
       "outcome": "Civil threat",
       "chilling": "No",
       "dilemmas": "(i) A two-week deadline with a public proof of concept: fair pressure or an ultimatum? (ii) How short can a disclosure deadline be before it becomes coercion? (iii) Does threatening a PoC change how a vendor will read the researcher's intent?",
-      "source": "http://www.webhostingtalk.com/showthread.php?t=1275572"
+      "source": "https://www.webhostingtalk.com/showthread.php?t=1275572"
     },
     {
-      "id": 115,
+      "id": 106,
       "institution": "Fox-IT / Keeper Security",
       "year": "2013",
       "summary": "Fox-IT reported unencrypted storage of confidential data in Keeper's iOS password manager within 24 hours of finding it. Keeper refused to engage, sent all communication to its lawyers, and warned that public disclosure could meet swift legal action. Fox-IT published an advisory.",
@@ -1611,7 +1485,7 @@
       "source": "https://blog.fox-it.com/2013/04/05/security-advisory-unencrypted-storage-of-confidential-information-in-keeper-password-data-vault-v5-3-for-ios/"
     },
     {
-      "id": 116,
+      "id": 107,
       "institution": "Ahmed Al-Khabaz / Dawson College & Skytech (Omnivox)",
       "year": "2013",
       "summary": "Al-Khabaz, a student, found a flaw in the Omnivox portal that exposed about 250,000 students' records and reported it to his college. Skytech threatened to press charges and send him to jail unless he signed an NDA, and he was later expelled.",
@@ -1625,7 +1499,7 @@
       "source": "https://nationalpost.com/news/canada/youth-expelled-from-montreal-college-after-finding-sloppy-coding-that-compromised-security-of-250000-students-personal-data"
     },
     {
-      "id": 117,
+      "id": 108,
       "institution": "Ralph Langner / Unnamed ICS Vendor",
       "year": "2012",
       "summary": "Langner's talk on nuclear power plant SCADA vulnerabilities was cancelled at the last minute at the 12th ICS Cyber Security Conference after a vendor objected and threatened to sue, even though plant officials had approved the presentation.",
@@ -1639,7 +1513,7 @@
       "source": "http://gadgets.ndtv.com/internet/news/legal-fears-muffle-warnings-on-cyber-security-threats-286061"
     },
     {
-      "id": 118,
+      "id": 109,
       "institution": "Eric Romang / E-Soft",
       "year": "2012",
       "summary": "E-Soft sent YouTube a copyright claim to remove Romang's video demonstrating a Metasploit exploit module for its Digital Music Pad software. The video was reposted and remained available.",
@@ -1653,7 +1527,7 @@
       "source": "http://attrition.org/errata/legal_threats/e-soft/"
     },
     {
-      "id": 119,
+      "id": 110,
       "institution": "Don Weber (InGuardians) / Smart Meter Vendor",
       "year": "2012",
       "summary": "Weber cancelled the ShmooCon 2012 release of a free smart-meter security testing tool, citing a wish to work with the vendor, and later presented at BSidesLV 2012. A source told Attrition that InGuardians contacted the vendor only weeks after the CFP, raising the possibility the vendor became a client.",
@@ -1664,10 +1538,10 @@
       "outcome": "Talk withdrawn (later presented)",
       "chilling": "Yes",
       "dilemmas": "(i) When a vendor becomes a client, can the researcher still decide disclosure independently? (ii) Should a testing tool for critical infrastructure be released freely? (iii) Is it fair to the community to withdraw a scheduled talk for commercial reasons?",
-      "source": "http://www.darkreading.com/advanced-threats/167901091/security/vulnerabilities/232500808/researchers-postpone-release-of-free-smart-meter-security-testing-tool.html"
+      "source": "https://www.darkreading.com/vulnerabilities-threats/smart-grid-researcher-releases-open-source-meter-hacking-tool"
     },
     {
-      "id": 120,
+      "id": 111,
       "institution": "Trevor Eckhart / Carrier IQ",
       "year": "2011",
       "summary": "Eckhart documented that Carrier IQ software installed on phones logged excessive user information. Carrier IQ sent him a cease-and-desist letter, then retracted it after EFF involvement and negative attention. The research stayed public.",
@@ -1681,7 +1555,7 @@
       "source": "https://www.eff.org/deeplinks/2011/11/carrieriq-censor-research-baseless-legal-threat"
     },
     {
-      "id": 121,
+      "id": 112,
       "institution": "Patrick Webster / First State Super (Australia)",
       "year": "2011",
       "summary": "Webster found a direct object reference flaw in his pension fund's website exposing other members' information and reported it. First State Super reported him to police and threatened further legal action, then withdrew the threat after negative publicity.",
@@ -1695,10 +1569,10 @@
       "source": "http://www.theregister.co.uk/2011/10/19/first_state_super_tones_it_down/"
     },
     {
-      "id": 122,
+      "id": 113,
       "institution": "Brenno de Winter / Trans Link Systems (OV-chipkaart)",
       "year": "2011",
-      "summary": "De Winter, a journalist, reported on flaws in the Dutch OV-chipkaart transit payment system. A criminal complaint followed and he was questioned; the government took legal action against him for covering the issue.",
+      "summary": "Journalist Brenno de Winter demonstrated weaknesses in the Dutch OV-chipkaart transit payment systemby manipulating card balances and traveling with modified cards. He was questioned by police after a complaint by the system's operator, Trans Link Systems. However, the prosecutors subsequently decided not to pursue criminal charges. The dispute raised questions about reporting security flaws in public services.",
       "category": "Critical Infrastructure & Public Trust",
       "intent": "Good faith (intended public benefit)",
       "actor_type": "Journalist / activist / independent",
@@ -1709,7 +1583,7 @@
       "source": "https://www.techdirt.com/articles/20110802/03572015357/dutch-journalist-legal-trouble-showing-how-new-transit-card-is-easy-to-defraud.shtml"
     },
     {
-      "id": 123,
+      "id": 114,
       "institution": "Acidgen (Corelan) / Magix AG",
       "year": "2011",
       "summary": "Researchers reported a buffer overflow in Magix Music Maker 16 and were threatened under Germany's anti-hacking law. They published anyway and persuaded Magix to change its stance; Magix opened a researcher portal whose terms bar disclosure before a fix.",
@@ -1718,12 +1592,12 @@
       "actor_type": "Independent / contractor",
       "disclosure": "Responsible/coordinated",
       "outcome": "Civil threat",
-      "chilling": "No",
+      "chilling": "Yes",
       "dilemmas": "(i) Is a vendor portal that forbids disclosure until a fix exists a step forward or a gag? (ii) Should researchers accept programs whose terms remove their timeline? (iii) Did publishing under threat help future researchers or only this case?",
-      "source": "http://www.darkreading.com/vulnerability-management/167901026/security/vulnerabilities/229402356/another-researcher-hit-with-threat-of-german-anti-hacking-law.html"
+      "source": "https://www.darkreading.com/vulnerabilities-threats/another-researcher-hit-with-threat-of-german-anti-hacking-law"
     },
     {
-      "id": 124,
+      "id": 115,
       "institution": "Thomas Roth / German Telecommunications Firm",
       "year": "2011",
       "summary": "Roth built a password-cracking tool running on Amazon EC2. His apartment was raided, his bank account frozen, and he was kept from releasing the tool at Black Hat DC; the injunction was later revoked and he published the research.",
@@ -1737,7 +1611,7 @@
       "source": "http://www.darkreading.com/authentication/167901072/security/client-security/229301362/researcher-overcomes-legal-setback-over-cloud-cracking-suite.html"
     },
     {
-      "id": 125,
+      "id": 116,
       "institution": "Hari Prasad / ECIL Electronic Voting Machines (India)",
       "year": "2010",
       "summary": "Prasad co-authored a 2010 paper showing vulnerabilities in India's electronic voting machines. Mumbai police arrested him and pressed him to reveal the anonymous source who provided the machine; he spent seven days in custody before release on bail. disclose.io also lists the case among incidents that crossed the line because the machine was allegedly stolen.",
@@ -1751,7 +1625,7 @@
       "source": "https://freedom-to-tinker.com/blog/jhalderm/electronic-voting-researcher-arrested-over-anonymous-source/"
     },
     {
-      "id": 126,
+      "id": 117,
       "institution": "Varun Uppal & Gyan Chawdhary / Financial Industry Client",
       "year": "2010",
       "summary": "A talk on hacking high-speed trading systems was pulled from a security conference under financial pressure, the potential loss of a client, and was never presented elsewhere.",
@@ -1765,7 +1639,7 @@
       "source": "http://www.forbes.com/sites/firewall/2010/07/26/talk-on-high-speed-trading-hacks-pulled-from-security-conference/"
     },
     {
-      "id": 127,
+      "id": 118,
       "institution": "Wayne Huang (Armorize) / Taiwanese Government",
       "year": "2010",
       "summary": "Huang's Black Hat 2010 talk, an archaeological study of China's government-backed hacking from 2001 to 2010, was cancelled two weeks before the conference due to pressure from the Taiwanese government.",
@@ -1776,10 +1650,10 @@
       "outcome": "Talk cancelled (government pressure)",
       "chilling": "Yes",
       "dilemmas": "(i) When geopolitical concerns conflict with research publication, whose interests should prevail? (ii) Should researchers comply with pressure from a government that isn't their direct regulator? (iii) Does suppressing threat-actor research help or harm defenders?",
-      "source": "http://www.eweek.com/c/a/Security/China-Cyber-Army-Talk-Pulled-From-Black-Hat-668887/"
+      "source": "https://www.networkworld.com/article/733212/security-talk-on-china-cyber-army-pulled-after-pressure.html"
     },
     {
-      "id": 128,
+      "id": 119,
       "institution": "Scott Jarkoff (TechMiso) / RSA (Navy Federal Credit Union)",
       "year": "2009",
       "summary": "Jarkoff's site published a report on security issues with Navy Federal Credit Union's website. RSA challenged the publication, and RSA backed down after TechMiso and its host pushed back.",
@@ -1793,7 +1667,7 @@
       "source": "https://web.archive.org/web/20111010114113/http://techmiso.com/2434/navy-federal-credit-union-web-site-operating-with-security-issue/"
     },
     {
-      "id": 129,
+      "id": 120,
       "institution": "Lance James / Comerica Bank",
       "year": "2009",
       "summary": "James published XSS and phishing vulnerabilities on Comerica Bank's website. Comerica sent a cease-and-desist to Tumblr, which removed the information while the vulnerability remained present.",
@@ -1804,10 +1678,10 @@
       "outcome": "Civil threat (post removed)",
       "chilling": "Yes",
       "dilemmas": "(i) Removing the report while the flaw stays live: who does that protect? (ii) Should platforms honor takedowns of security research about unpatched flaws? (iii) Was public-first disclosure appropriate for a phishing-enabling bank flaw?",
-      "source": "http://files.getdropbox.com/u/634884/Letter%20to%20Tumblr%20from%20P.%20Bertrand%207-17-09.PDF"
+      "source": "https://law.justia.com/cases/federal/district-courts/michigan/miedce/2:2009cv14890/244989/66/"
     },
     {
-      "id": 130,
+      "id": 121,
       "institution": "HackersBlog / Orange.fr",
       "year": "2009",
       "summary": "HackersBlog published multiple vulnerabilities and intrusions affecting Orange.fr and later reported apparent legal threats, without publishing their details.",
@@ -1818,10 +1692,10 @@
       "outcome": "Civil threat (details unpublished)",
       "chilling": "No",
       "dilemmas": "(i) Is publishing evidence of intrusions into a telecom's systems research or a breach? (ii) Do unpublished legal threats deserve the same weight as documented ones? (iii) How should groups that access data to prove flaws be judged?",
-      "source": "http://www.hackersblog.org/2009/06/06/so-lol/"
+      "source": "https://seclists.org/funsec/2009/q2/793"
     },
     {
-      "id": 131,
+      "id": 122,
       "institution": "Ed Felten / Sequoia Voting Systems",
       "year": "2008",
       "summary": "Sequoia threatened legal action over a planned independent examination of its voting machines, and a judge suppressed the resulting report on voting machine security; as of October 2008 it remained unpublished.",
@@ -1835,7 +1709,7 @@
       "source": "http://freedom-to-tinker.com/blog/appel/judge-suppresses-report-voting-machine-security"
     },
     {
-      "id": 132,
+      "id": 123,
       "institution": "Secunia / Autonomy (KeyView)",
       "year": "2007",
       "summary": "Secunia published vulnerabilities in Autonomy's KeyView after Autonomy threatened legal action. Autonomy reportedly threatened CORE Security as well, which was not made public.",
@@ -1846,10 +1720,10 @@
       "outcome": "Civil threat",
       "chilling": "No",
       "dilemmas": "(i) Should researchers publicize threats they receive, or handle them quietly? (ii) Is it fair to the field when one firm resists a threat and another stays silent? (iii) Can legal threats against a widely embedded library ever serve its downstream users?",
-      "source": "http://archives.neohapsis.com/archives/fulldisclosure/2007-12/0152.html"
+      "source": "https://www.zdnet.com/article/autonomy-threatens-legal-action-over-vulnerability-alert/"
     },
     {
-      "id": 133,
+      "id": 124,
       "institution": "Halvar Flake / U.S. Customs",
       "year": "2007",
       "summary": "Halvar Flake was denied entry into the United States on his way to teach security training, and the training was cancelled at the last minute.",
@@ -1863,7 +1737,7 @@
       "source": "http://addxorrol.blogspot.com/2007/07/ive-been-denied-entry-to-us-essentially.html"
     },
     {
-      "id": 134,
+      "id": 125,
       "institution": "Sid Karunaratne / BeThere (Be Unlimited)",
       "year": "2007",
       "summary": "Karunaratne published information about a backdoor in routers supplied by his ISP, Be Unlimited. The ISP terminated his service; passwords were redacted, a patch was supplied, and his service had not been restored as of July 2007.",
@@ -1877,7 +1751,7 @@
       "source": "http://www.theregister.co.uk/2007/04/17/hackers_service_terminated/"
     },
     {
-      "id": 135,
+      "id": 126,
       "institution": "Chris Paget (IOActive) / HID Global",
       "year": "2007",
       "summary": "Paget's Black Hat DC talk on RFID security problems in HID access cards was pulled after a legal threat from HID, and the research was not published.",
@@ -1888,10 +1762,10 @@
       "outcome": "Civil threat (talk pulled)",
       "chilling": "Yes",
       "dilemmas": "(i) Should a vendor be able to stop research on access-control cards protecting buildings? (ii) Does withholding RFID cloning research protect card holders or leave them unaware? (iii) Should an employer pull a talk to avoid litigation costs?",
-      "source": "http://www.infoworld.com/article/07/02/27/HNioactiverfid_1.html"
+      "source": "https://www.wired.com/2007/02/castrated-rfid-talk-at-black-hat/"
     },
     {
-      "id": 136,
+      "id": 127,
       "institution": "David Maynor & Robert Graham (Errata Security) / TippingPoint",
       "year": "2007",
       "summary": "Errata Security reverse-engineered TippingPoint's intrusion-prevention rule set to identify the vulnerabilities the rules protected against, drawing a threat from TippingPoint. The bulk of the research was later published at Black Hat 2007.",
@@ -1905,10 +1779,10 @@
       "source": "http://erratasec.blogspot.com/2009/01/im-reading-this-blog-by-verisign-in.html"
     },
     {
-      "id": 137,
+      "id": 128,
       "institution": "Vipsta & MurderSkillz / SimpleBlog (8pixel.net)",
       "year": "2006",
-      "summary": "Two researchers reported a SQL injection flaw in the SimpleBlog Drupal theme and were threatened with legal action the same day. Two days later they released an exploit on Exploit-DB.",
+      "summary": "Researchers using the names Vipsta and MurderSkillz reported SQL injection flaws in 8pixel.net's SimpleBlog 2.3, an ASP-based blogging application. An incident archive reports that the vendor threatened legal action soon after notification; the researchers then published proof-of-concept material. The linked exploit alone does not establish the reported legal threat.",
       "category": "Vulnerability Disclosure",
       "intent": "Ambiguous / gray area (mixed or unclear intent)",
       "actor_type": "Independent / contractor",
@@ -1919,7 +1793,7 @@
       "source": "https://www.exploit-db.com/exploits/2296"
     },
     {
-      "id": 138,
+      "id": 129,
       "institution": "NGSSoftware / Sybase",
       "year": "2005",
       "summary": "Sybase threatened NGSSoftware over planned publication of database vulnerabilities. The threat was dropped and the research published.",
@@ -1930,10 +1804,10 @@
       "outcome": "Civil threat (dropped)",
       "chilling": "No",
       "dilemmas": "(i) Should database customers learn about flaws even when the vendor objects to timing? (ii) Do license terms limit what researchers can say about benchmarked or tested software? (iii) Does a dropped threat still chill other researchers?",
-      "source": "http://www.securityfocus.com/news/10827"
+      "source": "https://www.theregister.com/off-prem/2005/04/05/sybase-invokes-licence-gag-in-flaw-disclosure-row/804936"
     },
     {
-      "id": 139,
+      "id": 130,
       "institution": "Billy Hoffman & Virgil Griffith / Blackboard Transaction System",
       "year": "2003",
       "summary": "Blackboard sent a cease-and-desist to the Interz0ne conference and filed a complaint against two students who planned to present flaws in its campus card transaction system. The parties reached a confidential agreement.",
@@ -1944,10 +1818,10 @@
       "outcome": "Civil suit / Injunction",
       "chilling": "Yes",
       "dilemmas": "(i) Should vendors be able to stop students presenting flaws in campus systems they use daily? (ii) Do confidential settlements protect students or bury research? (iii) Does a vendor's repeated conflict with student researchers (see also Demirkapi) suggest a pattern worth weighing?",
-      "source": "http://www.chillingeffects.org/weather.cgi?WeatherID=383"
+      "source": "https://www.eff.org/wp/unintended-consequences-five-years-under-the-dmca"
     },
     {
-      "id": 140,
+      "id": 131,
       "institution": "Luigi Auriemma (PivX) / Epic Games",
       "year": "2003",
       "summary": "Auriemma published vulnerabilities in the Unreal game engine and received a legal threat from Epic Games. The same day, Epic's Mark Rein apologized publicly, calling it a 'moment-of-stupidity' reaction.",
@@ -1961,7 +1835,7 @@
       "source": "http://seclists.org/bugtraq/2003/Feb/144"
     },
     {
-      "id": 141,
+      "id": 132,
       "institution": "SNOsoft / Hewlett-Packard (Tru64)",
       "year": "2002",
       "summary": "HP invoked the DMCA in threatening SNOsoft over a Tru64 Unix vulnerability. The two later agreed on a disclosure timeline, and additional Tru64 vulnerabilities were published.",
@@ -1972,24 +1846,24 @@
       "outcome": "Civil threat (DMCA)",
       "chilling": "No",
       "dilemmas": "(i) Should copyright law apply to publishing an operating system vulnerability? (ii) Is a negotiated timeline after a threat a fair outcome? (iii) Did using the DMCA here set a precedent that helped or hurt the field?",
-      "source": "http://news.cnet.com/2100-1023-947325.html"
+      "source": "https://www.eff.org/wp/unintended-consequences-under-dmca"
     },
     {
-      "id": 142,
+      "id": 133,
       "institution": "Guillaume Tena (Guillermito) / Tegam Viguard",
-      "year": "2001–2005",
+      "year": "2001",
       "summary": "Tena published research showing weaknesses in Tegam's Viguard antivirus, contradicting its marketing claims. Tegam pursued him in French courts, which imposed a suspended fine of 5,000 euros.",
       "category": "Legal Boundaries & CFAA Overreach",
       "intent": "Good faith (intended public benefit)",
-      "actor_type": "Independent / contractor",
+      "actor_type": "Academic researcher",
       "disclosure": "Media-first",
       "outcome": "Convicted (suspended €5,000 fine)",
       "chilling": "Yes",
       "dilemmas": "(i) Should reverse engineering to test a security product's claims be treated as copyright infringement? (ii) Do consumers' interests in accurate antivirus marketing outweigh vendor IP? (iii) How should researchers in stricter jurisdictions publish product evaluations?",
-      "source": "http://news.cnet.com/France%20puts%20a%20damper%20on%20flaw-hunting/2100-7350_3-5606306.html?tag=techdirt"
+      "source": "https://www.scworld.com/news/frenchman-fined-for-exploit-posting-exploits"
     },
     {
-      "id": 143,
+      "id": 134,
       "institution": "Michal J. / Wowza Media Systems",
       "year": "2013",
       "summary": "A researcher reported authentication vulnerabilities in Wowza's media server; the vendor threatened to 'reevaluate' his independent consultant status, among other indirect threats. He disclosed after the vendor refused a remediation plan and left its consultant program. disclose.io lists this as unconfirmed.",
@@ -2003,7 +1877,7 @@
       "source": "http://seclists.org/bugtraq/2013/Apr/186"
     },
     {
-      "id": 144,
+      "id": 135,
       "institution": "Charlie Miller / Google (T-Mobile G1)",
       "year": "2008",
       "summary": "Miller found vulnerabilities in the Android-based T-Mobile G1, which Google downplayed. Years later he said Google went to his employer, later clarifying it was not a legal threat but a lecture on responsible disclosure to his boss. disclose.io lists this as unconfirmed.",
@@ -2017,7 +1891,7 @@
       "source": "http://www.nytimes.com/2008/10/25/technology/internet/25phone.html"
     },
     {
-      "id": 145,
+      "id": 136,
       "institution": "Charles Edge (318 Inc.) / Apple FileVault",
       "year": "2008",
       "summary": "Edge reportedly rescinded a Black Hat talk on FileVault encryption weaknesses after Apple invoked an existing NDA. Black Hat's CFP team found no record of the talk being submitted, and Attrition suggested the incident was used for publicity. disclose.io lists this as unconfirmed.",
@@ -2028,10 +1902,10 @@
       "outcome": "Talk withdrawn (NDA; disputed)",
       "chilling": "No",
       "dilemmas": "(i) Should an NDA with a vendor override disclosure of flaws affecting all users? (ii) How should the community treat suppression claims that may be publicity? (iii) Should researchers under NDA research that vendor's products at all?",
-      "source": "http://news.cnet.com/8301-1009_3-10004627-83.html"
+      "source": "https://www.wired.com/2008/08/security-geeks"
     },
     {
-      "id": 146,
+      "id": 137,
       "institution": "Argeniss / Oracle (Week of Oracle Bugs)",
       "year": "2006",
       "summary": "Argeniss planned to publish one Oracle database vulnerability a day for a week to pressure Oracle over slow patching, then cancelled amid rumors of financial or legal threats. disclose.io lists this as unconfirmed.",
@@ -2042,10 +1916,10 @@
       "outcome": "Disclosure series cancelled (pressure rumored)",
       "chilling": "Yes",
       "dilemmas": "(i) Is a public 'bug a day' campaign legitimate pressure or reckless exposure of customers? (ii) Should frustration with a vendor's patch speed justify releasing unpatched flaws? (iii) Do rumored threats chill research as much as real ones?",
-      "source": "http://archives.neohapsis.com/archives/bugtraq/2006-11/0393.html"
+      "source": "https://www.crn.com/news/security/196600165/security-researcher-nixes-week-of-oracle-database-bugs"
     },
     {
-      "id": 147,
+      "id": 138,
       "institution": "Mansour Moufid / Carleton University",
       "year": "2008",
       "summary": "A student used keyloggers on university computers to collect other students' credentials in order to expose security weaknesses, and was charged with computer crimes. disclose.io lists this among incidents that crossed the line.",
@@ -2059,7 +1933,7 @@
       "source": "https://web.archive.org/web/20081106023458/http://www.canada.com/ottawacitizen/news/city/story.html?id=25110a8f-a73a-43a0-a2a5-1daa08d147d1"
     },
     {
-      "id": 148,
+      "id": 139,
       "institution": "Kurt Grutzmacher / Hewlett-Packard (H3C / Huawei routers)",
       "year": "2012",
       "summary": "Grutzmacher reported SNMP flaws in H3C and Huawei networking gear to US-CERT on August 6, 2012, and told the vendors they had until his ToorCon talk. Days before the conference, HP, H3C's parent company, asked him not to present because it was not ready; he agreed to cancel. HP published its advisory on October 22, and Grutzmacher published his findings the next day.",
@@ -2073,7 +1947,7 @@
       "source": "https://scworld.com/news/hp-asks-researcher-not-to-reveal-router-bugs-at-toorcon"
     },
     {
-      "id": 149,
+      "id": 140,
       "institution": "Sergey Gordeychik & Denis Baranov (Positive Technologies) / SCADA",
       "year": "2012",
       "summary": "The researchers' DEF CON 20 talk, 'SCADA Strangelove: How I Learned To Start Worrying And Love The Nuclear Plants,' promised about 20 new vulnerabilities in SCADA systems including Siemens SIMATIC WinCC. They pulled it about a week before the conference and it was replaced with another talk; no reason was given, and reporters speculated about vendor pressure. They later presented SCADA Strangelove research at 29C3 in December 2012.",
@@ -2087,7 +1961,7 @@
       "source": "https://www.darkreading.com/vulnerabilities-threats/power-plant-hack-talk-free-tools-pulled-from-def-con-lineup"
     },
     {
-      "id": 150,
+      "id": 141,
       "institution": "Riley Hassell & Shane Macaulay / Google Android",
       "year": "2011",
       "summary": "The Privateer Labs researchers did not appear for their scheduled Black Hat 2011 talk, 'Hacking Androids for Profit.' Hassell later said they withdrew to prevent an unacceptable window of risk to consumers and to make sure prior research was credited, and that they had alerted Google. Google said the identified bugs were not present in Android.",
@@ -2101,7 +1975,7 @@
       "source": "https://www.nbcnews.com/id/wbna44123419"
     },
     {
-      "id": 151,
+      "id": 142,
       "institution": "Dillon Beresford & Brian Meixell (NSS Labs) / Siemens & DHS",
       "year": "2011",
       "summary": "Beresford and Brian Meixell pulled their TakeDownCon 2011 talk on Siemens PLC vulnerabilities after Siemens and DHS's ICS-CERT raised concerns; Siemens had found at the last minute that its planned mitigation did not work. Both researchers and NSS Labs said they were asked, not forced. Beresford presented the research at Black Hat in August 2011.",
@@ -2115,7 +1989,7 @@
       "source": "https://www.csoonline.com/article/531046/application-security-siemens-scada-hacking-talk-pulled-over-security-concerns.html"
     },
     {
-      "id": 152,
+      "id": 143,
       "institution": "Raoul Chiesa / ATM Vendors",
       "year": "2010",
       "summary": "Initial reports said ATM vendors threatened Chiesa into cancelling a Hack in the Box Europe talk. Chiesa said no threats were made and the cancellation was logistical; some in the industry called it a publicity stunt.",
@@ -2129,9 +2003,9 @@
       "source": "http://news.softpedia.com/news/Researcher-Dispels-Rumors-Surrounding-HITB-Europe-Talk-Cancellation-148181.shtml"
     },
     {
-      "id": 153,
+      "id": 144,
       "institution": "Barnaby Jack (Juniper Networks) / ATM Vendor",
-      "year": "2009–2010",
+      "year": "2009",
       "summary": "Juniper Networks pulled Barnaby Jack's Black Hat 2009 talk, 'Jackpotting Automated Teller Machines,' after the affected ATM vendor said its customers were not yet protected; Jack had reportedly worked with the vendor for months. After moving to IOActive, he demonstrated ATM jackpotting attacks at Black Hat 2010; Triton said it had patched in November 2009.",
       "category": "Critical Infrastructure & Public Trust",
       "intent": "Good faith (intended public benefit)",
@@ -2143,10 +2017,10 @@
       "source": "https://www.theregister.com/2009/06/30/atm_talk_canceled/"
     },
     {
-      "id": 154,
-      "institution": "Harvard University Facebook Messenger -- Aran Khanna",
-      "year": "Not specified",
-      "summary": "student developed a chrome extension called \"marauders map\" used location coordinates already attached to facebook messenger messages to map movements released the extension to the public showing the privacy issue didn't consult facebook, FB asked to remove it and withdrew his internship facebook changed location sharing behavior no arrests/charges",
+      "id": 145,
+      "institution": "Aran Khanna / Harvard University / Facebook Messenger",
+      "year": "2015",
+      "summary": "Harvard student Aran Khanna developed Marauder's Map, a browser extension that plotted location coordinates attached to Facebook Messenger messages and showed how they could reveal people's movements. After the extension attracted attention, Facebook asked him to remove it and withdrew an internship offer. Facebook subsequently changed Messenger's location-sharing behavior.",
       "category": "Informed Consent & Human Subjects",
       "intent": "Good faith (intended public benefit)",
       "actor_type": "Student",
@@ -2157,10 +2031,10 @@
       "source": "https://techscience.org/a/2015081101/"
     },
     {
-      "id": 155,
+      "id": 146,
       "institution": "Operation Rubicon / Crypto AG",
       "year": "2020",
-      "summary": "Crypto AG was a Swiss company selling encryption devices to governments around the world it was secretly owned by the CIA and West German intelligence (BND) devices were rigged so the agencies could read customers’ “secure” communications customers thought they were buying neutral, trustworthy equipment exposed in 2020 through a Washington Post / ZDF / SRF investigation of a leaked CIA history reporting says the intel was valuable, but agencies also saw abuses by some customer governments and did not act",
+      "summary": "Crypto AG, a Swiss encryption company, secretly operated under the ownership of the CIA and West German intelligence agency (BND), selling compromised encryption equipment to governments worldwide. Under Operation Rubicon, the agencies intercepted communications that customers believed were secure, including those of governments implicated in human rights abuses. A 2020 investigation by The Washington Post, ZDF, and SRF exposed the operation and raised ethical questions about government deception, the exploitation of commercial trust, and intelligence agencies' responsibility to act on information about human rights violations.",
       "category": "Surveillance & Offensive Tools",
       "intent": "Malicious / reckless (knowingly harmful)",
       "actor_type": "Government / intelligence",
@@ -2171,10 +2045,10 @@
       "source": "https://www.washingtonpost.com/graphics/2020/world/national-security/cia-crypto-encryption-machines-espionage/"
     },
     {
-      "id": 156,
+      "id": 147,
       "institution": "Operation Trojan Shield / ANOM",
-      "year": "2021",
-      "summary": "the FBI, working with Australian police, secretly ran an encrypted-phone company called ANOM the phones were marketed to criminal groups through underworld distributors every message was quietly copied to law enforcement the operation ran for about three years and was announced in June 2021 led to hundreds of arrests across many countries the FBI got access to messages outside the US through a third country’s cooperation, which was a legal workaround",
+      "year": "2018",
+      "summary": "Under Operation Trojan Shield, the FBI and international partners secretly operated the ANOM encrypted-phone platform and distributed it through criminal networks. Messages were copied to investigators, leading to coordinated arrests announced in 2021. The operation raised questions about covert monitoring and cross-border legal safeguards.",
       "category": "Surveillance & Offensive Tools",
       "intent": "Good faith (intended public benefit)",
       "actor_type": "Government / law enforcement",
@@ -2185,10 +2059,10 @@
       "source": "https://www.justice.gov/usao-sdca/pr/fbi-s-encrypted-phone-platform-infiltrated-hundreds-criminal-syndicates-result-massive"
     },
     {
-      "id": 157,
+      "id": 148,
       "institution": "Stuxnet",
       "year": "2010",
-      "summary": "malware discovered in 2010 that targeted specific industrial control systems widely attributed to the US and Israel, though neither has officially confirmed it aimed at centrifuges at Iran’s Natanz nuclear facility it spread beyond its target through Windows vulnerabilities and USB drives used several zero-day exploits showed that software can cause physical damage",
+      "summary": "Stuxnet, discovered in 2010, was malware designed to disrupt industrial control equipment associated with uranium enrichment at Iran's Natanz facility. It is widely attributed to the United States and Israel, although neither has publicly acknowledged responsibility. Its spread beyond the intended environment illustrated how offensive cyber operations can create risks outside their targets.",
       "category": "Critical Infrastructure & Public Trust",
       "intent": "Malicious / reckless (knowingly harmful)",
       "actor_type": "Government / intelligence",
@@ -2196,13 +2070,13 @@
       "outcome": "No public criminal charges",
       "chilling": "No",
       "dilemmas": "(i) Is a cyberattack on infrastructure different from a conventional strike? (ii) Is it acceptable to hoard and use zero-days that leave everyone else vulnerable? (iii) Who is accountable when the code escapes its target?",
-      "source": "https://www.cisa.gov/news-events/news/understanding-stuxnet"
+      "source": "https://lieber.westpoint.edu/firewalls-fault-lines-cyber-war-middle-east/"
     },
     {
-      "id": 158,
+      "id": 149,
       "institution": "Shadow Brokers / EternalBlue leak",
-      "year": "2016–2017",
-      "summary": "in 2016-2017 a group calling itself the Shadow Brokers leaked tools linked to the NSA the leak included the EternalBlue exploit for Windows reporting says the NSA had known about the flaw for years and had not told Microsoft Microsoft patched it in March 2017 and the leak came a month later EternalBlue was then used in WannaCry (2017) and NotPetya many systems stayed unpatched, so harm continued",
+      "year": "2016",
+      "summary": "Between 2016 and 2017, the Shadow Brokers released tools linked to the U.S. National Security Agency, including the Windows exploit known as EternalBlue. Microsoft patched the underlying vulnerability in March 2017, but the exploit's subsequent public release contributed to attacks such as WannaCry and NotPetya on systems that remained unpatched.",
       "category": "Surveillance & Offensive Tools",
       "intent": "Ambiguous / gray area (mixed or unclear intent)",
       "actor_type": "Journalist / activist / independent",
@@ -2210,13 +2084,13 @@
       "outcome": "No charges filed for the leak itself",
       "chilling": "No",
       "dilemmas": "(i) Should governments keep zero-days for intelligence or disclose them to vendors? (ii) Who is responsible for the harm the leaked exploit caused? (iii) How should exploit retention be overseen?",
-      "source": "https://www.cisa.gov/news-events/alerts/2017/05/12/indicators-associated-wannacry-ransomware"
+      "source": "https://www.microsoft.com/en-us/msrc/blog/2017/04/protecting-customers-and-evaluating-risk/"
     },
     {
-      "id": 159,
-      "institution": "Apple vs. FBI / San Bernardino iPhone",
-      "year": "2015–2016",
-      "summary": "after the 2015 San Bernardino attack, the FBI recovered an iPhone used by one of the attackers the phone was locked and could erase its data after repeated wrong passcodes in February 2016 a court ordered Apple to help the FBI get around those protections Apple refused, arguing it would have to build a weakened version of its own software the FBI later said an outside party had unlocked the phone and dropped the case",
+      "id": 150,
+      "institution": "Apple v. FBI / San Bernardino iPhone",
+      "year": "2015",
+      "summary": "Following the 2015 San Bernardino terrorist attack, the FBI sought an order requiring Apple to help unlock an attacker's iPhone without triggering its passcode protections. Apple opposed the order, arguing that creating the requested software would weaken user security more broadly. The government withdrew the request in March 2016 after gaining access through an outside party.",
       "category": "Legal Boundaries & CFAA Overreach",
       "intent": "Good faith (intended public benefit)",
       "actor_type": "Government / law enforcement",
@@ -2224,27 +2098,27 @@
       "outcome": "FBI withdrew court order after third-party access",
       "chilling": "No",
       "dilemmas": "(i) Can a company be forced to weaken its own security? (ii) One phone vs. every user’s security: what responsibility does the outside party that unlocked it have?",
-      "source": "https://www.justice.gov/archives/opa/pr/statement-department-justice-fbi-director-james-comey-regarding-san-bernardino-investigation"
+      "source": "https://www.justice.gov/usao-cdca/pr/statement-united-states-attorney-eileen-m-decker-government-request-vacate-order"
     },
     {
-      "id": 160,
+      "id": 151,
       "institution": "Kaseya VSA ransomware supply-chain attack",
       "year": "2021",
-      "summary": "in July 2021 the REvil ransomware group exploited Kaseya’s VSA remote-management software the malicious update was pushed through managed service providers (MSPs) to their downstream customers, including many small businesses researchers at the Dutch Institute for Vulnerability Disclosure (DIVD) had reported the vulnerability to Kaseya in good faith before the attack Kaseya was reportedly still working on a patch when the attack happened the FBI reportedly had access to REvil’s infrastructure and obtained a decryption key but held it back for about three weeks the reported reason was to avoid tipping off REvil while planning a disruption operation, while victims stayed locked out REvil’s servers went offline shortly after, and Kaseya later got a key from a third party",
+      "summary": "In July 2021, the REvil group exploited vulnerabilities in Kaseya's VSA management software, spreading ransomware through managed service providers to downstream organizations. Dutch researchers had reported related flaws to Kaseya before the attack. The incident highlighted the difficulty of coordinating vulnerability disclosure and patch deployment across complex software supply chains.",
       "category": "Critical Infrastructure & Public Trust",
       "intent": "Malicious / reckless (knowingly harmful)",
       "actor_type": "Cybercriminal group",
       "disclosure": "None (withheld)",
       "outcome": "Ransomware incident; recovery and law-enforcement actions",
       "chilling": "No",
-      "dilemmas": "(i) Should law enforcement hold back a decryption key to pursue the attackers, or give it to victims right away? (ii) How long is too long for a vendor to fix a vulnerability that researchers reported in good faith? (iii) Who decides whose harm counts more: current victims or future ones?",
-      "source": "https://www.cisa.gov/news-events/alerts/2021/07/02/kaseya-vsa-supply-chain-ransomware-attack"
+      "dilemmas": "(i) How quickly should vendors act when researchers report vulnerabilities in software used by many downstream organizations?; (ii) What responsibilities do managed service providers have to their customers during supply-chain incidents?; (iii) Should a patch timeline be accelerated when exploitation appears imminent?; (iv) How should vendors and researchers coordinate warnings without aiding attackers?",
+      "source": "https://csirt.divd.nl/cases/DIVD-2021-00011/"
     },
     {
-      "id": 161,
-      "institution": "(FIX) Microsoft Exchange ProxyLogon exploitation",
+      "id": 152,
+      "institution": "Microsoft Exchange ProxyLogon Exploitation",
       "year": "2021",
-      "summary": "in early 2021 attackers (Microsoft attributed it to a China-linked group, Hafnium) exploited zero-day vulnerabilities in on-premises Exchange servers they planted web shells that gave persistent access, and other groups piled on after the vulnerabilities became public Microsoft released patches, but many organizations were slow to apply them or did not know they were compromised patching did not remove web shells that were already installed in April 2021 the DOJ got a court order to have the FBI copy and remove web shells from hundreds of vulnerable US servers owners did not consent beforehand and were notified afterward",
+      "summary": "In early 2021, attackers exploited previously unknown vulnerabilities in on-premises Microsoft Exchange servers and installed web shells for persistent access. Microsoft issued security updates, but patching alone did not remove already-installed shells. In April, the U.S. Justice Department announced a court-authorized FBI operation to remove malicious web shells from hundreds of U.S. servers without advance owner consent.",
       "category": "Vulnerability Disclosure",
       "intent": "Ambiguous / gray area (mixed or unclear intent)",
       "actor_type": "Government / law enforcement",
@@ -2252,13 +2126,13 @@
       "outcome": "Mass exploitation and emergency remediation",
       "chilling": "No",
       "dilemmas": "(i) Should the government be able to access private systems without consent to fix a security problem? (ii) Who is responsible for cleanup when owners cannot or will not do it? (iii) Does a court order make it ethical if owners are not told first?",
-      "source": "https://msrc.microsoft.com/"
+      "source": "https://www.justice.gov/archives/opa/pr/justice-department-announces-court-authorized-effort-disrupt-exploitation-microsoft-exchange"
     },
     {
-      "id": 162,
+      "id": 153,
       "institution": "CrowdStrike global outage",
       "year": "2024",
-      "summary": "on July 19, 2024 CrowdStrike pushed a faulty content update to its Falcon sensor on Windows machines millions of machines crashed into boot loops, disrupting airlines, hospitals, banks, and emergency services the cause was a software error in a rapid-response content update, not an attack the update went to all customers at once rather than in stages fixes required manual repair on many machines, so recovery took days CrowdStrike published a root-cause analysis and promised staged rollouts and more testing scammers also exploited the confusion with fake fixes",
+      "summary": "On July 19, 2024, a faulty CrowdStrike Falcon content update caused widespread crashes on Windows systems, disrupting airlines, hospitals, and other services. The incident was not a cyberattack. Restoring many affected machines required manual intervention, and CrowdStrike subsequently published technical explanations and changes to its testing and rollout process.",
       "category": "Critical Infrastructure & Public Trust",
       "intent": "Accidental / negligent",
       "actor_type": "Corporate / private sector",
@@ -2269,10 +2143,10 @@
       "source": "https://www.crowdstrike.com/falcon-content-update-remediation-and-guidance-hub/"
     },
     {
-      "id": 163,
+      "id": 154,
       "institution": "EncroChat encrypted-phone investigation",
       "year": "2020",
-      "summary": "EncroChat sold modified phones with encrypted messaging, marketed as private French and Dutch authorities got into the network and installed malware on the devices, reportedly in 2020 they collected messages from tens of thousands of users, which led to thousands of arrests across Europe the data was shared with other countries’ police defendants challenged the evidence, arguing it was intercepted illegally courts in several countries mostly allowed the evidence, but debate continued the French operation’s technical details stayed secret",
+      "summary": "In 2020, French and Dutch authorities compromised the EncroChat encrypted-phone network used by many organized-crime groups and obtained large volumes of messages for criminal investigations. The operation led to thousands of arrests, while defendants in several countries challenged the legality and admissibility of the collected evidence.",
       "category": "Surveillance & Offensive Tools",
       "intent": "Good faith (intended public benefit)",
       "actor_type": "Government / law enforcement",
@@ -2280,13 +2154,13 @@
       "outcome": "Thousands of arrests; legal challenges",
       "chilling": "No",
       "dilemmas": "(i) Is it acceptable to hack every user of a service if most are suspected criminals? (ii) Should defendants be able to challenge evidence when the technique stays secret? (iii) What happens to legitimate users caught up in the operation?",
-      "source": "https://www.eurojust.europa.eu/news/dismantling-encrypted-phone-network-encrochat-leads-over-10000-arrests"
+      "source": "https://www.eurojust.europa.eu/news/dismantling-encrypted-criminal-encrochat-communications-6-500-arrests-900-eur-seized"
     },
     {
-      "id": 164,
+      "id": 155,
       "institution": "Heartbleed / OpenSSL",
-      "year": "Not specified",
-      "summary": "Heartbleed was a flaw in OpenSSL's heartbeat extension that could allow attackers to read portions of server memory, potentially exposing credentials, session data, and private keys.",
+      "year": "2014",
+      "summary": "Heartbleed (CVE-2014-0160), disclosed in April 2014, was a flaw in OpenSSL's heartbeat extension that could expose portions of server or client memory, including potentially sensitive credentials and cryptographic material. Coordinated patching and public warnings raised questions about the timing of disclosure for widely deployed open-source infrastructure.",
       "category": "Vulnerability Disclosure",
       "intent": "Good faith (intended public benefit)",
       "actor_type": "Academic / independent researcher",
@@ -2297,10 +2171,10 @@
       "source": "https://nvd.nist.gov/vuln/detail/CVE-2014-0160"
     },
     {
-      "id": 165,
+      "id": 156,
       "institution": "Log4Shell / Apache Log4j",
       "year": "2021",
-      "summary": "in late 2021 a critical remote-code-execution vulnerability (CVE-2021-44228) was disclosed in the Log4j logging library it was reported privately to Apache by a researcher at Alibaba Cloud, and the fix was being developed when exploitation began in the wild Log4j is maintained by volunteers and was embedded in a huge number of products organizations struggled just to find where they used it maintainers worked through the holidays on multiple patches as follow-up flaws appeared the vulnerability was exploited widely within days",
+      "summary": "Log4Shell (CVE-2021-44228), disclosed in December 2021, was a critical remote-code-execution flaw in the widely used Apache Log4j logging library. Maintainers issued urgent fixes while organizations struggled to locate affected dependencies and attackers rapidly exploited vulnerable systems. The incident highlighted the burden placed on volunteer-led open-source projects.",
       "category": "Dual-Use Research",
       "intent": "Good faith (intended public benefit)",
       "actor_type": "Academic researcher",
@@ -2311,10 +2185,10 @@
       "source": "https://www.cisa.gov/news-events/cybersecurity-advisories/aa21-356a"
     },
     {
-      "id": 166,
-      "institution": "Vault 7 / CIA cyber-tool disclosures",
+      "id": 157,
+      "institution": "Joshua Schulte / Vault 7 / CIA cyber-tool disclosures",
       "year": "2017",
-      "summary": "in 2017 WikiLeaks began publishing “Vault 7,” documents describing CIA hacking tools and techniques the material covered exploits for phones, computers, and smart TVs WikiLeaks said it withheld some code and redacted parts, but the documents still described capabilities in detail the CIA said the leak harmed its operations and security a CIA software engineer was later convicted for leaking the material to WikiLeaks supporters said the public should know about government hacking, critics said the disclosure helped adversaries",
+      "summary": "In 2017, WikiLeaks began publishing documents about CIA cyber tools under the name Vault 7, revealing techniques used against computers, phones, and connected devices. The disclosures stimulated public debate but also raised concerns about exposing offensive capabilities. Former CIA engineer Joshua Schulte was later convicted of crimes connected to the theft and disclosure of the files.",
       "category": "Surveillance & Offensive Tools",
       "intent": "Ambiguous / gray area (mixed or unclear intent)",
       "actor_type": "Government / intelligence",
@@ -2322,13 +2196,13 @@
       "outcome": "Criminal prosecution of source; public disclosures",
       "chilling": "Yes",
       "dilemmas": "(i) Is publishing details of government hacking tools in the public interest or a security risk? (ii) How much should a publisher redact? (iii) Is the leaker a whistleblower or a criminal?",
-      "source": "https://www.google.com/search?q=Vault+7+CIA+hacking+tools+disclosure+2017+Reuters"
+      "source": "https://www.justice.gov/usao-sdny/pr/former-cia-officer-joshua-adam-schulte-sentenced-40-years-prison-espionage-and-child"
     },
     {
-      "id": 167,
+      "id": 158,
       "institution": "Edward Snowden / NSA surveillance disclosures",
       "year": "2013",
-      "summary": "in 2013 Snowden, a contractor, gave journalists classified documents about US surveillance programs the documents described programs that collected phone metadata and internet communications at large scale he went to the press rather than using internal channels, saying those would not work the disclosures led to public debate and some legal and policy changes he was charged under the Espionage Act and has lived abroad, in Russia, since critics say the leak harmed intelligence work and that he went beyond exposing wrongdoing",
+      "summary": "In 2013, former intelligence contractor Edward Snowden gave journalists classified documents revealing U.S. surveillance programs, including bulk collection of telephone metadata. The disclosures prompted major public debate and policy changes, while the U.S. government charged Snowden under the Espionage Act. The case raises questions about secrecy, public-interest reporting, and whistleblower protections.",
       "category": "Institutional Suppression",
       "intent": "Ambiguous / gray area (mixed or unclear intent)",
       "actor_type": "Government / intelligence",
@@ -2336,13 +2210,13 @@
       "outcome": "Charges filed; Snowden remains in exile",
       "chilling": "Yes",
       "dilemmas": "(i) Is breaking secrecy obligations justified when the programs may be unlawful? (ii) Should he have used internal channels first? (iii) How should whistleblowers be protected, given there is no real public-interest defense under the Espionage Act?",
-      "source": "https://www.eff.org/nsa-spying"
+      "source": "https://www.theguardian.com/world/2013/aug/21/edward-snowden-nsa-files-revelations"
     },
     {
-      "id": 168,
-      "institution": "(FIX) Ashley Madison data breach",
+      "id": 159,
+      "institution": "Ashley Madison Data Breach",
       "year": "2015",
-      "summary": "in July 2015 a group calling itself the Impact Team stole user data from Ashley Madison, a dating site for people seeking affairs they demanded that the parent company shut down the site, and published the data in August when it did not the leak exposed names, emails, and other personal details of millions of users users faced blackmail, public shaming, and reported harm to families and jobs the group framed itself as acting morally, objecting to the site’s practices journalists, researchers, and the public analyzed the leaked data, and some sites made it searchable",
+      "summary": "In 2015, a group calling itself the Impact Team stole and published personal information from the Ashley Madison dating service after demanding that it close. The disclosure exposed millions of users to privacy harms, extortion attempts, and public scrutiny. Privacy regulators later criticized the operator's information-security and privacy practices, while the attackers' claimed moral purpose raised questions about harming users to punish a company.",
       "category": "Informed Consent & Human Subjects",
       "intent": "Malicious / reckless (knowingly harmful)",
       "actor_type": "Hacker / activist",
@@ -2350,35 +2224,49 @@
       "outcome": "Data published; litigation and extortion concerns",
       "chilling": "No",
       "dilemmas": "(i) Is it acceptable to punish a company for its practices by exposing its users? (ii) Is it ethical for researchers and journalists to analyze or report on stolen personal data? (iii) Do people who used the service deserve less privacy protection?",
-      "source": "https://www.google.com/search?q=Ashley+Madison+2015+data+breach+ethics+privacy+investigation"
+      "source": "https://www.priv.gc.ca/en/opc-actions-and-decisions/investigations/investigations-into-businesses/2016/pipeda-2016-005/"
     },
     {
-      "id": 169,
-      "institution": "Indiana University / Xiao Wang FBI Investigation",
-      "year": "Not specified",
-      "summary": "The workbook identifies this case for analysis but does not provide a short factual summary.",
+      "id": 160,
+      "institution": "Xiaofeng Wang / Indiana University Federal Investigation",
+      "year": "2025",
+      "summary": "In March 2025, federal agents searched homes associated with Indiana University cybersecurity professor Xiaofeng Wang and his wife, Nianli Ma, while the university terminated their employment. Reporting described a separate institutional inquiry into possible research-funding disclosures, but public evidence did not establish wrongdoing. Their lawyers said they had not been arrested or charged. The events raised questions about academic due process, research collaboration, and the presumption of innocence.",
       "category": "Institutional Suppression",
       "intent": "Ambiguous / gray area (mixed or unclear intent)",
       "actor_type": "Academic researcher",
       "disclosure": "None (withheld)",
-      "outcome": "Federal investigation reported; no arrest reported as of source date",
+      "outcome": "Federal investigation reported; no criminal charges publicly announced at the time of reporting",
       "chilling": "Yes",
-      "dilemmas": "(i) Does funding from multiple sources create a conflict of interest? (ii) Would their research be ethically questionable? (iii) Should we look into how employees might be mistreated? (iv) What about cases where researchers face excessive retribution without some form of due process or procedural fairness?",
+      "dilemmas": "(i) How should universities safeguard due process while responding to federal investigations?; (ii) When does scrutiny of international research funding risk stigmatizing legitimate collaboration?; (iii) What information should institutions disclose when allegations remain unproven?; (iv) How can research-integrity procedures avoid causing disproportionate reputational harm?",
       "source": "https://www.wired.com/story/xiaofeng-wang-indiana-university-research-probe-china/"
     },
     {
-      "id": 170,
-      "institution": "Dennis Giese / Robot Vacuum Security Research",
-      "year": "Not specified",
-      "summary": "Security researcher Dennis Giese publicly documented reverse engineering of robot vacuum and connected-device ecosystems, highlighting privacy and security implications of cloud connectivity, firmware access, and smart-home sensors.",
+      "id": 161,
+      "institution": "Dennis Giese and Braelynn Luedtke / Ecovacs Robot Security",
+      "year": "2024",
+      "summary": "Security researchers Dennis Giese and Braelynn Luedtke reported vulnerabilities in Ecovacs robot vacuums that could allow unauthorized access to connected devices and their sensors. Their work raised questions about the security and privacy of smart-home devices and the appropriate timing of public disclosure.",
       "category": "Dual-Use Research",
       "intent": "Good faith (intended public benefit)",
-      "actor_type": "Academic researcher",
+      "actor_type": "Independent / contractor",
       "disclosure": "Responsible/coordinated",
-      "outcome": "Not specified in workbook",
+      "outcome": "Public research disclosure and subsequent vendor security advisories",
       "chilling": "No",
-      "dilemmas": "(i) Owner Control vs. Vendor Restrictions: Should owners be free to modify or inspect device firmware despite warranties or vendor security controls? (ii) Security Disclosure vs. Exploit Proliferation: How much detail about device weaknesses should researchers publish when attackers may use similar methods? (iii) Smart-Home Convenience vs. Surveillance: What consent do household members and visitors give to connected sensors and cloud collection? (iv) Interoperability vs. Security: Can third-party firmware and research tools improve autonomy without introducing new vulnerabilities?",
-      "source": "https://dontvacuum.me/2"
+      "dilemmas": "(i) Should device owners be able to inspect and modify firmware despite vendor restrictions?; (ii) How much exploit detail is appropriate when it can help both defenders and attackers?; (iii) What privacy obligations arise when household sensors send data to vendor cloud services?; (iv) How can researchers promote user control without introducing new risks?",
+      "source": "https://techcrunch.com/2024/08/09/ecovacs-home-robots-can-be-hacked-to-spy-on-their-owners-researchers-say/"
+    },
+    {
+      "id": 162,
+      "institution": "PHP Foundation / Wiz / OpenAI / Calif",
+      "year": "2026",
+      "summary": "Security researchers from Calif, OpenAI, and Wiz discovered critical remote code execution vulnerabilities in PHP (CVE-2026-109618 and CVE-2026-109619) and coordinated disclosure with the PHP security team and distributors. The public release was scheduled for October 22, 2026. On October 20, an anonymous user prematurely leaked information about the vulnerabilities online, which spread through social media. Although the initial leak did not contain technical exploit details, a subsequent premature video release by Calif and an early patch distribution by Chainguard further disrupted the embargo. The PHP security team accelerated its release schedule to October 21, 2026, to reduce exposure before coordinated patches became available.",
+      "category": "Vulnerability Disclosure",
+      "intent": "Ambiguous / gray area (mixed or unclear intent)",
+      "actor_type": "Journalist / activist / independent",
+      "disclosure": "Media-first",
+      "outcome": "No charges filed",
+      "chilling": "No",
+      "dilemmas": "(i) Is it ethical to disclose critical vulnerabilities before patches are available, even when disclosure could pressure vendors to respond faster? (ii) Do individuals who obtain confidential vulnerability information have an ethical obligation to respect coordinated disclosure agreements? (iii) Should researchers prioritize public awareness or adherence to disclosure timelines when millions of systems may be vulnerable? (iv) What responsibilities do researchers and distributors have when premature disclosures expose users to exploitation before patches are widely available?",
+      "source": "https://thephp.foundation/blog/2026/10/21/todays-php-security-release-and-how-were-strengthening-php-security/"
     }
   ],
   "categories": [
