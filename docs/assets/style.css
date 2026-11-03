@@ -27,6 +27,7 @@
 
 *{box-sizing:border-box;}
 html,body{margin:0;padding:0;}
+html{scroll-padding-top:var(--nav-h, 4.25rem);}
 body{
   background:var(--paper);
   color:var(--ink);
@@ -46,6 +47,11 @@ a{color:inherit;}
 .sitenav{
   border-bottom:2px solid var(--ink);
   padding:1.1rem 2rem;
+  /* locked to the top while scrolling so Home / nav links are always reachable */
+  position:sticky;
+  top:0;
+  z-index:40;
+  background:var(--paper);
 }
 .sitenav-inner{
   max-width:1180px;
@@ -72,6 +78,13 @@ a{color:inherit;}
 .sitenav-links a{text-decoration:none;color:var(--ink-soft);}
 .sitenav-links a:hover, .sitenav-links a.active{color:var(--ink);text-decoration:underline;}
 
+/* Phones: a sticky bar must stay short, so stack brand over a one-line, swipeable link row */
+@media (max-width:700px){
+  .sitenav{padding:0.65rem 1rem;}
+  .sitenav-inner{flex-direction:column;align-items:flex-start;gap:0.3rem;}
+  .sitenav-links{flex-wrap:nowrap;overflow-x:auto;max-width:100%;gap:1.1rem;padding-bottom:0.2rem;}
+  .sitenav-links a{white-space:nowrap;}
+}
 /* ============ Page shell ============ */
 .page{
   max-width:860px;
