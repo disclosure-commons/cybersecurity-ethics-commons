@@ -6,7 +6,7 @@ A working library of real cybersecurity research ethics cases — disclosure fig
 
 ## What's here
 
-- **170 tagged cases**, each with its own citable page, plus an interactive filterable browser.
+- **162 tagged cases**, each with its own citable page, plus an interactive filterable browser.
 - **An 8-category taxonomy** (see [`data/schema.md`](data/schema.md) and the site's [Taxonomy page](https://disclosure-commons.github.io/cybersecurity-ethics-commons/taxonomy/)).
 - **Raw data exports** (`data/cases.csv`, `data/cases.json`) for reuse in your own research, teaching materials, or tools.
 - A static-site build script (`scripts/build_site.py`) that regenerates every page from `data/cases.json` — the dataset is always the single source of truth.
