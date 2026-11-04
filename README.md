@@ -17,7 +17,7 @@ A working library of real cybersecurity research ethics cases — disclosure fig
 |---|---|
 | Home | `/` |
 | Browse (interactive, filterable) | `/browse/` |
-| Individual case pages | `/cases/001/` … `/cases/170/` |
+| Individual case pages | `/cases/001/` … `/cases/162/` |
 | Taxonomy | `/taxonomy/` |
 | About / methodology | `/about/` |
 | Contribute | `/contribute/` |
@@ -45,8 +45,8 @@ A working library of real cybersecurity research ethics cases — disclosure fig
 │   ├── cases.json              # source of truth
 │   └── schema.md                # taxonomy + field definitions
 ├── scripts/
-│   └── build_site.py            # regenerates everything under docs/ except
-│                                  #   assets/style.css and browse/index.html
+│   └── build_site.py            # regenerates docs/ except assets/style.css and
+│                                  #   browse/index.html (footer date updated only)
 ├── .github/ISSUE_TEMPLATE/
 │   ├── new-case.md
 │   └── correction-request.md
@@ -64,7 +64,7 @@ A working library of real cybersecurity research ethics cases — disclosure fig
    ```
 4. Commit the regenerated `docs/` output along with the data change.
 
-`docs/assets/style.css` and `docs/browse/index.html` are hand-maintained — the build script does not touch them.
+`docs/assets/style.css` and `docs/browse/index.html` are hand-maintained. The build script leaves the stylesheet unchanged and updates only the browse page’s footer date.
 
 ## Citation
 

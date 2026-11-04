@@ -8,7 +8,7 @@
 "category": "Dual-Use Research",
 "intent": "Good faith (intended public benefit)",
 "actor_type": "Academic researcher",
-"disclosure": "Responsible/coordinated",
+"disclosure": "Responsible / coordinated",
 "outcome": "No charges filed",
 "chilling": "Yes",
 "dilemmas": "(i) Where did the training data come from, and did it include other people's browsing traffic?; (ii) Publishing a working attack that can identify Tor users vs. helping Tor build defenses; (iii) How much technical detail to release about a deanonymization method; (iv) Is it responsible to attack your own proposed defense, and who should see those results first?",
@@ -22,7 +22,7 @@
 "category": "Legal Boundaries & CFAA Overreach",
 "intent": "Good faith (intended public benefit)",
 "actor_type": "Student",
-"disclosure": "Responsible/coordinated",
+"disclosure": "Responsible / coordinated",
 "outcome": "Civil suit / Injunction",
 "chilling": "Yes",
 "dilemmas": "(i) Research freedom vs. legal liability; (ii) Using litigation to suppress legitimate security findings; (iii) Free speech rights of security researchers; (iv) Responsible disclosure timeline",
@@ -82,7 +82,7 @@
 "outcome": "No charges filed",
 "chilling": "Yes",
 "dilemmas": "(i) Experimenting on open-source community without consent; (ii) Misuse of volunteer maintainer time; (iii) Risk of introducing real vulnerabilities into critical infrastructure; (iv) Publication of methods enabling similar attacks",
-"source": "https://www.bleepingcomputer.com/news/security/linux-bans-university-of-minnesota-for-committing-malicious-code/2"
+"source": "https://www.bleepingcomputer.com/news/security/linux-bans-university-of-minnesota-for-committing-malicious-code/"
 },
 {
 "id": 7,
@@ -106,7 +106,7 @@
 "category": "Critical Infrastructure & Public Trust",
 "intent": "Good faith (intended public benefit)",
 "actor_type": "Academic researcher",
-"disclosure": "Responsible/coordinated",
+"disclosure": "Responsible / coordinated",
 "outcome": "No charges filed",
 "chilling": "No",
 "dilemmas": "(i) Does authorized pentesting of election infrastructure risk undermining public trust in democracy?; (ii) Full technical disclosure vs. limiting details that could enable copycat attacks; (iii) Academic freedom to publish results of authorized civic hacking; (iv) Coordination challenges between researchers, vendors, and election officials",
@@ -162,11 +162,11 @@
 "category": "Critical Infrastructure & Public Trust",
 "intent": "Good faith (intended public benefit)",
 "actor_type": "Academic researcher",
-"disclosure": "Responsible/coordinated",
+"disclosure": "Responsible / coordinated",
 "outcome": "No charges filed",
 "chilling": "Yes",
 "dilemmas": "(i) Academic freedom vs. potential to fuel election misinformation; (ii) Whether sealed vulnerability research can remain secret in an adversarial legal setting; (iii) Risk that legitimate security findings are weaponized for political disinformation; (iv) Tension between public right to know and protecting public trust in elections",
-"source": "https://news.engin.umich.edu/2024/10/four-election-vulnerabilities-uncovered-by-a-michigan-engineer/2"
+"source": "https://news.engin.umich.edu/2024/10/four-election-vulnerabilities-uncovered-by-a-michigan-engineer/"
 },
 {
 "id": 13,
@@ -176,7 +176,7 @@
 "category": "Surveillance & Offensive Tools",
 "intent": "Good faith (intended public benefit)",
 "actor_type": "Academic researcher",
-"disclosure": "Responsible/coordinated",
+"disclosure": "Responsible / coordinated",
 "outcome": "No charges filed",
 "chilling": "No",
 "dilemmas": "(i) Does publishing detailed attribution of surveillance operations tip off abusive governments?; (ii) Researcher responsibility to notify both victims and software vendors; (iii) Balance between academic publication norms and protecting at-risk human rights defenders; (iv) Whether Western companies should face consequences for selling spyware to authoritarian buyers",
@@ -190,7 +190,7 @@
 "category": "Institutional Suppression",
 "intent": "Good faith (intended public benefit)",
 "actor_type": "Independent / contractor",
-"disclosure": "Responsible/coordinated",
+"disclosure": "Responsible / coordinated",
 "outcome": "Plea to one misdemeanor",
 "chilling": "Yes",
 "dilemmas": "(i) 'Shoot the messenger' \u2014 vendor weaponizing CFAA against the person who exposed their negligence; (ii) Using cyberstalking statutes to silence researcher criticism of government overreach; (iii) Chilling effect: other researchers stopped disclosing after the raids; (iv) Pretrial detention as punishment before conviction",
@@ -246,7 +246,7 @@
 "category": "Dual-Use Research",
 "intent": "Good faith (intended public benefit)",
 "actor_type": "Academic researcher",
-"disclosure": "Responsible/coordinated",
+"disclosure": "Responsible / coordinated",
 "outcome": "No charges filed",
 "chilling": "No",
 "dilemmas": "(i) Ethical permissibility of internet-wide scanning without operator consent; (ii) Legal exposure under CFAA for automated access to systems not owned by researchers; (iii) Responsible disclosure when 1M+ vulnerable systems cannot all be notified; (iv) Dual-use: FBI used findings, but so did ransomware actors",
@@ -256,15 +256,15 @@
 "id": 19,
 "institution": "Ola Bini / Ecuador / Privacy Tool Developer",
 "year": "2019",
-"summary": "Swedish programmer and privacy advocate Ola Bini was arrested in Ecuador in 2019 on computer-access allegations that he disputed. The proceedings, including an acquittal and later appeals, drew criticism from digital-rights groups. Ecuador revoked his visa and deported him to Sweden in October 2026, prompting renewed questions about due process and the treatment of security expertise.",
+"summary": "Swedish programmer and privacy advocate Ola Bini was arrested in Ecuador in 2019. His 2023 acquittal was overturned on appeal. According to EFF\u2019s October 2026 report, the criminal case subsequently expired under the statute of limitations and precautionary measures were lifted. Ecuadorian authorities then revoked his visa and ordered his immediate deportation, drawing renewed criticism from digital-rights groups.",
 "category": "Legal Boundaries & CFAA Overreach",
 "intent": "Good faith (intended public benefit)",
 "actor_type": "Journalist / activist / independent",
 "disclosure": "None (withheld)",
-"outcome": "Charged (politically motivated; international support campaign)",
+"outcome": "Criminal case expired under statute of limitations; deportation ordered (October 2026).",
 "chilling": "Yes",
 "dilemmas": "(i) Criminalization of possession of security tools and technical literature as evidence of malicious intent; (ii) Politically motivated prosecution of security researchers; (iii) Due process rights of open-source developers; (iv) Chilling effect on privacy-tool development",
-"source": "https://www.eff.org/deeplinks/2025/04/six-years-dangerous-misconceptions-targeting-ola-bini-and-digital-rights-ecuador"
+"source": "https://www.eff.org/deeplinks/2026/10/ola-bini-ordered-leave-ecuador-under-obscure-accusations"
 },
 {
 "id": 20,
@@ -274,7 +274,7 @@
 "category": "Critical Infrastructure & Public Trust",
 "intent": "Good faith (intended public benefit)",
 "actor_type": "Independent / contractor",
-"disclosure": "Responsible/coordinated",
+"disclosure": "Responsible / coordinated",
 "outcome": "No charges filed (KSU; evidence destruction concerns)",
 "chilling": "Yes",
 "dilemmas": "(i) Responsible disclosure failure when institutions do not respond to researcher notifications; (ii) Destruction of evidence after a researcher goes public; (iii) Whether researchers have an obligation to escalate beyond the institution when critical infrastructure is at risk; (iv) Accountability gap when election infrastructure is housed at an academic institution",
@@ -288,7 +288,7 @@
 "category": "Vulnerability Disclosure",
 "intent": "Good faith (intended public benefit)",
 "actor_type": "Independent / contractor",
-"disclosure": "Responsible/coordinated",
+"disclosure": "Responsible / coordinated",
 "outcome": "No charges filed",
 "chilling": "No",
 "dilemmas": "(i) When a government office denies receiving researcher notification, what recourse does the researcher have?; (ii) Timing of media disclosure for critical election infrastructure vulnerabilities; (iii) Risk that responsible disclosure of election bugs becomes fodder for disinformation; (iv) Whether election officials' denial of researcher contact constitutes bad faith",
@@ -330,7 +330,7 @@
 "category": "Financial Conflict of Interest",
 "intent": "Ambiguous / gray area (mixed or unclear intent)",
 "actor_type": "Corporate / private sector",
-"disclosure": "Responsible/coordinated",
+"disclosure": "Responsible / coordinated",
 "outcome": "No charges filed",
 "chilling": "No",
 "dilemmas": "(i) Private threat-intelligence firms monetizing zero-day knowledge vs. immediate public disclosure; (ii) Whether commercial security sector should have a legal disclosure obligation; (iii) Conflict between client confidentiality and warning undefended third parties; (iv) Government contractors holding offensive capabilities creates asymmetric vulnerability landscape",
@@ -344,7 +344,7 @@
 "category": "Dual-Use Research",
 "intent": "Good faith (intended public benefit)",
 "actor_type": "Academic researcher",
-"disclosure": "Responsible/coordinated",
+"disclosure": "Responsible / coordinated",
 "outcome": "No charges filed",
 "chilling": "No",
 "dilemmas": "(i) Ethical interaction with cybercriminals without encouraging illegal behavior; (ii) Entrapment vs. observation; (iii) Non-consent experimentation on criminals",
@@ -358,7 +358,7 @@
 "category": "Dual-Use Research",
 "intent": "Good faith (intended public benefit)",
 "actor_type": "Academic researcher",
-"disclosure": "Responsible/coordinated",
+"disclosure": "Responsible / coordinated",
 "outcome": "No charges filed",
 "chilling": "No",
 "dilemmas": "(i) Ethical interaction with cybercriminals without encouraging illegal behavior; (ii) Entrapment vs. observation; (iii) Non-consent experimentation on criminals",
@@ -400,7 +400,7 @@
 "category": "Vulnerability Disclosure",
 "intent": "Good faith (intended public benefit)",
 "actor_type": "Independent / contractor",
-"disclosure": "Responsible/coordinated",
+"disclosure": "Responsible / coordinated",
 "outcome": "No charges filed",
 "chilling": "Yes",
 "dilemmas": "(i) Can bug bounty confidentiality terms be used to suppress legitimate findings?; (ii) Threatening prosecution against a researcher acting within a company's disclosed scope; (iii) Power imbalance between corporate legal teams and individual researchers",
@@ -428,7 +428,7 @@
 "category": "Institutional Suppression",
 "intent": "Good faith (intended public benefit)",
 "actor_type": "Academic researcher",
-"disclosure": "Responsible/coordinated",
+"disclosure": "Responsible / coordinated",
 "outcome": "Civil injunction (later lifted)",
 "chilling": "Yes",
 "dilemmas": "(i) Should a manufacturer be able to suppress academic publication of a flaw in its own product?; (ii) Reverse engineering legitimately purchased hardware vs. 'breach of confidence'; (iii) Public's right to know about car-theft vulnerabilities vs. risk of enabling theft",
@@ -442,7 +442,7 @@
 "category": "Vulnerability Disclosure",
 "intent": "Good faith (intended public benefit)",
 "actor_type": "Academic researcher",
-"disclosure": "Responsible/coordinated",
+"disclosure": "Responsible / coordinated",
 "outcome": "Civil suit (court ruled for researchers)",
 "chilling": "No",
 "dilemmas": "(i) Should commercial harm from a disclosed flaw ever justify suppressing peer-reviewed research?; (ii) Academic freedom vs. critical-infrastructure (transit) security concerns; (iii) Adequacy of advance confidential notification before publication",
@@ -456,7 +456,7 @@
 "category": "Legal Boundaries & CFAA Overreach",
 "intent": "Ambiguous / gray area (mixed or unclear intent)",
 "actor_type": "Independent / contractor",
-"disclosure": "Responsible/coordinated",
+"disclosure": "Responsible / coordinated",
 "outcome": "Convicted (probation, restitution)",
 "chilling": "Yes",
 "dilemmas": "(i) Does proving a vulnerability by exploiting it cross from research into a prosecutable crime?; (ii) Proportionality of felony record/restitution vs. alerting the university; (iii) Effect of 'bragging' online on prosecutorial framing of intent",
@@ -488,7 +488,7 @@
 "outcome": "Suspended from school (no criminal charges)",
 "chilling": "No",
 "dilemmas": "(i) Is escalating to a mass alert ethical when normal disclosure channels are ignored by vendors?; (ii) Vendors using NDAs to control a minor researcher's ability to discuss findings; (iii) Industry-wide underinvestment in security for children's data",
-"source": "https://www.vice.com/en/article/teen-security-researcher-bill-demirkapi-suspended-for-exposing-vulnerabilities/2"
+"source": "https://www.vice.com/en/article/teen-security-researcher-bill-demirkapi-suspended-for-exposing-vulnerabilities/"
 },
 {
 "id": 36,
@@ -512,7 +512,7 @@
 "category": "Vulnerability Disclosure",
 "intent": "Good faith (intended public benefit)",
 "actor_type": "Independent / contractor",
-"disclosure": "Responsible/coordinated",
+"disclosure": "Responsible / coordinated",
 "outcome": "No charges filed",
 "chilling": "No",
 "dilemmas": "(i) Does scanning specifically because an org has a VDP make later 'out of scope' findings authorized?; (ii) Should past black-hat convictions disqualify someone from later legitimate research?; (iii) Reliance on government agencies to respond competently once notified",
@@ -596,7 +596,7 @@
 "category": "Vulnerability Disclosure",
 "intent": "Good faith (intended public benefit)",
 "actor_type": "Independent / contractor",
-"disclosure": "Responsible/coordinated",
+"disclosure": "Responsible / coordinated",
 "outcome": "No charges filed (employer pressure applied)",
 "chilling": "Yes",
 "dilemmas": "(i) Where does legitimate 'proof of impact' end and unauthorized data exfiltration begin within a bug bounty's scope?; (ii) Going around a researcher to pressure their employer instead of addressing the researcher directly; (iii) Ambiguity in bug bounty terms about how far a researcher may go to demonstrate severity",
@@ -610,7 +610,7 @@
 "category": "Legal Boundaries & CFAA Overreach",
 "intent": "Good faith (intended public benefit)",
 "actor_type": "Independent / contractor",
-"disclosure": "Responsible/coordinated",
+"disclosure": "Responsible / coordinated",
 "outcome": "Convicted (\u20ac3,000 fine, upheld on appeal)",
 "chilling": "Yes",
 "dilemmas": "(i) Should using a password the vendor itself left in plaintext constitute criminal 'unauthorized access'?; (ii) Criminalizing the verification step required to confirm a vulnerability is real; (iii) Disparity between vendor's negligence (unpunished) and researcher's penalty (criminal record)",
@@ -628,7 +628,7 @@
 "outcome": "Convicted (later expunged)",
 "chilling": "Yes",
 "dilemmas": "(i) Should 'improving security' justify unauthorized access against a former employer's systems?; (ii) Multi-decade reputational and financial cost of a later-overturned felony conviction; (iii) Employer's choice to pursue criminal prosecution rather than civil/internal remedies",
-"source": "https://www.theregister.com/2007/03/05/intel_hacker_charges_quashed/2"
+"source": "https://www.theregister.com/off-prem/2007/03/05/intel-hacker-clears-his-name/1130410"
 },
 {
 "id": 46,
@@ -792,7 +792,7 @@
 "category": "Critical Infrastructure & Public Trust",
 "intent": "Good faith (intended public benefit)",
 "actor_type": "Government / law enforcement",
-"disclosure": "Responsible/coordinated",
+"disclosure": "Responsible / coordinated",
 "outcome": "Civil suit / Injunction",
 "chilling": "No",
 "dilemmas": "(i) Can a court order a government agency to disconnect from the internet as a security remedy?; (ii) What accountability mechanisms exist when a government agency's repeated security failures endanger the financial data of a vulnerable population?; (iii) Who should conduct security audits of government systems \u2014 internal auditors, independent experts, or adversarial testers?; (iv) When a security audit reveals catastrophic failure, how should findings be disclosed without creating additional risk?",
@@ -805,7 +805,7 @@
 "summary": "In 2021, hackers accessed Verkada's cloud-camera infrastructure, exposing live feeds and other sensitive information from customer sites. The incident was attributed to hacker Tillie Kottmann, who faced separate federal charges relating to hacking activity. In 2024, the FTC required security improvements and a $2.95 million civil penalty for unrelated commercial-email violations; that dollar amount was not a fine for the camera breach.",
 "category": "Surveillance & Offensive Tools",
 "intent": "Ambiguous / gray area (mixed or unclear intent)",
-"actor_type": "Independent / contractor",
+"actor_type": "Hacker / activist",
 "disclosure": "Media-first",
 "outcome": "Federal hacking indictment; FTC security order and separate CAN-SPAM penalty",
 "chilling": "No",
@@ -834,7 +834,7 @@
 "category": "Dual-Use Research",
 "intent": "Good faith (intended public benefit)",
 "actor_type": "Academic researcher",
-"disclosure": "Responsible/coordinated",
+"disclosure": "Responsible / coordinated",
 "outcome": "No charges filed",
 "chilling": "No",
 "dilemmas": "(i) How much technical detail is appropriate in academic publications about criminal malware when the same detail that helps defenders also helps attackers?; (ii) Should researchers publishing analyses of criminal tools be required to coordinate with affected vendors (ATM manufacturers, banks) before publication?; (iii) Is studying and publishing criminal malware ethically different from studying and publishing proof-of-concept researcher-written exploits?; (iv) What responsibility do academic publishers and program committees bear for the dual-use risk of papers they accept?",
@@ -852,7 +852,7 @@
 "outcome": "No charges filed",
 "chilling": "Yes",
 "dilemmas": "(i) Corporate influence over AI ethics research; (ii) Academic freedom vs. employer interests; (iii) Suppression of critical AI research; (iv) Research independence",
-"source": "https://www.technologyreview.com/2020/12/04/1013294/google-ai-ethics-research-paper-forced-out-timnit-gebru/2"
+"source": "https://www.technologyreview.com/2020/12/04/1013294/google-ai-ethics-research-paper-forced-out-timnit-gebru/"
 },
 {
 "id": 62,
@@ -862,7 +862,7 @@
 "category": "Dual-Use Research",
 "intent": "Good faith (intended public benefit)",
 "actor_type": "Academic researcher",
-"disclosure": "Responsible/coordinated",
+"disclosure": "Responsible / coordinated",
 "outcome": "No charges filed",
 "chilling": "No",
 "dilemmas": "(i) Publishing techniques that could be abused; (ii) AI transparency vs. misuse; (iii) Responsible disclosure for foundation models",
@@ -880,7 +880,7 @@
 "outcome": "No charges filed",
 "chilling": "Yes",
 "dilemmas": "(i) Whistleblowing vs. confidentiality; (ii) Copyright in AI training; (iii) Corporate accountability",
-"source": "https://www.nytimes.com/2024/10/23/technology/openai-copyright-law.html2"
+"source": "https://www.nytimes.com/2024/10/23/technology/openai-copyright-law.html"
 },
 {
 "id": 64,
@@ -918,7 +918,7 @@
 "category": "Institutional Suppression",
 "intent": "Good faith (intended public benefit)",
 "actor_type": "Corporate / private sector",
-"disclosure": "Responsible/coordinated",
+"disclosure": "Responsible / coordinated",
 "outcome": "Civil copyright litigation; substantial fair-use ruling for Corellium",
 "chilling": "Yes",
 "dilemmas": "(i) Copyright vs. security research; (ii) Research tool legality; (iii) Vendor retaliation",
@@ -942,15 +942,15 @@
 "id": 68,
 "institution": "Erik Johnson / Proctorio",
 "year": "2020",
-"summary": "Student and critic Erik Johnson published material criticizing Proctorio\u2019s remote exam-monitoring software. Proctorio used copyright claims against excerpts used in criticism; the ensuing legal dispute raised concerns about fair use, surveillance, and attempts to silence scrutiny.",
+"summary": "Student and security researcher Erik Johnson published material criticizing Proctorio\u2019s remote exam-monitoring software. Proctorio used copyright claims against excerpts used in criticism; the ensuing legal dispute raised concerns about fair use, surveillance, and attempts to silence scrutiny.",
 "category": "Institutional Suppression",
 "intent": "Good faith (intended public benefit)",
-"actor_type": "Independent / contractor",
+"actor_type": "Student",
 "disclosure": "Media-first",
 "outcome": "Civil suit / Injunction",
 "chilling": "Yes",
 "dilemmas": "(i) Abuse of copyright law; (ii) Research criticism; (iii) Chilling effects",
-"source": "https://www.eff.org/deeplinks/2022/03/eff-client-eric-johnson-and-proctorio-settle-lawsuit-over-bogus-dmca-claims2"
+"source": "https://www.eff.org/deeplinks/2022/03/eff-client-eric-johnson-and-proctorio-settle-lawsuit-over-bogus-dmca-claims"
 },
 {
 "id": 69,
@@ -960,7 +960,7 @@
 "category": "Institutional Suppression",
 "intent": "Good faith (intended public benefit)",
 "actor_type": "Independent / contractor",
-"disclosure": "Responsible/coordinated",
+"disclosure": "Responsible / coordinated",
 "outcome": "Cease-and-desist dispute; presentation proceeded",
 "chilling": "Yes",
 "dilemmas": "(i) Corporate retaliation; (ii) Responsible disclosure; (iii) Research freedom",
@@ -974,7 +974,7 @@
 "category": "Legal Boundaries & CFAA Overreach",
 "intent": "Good faith (intended public benefit)",
 "actor_type": "Independent / contractor",
-"disclosure": "Responsible/coordinated",
+"disclosure": "Responsible / coordinated",
 "outcome": "Charged / dropped",
 "chilling": "Yes",
 "dilemmas": "(i) Publicly accessible data; (ii) Criminalizing research; (iii) Government accountability",
@@ -1002,7 +1002,7 @@
 "category": "Legal Boundaries & CFAA Overreach",
 "intent": "Good faith (intended public benefit)",
 "actor_type": "Journalist / activist / independent",
-"disclosure": "Responsible/coordinated",
+"disclosure": "Responsible / coordinated",
 "outcome": "No charges filed",
 "chilling": "Yes",
 "dilemmas": "(i) Viewing source code vs. hacking; (ii) Government retaliation; (iii) Press freedom",
@@ -1016,7 +1016,7 @@
 "category": "Institutional Suppression",
 "intent": "Good faith (intended public benefit)",
 "actor_type": "Independent / contractor",
-"disclosure": "Responsible/coordinated",
+"disclosure": "Responsible / coordinated",
 "outcome": "Legal threat alleged by researcher",
 "chilling": "Yes",
 "dilemmas": "(i) Legal intimidation; (ii) Responsible disclosure; (iii) Chilling effect",
@@ -1034,7 +1034,7 @@
 "outcome": "Civil suit / Injunction",
 "chilling": "Yes",
 "dilemmas": "(i) SLAPP lawsuits; (ii) Vendor accountability; (iii) Journalism and disclosure",
-"source": "https://www.securityweek.com/keeper-sues-ars-technica-over-reporting-critical-flaw/2"
+"source": "https://www.securityweek.com/keeper-sues-ars-technica-over-reporting-critical-flaw/"
 },
 {
 "id": 75,
@@ -1044,7 +1044,7 @@
 "category": "Legal Boundaries & CFAA Overreach",
 "intent": "Good faith (intended public benefit)",
 "actor_type": "Student",
-"disclosure": "Responsible/coordinated",
+"disclosure": "Responsible / coordinated",
 "outcome": "Arrested (devices seized; no conviction reported)",
 "chilling": "Yes",
 "dilemmas": "(i) Stating a disclosure deadline is standard practice, but paired with a payment question it can read as coercion: how should researchers state a timeline and ask about bounties without appearing to extort? (ii) Was altering the app's front end necessary to prove the flaw, or did it go beyond what proof required? (iii) Should a company with no disclosure policy be expected to recognize good-faith research, or is caution toward unsolicited reports reasonable?",
@@ -1114,7 +1114,7 @@
 "category": "Institutional Suppression",
 "intent": "Good faith (intended public benefit)",
 "actor_type": "Independent / contractor",
-"disclosure": "Responsible/coordinated",
+"disclosure": "Responsible / coordinated",
 "outcome": "Criminal complaint (withdrawn, apology)",
 "chilling": "Yes",
 "dilemmas": "(i) Publishing flaws in a party's app during an election: public interest in voter-data security versus influence on the campaign. (ii) Should political parties be held to the same disclosure expectations as vendors? (iii) Does Germany's anti-hacking law leave good-faith researchers too exposed to complaints like this?",
@@ -1142,7 +1142,7 @@
 "category": "Institutional Suppression",
 "intent": "Good faith (intended public benefit)",
 "actor_type": "Independent / contractor",
-"disclosure": "Responsible/coordinated",
+"disclosure": "Responsible / coordinated",
 "outcome": "Police report (no charges reported)",
 "chilling": "Yes",
 "dilemmas": "(i) How much should a researcher look at exposed data to confirm a leak before reporting it? (ii) Reporting the finder to police: reasonable caution or blame-shifting by the organization that leaked? (iii) Do publicly funded health projects owe more transparency about their own mistakes?",
@@ -1184,7 +1184,7 @@
 "category": "Institutional Suppression",
 "intent": "Good faith (intended public benefit)",
 "actor_type": "Independent / contractor",
-"disclosure": "Responsible/coordinated",
+"disclosure": "Responsible / coordinated",
 "outcome": "Civil threat",
 "chilling": "No",
 "dilemmas": "(i) Is a business-logic flaw like promo-code abuse a security vulnerability worth disclosing, or a billing issue? (ii) Proving the flaw meant using another company's paid codes: necessary proof or misuse? (iii) Should a mental-health platform's denial and legal threat be weighed against its users' trust?",
@@ -1212,7 +1212,7 @@
 "category": "Institutional Suppression",
 "intent": "Good faith (intended public benefit)",
 "actor_type": "Student",
-"disclosure": "Responsible/coordinated",
+"disclosure": "Responsible / coordinated",
 "outcome": "Civil threat (criminal threat)",
 "chilling": "Yes",
 "dilemmas": "(i) Is scanning a university's public services to find exposures acceptable without permission? (ii) How should institutions respond when the reporter is a minor? (iii) Threatening jail for a good-faith report: does it protect the institution or discourage the next student?",
@@ -1226,7 +1226,7 @@
 "category": "Critical Infrastructure & Public Trust",
 "intent": "Good faith (intended public benefit)",
 "actor_type": "Independent / contractor",
-"disclosure": "Responsible/coordinated",
+"disclosure": "Responsible / coordinated",
 "outcome": "Arrested (further action unclear)",
 "chilling": "Yes",
 "dilemmas": "(i) How can a researcher prove a price-manipulation flaw without committing fare fraud? (ii) When a vendor disputes receiving a report, who bears the burden of proof? (iii) Does public outrage protect researchers, or harden institutions against them?",
@@ -1240,7 +1240,7 @@
 "category": "Institutional Suppression",
 "intent": "Good faith (intended public benefit)",
 "actor_type": "Independent / contractor",
-"disclosure": "Responsible/coordinated",
+"disclosure": "Responsible / coordinated",
 "outcome": "Financial retaliation (accounts closed)",
 "chilling": "Yes",
 "dilemmas": "(i) Converting test points to cash while reporting: proof of impact or fraud? (ii) With no disclosure program, is reporting through a customer-support Twitter account an adequate channel? (iii) Is closing family members' accounts risk management or retaliation?",
@@ -1254,11 +1254,11 @@
 "category": "Institutional Suppression",
 "intent": "Good faith (intended public benefit)",
 "actor_type": "Corporate / private sector",
-"disclosure": "Responsible/coordinated",
+"disclosure": "Responsible / coordinated",
 "outcome": "Civil threat",
 "chilling": "No",
 "dilemmas": "(i) Should researchers publish after a cease-and-desist when the flaw could enable financial fraud? (ii) Does an auditing firm's own software deserve stricter scrutiny? (iii) How much detail is safe when the affected systems run companies' financial controls?",
-"source": "http://www.zdnet.com/article/pwc-sends-security-researchers-cease-and-desist-letter-instead-of-fixing-security-flaw/"
+"source": "https://www.zdnet.com/article/pwc-sends-security-researchers-cease-and-desist-letter-instead-of-fixing-security-flaw/"
 },
 {
 "id": 91,
@@ -1272,7 +1272,7 @@
 "outcome": "Civil threat",
 "chilling": "Yes",
 "dilemmas": "(i) How much detail must be public to force a non-responsive company to act, and how much is too much? (ii) Should researchers comply with a takedown demand when users remain exposed? (iii) Does exposing payment data change the duty to warn affected customers?",
-"source": "http://s3jensen.blogspot.com/2016/06/nerium-vulnerability-disclosure.html"
+"source": "https://s3jensen.blogspot.com/2016/06/nerium-vulnerability-disclosure.html"
 },
 {
 "id": 92,
@@ -1282,7 +1282,7 @@
 "category": "Legal Boundaries & CFAA Overreach",
 "intent": "Good faith (intended public benefit)",
 "actor_type": "Independent / contractor",
-"disclosure": "Responsible/coordinated",
+"disclosure": "Responsible / coordinated",
 "outcome": "Convicted (later overturned)",
 "chilling": "Yes",
 "dilemmas": "(i) A parent checking a system holding their child's data: protective duty or unauthorized access? (ii) How far can a researcher verify a flaw involving children's records? (iii) Should prosecutors pursue the reporter when the vendor's security is the real failure?",
@@ -1296,7 +1296,7 @@
 "category": "Institutional Suppression",
 "intent": "Good faith (intended public benefit)",
 "actor_type": "Independent / contractor",
-"disclosure": "Responsible/coordinated",
+"disclosure": "Responsible / coordinated",
 "outcome": "Civil threat (talk withdrawn)",
 "chilling": "Yes",
 "dilemmas": "(i) If a vendor was warned privately, does it still have standing to block a talk? (ii) Should researchers withdraw talks under threat, or present and risk a lawsuit? (iii) Who protects the camera owners while the research stays unpublished?",
@@ -1310,7 +1310,7 @@
 "category": "Institutional Suppression",
 "intent": "Good faith (intended public benefit)",
 "actor_type": "Corporate / private sector",
-"disclosure": "Responsible/coordinated",
+"disclosure": "Responsible / coordinated",
 "outcome": "Civil threat",
 "chilling": "No",
 "dilemmas": "(i) Can a license agreement legitimately bar the security research that protects the product's customers? (ii) Should researchers publish against a vendor's license-based objection? (iii) When enterprise security software is itself vulnerable, who should decide disclosure timing?",
@@ -1328,7 +1328,7 @@
 "outcome": "Civil threat",
 "chilling": "No",
 "dilemmas": "(i) Full disclosure of a working exploit for software on children's school computers: pressure on the vendor or risk to students? (ii) Should researchers coordinate first even with vendors they expect to be hostile? (iii) Is a user agreement a valid basis for silencing security findings?",
-"source": "http://theregister.co.uk/2015/07/16/school_software_firm_calls_in_lawyers_after_researcher_goes_full_disclosure/"
+"source": "https://www.theregister.com/security/2015/07/16/brit-school-software-biz-unchains-lawyers-after-crappy-security-exposed/449265"
 },
 {
 "id": 96,
@@ -1338,11 +1338,11 @@
 "category": "Critical Infrastructure & Public Trust",
 "intent": "Good faith (intended public benefit)",
 "actor_type": "Independent / contractor",
-"disclosure": "Responsible/coordinated",
+"disclosure": "Responsible / coordinated",
 "outcome": "Home raided (no charges reported)",
 "chilling": "Yes",
 "dilemmas": "(i) Does reporting someone else's public finding expose the reporter to liability? (ii) During an election, should authorities treat reporters of flaws as suspects or allies? (iii) How should researchers protect themselves when warning a vendor about issues they didn't discover?",
-"source": "http://arstechnica.co.uk/tech-policy/2015/07/police-raid-programmer-who-reported-flaw-in-argentinian-e-voting-system/"
+"source": "https://arstechnica.com/tech-policy/2015/07/police-raid-programmer-who-reported-flaw-in-argentinian-e-voting-system/"
 },
 {
 "id": 97,
@@ -1352,11 +1352,11 @@
 "category": "Institutional Suppression",
 "intent": "Good faith (intended public benefit)",
 "actor_type": "Corporate / private sector",
-"disclosure": "Responsible/coordinated",
+"disclosure": "Responsible / coordinated",
 "outcome": "Civil threat (DMCA)",
 "chilling": "No",
 "dilemmas": "(i) Should anti-circumvention law cover research into physical security products? (ii) Publishing the day after a public threat: principled stand or escalation? (iii) What do owners of high-security locks need to know, and when?",
-"source": "http://arstechnica.com/security/2015/05/05/lawyers-threaten-researcher-over-key-cloning-bug-in-high-security-lock/"
+"source": "https://arstechnica.com/information-technology/2015/05/lawyers-threaten-researcher-over-key-cloning-bug-in-high-security-lock/"
 },
 {
 "id": 98,
@@ -1366,11 +1366,11 @@
 "category": "Institutional Suppression",
 "intent": "Good faith (intended public benefit)",
 "actor_type": "Corporate / private sector",
-"disclosure": "Responsible/coordinated",
+"disclosure": "Responsible / coordinated",
 "outcome": "Talk cancelled (later presented)",
 "chilling": "Yes",
 "dilemmas": "(i) When pressure comes through a conference organizer rather than a lawyer, is it still a threat? (ii) Should an employer's relationship with a vendor decide when its researcher speaks? (iii) Did the delay protect anyone, or only postpone the inevitable?",
-"source": "http://www.forbes.com/sites/thomasbrewster/2015/03/26/hackers-slam-blue-coat-claiming-it-pressured-security-researcher-into-cancelling-talk-on-its-tech/"
+"source": "https://www.forbes.com/sites/thomasbrewster/2015/03/26/hackers-slam-blue-coat-claiming-it-pressured-security-researcher-into-cancelling-talk-on-its-tech/"
 },
 {
 "id": 99,
@@ -1384,7 +1384,7 @@
 "outcome": "Employer suspension (no charges)",
 "chilling": "Yes",
 "dilemmas": "(i) Is sending findings straight to a public exploit database fair to the vendor's customers? (ii) Should a vendor ever contact a researcher's employer over independent work? (iii) Should employers shield staff from vendor pressure over research done on their own time?",
-"source": "http://www.forbes.com/sites/thomasbrewster/2014/07/09/researcher-i-was-suspended-for-finding-flaws-in-fireeye-security-kit/"
+"source": "https://www.forbes.com/sites/thomasbrewster/2014/07/09/researcher-i-was-suspended-for-finding-flaws-in-fireeye-security-kit/"
 },
 {
 "id": 100,
@@ -1398,7 +1398,7 @@
 "outcome": "Government pressure (no charges)",
 "chilling": "Yes",
 "dilemmas": "(i) Public video first versus private report first for a government health site holding sensitive data. (ii) Is an FBI request to stop talking a legitimate safety measure or intimidation? (iii) How should researchers balance public trust in a new public program against users' right to know?",
-"source": "http://www.forbes.com/sites/kashmirhill/2014/01/15/so-you-found-an-obamacare-website-is-hackable-now-what/print/"
+"source": "https://www.forbes.com/sites/kashmirhill/2014/01/15/so-you-found-an-obamacare-website-is-hackable-now-what/"
 },
 {
 "id": 101,
@@ -1408,11 +1408,11 @@
 "category": "Vulnerability Disclosure",
 "intent": "Good faith (intended public benefit)",
 "actor_type": "Student",
-"disclosure": "Responsible/coordinated",
+"disclosure": "Responsible / coordinated",
 "outcome": "Police referral (no charges reported)",
 "chilling": "Yes",
 "dilemmas": "(i) Should a teenager's good-faith report be handled differently from an adult's? (ii) Police referral as a default response: protecting customers or deterring reporters? (iii) How much access is acceptable to confirm customer data is exposed?",
-"source": "http://www.theage.com.au/technology/technology-news/schoolboy-hacks-public-transport-victoria-website-20140107-30fkg.html"
+"source": "https://www.theage.com.au/technology/technology-news/schoolboy-hacks-public-transport-victoria-website-20140107-30fkg.html"
 },
 {
 "id": 102,
@@ -1426,7 +1426,7 @@
 "outcome": "Civil threat",
 "chilling": "No",
 "dilemmas": "(i) Full disclosure on a public list versus private notice for a consumer payment app. (ii) Should researchers retain counsel before publishing? (iii) Do customers' interests favor speed or coordination when card data may be stored insecurely?",
-"source": "http://seclists.org/fulldisclosure/2013/Dec/39"
+"source": "https://seclists.org/fulldisclosure/2013/Dec/39"
 },
 {
 "id": 103,
@@ -1450,11 +1450,11 @@
 "category": "Institutional Suppression",
 "intent": "Good faith (intended public benefit)",
 "actor_type": "Corporate / private sector",
-"disclosure": "Responsible/coordinated",
+"disclosure": "Responsible / coordinated",
 "outcome": "Civil threat",
 "chilling": "No",
 "dilemmas": "(i) When vendor and researcher disagree on whether a bug is fixed, whose claim should users trust? (ii) Can an open-source project threaten legal action without undermining its own community norms? (iii) Should an advisory ever change status under legal pressure?",
-"source": "https://web.archive.org/web/20151006081501/http://secunia.com/blog/shooting-the-messenger-372/"
+"source": "https://web.archive.org/web/20151006081501/https://secunia.com/blog/shooting-the-messenger-372/"
 },
 {
 "id": 105,
@@ -1478,7 +1478,7 @@
 "category": "Institutional Suppression",
 "intent": "Good faith (intended public benefit)",
 "actor_type": "Corporate / private sector",
-"disclosure": "Responsible/coordinated",
+"disclosure": "Responsible / coordinated",
 "outcome": "Civil threat",
 "chilling": "No",
 "dilemmas": "(i) When a vendor responds only through lawyers, does the researcher still owe it coordination? (ii) Should a vendor's claim that an update fixed the issue be accepted without detail? (iii) Is publishing against a legal warning justified for a password manager whose users can't assess the risk?",
@@ -1492,7 +1492,7 @@
 "category": "Institutional Suppression",
 "intent": "Good faith (intended public benefit)",
 "actor_type": "Student",
-"disclosure": "Responsible/coordinated",
+"disclosure": "Responsible / coordinated",
 "outcome": "Expelled (no charges)",
 "chilling": "Yes",
 "dilemmas": "(i) Is re-testing a reported system to check the fix diligence or new unauthorized access? (ii) Is demanding an NDA under threat of prosecution ever acceptable? (iii) Should a school discipline a student for reporting a flaw in software it bought?",
@@ -1510,7 +1510,7 @@
 "outcome": "Civil threat (talk cancelled)",
 "chilling": "Yes",
 "dilemmas": "(i) If the plant operator approves disclosure, should the equipment vendor still have a veto? (ii) How much detail about nuclear-plant control systems is safe for a public audience? (iii) Does silencing ICS research make plants safer or just less informed?",
-"source": "http://gadgets.ndtv.com/internet/news/legal-fears-muffle-warnings-on-cyber-security-threats-286061"
+"source": "https://gadgets.ndtv.com/internet/news/legal-fears-muffle-warnings-on-cyber-security-threats-286061"
 },
 {
 "id": 109,
@@ -1524,7 +1524,7 @@
 "outcome": "Civil threat (copyright takedown)",
 "chilling": "No",
 "dilemmas": "(i) Is a copyright claim against an exploit demo a legitimate use of IP law? (ii) Are video demonstrations of working exploits a responsible way to publicize flaws? (iii) Should platforms review takedowns aimed at security research?",
-"source": "http://attrition.org/errata/legal_threats/e-soft/"
+"source": "https://attrition.org/errata/legal_threats/e-soft/"
 },
 {
 "id": 110,
@@ -1534,7 +1534,7 @@
 "category": "Critical Infrastructure & Public Trust",
 "intent": "Ambiguous / gray area (mixed or unclear intent)",
 "actor_type": "Corporate / private sector",
-"disclosure": "Responsible/coordinated",
+"disclosure": "Responsible / coordinated",
 "outcome": "Talk withdrawn (later presented)",
 "chilling": "Yes",
 "dilemmas": "(i) When a vendor becomes a client, can the researcher still decide disclosure independently? (ii) Should a testing tool for critical infrastructure be released freely? (iii) Is it fair to the community to withdraw a scheduled talk for commercial reasons?",
@@ -1562,11 +1562,11 @@
 "category": "Legal Boundaries & CFAA Overreach",
 "intent": "Good faith (intended public benefit)",
 "actor_type": "Independent / contractor",
-"disclosure": "Responsible/coordinated",
+"disclosure": "Responsible / coordinated",
 "outcome": "Police report (threat withdrawn)",
 "chilling": "Yes",
 "dilemmas": "(i) How many other members' records is it acceptable to view to show a flaw is real? (ii) Should a fund be able to make the reporter pay for its own security failures? (iii) Does public pressure, rather than law, end up deciding these cases?",
-"source": "http://www.theregister.co.uk/2011/10/19/first_state_super_tones_it_down/"
+"source": "https://www.theregister.com/security/2011/10/19/fund-manager-withdraws-legal-threat-over-security-vuln/1024730"
 },
 {
 "id": 113,
@@ -1590,7 +1590,7 @@
 "category": "Institutional Suppression",
 "intent": "Good faith (intended public benefit)",
 "actor_type": "Independent / contractor",
-"disclosure": "Responsible/coordinated",
+"disclosure": "Responsible / coordinated",
 "outcome": "Civil threat",
 "chilling": "Yes",
 "dilemmas": "(i) Is a vendor portal that forbids disclosure until a fix exists a step forward or a gag? (ii) Should researchers accept programs whose terms remove their timeline? (iii) Did publishing under threat help future researchers or only this case?",
@@ -1608,7 +1608,7 @@
 "outcome": "Civil injunction (later lifted)",
 "chilling": "Yes",
 "dilemmas": "(i) Releasing a cheap, cloud-based cracking tool: defensive awareness or attacker uplift? (ii) Are raids and frozen accounts proportionate responses to a planned talk? (iii) Should dual-use tools be released openly or to vetted users only?",
-"source": "http://www.darkreading.com/authentication/167901072/security/client-security/229301362/researcher-overcomes-legal-setback-over-cloud-cracking-suite.html"
+"source": "https://www.darkreading.com/cyber-risk/researcher-overcomes-legal-setback-over-cloud-cracking-suite-"
 },
 {
 "id": 116,
@@ -1636,7 +1636,7 @@
 "outcome": "Talk withdrawn (client pressure)",
 "chilling": "Yes",
 "dilemmas": "(i) Should a firm's client relationships decide whether research is published? (ii) Do markets benefit more from silence or from disclosure of trading-system flaws? (iii) Who represents the public interest when the only objector is a paying customer?",
-"source": "http://www.forbes.com/sites/firewall/2010/07/26/talk-on-high-speed-trading-hacks-pulled-from-security-conference/"
+"source": "https://www.forbes.com/sites/firewall/2010/07/26/talk-on-high-speed-trading-hacks-pulled-from-security-conference/"
 },
 {
 "id": 118,
@@ -1664,7 +1664,7 @@
 "outcome": "Civil threat (withdrawn)",
 "chilling": "No",
 "dilemmas": "(i) Should a security vendor act to suppress reporting about a client's website? (ii) Is publishing first justified when a financial institution's members are exposed? (iii) What role should hosting providers play when pressured to remove research?",
-"source": "https://web.archive.org/web/20111010114113/http://techmiso.com/2434/navy-federal-credit-union-web-site-operating-with-security-issue/"
+"source": "https://web.archive.org/web/20111010114113/https://techmiso.com/2434/navy-federal-credit-union-web-site-operating-with-security-issue/"
 },
 {
 "id": 120,
@@ -1706,7 +1706,7 @@
 "outcome": "Civil suit / Injunction",
 "chilling": "Yes",
 "dilemmas": "(i) Should voting machine vendors be able to block independent examination of systems used in public elections? (ii) Trade-secret claims versus voters' right to know. (iii) Should researchers accept engagements that a vendor can veto?",
-"source": "http://freedom-to-tinker.com/blog/appel/judge-suppresses-report-voting-machine-security"
+"source": "https://blog.citp.princeton.edu/2008/10/01/judge-suppresses-report-voting-machine-security/"
 },
 {
 "id": 123,
@@ -1716,7 +1716,7 @@
 "category": "Institutional Suppression",
 "intent": "Good faith (intended public benefit)",
 "actor_type": "Corporate / private sector",
-"disclosure": "Responsible/coordinated",
+"disclosure": "Responsible / coordinated",
 "outcome": "Civil threat",
 "chilling": "No",
 "dilemmas": "(i) Should researchers publicize threats they receive, or handle them quietly? (ii) Is it fair to the field when one firm resists a threat and another stays silent? (iii) Can legal threats against a widely embedded library ever serve its downstream users?",
@@ -1734,7 +1734,7 @@
 "outcome": "Denied entry (no charges)",
 "chilling": "Yes",
 "dilemmas": "(i) Should border authorities be able to block researchers from sharing defensive knowledge? (ii) How should international researchers weigh travel risk when presenting in other countries? (iii) Do conferences owe foreign speakers legal and logistical support?",
-"source": "http://addxorrol.blogspot.com/2007/07/ive-been-denied-entry-to-us-essentially.html"
+"source": "https://addxorrol.blogspot.com/2007/07/ive-been-denied-entry-to-us-essentially.html"
 },
 {
 "id": 125,
@@ -1748,7 +1748,7 @@
 "outcome": "Service terminated (no charges)",
 "chilling": "Yes",
 "dilemmas": "(i) Is publishing details of an ISP router backdoor justified when every customer is exposed? (ii) Is cutting off a customer's service a legitimate response or retaliation? (iii) Should passwords have been redacted before publication, not after?",
-"source": "http://www.theregister.co.uk/2007/04/17/hackers_service_terminated/"
+"source": "https://www.theregister.com/security/2007/04/17/isp-ejects-whistle-blowing-student/1210989"
 },
 {
 "id": 126,
@@ -1776,7 +1776,7 @@
 "outcome": "Civil threat",
 "chilling": "No",
 "dilemmas": "(i) Deriving unpatched vulnerabilities from a vendor's protection signatures: defensive research or zero-day harvesting? (ii) Does publishing the method endanger customers relying on those rules? (iii) Can IPS vendors keep signatures confidential without slowing defense?",
-"source": "http://erratasec.blogspot.com/2009/01/im-reading-this-blog-by-verisign-in.html"
+"source": "https://erratasec.blogspot.com/2009/01/im-reading-this-blog-by-verisign-in.html"
 },
 {
 "id": 128,
@@ -1800,7 +1800,7 @@
 "category": "Institutional Suppression",
 "intent": "Good faith (intended public benefit)",
 "actor_type": "Corporate / private sector",
-"disclosure": "Responsible/coordinated",
+"disclosure": "Responsible / coordinated",
 "outcome": "Civil threat (dropped)",
 "chilling": "No",
 "dilemmas": "(i) Should database customers learn about flaws even when the vendor objects to timing? (ii) Do license terms limit what researchers can say about benchmarked or tested software? (iii) Does a dropped threat still chill other researchers?",
@@ -1832,7 +1832,7 @@
 "outcome": "Civil threat (withdrawn, apology)",
 "chilling": "No",
 "dilemmas": "(i) Does a quick public apology repair the chilling effect of a threat? (ii) Should game engines used by millions be held to enterprise disclosure norms? (iii) Should researchers coordinate with game vendors before publishing?",
-"source": "http://seclists.org/bugtraq/2003/Feb/144"
+"source": "https://seclists.org/bugtraq/2003/Feb/144"
 },
 {
 "id": 132,
@@ -1874,7 +1874,7 @@
 "outcome": "Financial pressure (consultant status)",
 "chilling": "No",
 "dilemmas": "(i) When a researcher also earns income from the vendor, can disclosure decisions stay independent? (ii) Is threatening someone's business relationship a legal threat by another name? (iii) Should a vendor's refusal to share a remediation plan trigger disclosure?",
-"source": "http://seclists.org/bugtraq/2013/Apr/186"
+"source": "https://seclists.org/bugtraq/2013/Apr/186"
 },
 {
 "id": 135,
@@ -1888,7 +1888,7 @@
 "outcome": "Employer pressure (no legal threat)",
 "chilling": "No",
 "dilemmas": "(i) Is contacting a researcher's employer a legitimate complaint or indirect pressure? (ii) Did speaking to the press before a patch serve G1 users? (iii) Where is the line between lecturing and threatening?",
-"source": "http://www.nytimes.com/2008/10/25/technology/internet/25phone.html"
+"source": "https://www.nytimes.com/2008/10/25/technology/internet/25phone.html"
 },
 {
 "id": 136,
@@ -1930,7 +1930,7 @@
 "outcome": "Charged",
 "chilling": "Yes",
 "dilemmas": "(i) Can collecting real users' credentials ever be justified to prove a system is insecure? (ii) Does a good motive excuse harm to classmates who never consented? (iii) What should a student do when an institution ignores warnings?",
-"source": "https://web.archive.org/web/20081106023458/http://www.canada.com/ottawacitizen/news/city/story.html?id=25110a8f-a73a-43a0-a2a5-1daa08d147d1"
+"source": "https://web.archive.org/web/20081106023458/https://www.canada.com/ottawacitizen/news/city/story.html?id=25110a8f-a73a-43a0-a2a5-1daa08d147d1"
 },
 {
 "id": 139,
@@ -1940,7 +1940,7 @@
 "category": "Vulnerability Disclosure",
 "intent": "Good faith (intended public benefit)",
 "actor_type": "Independent / contractor",
-"disclosure": "Responsible/coordinated",
+"disclosure": "Responsible / coordinated",
 "outcome": "Talk cancelled (vendor request)",
 "chilling": "Yes",
 "dilemmas": "(i) Should researchers honor a polite vendor request to cancel when the vendor had months of notice? (ii) Was the request about protecting users or about the vendor's own timing? (iii) Does agreeing to cancel set an expectation that makes future requests harder to refuse?",
@@ -1968,7 +1968,7 @@
 "category": "Vulnerability Disclosure",
 "intent": "Ambiguous / gray area (mixed or unclear intent)",
 "actor_type": "Corporate / private sector",
-"disclosure": "Responsible/coordinated",
+"disclosure": "Responsible / coordinated",
 "outcome": "Talk withdrawn",
 "chilling": "No",
 "dilemmas": "(i) Is withdrawing a talk over misuse fears responsible, or does it leave users uninformed? (ii) How should researchers handle discovering their work overlaps prior research? (iii) What should a vendor's public denial mean for the research's credibility?",
@@ -1982,7 +1982,7 @@
 "category": "Critical Infrastructure & Public Trust",
 "intent": "Good faith (intended public benefit)",
 "actor_type": "Corporate / private sector",
-"disclosure": "Responsible/coordinated",
+"disclosure": "Responsible / coordinated",
 "outcome": "Talk withdrawn (vendor/government concern)",
 "chilling": "No",
 "dilemmas": "(i) Should government concern about critical infrastructure override a researcher's publication plan? (ii) Is voluntary withdrawal after an official request different from censorship? (iii) When a vendor's fix fails at the last minute, who should decide whether the talk goes ahead?",
@@ -2000,7 +2000,7 @@
 "outcome": "Talk cancelled (no threat, per researcher)",
 "chilling": "No",
 "dilemmas": "(i) How should media and the community verify suppression claims before amplifying them? (ii) Does publicity-driven framing harm researchers who face real threats? (iii) Should ATM research be presented publicly at all before banks patch?",
-"source": "http://news.softpedia.com/news/Researcher-Dispels-Rumors-Surrounding-HITB-Europe-Talk-Cancellation-148181.shtml"
+"source": "https://news.softpedia.com/news/Researcher-Dispels-Rumors-Surrounding-HITB-Europe-Talk-Cancellation-148181.shtml"
 },
 {
 "id": 144,
@@ -2010,7 +2010,7 @@
 "category": "Critical Infrastructure & Public Trust",
 "intent": "Good faith (intended public benefit)",
 "actor_type": "Corporate / private sector",
-"disclosure": "Responsible/coordinated",
+"disclosure": "Responsible / coordinated",
 "outcome": "Talk postponed one year",
 "chilling": "No",
 "dilemmas": "(i) Is a one-year delay a reasonable trade for giving operators time to patch ATMs? (ii) Should an employer, rather than the researcher, decide when a talk is ready? (iii) Does a live jackpotting demo inform defenders or instruct criminals?",
@@ -2079,7 +2079,7 @@
 "summary": "Between 2016 and 2017, the Shadow Brokers released tools linked to the U.S. National Security Agency, including the Windows exploit known as EternalBlue. Microsoft patched the underlying vulnerability in March 2017, but the exploit's subsequent public release contributed to attacks such as WannaCry and NotPetya on systems that remained unpatched.",
 "category": "Surveillance & Offensive Tools",
 "intent": "Ambiguous / gray area (mixed or unclear intent)",
-"actor_type": "Journalist / activist / independent",
+"actor_type": "Hacker / activist",
 "disclosure": "Public leak",
 "outcome": "No charges filed for the leak itself",
 "chilling": "No",
@@ -2163,8 +2163,8 @@
 "summary": "Heartbleed (CVE-2014-0160), disclosed in April 2014, was a flaw in OpenSSL's heartbeat extension that could expose portions of server or client memory, including potentially sensitive credentials and cryptographic material. Coordinated patching and public warnings raised questions about the timing of disclosure for widely deployed open-source infrastructure.",
 "category": "Vulnerability Disclosure",
 "intent": "Good faith (intended public benefit)",
-"actor_type": "Academic / independent researcher",
-"disclosure": "Responsible/coordinated",
+"actor_type": "Independent / contractor",
+"disclosure": "Responsible / coordinated",
 "outcome": "Patch and public disclosure",
 "chilling": "No",
 "dilemmas": "(i) What obligations do maintainers of widely deployed security libraries have when their project is underfunded? (ii) How should organizations and funders distribute responsibility for software that is free to use but critical to security?",
@@ -2178,7 +2178,7 @@
 "category": "Dual-Use Research",
 "intent": "Good faith (intended public benefit)",
 "actor_type": "Academic researcher",
-"disclosure": "Responsible/coordinated",
+"disclosure": "Responsible / coordinated",
 "outcome": "Emergency patching and widespread exploitation",
 "chilling": "No",
 "dilemmas": "(i) Who should bear responsibility for flaws in widely used volunteer-run software? (ii) Should disclosure be delayed, or sped up, once exploitation starts? (iii) What do companies owe the open source projects they depend on?",
@@ -2205,7 +2205,7 @@
 "summary": "In 2013, former intelligence contractor Edward Snowden gave journalists classified documents revealing U.S. surveillance programs, including bulk collection of telephone metadata. The disclosures prompted major public debate and policy changes, while the U.S. government charged Snowden under the Espionage Act. The case raises questions about secrecy, public-interest reporting, and whistleblower protections.",
 "category": "Institutional Suppression",
 "intent": "Ambiguous / gray area (mixed or unclear intent)",
-"actor_type": "Government / intelligence",
+"actor_type": "Journalist / activist / independent",
 "disclosure": "Media-first / leak",
 "outcome": "Charges filed; Snowden remains in exile",
 "chilling": "Yes",
@@ -2248,7 +2248,7 @@
 "category": "Dual-Use Research",
 "intent": "Good faith (intended public benefit)",
 "actor_type": "Independent / contractor",
-"disclosure": "Responsible/coordinated",
+"disclosure": "Responsible / coordinated",
 "outcome": "Public research disclosure and subsequent vendor security advisories",
 "chilling": "No",
 "dilemmas": "(i) Should device owners be able to inspect and modify firmware despite vendor restrictions?; (ii) How much exploit detail is appropriate when it can help both defenders and attackers?; (iii) What privacy obligations arise when household sensors send data to vendor cloud services?; (iv) How can researchers promote user control without introducing new risks?",

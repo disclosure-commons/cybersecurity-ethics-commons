@@ -1,10 +1,12 @@
 """
-Renumbers the case IDs in data/cases.json.
+Reads data/cases.json and writes a copy with sequential case IDs.
 
 Run from the repo root:
-    python3 scripts/renumber.py
+    python3 scripts/renumber_ids.py
 
-Renumbers the case IDs in data/cases.json. Safe to re-run any time data/cases.json changes.
+Sorts cases by their existing numeric IDs and assigns IDs starting at 1.
+Writes data/cases_renumbered.json, leaving data/cases.json unchanged.
+Re-running overwrites data/cases_renumbered.json.
 """
 
 import json

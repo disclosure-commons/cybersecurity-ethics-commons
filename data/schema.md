@@ -11,7 +11,7 @@
 | `category` | Primary category — one of the 8 taxonomy categories below |
 | `intent` | Actor Intent tag (see below) |
 | `actor_type` | Actor Type tag (see below) |
-| `disclosure` | How findings were disclosed (e.g. responsible/coordinated, media-first, none/withheld) |
+| `disclosure` | How findings were disclosed (e.g. Responsible / coordinated, media-first, none/withheld) |
 | `outcome` | Legal or institutional outcome of the case |
 | `chilling` | `Yes` / `No` — did the case have a documented chilling effect on future research or disclosure? |
 | `dilemmas` | Key ethical dilemmas raised, written for classroom discussion |
@@ -37,6 +37,7 @@
 - Financially motivated (profit, stock, bounty)
 - Malicious / reckless (knowingly harmful)
 - Institutional action against researcher
+- Accidental / negligent — Unintended harm from errors, operational failures, or potentially negligent practices.
 
 ## Actor Type tags
 
@@ -46,6 +47,9 @@
 - Corporate / private sector
 - Journalist / activist / independent
 - Government / law enforcement
+- Government / intelligence — Intelligence agencies or affiliated personnel, including those making unauthorized disclosures.
+- Cybercriminal group — Organized group conducting criminal cyber activity, including ransomware and extortion.
+- Hacker / activist — Actors conducting unauthorized intrusions or disclosures, claiming activist or ideological motives.
 
 ## Inclusion and sourcing criteria
 
