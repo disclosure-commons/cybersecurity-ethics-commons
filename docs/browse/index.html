@@ -184,17 +184,36 @@ fetch('../assets/cases.json')
   .then(d => { CASES = d.cases; CATEGORIES = d.categories; renderAll(); })
   .catch(() => { document.getElementById('result-bar').textContent = 'Could not load case data.'; });
 
-function countBy(key){ const m={}; CASES.forEach(c=>{m[c[key]]=(m[c[key]]||0)+1;}); return m; }
+function countBy(key){ const m=Object.create(null); CASES.forEach(c=>{m[c[key]]=(m[c[key]]||0)+1;}); return m; }
+
+function element(tag, className, text){
+  const node = document.createElement(tag);
+  if(className) node.className = className;
+  if(text !== undefined) node.textContent = text == null ? '' : String(text);
+  return node;
+}
+
+function categoryColor(name){
+  return Object.hasOwn(CAT_COLORS, name) ? CAT_COLORS[name] : '#999';
+}
+
+function safeSourceUrl(value){
+  if(typeof value !== 'string' || !/^https?:\/\/[^/?#]/i.test(value) || /[\s\u0000-\u001f\u007f\\]/u.test(value)) return null;
+  try {
+    const url = new URL(value);
+    return ['http:', 'https:'].includes(url.protocol) && url.hostname ? value : null;
+  } catch { return null; }
+}
 
 function renderCategoryFilters(){
   const counts = countBy('category');
   const ul = document.getElementById('category-filters');
-  ul.innerHTML = '';
+  ul.replaceChildren();
   CATEGORIES.forEach(cat => {
-    const li = document.createElement('li');
-    li.className = 'filter-item' + (state.categories.has(cat.name) ? ' active' : '');
-    li.innerHTML = `<span class="filter-swatch" style="background:${CAT_COLORS[cat.name]||'#999'}"></span>
-      <span>${cat.name}</span><span class="filter-count">${counts[cat.name]||0}</span>`;
+    const li = element('li', 'filter-item' + (state.categories.has(cat.name) ? ' active' : ''));
+    const swatch = element('span', 'filter-swatch');
+    swatch.style.background = categoryColor(cat.name);
+    li.append(swatch, element('span', '', cat.name), element('span', 'filter-count', counts[cat.name] || 0));
     li.title = cat.description;
     li.onclick = () => { state.categories.has(cat.name) ? state.categories.delete(cat.name) : state.categories.add(cat.name); renderAll(); };
     ul.appendChild(li);
@@ -204,7 +223,7 @@ function renderCategoryFilters(){
 function renderActorFilters(){
   const counts = countBy('actor_type');
   const wrap = document.getElementById('actor-filters');
-  wrap.innerHTML = '';
+  wrap.replaceChildren();
   Object.keys(counts).sort().forEach(type => {
     const btn = document.createElement('button');
     btn.className = 'chip' + (state.actorTypes.has(type) ? ' active' : '');
@@ -215,7 +234,12 @@ function renderActorFilters(){
 }
 
 function renderChillingFilters(){
+  const counts = countBy('chilling');
+  const labels = {any: 'Any', Yes: 'Flagged', No: 'Not flagged'};
   document.querySelectorAll('#chilling-filters .chip').forEach(chip => {
+    const value = chip.dataset.val;
+    const count = value === 'any' ? CASES.length : (counts[value] || 0);
+    chip.textContent = `${labels[value]} (${count})`;
     chip.classList.toggle('active', chip.dataset.val === state.chilling);
     chip.onclick = () => { state.chilling = chip.dataset.val; renderAll(); };
   });
@@ -237,46 +261,61 @@ function renderList(){
   const filtered = CASES.filter(matches);
   document.getElementById('result-bar').textContent = `${filtered.length} of ${CASES.length} cases`;
   const list = document.getElementById('case-list');
-  if(!filtered.length){ list.innerHTML = '<div class="empty-state">No cases match these filters. Try clearing one.</div>'; return; }
-  list.innerHTML = filtered.map(c => `
-    <div class="case-row" data-id="${c.id}">
-      <div class="case-num">No.${String(c.id).padStart(3,'0')}</div>
-      <div class="case-body" style="--cat-color:${CAT_COLORS[c.category]||'#999'}">
-        <div class="case-meta-line">
-          <span class="cat-label">${c.category}</span><span>&middot; ${c.year}</span><span>&middot; ${c.actor_type}</span>
-          ${c.chilling === 'Yes' ? '<span class="flag-chilling">chilling effect</span>' : ''}
-        </div>
-        <h3 class="case-title">${c.institution}</h3>
-        <p class="case-summary">${c.summary}</p>
-      </div>
-    </div>`).join('');
-  list.querySelectorAll('.case-row').forEach(row => { row.onclick = () => openCase(parseInt(row.dataset.id)); });
+  list.replaceChildren();
+  if(!filtered.length){
+    list.append(element('div', 'empty-state', 'No cases match these filters. Try clearing one.'));
+    return;
+  }
+  filtered.forEach(c => {
+    const row = element('div', 'case-row');
+    const body = element('div', 'case-body');
+    body.style.setProperty('--cat-color', categoryColor(c.category));
+    const meta = element('div', 'case-meta-line');
+    meta.append(element('span', 'cat-label', c.category), element('span', '', `· ${c.year}`), element('span', '', `· ${c.actor_type}`));
+    if(c.chilling === 'Yes') meta.append(element('span', 'flag-chilling', 'chilling effect'));
+    body.append(meta, element('h3', 'case-title', c.institution), element('p', 'case-summary', c.summary));
+    row.append(element('div', 'case-num', `No.${String(c.id).padStart(3,'0')}`), body);
+    row.onclick = () => openCase(c.id);
+    list.append(row);
+  });
 }
 
 function openCase(id){
+  if(!Number.isSafeInteger(id) || id < 1) return;
   const c = CASES.find(x => x.id === id);
   if(!c) return;
   const panel = document.getElementById('overlay-panel');
-  panel.style.setProperty('--cat-color', CAT_COLORS[c.category]||'#999');
-  const permalink = `../cases/${String(c.id).padStart(3,'0')}/`;
-  panel.innerHTML = `
-    <button class="overlay-close" id="overlay-close-btn">Close</button>
-    <div class="overlay-num">Case No.${String(c.id).padStart(3,'0')}</div>
-    <h2>${c.institution}</h2>
-    <div class="overlay-cat" style="color:${CAT_COLORS[c.category]||'#999'}">${c.category} &middot; ${c.year}</div>
-    ${c.chilling === 'Yes' ? '<div class="stamp">Chilling effect</div>' : ''}
-    <p class="overlay-summary">${c.summary}</p>
-    <div class="meta-grid">
-      <div class="meta-field"><label>Actor type</label><div>${c.actor_type || '&mdash;'}</div></div>
-      <div class="meta-field"><label>Actor intent</label><div>${c.intent || '&mdash;'}</div></div>
-      <div class="meta-field"><label>Disclosure method</label><div>${c.disclosure || '&mdash;'}</div></div>
-      <div class="meta-field"><label>Legal outcome</label><div>${c.outcome || '&mdash;'}</div></div>
-    </div>
-    <h3>Key ethical dilemmas</h3><p>${c.dilemmas || '&mdash;'}</p>
-    ${c.source ? `<h3>Source</h3><p><a href="${c.source}" target="_blank" rel="noopener">${c.source}</a></p>` : ''}
-    <a class="overlay-permalink" href="${permalink}">View this case's permanent page &rarr;</a>
-  `;
-  document.getElementById('overlay-close-btn').onclick = closeCase;
+  panel.style.setProperty('--cat-color', categoryColor(c.category));
+  const close = element('button', 'overlay-close', 'Close');
+  close.id = 'overlay-close-btn';
+  close.onclick = closeCase;
+  const category = element('div', 'overlay-cat', `${c.category} · ${c.year}`);
+  category.style.color = categoryColor(c.category);
+  panel.replaceChildren(close, element('div', 'overlay-num', `Case No.${String(id).padStart(3,'0')}`), element('h2', '', c.institution), category);
+  if(c.chilling === 'Yes') panel.append(element('div', 'stamp', 'Chilling effect'));
+  panel.append(element('p', 'overlay-summary', c.summary));
+  const grid = element('div', 'meta-grid');
+  for(const [label, value] of [['Actor type', c.actor_type], ['Actor intent', c.intent], ['Disclosure method', c.disclosure], ['Legal outcome', c.outcome]]){
+    const field = element('div', 'meta-field');
+    field.append(element('label', '', label), element('div', '', value || '—'));
+    grid.append(field);
+  }
+  panel.append(grid, element('h3', '', 'Key ethical dilemmas'), element('p', '', c.dilemmas || '—'));
+  if(c.source){
+    const paragraph = element('p');
+    const sourceUrl = safeSourceUrl(c.source);
+    if(sourceUrl){
+      const link = element('a', '', c.source);
+      link.href = sourceUrl;
+      link.target = '_blank';
+      link.rel = 'noopener';
+      paragraph.append(link);
+    } else paragraph.textContent = c.source;
+    panel.append(element('h3', '', 'Source'), paragraph);
+  }
+  const permalink = element('a', 'overlay-permalink', "View this case's permanent page →");
+  permalink.href = `../cases/${String(id).padStart(3,'0')}/`;
+  panel.append(permalink);
   panel.classList.add('open');
   document.getElementById('scrim').classList.add('open');
 }

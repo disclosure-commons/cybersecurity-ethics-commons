@@ -11,6 +11,8 @@ which are hand-maintained. Safe to re-run any time data/cases.json changes.
 import json
 import re
 import shutil
+from html import escape
+from urllib.parse import urlsplit
 from datetime import date
 from pathlib import Path
 from collections import Counter
@@ -55,11 +57,24 @@ NAV_ITEMS = [
 
 
 def esc(s):
-    """Minimal HTML escaping for text content."""
-    if s is None:
-        return ""
-    return (str(s).replace("&", "&amp;").replace("<", "&lt;")
-            .replace(">", "&gt;"))
+    """Escape dataset values for HTML text and quoted attributes."""
+    return "" if s is None else escape(str(s), quote=True)
+
+
+def safe_source_url(value):
+    """Allow absolute HTTP(S) links only; reject ambiguous URL syntax."""
+    if not isinstance(value, str) or not value or any(
+        char.isspace() or ord(char) < 32 or ord(char) == 127 or char == "\\"
+        for char in value
+    ):
+        return None
+    try:
+        parsed = urlsplit(value)
+        if parsed.scheme.lower() in {"http", "https"} and parsed.hostname:
+            return value
+    except ValueError:
+        pass
+    return None
 
 
 def nav_html(active_path, depth):
@@ -153,9 +168,10 @@ def build_case_page(case, all_cases, idx):
     color = CAT_COLORS.get(case["category"], "#999")
     chilling_stamp = '<div class="stamp">Chilling effect</div>' if case.get("chilling") == "Yes" else ""
     source = case.get("source") or ""
+    source_url = safe_source_url(source)
     source_html = (
-        f'<h3>Source</h3><p><a href="{esc(source)}" target="_blank" rel="noopener">{esc(source)}</a></p>'
-        if source else ""
+        f'<h3>Source</h3><p><a href="{esc(source_url)}" target="_blank" rel="noopener">{esc(source)}</a></p>'
+        if source_url else (f"<h3>Source</h3><p>{esc(source)}</p>" if source else "")
     )
 
     prev_case = all_cases[idx - 1] if idx > 0 else None
@@ -344,7 +360,7 @@ def main():
     categories = data["categories"]
     expected_ids = list(range(1, len(cases) + 1))
     actual_ids = [case.get("id") for case in cases]
-    if actual_ids != expected_ids:
+    if any(type(cid) is not int for cid in actual_ids) or actual_ids != expected_ids:
         raise ValueError("Case IDs must be sequential integers from 1 through the case count.")
 
     years = []
@@ -359,6 +375,7 @@ def main():
             ("Financially motivated (profit, stock, bounty)", "Disclosure or research was significantly shaped by financial gain."),
             ("Malicious / reckless (knowingly harmful)", "Actor knowingly caused harm or acted with reckless disregard."),
             ("Institutional action against researcher", "A government, corporation, or institution took action against a researcher."),
+            ("Accidental / negligent", "Unintended harm from errors, operational failures, or potentially negligent practices."),
         ],
         "Actor Type": [
             ("Academic researcher", "Faculty, PhD student, or postdoc affiliated with a university."),
@@ -367,6 +384,9 @@ def main():
             ("Corporate / private sector", "Employee of a company, security firm, or private organization."),
             ("Journalist / activist / independent", "Reporting or advocacy-driven disclosure."),
             ("Government / law enforcement", "Acting in an official government or law-enforcement capacity."),
+            ("Government / intelligence", "Intelligence agencies or affiliated personnel, including those making unauthorized disclosures."),
+            ("Cybercriminal group", "Organized group conducting criminal cyber activity, including ransomware and extortion."),
+            ("Hacker / activist", "Actors conducting unauthorized intrusions or disclosures, claiming activist or ideological motives."),
         ],
     }
 
