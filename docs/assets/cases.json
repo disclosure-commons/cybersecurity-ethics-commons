@@ -11,8 +11,16 @@
 "disclosure": "Responsible / coordinated",
 "outcome": "No charges filed",
 "chilling": "Yes",
-"dilemmas": "(i) Where did the training data come from, and did it include other people's browsing traffic?; (ii) Publishing a working attack that can identify Tor users vs. helping Tor build defenses; (iii) How much technical detail to release about a deanonymization method; (iv) Is it responsible to attack your own proposed defense, and who should see those results first?",
-"source": "https://www.rit.edu/news/rit-cyber-fighters-go-deep-tor-security"
+"dilemmas": [
+"Where did the training data come from, and did it include other people's browsing traffic?",
+"Publishing a working attack that can identify Tor users vs. helping Tor build defenses",
+"How much technical detail to release about a deanonymization method",
+"Is it responsible to attack your own proposed defense, and who should see those results first?"
+],
+"source": "https://www.rit.edu/news/rit-cyber-fighters-go-deep-tor-security",
+"long_summary": "",
+"extra_sources": [],
+"tags": []
 },
 {
 "id": 2,
@@ -25,8 +33,16 @@
 "disclosure": "Responsible / coordinated",
 "outcome": "Civil suit / Injunction",
 "chilling": "Yes",
-"dilemmas": "(i) Research freedom vs. legal liability; (ii) Using litigation to suppress legitimate security findings; (iii) Free speech rights of security researchers; (iv) Responsible disclosure timeline",
-"source": "https://www.eff.org/deeplinks/2008/08/mbta-transit-official-supports-mit-students-story"
+"dilemmas": [
+"Research freedom vs. legal liability",
+"Using litigation to suppress legitimate security findings",
+"Free speech rights of security researchers",
+"Responsible disclosure timeline"
+],
+"source": "https://www.eff.org/deeplinks/2008/08/mbta-transit-official-supports-mit-students-story",
+"long_summary": "",
+"extra_sources": [],
+"tags": []
 },
 {
 "id": 3,
@@ -39,8 +55,16 @@
 "disclosure": "Media-first",
 "outcome": "Conviction overturned on appeal",
 "chilling": "Yes",
-"dilemmas": "(i) Is scraping publicly accessible but unintended data unauthorized access under CFAA?; (ii) Responsible disclosure vs. media disclosure to maximize embarrassment; (iii) Chilling effect on legitimate security research; (iv) Corporate negligence vs. researcher culpability",
-"source": "https://www.theguardian.com/technology/2013/mar/18/at-and-t-hacker-jailed-ipad-email"
+"dilemmas": [
+"Is scraping publicly accessible but unintended data unauthorized access under CFAA?",
+"Responsible disclosure vs. media disclosure to maximize embarrassment",
+"Chilling effect on legitimate security research",
+"Corporate negligence vs. researcher culpability"
+],
+"source": "https://www.theguardian.com/technology/2013/mar/18/at-and-t-hacker-jailed-ipad-email",
+"long_summary": "",
+"extra_sources": [],
+"tags": []
 },
 {
 "id": 4,
@@ -53,8 +77,16 @@
 "disclosure": "Provocation",
 "outcome": "FBI investigation closed; no criminal charges filed",
 "chilling": "Yes",
-"dilemmas": "(i) Is creating a working exploit to force policy change ethically justified?; (ii) Research freedom vs. real-world risk of tool misuse; (iii) Government pressure to suppress valid security findings; (iv) When does responsible disclosure become irresponsible provocation?",
-"source": "https://www.computerworld.com/article/1503458/fbi-smashes-fake-boarding-pass-guy-s-door-and-new-ghp.html"
+"dilemmas": [
+"Is creating a working exploit to force policy change ethically justified?",
+"Research freedom vs. real-world risk of tool misuse",
+"Government pressure to suppress valid security findings",
+"When does responsible disclosure become irresponsible provocation?"
+],
+"source": "https://www.computerworld.com/article/1503458/fbi-smashes-fake-boarding-pass-guy-s-door-and-new-ghp.html",
+"long_summary": "",
+"extra_sources": [],
+"tags": []
 },
 {
 "id": 5,
@@ -67,8 +99,16 @@
 "disclosure": "None (withheld)",
 "outcome": "No charges filed",
 "chilling": "No",
-"dilemmas": "(i) Informed consent in deception-based cybersecurity experiments; (ii) Psychological harm to non-consenting participants; (iii) Whether IRBs are equipped to evaluate realistic cyber-deception studies; (iv) Institutional obligations when using own community as test subjects",
-"source": "https://rickwash.com/papers/phishing-stories.pdf"
+"dilemmas": [
+"Informed consent in deception-based cybersecurity experiments",
+"Psychological harm to non-consenting participants",
+"Whether IRBs are equipped to evaluate realistic cyber-deception studies",
+"Institutional obligations when using own community as test subjects"
+],
+"source": "https://rickwash.com/papers/phishing-stories.pdf",
+"long_summary": "",
+"extra_sources": [],
+"tags": []
 },
 {
 "id": 6,
@@ -81,8 +121,16 @@
 "disclosure": "None (withheld)",
 "outcome": "No charges filed",
 "chilling": "Yes",
-"dilemmas": "(i) Experimenting on open-source community without consent; (ii) Misuse of volunteer maintainer time; (iii) Risk of introducing real vulnerabilities into critical infrastructure; (iv) Publication of methods enabling similar attacks",
-"source": "https://www.bleepingcomputer.com/news/security/linux-bans-university-of-minnesota-for-committing-malicious-code/"
+"dilemmas": [
+"Experimenting on open-source community without consent",
+"Misuse of volunteer maintainer time",
+"Risk of introducing real vulnerabilities into critical infrastructure",
+"Publication of methods enabling similar attacks"
+],
+"source": "https://www.bleepingcomputer.com/news/security/linux-bans-university-of-minnesota-for-committing-malicious-code/",
+"long_summary": "",
+"extra_sources": [],
+"tags": []
 },
 {
 "id": 7,
@@ -95,8 +143,16 @@
 "disclosure": "None (withheld)",
 "outcome": "No charges filed",
 "chilling": "Yes",
-"dilemmas": "(i) Research on human subjects without consent; (ii) Withholding a vulnerability from the affected party (Tor Project); (iii) Financial incentives vs. ethical responsibility; (iv) Using academic research as outsourced law enforcement",
-"source": "https://blog.torproject.org/did-fbi-pay-university-attack-tor-users/"
+"dilemmas": [
+"Research on human subjects without consent",
+"Withholding a vulnerability from the affected party (Tor Project)",
+"Financial incentives vs. ethical responsibility",
+"Using academic research as outsourced law enforcement"
+],
+"source": "https://blog.torproject.org/did-fbi-pay-university-attack-tor-users/",
+"long_summary": "",
+"extra_sources": [],
+"tags": []
 },
 {
 "id": 8,
@@ -109,8 +165,16 @@
 "disclosure": "Responsible / coordinated",
 "outcome": "No charges filed",
 "chilling": "No",
-"dilemmas": "(i) Does authorized pentesting of election infrastructure risk undermining public trust in democracy?; (ii) Full technical disclosure vs. limiting details that could enable copycat attacks; (iii) Academic freedom to publish results of authorized civic hacking; (iv) Coordination challenges between researchers, vendors, and election officials",
-"source": "https://blog.citp.princeton.edu/2010/10/05/hacking-dc-internet-voting-pilot/"
+"dilemmas": [
+"Does authorized pentesting of election infrastructure risk undermining public trust in democracy?",
+"Full technical disclosure vs. limiting details that could enable copycat attacks",
+"Academic freedom to publish results of authorized civic hacking",
+"Coordination challenges between researchers, vendors, and election officials"
+],
+"source": "https://blog.citp.princeton.edu/2010/10/05/hacking-dc-internet-voting-pilot/",
+"long_summary": "",
+"extra_sources": [],
+"tags": []
 },
 {
 "id": 9,
@@ -123,8 +187,16 @@
 "disclosure": "Media-first",
 "outcome": "Civil suit / Injunction",
 "chilling": "Yes",
-"dilemmas": "(i) Financial conflict of interest in vulnerability disclosure; (ii) Potential patient risk from partial/premature disclosure; (iii) Bypassing coordinated disclosure entirely for profit; (iv) Whether short-selling on security research is legal/ethical",
-"source": "https://ismg-cdn.nyc3.cdn.digitaloceanspaces.com/asset_files/external/St-Jude-Medical-vs-Muddy-Waters-and-MedSec-complaint-9-7-16.pdf"
+"dilemmas": [
+"Financial conflict of interest in vulnerability disclosure",
+"Potential patient risk from partial/premature disclosure",
+"Bypassing coordinated disclosure entirely for profit",
+"Whether short-selling on security research is legal/ethical"
+],
+"source": "https://ismg-cdn.nyc3.cdn.digitaloceanspaces.com/asset_files/external/St-Jude-Medical-vs-Muddy-Waters-and-MedSec-complaint-9-7-16.pdf",
+"long_summary": "",
+"extra_sources": [],
+"tags": []
 },
 {
 "id": 10,
@@ -137,8 +209,16 @@
 "disclosure": "None (withheld)",
 "outcome": "Charged / dropped",
 "chilling": "Yes",
-"dilemmas": "(i) Unauthorized testing of public election infrastructure \u2014 crime or civic duty?; (ii) Whether pentesting without explicit written authorization can ever be 'ethical'; (iii) Chilling effect on election security research; (iv) Distinction between proof-of-concept testing and malicious intrusion",
-"source": "https://digitaltrends.com/?p=964877"
+"dilemmas": [
+"Unauthorized testing of public election infrastructure \u2014 crime or civic duty?",
+"Whether pentesting without explicit written authorization can ever be 'ethical'",
+"Chilling effect on election security research",
+"Distinction between proof-of-concept testing and malicious intrusion"
+],
+"source": "https://digitaltrends.com/?p=964877",
+"long_summary": "",
+"extra_sources": [],
+"tags": []
 },
 {
 "id": 11,
@@ -151,8 +231,16 @@
 "disclosure": "Media-first",
 "outcome": "No charges filed",
 "chilling": "No",
-"dilemmas": "(i) Research ethics of using stolen/leaked corporate data; (ii) Whether exposing surveillance vendors justifies privacy violations of their employees; (iii) Researchers re-releasing zero-day exploits found in leaked data; (iv) Corporate accountability for selling offensive tools to authoritarian states",
-"source": "https://www.wired.com/2015/07/hacking-team-breach-shows-global-spying-firm-run-amok/"
+"dilemmas": [
+"Research ethics of using stolen/leaked corporate data",
+"Whether exposing surveillance vendors justifies privacy violations of their employees",
+"Researchers re-releasing zero-day exploits found in leaked data",
+"Corporate accountability for selling offensive tools to authoritarian states"
+],
+"source": "https://www.wired.com/2015/07/hacking-team-breach-shows-global-spying-firm-run-amok/",
+"long_summary": "",
+"extra_sources": [],
+"tags": []
 },
 {
 "id": 12,
@@ -165,8 +253,16 @@
 "disclosure": "Responsible / coordinated",
 "outcome": "No charges filed",
 "chilling": "Yes",
-"dilemmas": "(i) Academic freedom vs. potential to fuel election misinformation; (ii) Whether sealed vulnerability research can remain secret in an adversarial legal setting; (iii) Risk that legitimate security findings are weaponized for political disinformation; (iv) Tension between public right to know and protecting public trust in elections",
-"source": "https://news.engin.umich.edu/2024/10/four-election-vulnerabilities-uncovered-by-a-michigan-engineer/"
+"dilemmas": [
+"Academic freedom vs. potential to fuel election misinformation",
+"Whether sealed vulnerability research can remain secret in an adversarial legal setting",
+"Risk that legitimate security findings are weaponized for political disinformation",
+"Tension between public right to know and protecting public trust in elections"
+],
+"source": "https://news.engin.umich.edu/2024/10/four-election-vulnerabilities-uncovered-by-a-michigan-engineer/",
+"long_summary": "",
+"extra_sources": [],
+"tags": []
 },
 {
 "id": 13,
@@ -179,8 +275,16 @@
 "disclosure": "Responsible / coordinated",
 "outcome": "No charges filed",
 "chilling": "No",
-"dilemmas": "(i) Does publishing detailed attribution of surveillance operations tip off abusive governments?; (ii) Researcher responsibility to notify both victims and software vendors; (iii) Balance between academic publication norms and protecting at-risk human rights defenders; (iv) Whether Western companies should face consequences for selling spyware to authoritarian buyers",
-"source": "https://citizenlab.ca/research/mapping-finfishers-continuing-proliferation/"
+"dilemmas": [
+"Does publishing detailed attribution of surveillance operations tip off abusive governments?",
+"Researcher responsibility to notify both victims and software vendors",
+"Balance between academic publication norms and protecting at-risk human rights defenders",
+"Whether Western companies should face consequences for selling spyware to authoritarian buyers"
+],
+"source": "https://citizenlab.ca/research/mapping-finfishers-continuing-proliferation/",
+"long_summary": "",
+"extra_sources": [],
+"tags": []
 },
 {
 "id": 14,
@@ -193,8 +297,16 @@
 "disclosure": "Responsible / coordinated",
 "outcome": "Plea to one misdemeanor",
 "chilling": "Yes",
-"dilemmas": "(i) 'Shoot the messenger' \u2014 vendor weaponizing CFAA against the person who exposed their negligence; (ii) Using cyberstalking statutes to silence researcher criticism of government overreach; (iii) Chilling effect: other researchers stopped disclosing after the raids; (iv) Pretrial detention as punishment before conviction",
-"source": "https://www.theregister.com/security/2017/12/05/dentist-turned-bug-biter-given-a-taste-of-freedom/528449"
+"dilemmas": [
+"'Shoot the messenger' \u2014 vendor weaponizing CFAA against the person who exposed their negligence",
+"Using cyberstalking statutes to silence researcher criticism of government overreach",
+"Chilling effect: other researchers stopped disclosing after the raids",
+"Pretrial detention as punishment before conviction"
+],
+"source": "https://www.theregister.com/security/2017/12/05/dentist-turned-bug-biter-given-a-taste-of-freedom/528449",
+"long_summary": "",
+"extra_sources": [],
+"tags": []
 },
 {
 "id": 15,
@@ -207,8 +319,16 @@
 "disclosure": "None (withheld)",
 "outcome": "Charged (case ended with death of defendant)",
 "chilling": "Yes",
-"dilemmas": "(i) CFAA overcriminalization \u2014 was exceeding ToS really a felony?; (ii) Prosecutorial overreach when the victim (JSTOR) dropped the case; (iii) Open-access ideology vs. intellectual property law; (iv) Criminal penalties disproportionate to actual harm",
-"source": "https://news.mit.edu/2013/mit-swartz-report-faq-0730"
+"dilemmas": [
+"CFAA overcriminalization \u2014 was exceeding ToS really a felony?",
+"Prosecutorial overreach when the victim (JSTOR) dropped the case",
+"Open-access ideology vs. intellectual property law",
+"Criminal penalties disproportionate to actual harm"
+],
+"source": "https://news.mit.edu/2013/mit-swartz-report-faq-0730",
+"long_summary": "",
+"extra_sources": [],
+"tags": []
 },
 {
 "id": 16,
@@ -221,8 +341,16 @@
 "disclosure": "None (withheld)",
 "outcome": "Convicted (time served)",
 "chilling": "Yes",
-"dilemmas": "(i) Should past black-hat activity negate subsequent white-hat contributions?; (ii) Arresting a researcher at a security conference as a deterrent tactic; (iii) Fairness of prosecuting juvenile/early-career offenses years later; (iv) Community trust in law enforcement collaboration with researchers",
-"source": "https://www.theguardian.com/technology/2019/jul/26/marcus-hutchins-wannacry-ransomware-malware-charges"
+"dilemmas": [
+"Should past black-hat activity negate subsequent white-hat contributions?",
+"Arresting a researcher at a security conference as a deterrent tactic",
+"Fairness of prosecuting juvenile/early-career offenses years later",
+"Community trust in law enforcement collaboration with researchers"
+],
+"source": "https://www.theguardian.com/technology/2019/jul/26/marcus-hutchins-wannacry-ransomware-malware-charges",
+"long_summary": "",
+"extra_sources": [],
+"tags": []
 },
 {
 "id": 17,
@@ -235,8 +363,16 @@
 "disclosure": "Media-first",
 "outcome": "No charges filed",
 "chilling": "No",
-"dilemmas": "(i) Public disclosure of vulnerabilities before vendor notification; (ii) Dual-use: security tool vs. attack enablement; (iii) Scanning sites without owner consent (potential CFAA exposure); (iv) Whether 'pressure through shame' is an ethical remediation strategy",
-"source": "https://vulners.com/threatpost/THREATPOST%3ABFC2F4466AEF2AB41A45052A4EFCCD79"
+"dilemmas": [
+"Public disclosure of vulnerabilities before vendor notification",
+"Dual-use: security tool vs. attack enablement",
+"Scanning sites without owner consent (potential CFAA exposure)",
+"Whether 'pressure through shame' is an ethical remediation strategy"
+],
+"source": "https://vulners.com/threatpost/THREATPOST%3ABFC2F4466AEF2AB41A45052A4EFCCD79",
+"long_summary": "",
+"extra_sources": [],
+"tags": []
 },
 {
 "id": 18,
@@ -249,8 +385,16 @@
 "disclosure": "Responsible / coordinated",
 "outcome": "No charges filed",
 "chilling": "No",
-"dilemmas": "(i) Ethical permissibility of internet-wide scanning without operator consent; (ii) Legal exposure under CFAA for automated access to systems not owned by researchers; (iii) Responsible disclosure when 1M+ vulnerable systems cannot all be notified; (iv) Dual-use: FBI used findings, but so did ransomware actors",
-"source": "https://jhalderm.com/pub/papers/ftp-dsn16.pdf"
+"dilemmas": [
+"Ethical permissibility of internet-wide scanning without operator consent",
+"Legal exposure under CFAA for automated access to systems not owned by researchers",
+"Responsible disclosure when 1M+ vulnerable systems cannot all be notified",
+"Dual-use: FBI used findings, but so did ransomware actors"
+],
+"source": "https://jhalderm.com/pub/papers/ftp-dsn16.pdf",
+"long_summary": "",
+"extra_sources": [],
+"tags": []
 },
 {
 "id": 19,
@@ -263,8 +407,16 @@
 "disclosure": "None (withheld)",
 "outcome": "Criminal case expired under statute of limitations; deportation ordered (October 2026).",
 "chilling": "Yes",
-"dilemmas": "(i) Criminalization of possession of security tools and technical literature as evidence of malicious intent; (ii) Politically motivated prosecution of security researchers; (iii) Due process rights of open-source developers; (iv) Chilling effect on privacy-tool development",
-"source": "https://www.eff.org/deeplinks/2026/10/ola-bini-ordered-leave-ecuador-under-obscure-accusations"
+"dilemmas": [
+"Criminalization of possession of security tools and technical literature as evidence of malicious intent",
+"Politically motivated prosecution of security researchers",
+"Due process rights of open-source developers",
+"Chilling effect on privacy-tool development"
+],
+"source": "https://www.eff.org/deeplinks/2026/10/ola-bini-ordered-leave-ecuador-under-obscure-accusations",
+"long_summary": "",
+"extra_sources": [],
+"tags": []
 },
 {
 "id": 20,
@@ -277,8 +429,16 @@
 "disclosure": "Responsible / coordinated",
 "outcome": "No charges filed (KSU; evidence destruction concerns)",
 "chilling": "Yes",
-"dilemmas": "(i) Responsible disclosure failure when institutions do not respond to researcher notifications; (ii) Destruction of evidence after a researcher goes public; (iii) Whether researchers have an obligation to escalate beyond the institution when critical infrastructure is at risk; (iv) Accountability gap when election infrastructure is housed at an academic institution",
-"source": "https://www.nbcdfw.com/news/national-international/researcher-finds-georgia-voter-records-internet/2042262/"
+"dilemmas": [
+"Responsible disclosure failure when institutions do not respond to researcher notifications",
+"Destruction of evidence after a researcher goes public",
+"Whether researchers have an obligation to escalate beyond the institution when critical infrastructure is at risk",
+"Accountability gap when election infrastructure is housed at an academic institution"
+],
+"source": "https://www.nbcdfw.com/news/national-international/researcher-finds-georgia-voter-records-internet/2042262/",
+"long_summary": "",
+"extra_sources": [],
+"tags": []
 },
 {
 "id": 21,
@@ -291,8 +451,16 @@
 "disclosure": "Responsible / coordinated",
 "outcome": "No charges filed",
 "chilling": "No",
-"dilemmas": "(i) When a government office denies receiving researcher notification, what recourse does the researcher have?; (ii) Timing of media disclosure for critical election infrastructure vulnerabilities; (iii) Risk that responsible disclosure of election bugs becomes fodder for disinformation; (iv) Whether election officials' denial of researcher contact constitutes bad faith",
-"source": "https://www.propublica.org/article/cybersecurity-expert-finds-another-flaw-in-georgia-voter-portal"
+"dilemmas": [
+"When a government office denies receiving researcher notification, what recourse does the researcher have?",
+"Timing of media disclosure for critical election infrastructure vulnerabilities",
+"Risk that responsible disclosure of election bugs becomes fodder for disinformation",
+"Whether election officials' denial of researcher contact constitutes bad faith"
+],
+"source": "https://www.propublica.org/article/cybersecurity-expert-finds-another-flaw-in-georgia-voter-portal",
+"long_summary": "",
+"extra_sources": [],
+"tags": []
 },
 {
 "id": 22,
@@ -305,8 +473,16 @@
 "disclosure": "None (withheld)",
 "outcome": "Courts split on admissibility; some cases dropped",
 "chilling": "No",
-"dilemmas": "(i) Government use of malware as investigative technique without targeted warrants; (ii) Single warrant authorizing hacking of computers across 120+ countries; (iii) DOJ choosing to drop prosecutions rather than disclose offensive tools; (iv) Does fighting CSAM justify warrantless global hacking of Tor users?",
-"source": "https://www.congress.gov/crs_external_products/R/PDF/R44827/R44827.4.pdf"
+"dilemmas": [
+"Government use of malware as investigative technique without targeted warrants",
+"Single warrant authorizing hacking of computers across 120+ countries",
+"DOJ choosing to drop prosecutions rather than disclose offensive tools",
+"Does fighting CSAM justify warrantless global hacking of Tor users?"
+],
+"source": "https://www.congress.gov/crs_external_products/R/PDF/R44827/R44827.4.pdf",
+"long_summary": "",
+"extra_sources": [],
+"tags": []
 },
 {
 "id": 23,
@@ -319,8 +495,16 @@
 "disclosure": "Media-first",
 "outcome": "No charges filed",
 "chilling": "No",
-"dilemmas": "(i) Scanning municipal critical infrastructure without written permission; (ii) Full technical disclosure of infrastructure vulnerabilities when patches remain unavailable; (iii) Risk that published details of water/traffic attacks could cause physical harm; (iv) Whether researchers must wait longer when targets are critical infrastructure",
-"source": "https://www.darkreading.com/vulnerabilities-threats/researcher-finds-potholes-in-vehicle-traffic-control-systems"
+"dilemmas": [
+"Scanning municipal critical infrastructure without written permission",
+"Full technical disclosure of infrastructure vulnerabilities when patches remain unavailable",
+"Risk that published details of water/traffic attacks could cause physical harm",
+"Whether researchers must wait longer when targets are critical infrastructure"
+],
+"source": "https://www.darkreading.com/vulnerabilities-threats/researcher-finds-potholes-in-vehicle-traffic-control-systems",
+"long_summary": "",
+"extra_sources": [],
+"tags": []
 },
 {
 "id": 24,
@@ -333,8 +517,16 @@
 "disclosure": "Responsible / coordinated",
 "outcome": "No charges filed",
 "chilling": "No",
-"dilemmas": "(i) Private threat-intelligence firms monetizing zero-day knowledge vs. immediate public disclosure; (ii) Whether commercial security sector should have a legal disclosure obligation; (iii) Conflict between client confidentiality and warning undefended third parties; (iv) Government contractors holding offensive capabilities creates asymmetric vulnerability landscape",
-"source": "https://www.wired.com/2014/10/russian-sandworm-hack-isight/"
+"dilemmas": [
+"Private threat-intelligence firms monetizing zero-day knowledge vs. immediate public disclosure",
+"Whether commercial security sector should have a legal disclosure obligation",
+"Conflict between client confidentiality and warning undefended third parties",
+"Government contractors holding offensive capabilities creates asymmetric vulnerability landscape"
+],
+"source": "https://www.wired.com/2014/10/russian-sandworm-hack-isight/",
+"long_summary": "",
+"extra_sources": [],
+"tags": []
 },
 {
 "id": 25,
@@ -347,8 +539,15 @@
 "disclosure": "Responsible / coordinated",
 "outcome": "No charges filed",
 "chilling": "No",
-"dilemmas": "(i) Ethical interaction with cybercriminals without encouraging illegal behavior; (ii) Entrapment vs. observation; (iii) Non-consent experimentation on criminals",
-"source": "https://blog.apnic.net/2026/01/14/what-we-learned-from-63000-attacks-in-12-days-on-apnic-honeynet-sensors-at-university-of-dhaka/"
+"dilemmas": [
+"Ethical interaction with cybercriminals without encouraging illegal behavior",
+"Entrapment vs. observation",
+"Non-consent experimentation on criminals"
+],
+"source": "https://blog.apnic.net/2026/01/14/what-we-learned-from-63000-attacks-in-12-days-on-apnic-honeynet-sensors-at-university-of-dhaka/",
+"long_summary": "",
+"extra_sources": [],
+"tags": []
 },
 {
 "id": 26,
@@ -361,8 +560,15 @@
 "disclosure": "Responsible / coordinated",
 "outcome": "No charges filed",
 "chilling": "No",
-"dilemmas": "(i) Ethical interaction with cybercriminals without encouraging illegal behavior; (ii) Entrapment vs. observation; (iii) Non-consent experimentation on criminals",
-"source": "https://isi.jhu.edu/wp-content/uploads/2024/02/Honeypot_Paper_for_HoTSoS-2024-2.pdf"
+"dilemmas": [
+"Ethical interaction with cybercriminals without encouraging illegal behavior",
+"Entrapment vs. observation",
+"Non-consent experimentation on criminals"
+],
+"source": "https://isi.jhu.edu/wp-content/uploads/2024/02/Honeypot_Paper_for_HoTSoS-2024-2.pdf",
+"long_summary": "",
+"extra_sources": [],
+"tags": []
 },
 {
 "id": 27,
@@ -375,8 +581,15 @@
 "disclosure": "Media-first",
 "outcome": "Conviction overturned after sentence served",
 "chilling": "Yes",
-"dilemmas": "(i) Should warning customers about a security flaw ever count as a 'malicious code' offense?; (ii) What recourse exists for a wrongful felony conviction already served?; (iii) Chilling effect of CFAA's vague 'damage' language on good-faith disclosure",
-"source": "https://www.theregister.com/2003/10/15/prosecutors_admit_error_in_whistleblower"
+"dilemmas": [
+"Should warning customers about a security flaw ever count as a 'malicious code' offense?",
+"What recourse exists for a wrongful felony conviction already served?",
+"Chilling effect of CFAA's vague 'damage' language on good-faith disclosure"
+],
+"source": "https://www.theregister.com/2003/10/15/prosecutors_admit_error_in_whistleblower",
+"long_summary": "",
+"extra_sources": [],
+"tags": []
 },
 {
 "id": 28,
@@ -389,8 +602,15 @@
 "disclosure": "None (withheld)",
 "outcome": "Convicted (fined \u00a3400 + \u00a3600 costs)",
 "chilling": "Yes",
-"dilemmas": "(i) Does intent matter under strict-liability computer-misuse statutes?; (ii) Should consumer self-protection checks ever be criminalized?; (iii) Career destruction disproportionate to harm caused",
-"source": "https://www.theregister.com/2005/10/06/tsunami_hacker_convicted/"
+"dilemmas": [
+"Does intent matter under strict-liability computer-misuse statutes?",
+"Should consumer self-protection checks ever be criminalized?",
+"Career destruction disproportionate to harm caused"
+],
+"source": "https://www.theregister.com/2005/10/06/tsunami_hacker_convicted/",
+"long_summary": "",
+"extra_sources": [],
+"tags": []
 },
 {
 "id": 29,
@@ -403,8 +623,15 @@
 "disclosure": "Responsible / coordinated",
 "outcome": "No charges filed",
 "chilling": "Yes",
-"dilemmas": "(i) Can bug bounty confidentiality terms be used to suppress legitimate findings?; (ii) Threatening prosecution against a researcher acting within a company's disclosed scope; (iii) Power imbalance between corporate legal teams and individual researchers",
-"source": "https://www.theregister.com/security/2017/11/16/dji-bug-bounty-nda-is-not-signable-say-irate-infosec-researchers/393190"
+"dilemmas": [
+"Can bug bounty confidentiality terms be used to suppress legitimate findings?",
+"Threatening prosecution against a researcher acting within a company's disclosed scope",
+"Power imbalance between corporate legal teams and individual researchers"
+],
+"source": "https://www.theregister.com/security/2017/11/16/dji-bug-bounty-nda-is-not-signable-say-irate-infosec-researchers/393190",
+"long_summary": "",
+"extra_sources": [],
+"tags": []
 },
 {
 "id": 30,
@@ -417,8 +644,15 @@
 "disclosure": "None (withheld)",
 "outcome": "Convicted (probation, $50K fine, 200 hours community service)",
 "chilling": "Yes",
-"dilemmas": "(i) Personal criminal liability of security executives for breach cover-ups; (ii) Where is the line between 'incident response' and witness tampering/concealment?; (iii) Should corporate leadership above the CSO share equal culpability?",
-"source": "https://www.justice.gov/usao-ndca/pr/former-chief-security-officer-uber-sentenced-three-years-probation-covering-data"
+"dilemmas": [
+"Personal criminal liability of security executives for breach cover-ups",
+"Where is the line between 'incident response' and witness tampering/concealment?",
+"Should corporate leadership above the CSO share equal culpability?"
+],
+"source": "https://www.justice.gov/usao-ndca/pr/former-chief-security-officer-uber-sentenced-three-years-probation-covering-data",
+"long_summary": "",
+"extra_sources": [],
+"tags": []
 },
 {
 "id": 31,
@@ -431,8 +665,15 @@
 "disclosure": "Responsible / coordinated",
 "outcome": "Civil injunction (later lifted)",
 "chilling": "Yes",
-"dilemmas": "(i) Should a manufacturer be able to suppress academic publication of a flaw in its own product?; (ii) Reverse engineering legitimately purchased hardware vs. 'breach of confidence'; (iii) Public's right to know about car-theft vulnerabilities vs. risk of enabling theft",
-"source": "https://arstechnica.com/information-technology/2015/08/researchers-reveal-electronic-car-lock-hack-after-2-year-injunction-by-volkswagen/"
+"dilemmas": [
+"Should a manufacturer be able to suppress academic publication of a flaw in its own product?",
+"Reverse engineering legitimately purchased hardware vs. 'breach of confidence'",
+"Public's right to know about car-theft vulnerabilities vs. risk of enabling theft"
+],
+"source": "https://arstechnica.com/information-technology/2015/08/researchers-reveal-electronic-car-lock-hack-after-2-year-injunction-by-volkswagen/",
+"long_summary": "",
+"extra_sources": [],
+"tags": []
 },
 {
 "id": 32,
@@ -445,8 +686,15 @@
 "disclosure": "Responsible / coordinated",
 "outcome": "Civil suit (court ruled for researchers)",
 "chilling": "No",
-"dilemmas": "(i) Should commercial harm from a disclosed flaw ever justify suppressing peer-reviewed research?; (ii) Academic freedom vs. critical-infrastructure (transit) security concerns; (iii) Adequacy of advance confidential notification before publication",
-"source": "https://www.sos.cs.ru.nl/applications/rfid/pressrelease-courtdecision.en.html"
+"dilemmas": [
+"Should commercial harm from a disclosed flaw ever justify suppressing peer-reviewed research?",
+"Academic freedom vs. critical-infrastructure (transit) security concerns",
+"Adequacy of advance confidential notification before publication"
+],
+"source": "https://www.sos.cs.ru.nl/applications/rfid/pressrelease-courtdecision.en.html",
+"long_summary": "",
+"extra_sources": [],
+"tags": []
 },
 {
 "id": 33,
@@ -459,8 +707,15 @@
 "disclosure": "Responsible / coordinated",
 "outcome": "Convicted (probation, restitution)",
 "chilling": "Yes",
-"dilemmas": "(i) Does proving a vulnerability by exploiting it cross from research into a prosecutable crime?; (ii) Proportionality of felony record/restitution vs. alerting the university; (iii) Effect of 'bragging' online on prosecutorial framing of intent",
-"source": "https://www.justice.gov/archive/criminal/cybercrime/press-releases/2006/mccartyCharge.htm"
+"dilemmas": [
+"Does proving a vulnerability by exploiting it cross from research into a prosecutable crime?",
+"Proportionality of felony record/restitution vs. alerting the university",
+"Effect of 'bragging' online on prosecutorial framing of intent"
+],
+"source": "https://www.justice.gov/archive/criminal/cybercrime/press-releases/2006/mccartyCharge.htm",
+"long_summary": "",
+"extra_sources": [],
+"tags": []
 },
 {
 "id": 34,
@@ -473,8 +728,15 @@
 "disclosure": "Media-first",
 "outcome": "Civil injunction (permanent)",
 "chilling": "Yes",
-"dilemmas": "(i) Using copyright/trade-secret claims to suppress a security warning after the fact; (ii) Researcher's duty to disclose imminent internet-scale risk vs. employer's IP claims; (iii) Chilling effect of corporate legal muscle on conference speakers",
-"source": "https://en.wikipedia.org/wiki/Ciscogate"
+"dilemmas": [
+"Using copyright/trade-secret claims to suppress a security warning after the fact",
+"Researcher's duty to disclose imminent internet-scale risk vs. employer's IP claims",
+"Chilling effect of corporate legal muscle on conference speakers"
+],
+"source": "https://en.wikipedia.org/wiki/Ciscogate",
+"long_summary": "",
+"extra_sources": [],
+"tags": []
 },
 {
 "id": 35,
@@ -487,8 +749,15 @@
 "disclosure": "Vendor non-responsive \u2192 mass user notification",
 "outcome": "Suspended from school (no criminal charges)",
 "chilling": "No",
-"dilemmas": "(i) Is escalating to a mass alert ethical when normal disclosure channels are ignored by vendors?; (ii) Vendors using NDAs to control a minor researcher's ability to discuss findings; (iii) Industry-wide underinvestment in security for children's data",
-"source": "https://www.vice.com/en/article/teen-security-researcher-bill-demirkapi-suspended-for-exposing-vulnerabilities/"
+"dilemmas": [
+"Is escalating to a mass alert ethical when normal disclosure channels are ignored by vendors?",
+"Vendors using NDAs to control a minor researcher's ability to discuss findings",
+"Industry-wide underinvestment in security for children's data"
+],
+"source": "https://www.vice.com/en/article/teen-security-researcher-bill-demirkapi-suspended-for-exposing-vulnerabilities/",
+"long_summary": "",
+"extra_sources": [],
+"tags": []
 },
 {
 "id": 36,
@@ -501,8 +770,15 @@
 "disclosure": "None (withheld)",
 "outcome": "Convicted; time served, supervised release, and $40.745 million restitution",
 "chilling": "No",
-"dilemmas": "(i) Where is the line between legitimate cloud-misconfiguration research and felony data theft?; (ii) Should mental health and personal circumstances factor into sentencing for large-scale breaches?; (iii) Appellate oversight of 'too lenient' sentences for first-time offenders",
-"source": "https://cyberscoop.com/court-reimposes-original-sentence-for-capital-one-hacker/"
+"dilemmas": [
+"Where is the line between legitimate cloud-misconfiguration research and felony data theft?",
+"Should mental health and personal circumstances factor into sentencing for large-scale breaches?",
+"Appellate oversight of 'too lenient' sentences for first-time offenders"
+],
+"source": "https://cyberscoop.com/court-reimposes-original-sentence-for-capital-one-hacker/",
+"long_summary": "",
+"extra_sources": [],
+"tags": []
 },
 {
 "id": 37,
@@ -515,8 +791,15 @@
 "disclosure": "Responsible / coordinated",
 "outcome": "No charges filed",
 "chilling": "No",
-"dilemmas": "(i) Does scanning specifically because an org has a VDP make later 'out of scope' findings authorized?; (ii) Should past black-hat convictions disqualify someone from later legitimate research?; (iii) Reliance on government agencies to respond competently once notified",
-"source": "https://www.reversinglabs.com/blog/red-teaming-a-country-the-2021-indian-government-hack"
+"dilemmas": [
+"Does scanning specifically because an org has a VDP make later 'out of scope' findings authorized?",
+"Should past black-hat convictions disqualify someone from later legitimate research?",
+"Reliance on government agencies to respond competently once notified"
+],
+"source": "https://www.reversinglabs.com/blog/red-teaming-a-country-the-2021-indian-government-hack",
+"long_summary": "",
+"extra_sources": [],
+"tags": []
 },
 {
 "id": 38,
@@ -529,8 +812,15 @@
 "disclosure": "Media-first",
 "outcome": "Acquitted",
 "chilling": "Yes",
-"dilemmas": "(i) Should demonstrating a flaw to officials and media be treated identically to malicious intrusion?; (ii) Use of prosecution to deflect blame from the agency's own security failure; (iii) Jury nullification as a check on overbroad computer-crime statutes",
-"source": "https://www.theregister.com/2003/02/24/ethical_wireless_hacker_is_innocent/"
+"dilemmas": [
+"Should demonstrating a flaw to officials and media be treated identically to malicious intrusion?",
+"Use of prosecution to deflect blame from the agency's own security failure",
+"Jury nullification as a check on overbroad computer-crime statutes"
+],
+"source": "https://www.theregister.com/2003/02/24/ethical_wireless_hacker_is_innocent/",
+"long_summary": "",
+"extra_sources": [],
+"tags": []
 },
 {
 "id": 39,
@@ -543,8 +833,15 @@
 "disclosure": "Media-first",
 "outcome": "Convicted (plea)",
 "chilling": "Yes",
-"dilemmas": "(i) Why did near-identical facts (Puffer acquitted, Dillard convicted) produce opposite outcomes?; (ii) Contacting patients/press directly vs. notifying the practice first; (iii) Patient privacy harm from the disclosure method itself, separate from the underlying flaw",
-"source": "https://www.theregister.com/2003/09/12/wifi_whistle_blower_faces_criminal/"
+"dilemmas": [
+"Why did near-identical facts (Puffer acquitted, Dillard convicted) produce opposite outcomes?",
+"Contacting patients/press directly vs. notifying the practice first",
+"Patient privacy harm from the disclosure method itself, separate from the underlying flaw"
+],
+"source": "https://www.theregister.com/2003/09/12/wifi_whistle_blower_faces_criminal/",
+"long_summary": "",
+"extra_sources": [],
+"tags": []
 },
 {
 "id": 40,
@@ -557,8 +854,15 @@
 "disclosure": "Provocation (public stunt to force recall)",
 "outcome": "No charges filed; civil suit allowed to proceed",
 "chilling": "No",
-"dilemmas": "(i) Is a dramatic public stunt the only way to force a slow-moving manufacturer to patch a safety-critical flaw?; (ii) Consumer standing to sue over a vulnerability patched before real-world exploitation; (iii) Coupling safety-critical vehicle systems to internet-facing infotainment",
-"source": "https://www.ioactive.com/remote-exploitation-of-an-unaltered-passenger-vehicle/"
+"dilemmas": [
+"Is a dramatic public stunt the only way to force a slow-moving manufacturer to patch a safety-critical flaw?",
+"Consumer standing to sue over a vulnerability patched before real-world exploitation",
+"Coupling safety-critical vehicle systems to internet-facing infotainment"
+],
+"source": "https://www.ioactive.com/remote-exploitation-of-an-unaltered-passenger-vehicle/",
+"long_summary": "",
+"extra_sources": [],
+"tags": []
 },
 {
 "id": 41,
@@ -571,8 +875,15 @@
 "disclosure": "Media-first",
 "outcome": "Civil suit (dropped)",
 "chilling": "Yes",
-"dilemmas": "(i) Suing a whistleblower to manage a government's own breach-disclosure narrative; (ii) First Amendment limits on restraining someone from discussing already-public leaked data; (iii) Power asymmetry between a city government and an individual researcher",
-"source": "https://www.wosu.org/politics-government/2024-10-25/columbus-city-attorney-drops-lawsuit-against-cybersecurity-whistleblower"
+"dilemmas": [
+"Suing a whistleblower to manage a government's own breach-disclosure narrative",
+"First Amendment limits on restraining someone from discussing already-public leaked data",
+"Power asymmetry between a city government and an individual researcher"
+],
+"source": "https://www.wosu.org/politics-government/2024-10-25/columbus-city-attorney-drops-lawsuit-against-cybersecurity-whistleblower",
+"long_summary": "",
+"extra_sources": [],
+"tags": []
 },
 {
 "id": 42,
@@ -585,8 +896,15 @@
 "disclosure": "Media-first",
 "outcome": "Civil suit (ongoing)",
 "chilling": "Yes",
-"dilemmas": "(i) Manufacturers using anti-repair 'DRM' embedded in safety-critical infrastructure; (ii) Suing researchers for exposing the lockout rather than addressing it (right-to-repair); (iii) Criminal investigations opened against disclosers rather than the manufacturer",
-"source": "https://fsfe.org/news/2025/news-20250407-01.en.html"
+"dilemmas": [
+"Manufacturers using anti-repair 'DRM' embedded in safety-critical infrastructure",
+"Suing researchers for exposing the lockout rather than addressing it (right-to-repair)",
+"Criminal investigations opened against disclosers rather than the manufacturer"
+],
+"source": "https://fsfe.org/news/2025/news-20250407-01.en.html",
+"long_summary": "",
+"extra_sources": [],
+"tags": []
 },
 {
 "id": 43,
@@ -599,8 +917,15 @@
 "disclosure": "Responsible / coordinated",
 "outcome": "No charges filed (employer pressure applied)",
 "chilling": "Yes",
-"dilemmas": "(i) Where does legitimate 'proof of impact' end and unauthorized data exfiltration begin within a bug bounty's scope?; (ii) Going around a researcher to pressure their employer instead of addressing the researcher directly; (iii) Ambiguity in bug bounty terms about how far a researcher may go to demonstrate severity",
-"source": "https://www.theregister.com/2015/12/18/facebook_gagged_researcher_over_critical_flaw/"
+"dilemmas": [
+"Where does legitimate 'proof of impact' end and unauthorized data exfiltration begin within a bug bounty's scope?",
+"Going around a researcher to pressure their employer instead of addressing the researcher directly",
+"Ambiguity in bug bounty terms about how far a researcher may go to demonstrate severity"
+],
+"source": "https://www.theregister.com/2015/12/18/facebook_gagged_researcher_over_critical_flaw/",
+"long_summary": "",
+"extra_sources": [],
+"tags": []
 },
 {
 "id": 44,
@@ -613,8 +938,15 @@
 "disclosure": "Responsible / coordinated",
 "outcome": "Convicted (\u20ac3,000 fine, upheld on appeal)",
 "chilling": "Yes",
-"dilemmas": "(i) Should using a password the vendor itself left in plaintext constitute criminal 'unauthorized access'?; (ii) Criminalizing the verification step required to confirm a vulnerability is real; (iii) Disparity between vendor's negligence (unpunished) and researcher's penalty (criminal record)",
-"source": "https://www.heise.de/en/news/Modern-Solution-Convicted-IT-expert-files-constitutional-complaint-10573836.html"
+"dilemmas": [
+"Should using a password the vendor itself left in plaintext constitute criminal 'unauthorized access'?",
+"Criminalizing the verification step required to confirm a vulnerability is real",
+"Disparity between vendor's negligence (unpunished) and researcher's penalty (criminal record)"
+],
+"source": "https://www.heise.de/en/news/Modern-Solution-Convicted-IT-expert-files-constitutional-complaint-10573836.html",
+"long_summary": "",
+"extra_sources": [],
+"tags": []
 },
 {
 "id": 45,
@@ -627,8 +959,15 @@
 "disclosure": "None (withheld)",
 "outcome": "Convicted (later expunged)",
 "chilling": "Yes",
-"dilemmas": "(i) Should 'improving security' justify unauthorized access against a former employer's systems?; (ii) Multi-decade reputational and financial cost of a later-overturned felony conviction; (iii) Employer's choice to pursue criminal prosecution rather than civil/internal remedies",
-"source": "https://www.theregister.com/off-prem/2007/03/05/intel-hacker-clears-his-name/1130410"
+"dilemmas": [
+"Should 'improving security' justify unauthorized access against a former employer's systems?",
+"Multi-decade reputational and financial cost of a later-overturned felony conviction",
+"Employer's choice to pursue criminal prosecution rather than civil/internal remedies"
+],
+"source": "https://www.theregister.com/off-prem/2007/03/05/intel-hacker-clears-his-name/1130410",
+"long_summary": "",
+"extra_sources": [],
+"tags": []
 },
 {
 "id": 46,
@@ -641,8 +980,15 @@
 "disclosure": "Media-first",
 "outcome": "Charged (charges dropped in exchange for testimony)",
 "chilling": "Yes",
-"dilemmas": "(i) Should conduct legal in a researcher's home country (Russia) trigger US criminal arrest at a US conference?; (ii) Conference attendance as a venue for law enforcement action against speakers; (iii) Using one defendant's testimony as leverage to convict their employer",
-"source": "https://www.eff.org/cases/us-v-elcomsoft-sklyarov"
+"dilemmas": [
+"Should conduct legal in a researcher's home country (Russia) trigger US criminal arrest at a US conference?",
+"Conference attendance as a venue for law enforcement action against speakers",
+"Using one defendant's testimony as leverage to convict their employer"
+],
+"source": "https://www.eff.org/cases/us-v-elcomsoft-sklyarov",
+"long_summary": "",
+"extra_sources": [],
+"tags": []
 },
 {
 "id": 47,
@@ -655,8 +1001,16 @@
 "disclosure": "None (withheld)",
 "outcome": "Civil suit / Injunction",
 "chilling": "Yes",
-"dilemmas": "(i) Does the DMCA's anti-circumvention provision unconstitutionally chill security research that requires bypassing DRM?; (ii) Should researchers be required to apply for triennial exemptions to do work that would otherwise be protected fair use?; (iii) How does the chilling effect of potential prosecution shape what security vulnerabilities get investigated and disclosed?; (iv) When researchers self-censor to avoid legal risk, who bears the cost in terms of undetected vulnerabilities?",
-"source": "https://www.eff.org/cases/green-v-us-department-justice"
+"dilemmas": [
+"Does the DMCA's anti-circumvention provision unconstitutionally chill security research that requires bypassing DRM?",
+"Should researchers be required to apply for triennial exemptions to do work that would otherwise be protected fair use?",
+"How does the chilling effect of potential prosecution shape what security vulnerabilities get investigated and disclosed?",
+"When researchers self-censor to avoid legal risk, who bears the cost in terms of undetected vulnerabilities?"
+],
+"source": "https://www.eff.org/cases/green-v-us-department-justice",
+"long_summary": "",
+"extra_sources": [],
+"tags": []
 },
 {
 "id": 48,
@@ -669,8 +1023,16 @@
 "disclosure": "None (withheld)",
 "outcome": "Civil suit / Injunction",
 "chilling": "No",
-"dilemmas": "(i) At what point does delayed breach disclosure cross from incident response into material omission for securities fraud?; (ii) What is a CSO/CISO's personal duty when corporate leadership decides to delay disclosure?; (iii) Acquisition context: does a pending merger change the calculus of when a breach must be disclosed?; (iv) Are current securities laws adequate to deter corporate concealment of large-scale breaches?",
-"source": "https://yahoodatabreachsettlement.com/en"
+"dilemmas": [
+"At what point does delayed breach disclosure cross from incident response into material omission for securities fraud?",
+"What is a CSO/CISO's personal duty when corporate leadership decides to delay disclosure?",
+"Acquisition context: does a pending merger change the calculus of when a breach must be disclosed?",
+"Are current securities laws adequate to deter corporate concealment of large-scale breaches?"
+],
+"source": "https://yahoodatabreachsettlement.com/en",
+"long_summary": "",
+"extra_sources": [],
+"tags": []
 },
 {
 "id": 49,
@@ -683,8 +1045,16 @@
 "disclosure": "None (withheld)",
 "outcome": "Securities class action; settlement",
 "chilling": "No",
-"dilemmas": "(i) When a company minimizes a breach publicly while knowing the full scope internally, is that fraud or legitimate incident response?; (ii) What is the appropriate disclosure timeline when breach scope is still being investigated?; (iii) Does downplaying a breach to avoid stock impact constitute securities fraud even if the company later corrects the record?; (iv) How should security executives balance legal counsel's advice against ethical obligations to customers?",
-"source": "https://www.sec.gov/Archives/edgar/data/1660134/000166013422000056/okta-20221031.htm"
+"dilemmas": [
+"When a company minimizes a breach publicly while knowing the full scope internally, is that fraud or legitimate incident response?",
+"What is the appropriate disclosure timeline when breach scope is still being investigated?",
+"Does downplaying a breach to avoid stock impact constitute securities fraud even if the company later corrects the record?",
+"How should security executives balance legal counsel's advice against ethical obligations to customers?"
+],
+"source": "https://www.sec.gov/Archives/edgar/data/1660134/000166013422000056/okta-20221031.htm",
+"long_summary": "",
+"extra_sources": [],
+"tags": []
 },
 {
 "id": 50,
@@ -697,8 +1067,16 @@
 "disclosure": "None (withheld)",
 "outcome": "Civil securities settlement (2020)",
 "chilling": "No",
-"dilemmas": "(i) Does selling stock after learning of a breach but before public disclosure constitute insider trading, regardless of intent?; (ii) What personal criminal liability do security executives bear for their company's breach concealment?; (iii) Should a CISO who discovers a breach be required to immediately notify the board even if doing so triggers premature disclosure?; (iv) Are mandatory breach disclosure timelines the right policy lever, or do they just create liability without improving security?",
-"source": "https://www.blbglaw.com/cases-investigations/equifax-inc"
+"dilemmas": [
+"Does selling stock after learning of a breach but before public disclosure constitute insider trading, regardless of intent?",
+"What personal criminal liability do security executives bear for their company's breach concealment?",
+"Should a CISO who discovers a breach be required to immediately notify the board even if doing so triggers premature disclosure?",
+"Are mandatory breach disclosure timelines the right policy lever, or do they just create liability without improving security?"
+],
+"source": "https://www.blbglaw.com/cases-investigations/equifax-inc",
+"long_summary": "",
+"extra_sources": [],
+"tags": []
 },
 {
 "id": 51,
@@ -711,8 +1089,16 @@
 "disclosure": "None (withheld)",
 "outcome": "Civil litigation; some claims reinstated on appeal",
 "chilling": "No",
-"dilemmas": "(i) What duty of care does a government agency owe its employees when it holds their most sensitive personal and national security data?; (ii) When repeated security warnings are ignored and a catastrophic breach occurs, who bears personal accountability?; (iii) Should federal employees whose security clearance files were stolen have a right to sue for damages?; (iv) Does sovereign immunity effectively shield government agencies from accountability for catastrophic security failures?",
-"source": "https://law.justia.com/cases/federal/appellate-courts/cadc/17-5117/17-5117-2019-06-21.html"
+"dilemmas": [
+"What duty of care does a government agency owe its employees when it holds their most sensitive personal and national security data?",
+"When repeated security warnings are ignored and a catastrophic breach occurs, who bears personal accountability?",
+"Should federal employees whose security clearance files were stolen have a right to sue for damages?",
+"Does sovereign immunity effectively shield government agencies from accountability for catastrophic security failures?"
+],
+"source": "https://law.justia.com/cases/federal/appellate-courts/cadc/17-5117/17-5117-2019-06-21.html",
+"long_summary": "",
+"extra_sources": [],
+"tags": []
 },
 {
 "id": 52,
@@ -725,8 +1111,16 @@
 "disclosure": "None (withheld)",
 "outcome": "Civil suit / Injunction",
 "chilling": "Yes",
-"dilemmas": "(i) Is scraping publicly accessible data 'unauthorized access' under the CFAA if no password or authentication barrier was bypassed?; (ii) Can a company weaponize the CFAA to prevent a competitor from accessing data that users themselves made public?; (iii) Where is the line between lawful data collection for research/analysis and commercial exploitation of user-generated public data?; (iv) Does the CFAA's broad interpretation give large platforms de facto monopoly control over public data?",
-"source": "https://law.justia.com/cases/federal/appellate-courts/ca9/17-16783/17-16783-2022-04-18.html"
+"dilemmas": [
+"Is scraping publicly accessible data 'unauthorized access' under the CFAA if no password or authentication barrier was bypassed?",
+"Can a company weaponize the CFAA to prevent a competitor from accessing data that users themselves made public?",
+"Where is the line between lawful data collection for research/analysis and commercial exploitation of user-generated public data?",
+"Does the CFAA's broad interpretation give large platforms de facto monopoly control over public data?"
+],
+"source": "https://law.justia.com/cases/federal/appellate-courts/ca9/17-16783/17-16783-2022-04-18.html",
+"long_summary": "",
+"extra_sources": [],
+"tags": []
 },
 {
 "id": 53,
@@ -739,8 +1133,16 @@
 "disclosure": "Media-first",
 "outcome": "Civil suit / Injunction",
 "chilling": "Yes",
-"dilemmas": "(i) Is publishing functional security/encryption code protected First Amendment speech?; (ii) Can the DMCA's anti-trafficking provision constitutionally prohibit publication of code that has legitimate research and interoperability uses?; (iii) Does linking to a site hosting prohibited code make a publisher liable under the DMCA?; (iv) Who gets to define the boundary between security research tools and circumvention devices?",
-"source": "https://cyber.harvard.edu/openlaw/dvd/ny/appeals/opinion.html"
+"dilemmas": [
+"Is publishing functional security/encryption code protected First Amendment speech?",
+"Can the DMCA's anti-trafficking provision constitutionally prohibit publication of code that has legitimate research and interoperability uses?",
+"Does linking to a site hosting prohibited code make a publisher liable under the DMCA?",
+"Who gets to define the boundary between security research tools and circumvention devices?"
+],
+"source": "https://cyber.harvard.edu/openlaw/dvd/ny/appeals/opinion.html",
+"long_summary": "",
+"extra_sources": [],
+"tags": []
 },
 {
 "id": 54,
@@ -753,8 +1155,16 @@
 "disclosure": "Media-first",
 "outcome": "Civil suit / Injunction",
 "chilling": "Yes",
-"dilemmas": "(i) Can trade secret law justify a prior restraint on publication of security-relevant code that has already spread widely on the internet?; (ii) At what point does information become 'too public' to still qualify as a protectable trade secret?; (iii) Does the First Amendment protect redistribution of security code even if the original acquisition was improper?; (iv) Should courts balance the chilling effect on security research before granting injunctions against code publication?",
-"source": "https://law.justia.com/cases/california/supreme-court/2003/s102588.html"
+"dilemmas": [
+"Can trade secret law justify a prior restraint on publication of security-relevant code that has already spread widely on the internet?",
+"At what point does information become 'too public' to still qualify as a protectable trade secret?",
+"Does the First Amendment protect redistribution of security code even if the original acquisition was improper?",
+"Should courts balance the chilling effect on security research before granting injunctions against code publication?"
+],
+"source": "https://law.justia.com/cases/california/supreme-court/2003/s102588.html",
+"long_summary": "",
+"extra_sources": [],
+"tags": []
 },
 {
 "id": 55,
@@ -767,8 +1177,16 @@
 "disclosure": "None (withheld)",
 "outcome": "Civil suit / Injunction",
 "chilling": "Yes",
-"dilemmas": "(i) Can an EULA contractually waive the DMCA's statutory right to reverse engineer for interoperability?; (ii) Is building a compatible open-source alternative to a proprietary service a legitimate security/research activity or IP infringement?; (iii) Should agreeing to a ToS/EULA strip a researcher of rights they would otherwise have under the DMCA's interoperability exception?; (iv) How does this ruling affect security researchers who need to reverse-engineer software they've licensed to find vulnerabilities?",
-"source": "https://law.justia.com/cases/federal/appellate-courts/F3/422/630/569453/"
+"dilemmas": [
+"Can an EULA contractually waive the DMCA's statutory right to reverse engineer for interoperability?",
+"Is building a compatible open-source alternative to a proprietary service a legitimate security/research activity or IP infringement?",
+"Should agreeing to a ToS/EULA strip a researcher of rights they would otherwise have under the DMCA's interoperability exception?",
+"How does this ruling affect security researchers who need to reverse-engineer software they've licensed to find vulnerabilities?"
+],
+"source": "https://law.justia.com/cases/federal/appellate-courts/F3/422/630/569453/",
+"long_summary": "",
+"extra_sources": [],
+"tags": []
 },
 {
 "id": 56,
@@ -781,8 +1199,16 @@
 "disclosure": "None (withheld)",
 "outcome": "Civil challenge; panel opinion withdrawn and case remanded",
 "chilling": "Yes",
-"dilemmas": "(i) Is encryption source code 'speech' protected by the First Amendment, or purely functional 'conduct' that can be regulated without First Amendment scrutiny?; (ii) Can the government require a license before a researcher publishes an academic paper containing functional encryption code?; (iii) Do national security interests in controlling encryption export justify prior restraint on academic publication?; (iv) How should the law treat dual-use academic research that has both civilian security value and potential military/intelligence applications?",
-"source": "https://clearinghouse.net/case/13683/"
+"dilemmas": [
+"Is encryption source code 'speech' protected by the First Amendment, or purely functional 'conduct' that can be regulated without First Amendment scrutiny?",
+"Can the government require a license before a researcher publishes an academic paper containing functional encryption code?",
+"Do national security interests in controlling encryption export justify prior restraint on academic publication?",
+"How should the law treat dual-use academic research that has both civilian security value and potential military/intelligence applications?"
+],
+"source": "https://clearinghouse.net/case/13683/",
+"long_summary": "",
+"extra_sources": [],
+"tags": []
 },
 {
 "id": 57,
@@ -795,8 +1221,16 @@
 "disclosure": "Responsible / coordinated",
 "outcome": "Civil suit / Injunction",
 "chilling": "No",
-"dilemmas": "(i) Can a court order a government agency to disconnect from the internet as a security remedy?; (ii) What accountability mechanisms exist when a government agency's repeated security failures endanger the financial data of a vulnerable population?; (iii) Who should conduct security audits of government systems \u2014 internal auditors, independent experts, or adversarial testers?; (iv) When a security audit reveals catastrophic failure, how should findings be disclosed without creating additional risk?",
-"source": "https://www.justice.gov/archive/civil/cases/cobell/12_2001.htm"
+"dilemmas": [
+"Can a court order a government agency to disconnect from the internet as a security remedy?",
+"What accountability mechanisms exist when a government agency's repeated security failures endanger the financial data of a vulnerable population?",
+"Who should conduct security audits of government systems \u2014 internal auditors, independent experts, or adversarial testers?",
+"When a security audit reveals catastrophic failure, how should findings be disclosed without creating additional risk?"
+],
+"source": "https://www.justice.gov/archive/civil/cases/cobell/12_2001.htm",
+"long_summary": "",
+"extra_sources": [],
+"tags": []
 },
 {
 "id": 58,
@@ -809,8 +1243,16 @@
 "disclosure": "Media-first",
 "outcome": "Federal hacking indictment; FTC security order and separate CAN-SPAM penalty",
 "chilling": "No",
-"dilemmas": "(i) Is breaching a surveillance company to expose its reach a form of protected political/security activism or straightforward criminal hacking?; (ii) Does the target being a surveillance company change the ethical calculus of an unauthorized breach?; (iii) What accountability should cloud security camera vendors face when their poor security exposes sensitive environments like hospitals and prisons?; (iv) When a vendor's negligence enables mass surveillance exposure, who bears moral responsibility \u2014 the hacker or the vendor?",
-"source": "https://www.ftc.gov/news-events/news/press-releases/2024/08/ftc-takes-action-against-security-camera-firm-verkada-over-charges-it-failed-secure-videos-other"
+"dilemmas": [
+"Is breaching a surveillance company to expose its reach a form of protected political/security activism or straightforward criminal hacking?",
+"Does the target being a surveillance company change the ethical calculus of an unauthorized breach?",
+"What accountability should cloud security camera vendors face when their poor security exposes sensitive environments like hospitals and prisons?",
+"When a vendor's negligence enables mass surveillance exposure, who bears moral responsibility \u2014 the hacker or the vendor?"
+],
+"source": "https://www.ftc.gov/news-events/news/press-releases/2024/08/ftc-takes-action-against-security-camera-firm-verkada-over-charges-it-failed-secure-videos-other",
+"long_summary": "",
+"extra_sources": [],
+"tags": []
 },
 {
 "id": 59,
@@ -823,8 +1265,16 @@
 "disclosure": "Media-first",
 "outcome": "No charges filed",
 "chilling": "Yes",
-"dilemmas": "(i) When a company allegedly mistreats a researcher \u2014 deleting their account, withholding bounty payments, removing attribution \u2014 does that researcher bear ethical responsibility for subsequently publishing unpatched vulnerabilities?; (ii) Is 'full disclosure' of an unpatched vulnerability ever ethically justified as a last resort against an unresponsive or hostile vendor?; (iii) Does threatening a researcher with criminal prosecution for disclosing bugs create a chilling effect that ultimately harms users more than the disclosure itself?; (iv) Who bears moral responsibility when a researcher-disclosed vulnerability is exploited in the wild \u2014 the researcher or the vendor that failed to patch it?",
-"source": "https://www.pcmag.com/news/microsoft-threatens-researcher-over-bug-reports-triggers-cybersecurity"
+"dilemmas": [
+"When a company allegedly mistreats a researcher \u2014 deleting their account, withholding bounty payments, removing attribution \u2014 does that researcher bear ethical responsibility for subsequently publishing unpatched vulnerabilities?",
+"Is 'full disclosure' of an unpatched vulnerability ever ethically justified as a last resort against an unresponsive or hostile vendor?",
+"Does threatening a researcher with criminal prosecution for disclosing bugs create a chilling effect that ultimately harms users more than the disclosure itself?",
+"Who bears moral responsibility when a researcher-disclosed vulnerability is exploited in the wild \u2014 the researcher or the vendor that failed to patch it?"
+],
+"source": "https://www.pcmag.com/news/microsoft-threatens-researcher-over-bug-reports-triggers-cybersecurity",
+"long_summary": "",
+"extra_sources": [],
+"tags": []
 },
 {
 "id": 60,
@@ -837,8 +1287,16 @@
 "disclosure": "Responsible / coordinated",
 "outcome": "No charges filed",
 "chilling": "No",
-"dilemmas": "(i) How much technical detail is appropriate in academic publications about criminal malware when the same detail that helps defenders also helps attackers?; (ii) Should researchers publishing analyses of criminal tools be required to coordinate with affected vendors (ATM manufacturers, banks) before publication?; (iii) Is studying and publishing criminal malware ethically different from studying and publishing proof-of-concept researcher-written exploits?; (iv) What responsibility do academic publishers and program committees bear for the dual-use risk of papers they accept?",
-"source": "https://www.academia.edu/161271126/WinPot_ATM_Jackpotting_Malware_A_Holistic_and_Deterministic_Study_of_Attack_Vectors_Exploitation_Techniques_and_Defensive_Countermeasures_in_Cyber_Physical_Financial_Systems"
+"dilemmas": [
+"How much technical detail is appropriate in academic publications about criminal malware when the same detail that helps defenders also helps attackers?",
+"Should researchers publishing analyses of criminal tools be required to coordinate with affected vendors (ATM manufacturers, banks) before publication?",
+"Is studying and publishing criminal malware ethically different from studying and publishing proof-of-concept researcher-written exploits?",
+"What responsibility do academic publishers and program committees bear for the dual-use risk of papers they accept?"
+],
+"source": "https://www.academia.edu/161271126/WinPot_ATM_Jackpotting_Malware_A_Holistic_and_Deterministic_Study_of_Attack_Vectors_Exploitation_Techniques_and_Defensive_Countermeasures_in_Cyber_Physical_Financial_Systems",
+"long_summary": "",
+"extra_sources": [],
+"tags": []
 },
 {
 "id": 61,
@@ -851,8 +1309,16 @@
 "disclosure": "None (withheld)",
 "outcome": "No charges filed",
 "chilling": "Yes",
-"dilemmas": "(i) Corporate influence over AI ethics research; (ii) Academic freedom vs. employer interests; (iii) Suppression of critical AI research; (iv) Research independence",
-"source": "https://www.technologyreview.com/2020/12/04/1013294/google-ai-ethics-research-paper-forced-out-timnit-gebru/"
+"dilemmas": [
+"Corporate influence over AI ethics research",
+"Academic freedom vs. employer interests",
+"Suppression of critical AI research",
+"Research independence"
+],
+"source": "https://www.technologyreview.com/2020/12/04/1013294/google-ai-ethics-research-paper-forced-out-timnit-gebru/",
+"long_summary": "",
+"extra_sources": [],
+"tags": []
 },
 {
 "id": 62,
@@ -865,8 +1331,15 @@
 "disclosure": "Responsible / coordinated",
 "outcome": "No charges filed",
 "chilling": "No",
-"dilemmas": "(i) Publishing techniques that could be abused; (ii) AI transparency vs. misuse; (iii) Responsible disclosure for foundation models",
-"source": "https://arxiv.org/abs/2311.17035"
+"dilemmas": [
+"Publishing techniques that could be abused",
+"AI transparency vs. misuse",
+"Responsible disclosure for foundation models"
+],
+"source": "https://arxiv.org/abs/2311.17035",
+"long_summary": "",
+"extra_sources": [],
+"tags": []
 },
 {
 "id": 63,
@@ -879,8 +1352,15 @@
 "disclosure": "Media-first",
 "outcome": "No charges filed",
 "chilling": "Yes",
-"dilemmas": "(i) Whistleblowing vs. confidentiality; (ii) Copyright in AI training; (iii) Corporate accountability",
-"source": "https://www.nytimes.com/2024/10/23/technology/openai-copyright-law.html"
+"dilemmas": [
+"Whistleblowing vs. confidentiality",
+"Copyright in AI training",
+"Corporate accountability"
+],
+"source": "https://www.nytimes.com/2024/10/23/technology/openai-copyright-law.html",
+"long_summary": "",
+"extra_sources": [],
+"tags": []
 },
 {
 "id": 64,
@@ -893,8 +1373,16 @@
 "disclosure": "None (withheld)",
 "outcome": "Civil suit / Injunction",
 "chilling": "No",
-"dilemmas": "(i) Reliability of facial recognition; (ii) Civil rights; (iii) Government accountability; (iv) AI bias",
-"source": "https://www.aclu.org/cases/williams-v-city-of-detroit-face-recognition-false-arrest"
+"dilemmas": [
+"Reliability of facial recognition",
+"Civil rights",
+"Government accountability",
+"AI bias"
+],
+"source": "https://www.aclu.org/cases/williams-v-city-of-detroit-face-recognition-false-arrest",
+"long_summary": "",
+"extra_sources": [],
+"tags": []
 },
 {
 "id": 65,
@@ -907,8 +1395,16 @@
 "disclosure": "None (withheld)",
 "outcome": "Civil suit / Injunction",
 "chilling": "No",
-"dilemmas": "(i) Mass biometric surveillance; (ii) Privacy; (iii) Consent; (iv) Commercial surveillance",
-"source": "https://www.aclu.org/cases/aclu-v-clearview-ai"
+"dilemmas": [
+"Mass biometric surveillance",
+"Privacy",
+"Consent",
+"Commercial surveillance"
+],
+"source": "https://www.aclu.org/cases/aclu-v-clearview-ai",
+"long_summary": "",
+"extra_sources": [],
+"tags": []
 },
 {
 "id": 66,
@@ -921,8 +1417,15 @@
 "disclosure": "Responsible / coordinated",
 "outcome": "Civil copyright litigation; substantial fair-use ruling for Corellium",
 "chilling": "Yes",
-"dilemmas": "(i) Copyright vs. security research; (ii) Research tool legality; (iii) Vendor retaliation",
-"source": "https://law.justia.com/cases/federal/appellate-courts/ca11/21-12835/21-12835-2023-05-08.html"
+"dilemmas": [
+"Copyright vs. security research",
+"Research tool legality",
+"Vendor retaliation"
+],
+"source": "https://law.justia.com/cases/federal/appellate-courts/ca11/21-12835/21-12835-2023-05-08.html",
+"long_summary": "",
+"extra_sources": [],
+"tags": []
 },
 {
 "id": 67,
@@ -935,8 +1438,15 @@
 "disclosure": "Research publication",
 "outcome": "Civil suit / Injunction",
 "chilling": "Yes",
-"dilemmas": "(i) DMCA chilling research; (ii) Academic freedom; (iii) Disclosure rights",
-"source": "https://www.eff.org/cases/felten-et-al-v-riaa-et-al"
+"dilemmas": [
+"DMCA chilling research",
+"Academic freedom",
+"Disclosure rights"
+],
+"source": "https://www.eff.org/cases/felten-et-al-v-riaa-et-al",
+"long_summary": "",
+"extra_sources": [],
+"tags": []
 },
 {
 "id": 68,
@@ -949,8 +1459,15 @@
 "disclosure": "Media-first",
 "outcome": "Civil suit / Injunction",
 "chilling": "Yes",
-"dilemmas": "(i) Abuse of copyright law; (ii) Research criticism; (iii) Chilling effects",
-"source": "https://www.eff.org/deeplinks/2022/03/eff-client-eric-johnson-and-proctorio-settle-lawsuit-over-bogus-dmca-claims"
+"dilemmas": [
+"Abuse of copyright law",
+"Research criticism",
+"Chilling effects"
+],
+"source": "https://www.eff.org/deeplinks/2022/03/eff-client-eric-johnson-and-proctorio-settle-lawsuit-over-bogus-dmca-claims",
+"long_summary": "",
+"extra_sources": [],
+"tags": []
 },
 {
 "id": 69,
@@ -963,8 +1480,15 @@
 "disclosure": "Responsible / coordinated",
 "outcome": "Cease-and-desist dispute; presentation proceeded",
 "chilling": "Yes",
-"dilemmas": "(i) Corporate retaliation; (ii) Responsible disclosure; (iii) Research freedom",
-"source": "https://securityledger.com/2024/08/a-digital-lock-maker-tried-to-squash-a-def-con-talk-it-happened-anyway-heres-why/"
+"dilemmas": [
+"Corporate retaliation",
+"Responsible disclosure",
+"Research freedom"
+],
+"source": "https://securityledger.com/2024/08/a-digital-lock-maker-tried-to-squash-a-def-con-talk-it-happened-anyway-heres-why/",
+"long_summary": "",
+"extra_sources": [],
+"tags": []
 },
 {
 "id": 70,
@@ -977,8 +1501,15 @@
 "disclosure": "Responsible / coordinated",
 "outcome": "Charged / dropped",
 "chilling": "Yes",
-"dilemmas": "(i) Publicly accessible data; (ii) Criminalizing research; (iii) Government accountability",
-"source": "https://globalnews.ca/news/4191414/halifax-police-data-breach/"
+"dilemmas": [
+"Publicly accessible data",
+"Criminalizing research",
+"Government accountability"
+],
+"source": "https://globalnews.ca/news/4191414/halifax-police-data-breach/",
+"long_summary": "",
+"extra_sources": [],
+"tags": []
 },
 {
 "id": 71,
@@ -991,8 +1522,15 @@
 "disclosure": "Media-first",
 "outcome": "Charged / dropped",
 "chilling": "Yes",
-"dilemmas": "(i) Open access; (ii) Copyright; (iii) Academic freedom",
-"source": "https://www.eff.org/deeplinks/2017/05/diego"
+"dilemmas": [
+"Open access",
+"Copyright",
+"Academic freedom"
+],
+"source": "https://www.eff.org/deeplinks/2017/05/diego",
+"long_summary": "",
+"extra_sources": [],
+"tags": []
 },
 {
 "id": 72,
@@ -1005,8 +1543,15 @@
 "disclosure": "Responsible / coordinated",
 "outcome": "No charges filed",
 "chilling": "Yes",
-"dilemmas": "(i) Viewing source code vs. hacking; (ii) Government retaliation; (iii) Press freedom",
-"source": "https://statescoop.com/missouri-parson-reporter-did-nothing-wrong"
+"dilemmas": [
+"Viewing source code vs. hacking",
+"Government retaliation",
+"Press freedom"
+],
+"source": "https://statescoop.com/missouri-parson-reporter-did-nothing-wrong",
+"long_summary": "",
+"extra_sources": [],
+"tags": []
 },
 {
 "id": 73,
@@ -1019,8 +1564,15 @@
 "disclosure": "Responsible / coordinated",
 "outcome": "Legal threat alleged by researcher",
 "chilling": "Yes",
-"dilemmas": "(i) Legal intimidation; (ii) Responsible disclosure; (iii) Chilling effect",
-"source": "https://www.linkedin.com/posts/lemonitup_i-submitted-a-critical-vulnerability-to-a-activity-7208886811480195072-aFU6"
+"dilemmas": [
+"Legal intimidation",
+"Responsible disclosure",
+"Chilling effect"
+],
+"source": "https://www.linkedin.com/posts/lemonitup_i-submitted-a-critical-vulnerability-to-a-activity-7208886811480195072-aFU6",
+"long_summary": "",
+"extra_sources": [],
+"tags": []
 },
 {
 "id": 74,
@@ -1033,8 +1585,15 @@
 "disclosure": "Media-first",
 "outcome": "Civil suit / Injunction",
 "chilling": "Yes",
-"dilemmas": "(i) SLAPP lawsuits; (ii) Vendor accountability; (iii) Journalism and disclosure",
-"source": "https://www.securityweek.com/keeper-sues-ars-technica-over-reporting-critical-flaw/"
+"dilemmas": [
+"SLAPP lawsuits",
+"Vendor accountability",
+"Journalism and disclosure"
+],
+"source": "https://www.securityweek.com/keeper-sues-ars-technica-over-reporting-critical-flaw/",
+"long_summary": "",
+"extra_sources": [],
+"tags": []
 },
 {
 "id": 75,
@@ -1047,8 +1606,15 @@
 "disclosure": "Responsible / coordinated",
 "outcome": "Arrested (devices seized; no conviction reported)",
 "chilling": "Yes",
-"dilemmas": "(i) Stating a disclosure deadline is standard practice, but paired with a payment question it can read as coercion: how should researchers state a timeline and ask about bounties without appearing to extort? (ii) Was altering the app's front end necessary to prove the flaw, or did it go beyond what proof required? (iii) Should a company with no disclosure policy be expected to recognize good-faith research, or is caution toward unsolicited reports reasonable?",
-"source": "https://timesofmalta.com/articles/view/we-wanted-help-students-arrested-exposing-freehour-security-flaw.1024757"
+"dilemmas": [
+"Stating a disclosure deadline is standard practice, but paired with a payment question it can read as coercion: how should researchers state a timeline and ask about bounties without appearing to extort?",
+"Was altering the app's front end necessary to prove the flaw, or did it go beyond what proof required?",
+"Should a company with no disclosure policy be expected to recognize good-faith research, or is caution toward unsolicited reports reasonable?"
+],
+"source": "https://timesofmalta.com/articles/view/we-wanted-help-students-arrested-exposing-freehour-security-flaw.1024757",
+"long_summary": "",
+"extra_sources": [],
+"tags": []
 },
 {
 "id": 76,
@@ -1061,8 +1627,15 @@
 "disclosure": "Authorized engagement (contracted test)",
 "outcome": "Charged / dropped",
 "chilling": "Yes",
-"dilemmas": "(i) Whose permission counts when the client authorizes a test but another authority controls the premises? (ii) When scope is ambiguous mid-engagement, should testers stop or proceed on the client's written word? (iii) Does publicizing the arrest protect future testers, or make clients less willing to authorize physical testing?",
-"source": "https://www.cnbc.com/2019/11/12/iowa-paid-coalfire-to-pen-test-courthouse-then-arrested-employees.html"
+"dilemmas": [
+"Whose permission counts when the client authorizes a test but another authority controls the premises?",
+"When scope is ambiguous mid-engagement, should testers stop or proceed on the client's written word?",
+"Does publicizing the arrest protect future testers, or make clients less willing to authorize physical testing?"
+],
+"source": "https://www.cnbc.com/2019/11/12/iowa-paid-coalfire-to-pen-test-courthouse-then-arrested-employees.html",
+"long_summary": "",
+"extra_sources": [],
+"tags": []
 },
 {
 "id": 77,
@@ -1075,8 +1648,15 @@
 "disclosure": "Vendor non-responsive \u2192 public disclosure",
 "outcome": "Civil threat (DMCA takedowns)",
 "chilling": "Yes",
-"dilemmas": "(i) Does a vendor breaking its bounty promises justify releasing unpatched zero-days that expose millions of users? (ii) Were the later DMCA takedowns legitimate IP enforcement or retaliation for the disclosure? (iii) Should bounty programs be held to enforceable timelines for credit and payment?",
-"source": "https://www.bleepingcomputer.com/news/apple/apple-silently-fixes-ios-zero-day-asks-bug-reporter-to-keep-quiet/"
+"dilemmas": [
+"Does a vendor breaking its bounty promises justify releasing unpatched zero-days that expose millions of users?",
+"Were the later DMCA takedowns legitimate IP enforcement or retaliation for the disclosure?",
+"Should bounty programs be held to enforceable timelines for credit and payment?"
+],
+"source": "https://www.bleepingcomputer.com/news/apple/apple-silently-fixes-ios-zero-day-asks-bug-reporter-to-keep-quiet/",
+"long_summary": "",
+"extra_sources": [],
+"tags": []
 },
 {
 "id": 78,
@@ -1089,8 +1669,15 @@
 "disclosure": "Research publication",
 "outcome": "Civil threat (domains surrendered)",
 "chilling": "Yes",
-"dilemmas": "(i) Trademark enforcement versus the public value of independent security education about a vendor's platform. (ii) Should researchers build educational resources on a vendor's brand name they don't control? (iii) Does a long, friendly working relationship change what either side owes the other?",
-"source": "https://www.theregister.com/2023/08/31/a_star_star_domains/"
+"dilemmas": [
+"Trademark enforcement versus the public value of independent security education about a vendor's platform.",
+"Should researchers build educational resources on a vendor's brand name they don't control?",
+"Does a long, friendly working relationship change what either side owes the other?"
+],
+"source": "https://www.theregister.com/2023/08/31/a_star_star_domains/",
+"long_summary": "",
+"extra_sources": [],
+"tags": []
 },
 {
 "id": 79,
@@ -1103,8 +1690,15 @@
 "disclosure": "Research publication",
 "outcome": "Civil threat",
 "chilling": "No",
-"dilemmas": "(i) Where does educational hacking content end and enabling fraud begin? (ii) Should brand-protection services treat security education as a threat by default? (iii) Should a security company take takedown work aimed at other researchers?",
-"source": "https://x.com/nahamsec/status/1694388639994675568"
+"dilemmas": [
+"Where does educational hacking content end and enabling fraud begin?",
+"Should brand-protection services treat security education as a threat by default?",
+"Should a security company take takedown work aimed at other researchers?"
+],
+"source": "https://x.com/nahamsec/status/1694388639994675568",
+"long_summary": "",
+"extra_sources": [],
+"tags": []
 },
 {
 "id": 80,
@@ -1117,8 +1711,15 @@
 "disclosure": "Responsible / coordinated",
 "outcome": "Criminal complaint (withdrawn, apology)",
 "chilling": "Yes",
-"dilemmas": "(i) Publishing flaws in a party's app during an election: public interest in voter-data security versus influence on the campaign. (ii) Should political parties be held to the same disclosure expectations as vendors? (iii) Does Germany's anti-hacking law leave good-faith researchers too exposed to complaints like this?",
-"source": "https://www.heise.de/news/CDU-zieht-Anzeige-wegen-CDU-connect-App-zurueck-und-bittet-um-Entschuldigung-6155229.html"
+"dilemmas": [
+"Publishing flaws in a party's app during an election: public interest in voter-data security versus influence on the campaign.",
+"Should political parties be held to the same disclosure expectations as vendors?",
+"Does Germany's anti-hacking law leave good-faith researchers too exposed to complaints like this?"
+],
+"source": "https://www.heise.de/news/CDU-zieht-Anzeige-wegen-CDU-connect-App-zurueck-und-bittet-um-Entschuldigung-6155229.html",
+"long_summary": "",
+"extra_sources": [],
+"tags": []
 },
 {
 "id": 81,
@@ -1131,8 +1732,15 @@
 "disclosure": "Research publication",
 "outcome": "Civil threat",
 "chilling": "Yes",
-"dilemmas": "(i) Proprietary algorithms used by emergency services versus the public's interest in independent analysis of how they fail. (ii) Is sharing a reimplementation of a company's method legitimate research or IP infringement? (iii) How should researchers weigh legal risk when the safety stakes are public?",
-"source": "https://techcrunch.com/2021/04/30/what3words-legal-threat-whatfreewords/"
+"dilemmas": [
+"Proprietary algorithms used by emergency services versus the public's interest in independent analysis of how they fail.",
+"Is sharing a reimplementation of a company's method legitimate research or IP infringement?",
+"How should researchers weigh legal risk when the safety stakes are public?"
+],
+"source": "https://techcrunch.com/2021/04/30/what3words-legal-threat-whatfreewords/",
+"long_summary": "",
+"extra_sources": [],
+"tags": []
 },
 {
 "id": 82,
@@ -1145,8 +1753,15 @@
 "disclosure": "Responsible / coordinated",
 "outcome": "Police report (no charges reported)",
 "chilling": "Yes",
-"dilemmas": "(i) How much should a researcher look at exposed data to confirm a leak before reporting it? (ii) Reporting the finder to police: reasonable caution or blame-shifting by the organization that leaked? (iii) Do publicly funded health projects owe more transparency about their own mistakes?",
-"source": "https://www.bleepingcomputer.com/news/security/engineer-reports-data-leak-to-nonprofit-hears-from-the-police/"
+"dilemmas": [
+"How much should a researcher look at exposed data to confirm a leak before reporting it?",
+"Reporting the finder to police: reasonable caution or blame-shifting by the organization that leaked?",
+"Do publicly funded health projects owe more transparency about their own mistakes?"
+],
+"source": "https://www.bleepingcomputer.com/news/security/engineer-reports-data-leak-to-nonprofit-hears-from-the-police/",
+"long_summary": "",
+"extra_sources": [],
+"tags": []
 },
 {
 "id": 83,
@@ -1159,8 +1774,15 @@
 "disclosure": "Research publication",
 "outcome": "Civil threat (talk delayed)",
 "chilling": "Yes",
-"dilemmas": "(i) Should vendors be able to use last-minute legal threats to delay talks on already-reported flaws? (ii) What do conferences owe speakers facing legal pressure? (iii) When a vendor objects, does delaying a talk serve users or only the vendor?",
-"source": "https://airbus-seclab.github.io/xerox/INFILTRATE2020-RIGO-Xerox-final.pdf"
+"dilemmas": [
+"Should vendors be able to use last-minute legal threats to delay talks on already-reported flaws?",
+"What do conferences owe speakers facing legal pressure?",
+"When a vendor objects, does delaying a talk serve users or only the vendor?"
+],
+"source": "https://airbus-seclab.github.io/xerox/INFILTRATE2020-RIGO-Xerox-final.pdf",
+"long_summary": "",
+"extra_sources": [],
+"tags": []
 },
 {
 "id": 84,
@@ -1173,8 +1795,15 @@
 "disclosure": "Vendor non-responsive \u2192 public disclosure",
 "outcome": "Civil threat",
 "chilling": "Yes",
-"dilemmas": "(i) Is reaching out over Twitter an acceptable disclosure channel when a vendor has no security contact? (ii) When a vendor denies a flaw exposing vulnerable users, how quickly should researchers go public? (iii) How should researchers respond when a disclosure becomes entangled in a political dispute about the app?",
-"source": "https://research.digitalinterruption.com/2020/09/10/giggle-laughable-security/"
+"dilemmas": [
+"Is reaching out over Twitter an acceptable disclosure channel when a vendor has no security contact?",
+"When a vendor denies a flaw exposing vulnerable users, how quickly should researchers go public?",
+"How should researchers respond when a disclosure becomes entangled in a political dispute about the app?"
+],
+"source": "https://research.digitalinterruption.com/2020/09/10/giggle-laughable-security/",
+"long_summary": "",
+"extra_sources": [],
+"tags": []
 },
 {
 "id": 85,
@@ -1187,8 +1816,15 @@
 "disclosure": "Responsible / coordinated",
 "outcome": "Civil threat",
 "chilling": "No",
-"dilemmas": "(i) Is a business-logic flaw like promo-code abuse a security vulnerability worth disclosing, or a billing issue? (ii) Proving the flaw meant using another company's paid codes: necessary proof or misuse? (iii) Should a mental-health platform's denial and legal threat be weighed against its users' trust?",
-"source": "https://techcrunch.com/2020/03/09/talkspace-cease-desist/"
+"dilemmas": [
+"Is a business-logic flaw like promo-code abuse a security vulnerability worth disclosing, or a billing issue?",
+"Proving the flaw meant using another company's paid codes: necessary proof or misuse?",
+"Should a mental-health platform's denial and legal threat be weighed against its users' trust?"
+],
+"source": "https://techcrunch.com/2020/03/09/talkspace-cease-desist/",
+"long_summary": "",
+"extra_sources": [],
+"tags": []
 },
 {
 "id": 86,
@@ -1201,8 +1837,15 @@
 "disclosure": "Research publication",
 "outcome": "Civil threat",
 "chilling": "Yes",
-"dilemmas": "(i) When a company with no disclosure policy ignores safety-relevant findings, is a public talk justified? (ii) How much detail about an aviation manufacturer's network weaknesses is safe to share publicly? (iii) Does a researcher's status (veteran, well-known speaker) change how the vendor should respond?",
-"source": "https://www.csoonline.com/article/3451585/boeings-poor-information-security-posture-threatens-passenger-safety-national-security-researcher-s.html"
+"dilemmas": [
+"When a company with no disclosure policy ignores safety-relevant findings, is a public talk justified?",
+"How much detail about an aviation manufacturer's network weaknesses is safe to share publicly?",
+"Does a researcher's status (veteran, well-known speaker) change how the vendor should respond?"
+],
+"source": "https://www.csoonline.com/article/3451585/boeings-poor-information-security-posture-threatens-passenger-safety-national-security-researcher-s.html",
+"long_summary": "",
+"extra_sources": [],
+"tags": []
 },
 {
 "id": 87,
@@ -1215,8 +1858,15 @@
 "disclosure": "Responsible / coordinated",
 "outcome": "Civil threat (criminal threat)",
 "chilling": "Yes",
-"dilemmas": "(i) Is scanning a university's public services to find exposures acceptable without permission? (ii) How should institutions respond when the reporter is a minor? (iii) Threatening jail for a good-faith report: does it protect the institution or discourage the next student?",
-"source": "https://github.com/disclose/research-threats/blob/master/goodies/MIT_threatened_to_sue_after_I_reported_a_security_vulnerability_%2327.pdf"
+"dilemmas": [
+"Is scanning a university's public services to find exposures acceptable without permission?",
+"How should institutions respond when the reporter is a minor?",
+"Threatening jail for a good-faith report: does it protect the institution or discourage the next student?"
+],
+"source": "https://github.com/disclose/research-threats/blob/master/goodies/MIT_threatened_to_sue_after_I_reported_a_security_vulnerability_%2327.pdf",
+"long_summary": "",
+"extra_sources": [],
+"tags": []
 },
 {
 "id": 88,
@@ -1229,8 +1879,15 @@
 "disclosure": "Responsible / coordinated",
 "outcome": "Arrested (further action unclear)",
 "chilling": "Yes",
-"dilemmas": "(i) How can a researcher prove a price-manipulation flaw without committing fare fraud? (ii) When a vendor disputes receiving a report, who bears the burden of proof? (iii) Does public outrage protect researchers, or harden institutions against them?",
-"source": "https://www.ibtimes.co.uk/dont-shoot-messenger-teenager-arrested-showing-security-flaw-hungarian-transport-system-1632472"
+"dilemmas": [
+"How can a researcher prove a price-manipulation flaw without committing fare fraud?",
+"When a vendor disputes receiving a report, who bears the burden of proof?",
+"Does public outrage protect researchers, or harden institutions against them?"
+],
+"source": "https://www.ibtimes.co.uk/dont-shoot-messenger-teenager-arrested-showing-security-flaw-hungarian-transport-system-1632472",
+"long_summary": "",
+"extra_sources": [],
+"tags": []
 },
 {
 "id": 89,
@@ -1243,8 +1900,15 @@
 "disclosure": "Responsible / coordinated",
 "outcome": "Financial retaliation (accounts closed)",
 "chilling": "Yes",
-"dilemmas": "(i) Converting test points to cash while reporting: proof of impact or fraud? (ii) With no disclosure program, is reporting through a customer-support Twitter account an adequate channel? (iii) Is closing family members' accounts risk management or retaliation?",
-"source": "https://gigazine.net/gsc_news/en/20201105-unlimited-chase-ultimate-rewards-points"
+"dilemmas": [
+"Converting test points to cash while reporting: proof of impact or fraud?",
+"With no disclosure program, is reporting through a customer-support Twitter account an adequate channel?",
+"Is closing family members' accounts risk management or retaliation?"
+],
+"source": "https://gigazine.net/gsc_news/en/20201105-unlimited-chase-ultimate-rewards-points",
+"long_summary": "",
+"extra_sources": [],
+"tags": []
 },
 {
 "id": 90,
@@ -1257,8 +1921,15 @@
 "disclosure": "Responsible / coordinated",
 "outcome": "Civil threat",
 "chilling": "No",
-"dilemmas": "(i) Should researchers publish after a cease-and-desist when the flaw could enable financial fraud? (ii) Does an auditing firm's own software deserve stricter scrutiny? (iii) How much detail is safe when the affected systems run companies' financial controls?",
-"source": "https://www.zdnet.com/article/pwc-sends-security-researchers-cease-and-desist-letter-instead-of-fixing-security-flaw/"
+"dilemmas": [
+"Should researchers publish after a cease-and-desist when the flaw could enable financial fraud?",
+"Does an auditing firm's own software deserve stricter scrutiny?",
+"How much detail is safe when the affected systems run companies' financial controls?"
+],
+"source": "https://www.zdnet.com/article/pwc-sends-security-researchers-cease-and-desist-letter-instead-of-fixing-security-flaw/",
+"long_summary": "",
+"extra_sources": [],
+"tags": []
 },
 {
 "id": 91,
@@ -1271,8 +1942,15 @@
 "disclosure": "Vendor non-responsive \u2192 public disclosure",
 "outcome": "Civil threat",
 "chilling": "Yes",
-"dilemmas": "(i) How much detail must be public to force a non-responsive company to act, and how much is too much? (ii) Should researchers comply with a takedown demand when users remain exposed? (iii) Does exposing payment data change the duty to warn affected customers?",
-"source": "https://s3jensen.blogspot.com/2016/06/nerium-vulnerability-disclosure.html"
+"dilemmas": [
+"How much detail must be public to force a non-responsive company to act, and how much is too much?",
+"Should researchers comply with a takedown demand when users remain exposed?",
+"Does exposing payment data change the duty to warn affected customers?"
+],
+"source": "https://s3jensen.blogspot.com/2016/06/nerium-vulnerability-disclosure.html",
+"long_summary": "",
+"extra_sources": [],
+"tags": []
 },
 {
 "id": 92,
@@ -1285,8 +1963,15 @@
 "disclosure": "Responsible / coordinated",
 "outcome": "Convicted (later overturned)",
 "chilling": "Yes",
-"dilemmas": "(i) A parent checking a system holding their child's data: protective duty or unauthorized access? (ii) How far can a researcher verify a flaw involving children's records? (iii) Should prosecutors pursue the reporter when the vendor's security is the real failure?",
-"source": "https://www.version2.dk/artikel/derfor-blev-henrik-hoeyer-frifundet"
+"dilemmas": [
+"A parent checking a system holding their child's data: protective duty or unauthorized access?",
+"How far can a researcher verify a flaw involving children's records?",
+"Should prosecutors pursue the reporter when the vendor's security is the real failure?"
+],
+"source": "https://www.version2.dk/artikel/derfor-blev-henrik-hoeyer-frifundet",
+"long_summary": "",
+"extra_sources": [],
+"tags": []
 },
 {
 "id": 93,
@@ -1299,8 +1984,15 @@
 "disclosure": "Responsible / coordinated",
 "outcome": "Civil threat (talk withdrawn)",
 "chilling": "Yes",
-"dilemmas": "(i) If a vendor was warned privately, does it still have standing to block a talk? (ii) Should researchers withdraw talks under threat, or present and risk a lawsuit? (iii) Who protects the camera owners while the research stays unpublished?",
-"source": "https://threatpost.com/canceled-talk-re-ignites-controversy-over-legitimate-security-research/114932/"
+"dilemmas": [
+"If a vendor was warned privately, does it still have standing to block a talk?",
+"Should researchers withdraw talks under threat, or present and risk a lawsuit?",
+"Who protects the camera owners while the research stays unpublished?"
+],
+"source": "https://threatpost.com/canceled-talk-re-ignites-controversy-over-legitimate-security-research/114932/",
+"long_summary": "",
+"extra_sources": [],
+"tags": []
 },
 {
 "id": 94,
@@ -1313,8 +2005,15 @@
 "disclosure": "Responsible / coordinated",
 "outcome": "Civil threat",
 "chilling": "No",
-"dilemmas": "(i) Can a license agreement legitimately bar the security research that protects the product's customers? (ii) Should researchers publish against a vendor's license-based objection? (iii) When enterprise security software is itself vulnerable, who should decide disclosure timing?",
-"source": "https://www.modzero.com/modlog/archives/2015/09/24/on_responsible_full_disclosure/index.html"
+"dilemmas": [
+"Can a license agreement legitimately bar the security research that protects the product's customers?",
+"Should researchers publish against a vendor's license-based objection?",
+"When enterprise security software is itself vulnerable, who should decide disclosure timing?"
+],
+"source": "https://www.modzero.com/modlog/archives/2015/09/24/on_responsible_full_disclosure/index.html",
+"long_summary": "",
+"extra_sources": [],
+"tags": []
 },
 {
 "id": 95,
@@ -1327,8 +2026,15 @@
 "disclosure": "Media-first",
 "outcome": "Civil threat",
 "chilling": "No",
-"dilemmas": "(i) Full disclosure of a working exploit for software on children's school computers: pressure on the vendor or risk to students? (ii) Should researchers coordinate first even with vendors they expect to be hostile? (iii) Is a user agreement a valid basis for silencing security findings?",
-"source": "https://www.theregister.com/security/2015/07/16/brit-school-software-biz-unchains-lawyers-after-crappy-security-exposed/449265"
+"dilemmas": [
+"Full disclosure of a working exploit for software on children's school computers: pressure on the vendor or risk to students?",
+"Should researchers coordinate first even with vendors they expect to be hostile?",
+"Is a user agreement a valid basis for silencing security findings?"
+],
+"source": "https://www.theregister.com/security/2015/07/16/brit-school-software-biz-unchains-lawyers-after-crappy-security-exposed/449265",
+"long_summary": "",
+"extra_sources": [],
+"tags": []
 },
 {
 "id": 96,
@@ -1341,8 +2047,15 @@
 "disclosure": "Responsible / coordinated",
 "outcome": "Home raided (no charges reported)",
 "chilling": "Yes",
-"dilemmas": "(i) Does reporting someone else's public finding expose the reporter to liability? (ii) During an election, should authorities treat reporters of flaws as suspects or allies? (iii) How should researchers protect themselves when warning a vendor about issues they didn't discover?",
-"source": "https://arstechnica.com/tech-policy/2015/07/police-raid-programmer-who-reported-flaw-in-argentinian-e-voting-system/"
+"dilemmas": [
+"Does reporting someone else's public finding expose the reporter to liability?",
+"During an election, should authorities treat reporters of flaws as suspects or allies?",
+"How should researchers protect themselves when warning a vendor about issues they didn't discover?"
+],
+"source": "https://arstechnica.com/tech-policy/2015/07/police-raid-programmer-who-reported-flaw-in-argentinian-e-voting-system/",
+"long_summary": "",
+"extra_sources": [],
+"tags": []
 },
 {
 "id": 97,
@@ -1355,8 +2068,15 @@
 "disclosure": "Responsible / coordinated",
 "outcome": "Civil threat (DMCA)",
 "chilling": "No",
-"dilemmas": "(i) Should anti-circumvention law cover research into physical security products? (ii) Publishing the day after a public threat: principled stand or escalation? (iii) What do owners of high-security locks need to know, and when?",
-"source": "https://arstechnica.com/information-technology/2015/05/lawyers-threaten-researcher-over-key-cloning-bug-in-high-security-lock/"
+"dilemmas": [
+"Should anti-circumvention law cover research into physical security products?",
+"Publishing the day after a public threat: principled stand or escalation?",
+"What do owners of high-security locks need to know, and when?"
+],
+"source": "https://arstechnica.com/information-technology/2015/05/lawyers-threaten-researcher-over-key-cloning-bug-in-high-security-lock/",
+"long_summary": "",
+"extra_sources": [],
+"tags": []
 },
 {
 "id": 98,
@@ -1369,8 +2089,15 @@
 "disclosure": "Responsible / coordinated",
 "outcome": "Talk cancelled (later presented)",
 "chilling": "Yes",
-"dilemmas": "(i) When pressure comes through a conference organizer rather than a lawyer, is it still a threat? (ii) Should an employer's relationship with a vendor decide when its researcher speaks? (iii) Did the delay protect anyone, or only postpone the inevitable?",
-"source": "https://www.forbes.com/sites/thomasbrewster/2015/03/26/hackers-slam-blue-coat-claiming-it-pressured-security-researcher-into-cancelling-talk-on-its-tech/"
+"dilemmas": [
+"When pressure comes through a conference organizer rather than a lawyer, is it still a threat?",
+"Should an employer's relationship with a vendor decide when its researcher speaks?",
+"Did the delay protect anyone, or only postpone the inevitable?"
+],
+"source": "https://www.forbes.com/sites/thomasbrewster/2015/03/26/hackers-slam-blue-coat-claiming-it-pressured-security-researcher-into-cancelling-talk-on-its-tech/",
+"long_summary": "",
+"extra_sources": [],
+"tags": []
 },
 {
 "id": 99,
@@ -1383,8 +2110,15 @@
 "disclosure": "Media-first",
 "outcome": "Employer suspension (no charges)",
 "chilling": "Yes",
-"dilemmas": "(i) Is sending findings straight to a public exploit database fair to the vendor's customers? (ii) Should a vendor ever contact a researcher's employer over independent work? (iii) Should employers shield staff from vendor pressure over research done on their own time?",
-"source": "https://www.forbes.com/sites/thomasbrewster/2014/07/09/researcher-i-was-suspended-for-finding-flaws-in-fireeye-security-kit/"
+"dilemmas": [
+"Is sending findings straight to a public exploit database fair to the vendor's customers?",
+"Should a vendor ever contact a researcher's employer over independent work?",
+"Should employers shield staff from vendor pressure over research done on their own time?"
+],
+"source": "https://www.forbes.com/sites/thomasbrewster/2014/07/09/researcher-i-was-suspended-for-finding-flaws-in-fireeye-security-kit/",
+"long_summary": "",
+"extra_sources": [],
+"tags": []
 },
 {
 "id": 100,
@@ -1397,8 +2131,15 @@
 "disclosure": "Media-first",
 "outcome": "Government pressure (no charges)",
 "chilling": "Yes",
-"dilemmas": "(i) Public video first versus private report first for a government health site holding sensitive data. (ii) Is an FBI request to stop talking a legitimate safety measure or intimidation? (iii) How should researchers balance public trust in a new public program against users' right to know?",
-"source": "https://www.forbes.com/sites/kashmirhill/2014/01/15/so-you-found-an-obamacare-website-is-hackable-now-what/"
+"dilemmas": [
+"Public video first versus private report first for a government health site holding sensitive data.",
+"Is an FBI request to stop talking a legitimate safety measure or intimidation?",
+"How should researchers balance public trust in a new public program against users' right to know?"
+],
+"source": "https://www.forbes.com/sites/kashmirhill/2014/01/15/so-you-found-an-obamacare-website-is-hackable-now-what/",
+"long_summary": "",
+"extra_sources": [],
+"tags": []
 },
 {
 "id": 101,
@@ -1411,8 +2152,15 @@
 "disclosure": "Responsible / coordinated",
 "outcome": "Police referral (no charges reported)",
 "chilling": "Yes",
-"dilemmas": "(i) Should a teenager's good-faith report be handled differently from an adult's? (ii) Police referral as a default response: protecting customers or deterring reporters? (iii) How much access is acceptable to confirm customer data is exposed?",
-"source": "https://www.theage.com.au/technology/technology-news/schoolboy-hacks-public-transport-victoria-website-20140107-30fkg.html"
+"dilemmas": [
+"Should a teenager's good-faith report be handled differently from an adult's?",
+"Police referral as a default response: protecting customers or deterring reporters?",
+"How much access is acceptable to confirm customer data is exposed?"
+],
+"source": "https://www.theage.com.au/technology/technology-news/schoolboy-hacks-public-transport-victoria-website-20140107-30fkg.html",
+"long_summary": "",
+"extra_sources": [],
+"tags": []
 },
 {
 "id": 102,
@@ -1425,8 +2173,15 @@
 "disclosure": "Media-first",
 "outcome": "Civil threat",
 "chilling": "No",
-"dilemmas": "(i) Full disclosure on a public list versus private notice for a consumer payment app. (ii) Should researchers retain counsel before publishing? (iii) Do customers' interests favor speed or coordination when card data may be stored insecurely?",
-"source": "https://seclists.org/fulldisclosure/2013/Dec/39"
+"dilemmas": [
+"Full disclosure on a public list versus private notice for a consumer payment app.",
+"Should researchers retain counsel before publishing?",
+"Do customers' interests favor speed or coordination when card data may be stored insecurely?"
+],
+"source": "https://seclists.org/fulldisclosure/2013/Dec/39",
+"long_summary": "",
+"extra_sources": [],
+"tags": []
 },
 {
 "id": 103,
@@ -1439,8 +2194,15 @@
 "disclosure": "Vendor non-responsive \u2192 public disclosure",
 "outcome": "Police complaint (no charges reported)",
 "chilling": "Yes",
-"dilemmas": "(i) After three months of inaction, was a public talk the right lever? (ii) If disclosure led to widespread fare evasion, who bears responsibility: the researcher or the operator who didn't fix it? (iii) How much technical detail is appropriate for a transit-fare flaw?",
-"source": "https://www.stuff.co.nz/the-press/news/transport/9386649/ECan-public-transport-card-hacked"
+"dilemmas": [
+"After three months of inaction, was a public talk the right lever?",
+"If disclosure led to widespread fare evasion, who bears responsibility: the researcher or the operator who didn't fix it?",
+"How much technical detail is appropriate for a transit-fare flaw?"
+],
+"source": "https://www.stuff.co.nz/the-press/news/transport/9386649/ECan-public-transport-card-hacked",
+"long_summary": "",
+"extra_sources": [],
+"tags": []
 },
 {
 "id": 104,
@@ -1453,8 +2215,15 @@
 "disclosure": "Responsible / coordinated",
 "outcome": "Civil threat",
 "chilling": "No",
-"dilemmas": "(i) When vendor and researcher disagree on whether a bug is fixed, whose claim should users trust? (ii) Can an open-source project threaten legal action without undermining its own community norms? (iii) Should an advisory ever change status under legal pressure?",
-"source": "https://web.archive.org/web/20151006081501/https://secunia.com/blog/shooting-the-messenger-372/"
+"dilemmas": [
+"When vendor and researcher disagree on whether a bug is fixed, whose claim should users trust?",
+"Can an open-source project threaten legal action without undermining its own community norms?",
+"Should an advisory ever change status under legal pressure?"
+],
+"source": "https://web.archive.org/web/20151006081501/https://secunia.com/blog/shooting-the-messenger-372/",
+"long_summary": "",
+"extra_sources": [],
+"tags": []
 },
 {
 "id": 105,
@@ -1467,8 +2236,15 @@
 "disclosure": "Vendor non-responsive \u2192 public disclosure",
 "outcome": "Civil threat",
 "chilling": "No",
-"dilemmas": "(i) A two-week deadline with a public proof of concept: fair pressure or an ultimatum? (ii) How short can a disclosure deadline be before it becomes coercion? (iii) Does threatening a PoC change how a vendor will read the researcher's intent?",
-"source": "https://www.webhostingtalk.com/showthread.php?t=1275572"
+"dilemmas": [
+"A two-week deadline with a public proof of concept: fair pressure or an ultimatum?",
+"How short can a disclosure deadline be before it becomes coercion?",
+"Does threatening a PoC change how a vendor will read the researcher's intent?"
+],
+"source": "https://www.webhostingtalk.com/showthread.php?t=1275572",
+"long_summary": "",
+"extra_sources": [],
+"tags": []
 },
 {
 "id": 106,
@@ -1481,8 +2257,15 @@
 "disclosure": "Responsible / coordinated",
 "outcome": "Civil threat",
 "chilling": "No",
-"dilemmas": "(i) When a vendor responds only through lawyers, does the researcher still owe it coordination? (ii) Should a vendor's claim that an update fixed the issue be accepted without detail? (iii) Is publishing against a legal warning justified for a password manager whose users can't assess the risk?",
-"source": "https://blog.fox-it.com/2013/04/05/security-advisory-unencrypted-storage-of-confidential-information-in-keeper-password-data-vault-v5-3-for-ios/"
+"dilemmas": [
+"When a vendor responds only through lawyers, does the researcher still owe it coordination?",
+"Should a vendor's claim that an update fixed the issue be accepted without detail?",
+"Is publishing against a legal warning justified for a password manager whose users can't assess the risk?"
+],
+"source": "https://blog.fox-it.com/2013/04/05/security-advisory-unencrypted-storage-of-confidential-information-in-keeper-password-data-vault-v5-3-for-ios/",
+"long_summary": "",
+"extra_sources": [],
+"tags": []
 },
 {
 "id": 107,
@@ -1495,8 +2278,15 @@
 "disclosure": "Responsible / coordinated",
 "outcome": "Expelled (no charges)",
 "chilling": "Yes",
-"dilemmas": "(i) Is re-testing a reported system to check the fix diligence or new unauthorized access? (ii) Is demanding an NDA under threat of prosecution ever acceptable? (iii) Should a school discipline a student for reporting a flaw in software it bought?",
-"source": "https://nationalpost.com/news/canada/youth-expelled-from-montreal-college-after-finding-sloppy-coding-that-compromised-security-of-250000-students-personal-data"
+"dilemmas": [
+"Is re-testing a reported system to check the fix diligence or new unauthorized access?",
+"Is demanding an NDA under threat of prosecution ever acceptable?",
+"Should a school discipline a student for reporting a flaw in software it bought?"
+],
+"source": "https://nationalpost.com/news/canada/youth-expelled-from-montreal-college-after-finding-sloppy-coding-that-compromised-security-of-250000-students-personal-data",
+"long_summary": "",
+"extra_sources": [],
+"tags": []
 },
 {
 "id": 108,
@@ -1509,8 +2299,15 @@
 "disclosure": "Research publication",
 "outcome": "Civil threat (talk cancelled)",
 "chilling": "Yes",
-"dilemmas": "(i) If the plant operator approves disclosure, should the equipment vendor still have a veto? (ii) How much detail about nuclear-plant control systems is safe for a public audience? (iii) Does silencing ICS research make plants safer or just less informed?",
-"source": "https://gadgets.ndtv.com/internet/news/legal-fears-muffle-warnings-on-cyber-security-threats-286061"
+"dilemmas": [
+"If the plant operator approves disclosure, should the equipment vendor still have a veto?",
+"How much detail about nuclear-plant control systems is safe for a public audience?",
+"Does silencing ICS research make plants safer or just less informed?"
+],
+"source": "https://gadgets.ndtv.com/internet/news/legal-fears-muffle-warnings-on-cyber-security-threats-286061",
+"long_summary": "",
+"extra_sources": [],
+"tags": []
 },
 {
 "id": 109,
@@ -1523,8 +2320,15 @@
 "disclosure": "Media-first",
 "outcome": "Civil threat (copyright takedown)",
 "chilling": "No",
-"dilemmas": "(i) Is a copyright claim against an exploit demo a legitimate use of IP law? (ii) Are video demonstrations of working exploits a responsible way to publicize flaws? (iii) Should platforms review takedowns aimed at security research?",
-"source": "https://attrition.org/errata/legal_threats/e-soft/"
+"dilemmas": [
+"Is a copyright claim against an exploit demo a legitimate use of IP law?",
+"Are video demonstrations of working exploits a responsible way to publicize flaws?",
+"Should platforms review takedowns aimed at security research?"
+],
+"source": "https://attrition.org/errata/legal_threats/e-soft/",
+"long_summary": "",
+"extra_sources": [],
+"tags": []
 },
 {
 "id": 110,
@@ -1537,8 +2341,15 @@
 "disclosure": "Responsible / coordinated",
 "outcome": "Talk withdrawn (later presented)",
 "chilling": "Yes",
-"dilemmas": "(i) When a vendor becomes a client, can the researcher still decide disclosure independently? (ii) Should a testing tool for critical infrastructure be released freely? (iii) Is it fair to the community to withdraw a scheduled talk for commercial reasons?",
-"source": "https://www.darkreading.com/vulnerabilities-threats/smart-grid-researcher-releases-open-source-meter-hacking-tool"
+"dilemmas": [
+"When a vendor becomes a client, can the researcher still decide disclosure independently?",
+"Should a testing tool for critical infrastructure be released freely?",
+"Is it fair to the community to withdraw a scheduled talk for commercial reasons?"
+],
+"source": "https://www.darkreading.com/vulnerabilities-threats/smart-grid-researcher-releases-open-source-meter-hacking-tool",
+"long_summary": "",
+"extra_sources": [],
+"tags": []
 },
 {
 "id": 111,
@@ -1551,8 +2362,15 @@
 "disclosure": "Media-first",
 "outcome": "Civil threat (retracted)",
 "chilling": "No",
-"dilemmas": "(i) Public interest in exposing hidden phone tracking versus a vendor's claim of confidentiality. (ii) Should privacy findings about software users can't remove go straight to the public? (iii) What changed the outcome: the law, or public pressure?",
-"source": "https://www.eff.org/deeplinks/2011/11/carrieriq-censor-research-baseless-legal-threat"
+"dilemmas": [
+"Public interest in exposing hidden phone tracking versus a vendor's claim of confidentiality.",
+"Should privacy findings about software users can't remove go straight to the public?",
+"What changed the outcome: the law, or public pressure?"
+],
+"source": "https://www.eff.org/deeplinks/2011/11/carrieriq-censor-research-baseless-legal-threat",
+"long_summary": "",
+"extra_sources": [],
+"tags": []
 },
 {
 "id": 112,
@@ -1565,8 +2383,15 @@
 "disclosure": "Responsible / coordinated",
 "outcome": "Police report (threat withdrawn)",
 "chilling": "Yes",
-"dilemmas": "(i) How many other members' records is it acceptable to view to show a flaw is real? (ii) Should a fund be able to make the reporter pay for its own security failures? (iii) Does public pressure, rather than law, end up deciding these cases?",
-"source": "https://www.theregister.com/security/2011/10/19/fund-manager-withdraws-legal-threat-over-security-vuln/1024730"
+"dilemmas": [
+"How many other members' records is it acceptable to view to show a flaw is real?",
+"Should a fund be able to make the reporter pay for its own security failures?",
+"Does public pressure, rather than law, end up deciding these cases?"
+],
+"source": "https://www.theregister.com/security/2011/10/19/fund-manager-withdraws-legal-threat-over-security-vuln/1024730",
+"long_summary": "",
+"extra_sources": [],
+"tags": []
 },
 {
 "id": 113,
@@ -1579,8 +2404,15 @@
 "disclosure": "Media-first",
 "outcome": "Criminal complaint (questioned)",
 "chilling": "Yes",
-"dilemmas": "(i) Should journalists demonstrate a transit-card flaw themselves to prove a story? (ii) Is prosecuting a reporter a proportionate response to fare fraud risk? (iii) Where is the line between investigative journalism and exploitation?",
-"source": "https://www.techdirt.com/articles/20110802/03572015357/dutch-journalist-legal-trouble-showing-how-new-transit-card-is-easy-to-defraud.shtml"
+"dilemmas": [
+"Should journalists demonstrate a transit-card flaw themselves to prove a story?",
+"Is prosecuting a reporter a proportionate response to fare fraud risk?",
+"Where is the line between investigative journalism and exploitation?"
+],
+"source": "https://www.techdirt.com/articles/20110802/03572015357/dutch-journalist-legal-trouble-showing-how-new-transit-card-is-easy-to-defraud.shtml",
+"long_summary": "",
+"extra_sources": [],
+"tags": []
 },
 {
 "id": 114,
@@ -1593,8 +2425,15 @@
 "disclosure": "Responsible / coordinated",
 "outcome": "Civil threat",
 "chilling": "Yes",
-"dilemmas": "(i) Is a vendor portal that forbids disclosure until a fix exists a step forward or a gag? (ii) Should researchers accept programs whose terms remove their timeline? (iii) Did publishing under threat help future researchers or only this case?",
-"source": "https://www.darkreading.com/vulnerabilities-threats/another-researcher-hit-with-threat-of-german-anti-hacking-law"
+"dilemmas": [
+"Is a vendor portal that forbids disclosure until a fix exists a step forward or a gag?",
+"Should researchers accept programs whose terms remove their timeline?",
+"Did publishing under threat help future researchers or only this case?"
+],
+"source": "https://www.darkreading.com/vulnerabilities-threats/another-researcher-hit-with-threat-of-german-anti-hacking-law",
+"long_summary": "",
+"extra_sources": [],
+"tags": []
 },
 {
 "id": 115,
@@ -1607,8 +2446,15 @@
 "disclosure": "Research publication",
 "outcome": "Civil injunction (later lifted)",
 "chilling": "Yes",
-"dilemmas": "(i) Releasing a cheap, cloud-based cracking tool: defensive awareness or attacker uplift? (ii) Are raids and frozen accounts proportionate responses to a planned talk? (iii) Should dual-use tools be released openly or to vetted users only?",
-"source": "https://www.darkreading.com/cyber-risk/researcher-overcomes-legal-setback-over-cloud-cracking-suite-"
+"dilemmas": [
+"Releasing a cheap, cloud-based cracking tool: defensive awareness or attacker uplift?",
+"Are raids and frozen accounts proportionate responses to a planned talk?",
+"Should dual-use tools be released openly or to vetted users only?"
+],
+"source": "https://www.darkreading.com/cyber-risk/researcher-overcomes-legal-setback-over-cloud-cracking-suite-",
+"long_summary": "",
+"extra_sources": [],
+"tags": []
 },
 {
 "id": 116,
@@ -1621,8 +2467,15 @@
 "disclosure": "Research publication",
 "outcome": "Arrested (released on bail)",
 "chilling": "Yes",
-"dilemmas": "(i) Is research on an improperly obtained voting machine justified by the public interest in election integrity? (ii) Should researchers protect an anonymous source at personal legal risk? (iii) Does government pressure on election-security research undermine or protect public trust?",
-"source": "https://freedom-to-tinker.com/blog/jhalderm/electronic-voting-researcher-arrested-over-anonymous-source/"
+"dilemmas": [
+"Is research on an improperly obtained voting machine justified by the public interest in election integrity?",
+"Should researchers protect an anonymous source at personal legal risk?",
+"Does government pressure on election-security research undermine or protect public trust?"
+],
+"source": "https://freedom-to-tinker.com/blog/jhalderm/electronic-voting-researcher-arrested-over-anonymous-source/",
+"long_summary": "",
+"extra_sources": [],
+"tags": []
 },
 {
 "id": 117,
@@ -1635,8 +2488,15 @@
 "disclosure": "Research publication",
 "outcome": "Talk withdrawn (client pressure)",
 "chilling": "Yes",
-"dilemmas": "(i) Should a firm's client relationships decide whether research is published? (ii) Do markets benefit more from silence or from disclosure of trading-system flaws? (iii) Who represents the public interest when the only objector is a paying customer?",
-"source": "https://www.forbes.com/sites/firewall/2010/07/26/talk-on-high-speed-trading-hacks-pulled-from-security-conference/"
+"dilemmas": [
+"Should a firm's client relationships decide whether research is published?",
+"Do markets benefit more from silence or from disclosure of trading-system flaws?",
+"Who represents the public interest when the only objector is a paying customer?"
+],
+"source": "https://www.forbes.com/sites/firewall/2010/07/26/talk-on-high-speed-trading-hacks-pulled-from-security-conference/",
+"long_summary": "",
+"extra_sources": [],
+"tags": []
 },
 {
 "id": 118,
@@ -1649,8 +2509,15 @@
 "disclosure": "Research publication",
 "outcome": "Talk cancelled (government pressure)",
 "chilling": "Yes",
-"dilemmas": "(i) When geopolitical concerns conflict with research publication, whose interests should prevail? (ii) Should researchers comply with pressure from a government that isn't their direct regulator? (iii) Does suppressing threat-actor research help or harm defenders?",
-"source": "https://www.networkworld.com/article/733212/security-talk-on-china-cyber-army-pulled-after-pressure.html"
+"dilemmas": [
+"When geopolitical concerns conflict with research publication, whose interests should prevail?",
+"Should researchers comply with pressure from a government that isn't their direct regulator?",
+"Does suppressing threat-actor research help or harm defenders?"
+],
+"source": "https://www.networkworld.com/article/733212/security-talk-on-china-cyber-army-pulled-after-pressure.html",
+"long_summary": "",
+"extra_sources": [],
+"tags": []
 },
 {
 "id": 119,
@@ -1663,8 +2530,15 @@
 "disclosure": "Media-first",
 "outcome": "Civil threat (withdrawn)",
 "chilling": "No",
-"dilemmas": "(i) Should a security vendor act to suppress reporting about a client's website? (ii) Is publishing first justified when a financial institution's members are exposed? (iii) What role should hosting providers play when pressured to remove research?",
-"source": "https://web.archive.org/web/20111010114113/https://techmiso.com/2434/navy-federal-credit-union-web-site-operating-with-security-issue/"
+"dilemmas": [
+"Should a security vendor act to suppress reporting about a client's website?",
+"Is publishing first justified when a financial institution's members are exposed?",
+"What role should hosting providers play when pressured to remove research?"
+],
+"source": "https://web.archive.org/web/20111010114113/https://techmiso.com/2434/navy-federal-credit-union-web-site-operating-with-security-issue/",
+"long_summary": "",
+"extra_sources": [],
+"tags": []
 },
 {
 "id": 120,
@@ -1677,8 +2551,15 @@
 "disclosure": "Media-first",
 "outcome": "Civil threat (post removed)",
 "chilling": "Yes",
-"dilemmas": "(i) Removing the report while the flaw stays live: who does that protect? (ii) Should platforms honor takedowns of security research about unpatched flaws? (iii) Was public-first disclosure appropriate for a phishing-enabling bank flaw?",
-"source": "https://law.justia.com/cases/federal/district-courts/michigan/miedce/2:2009cv14890/244989/66/"
+"dilemmas": [
+"Removing the report while the flaw stays live: who does that protect?",
+"Should platforms honor takedowns of security research about unpatched flaws?",
+"Was public-first disclosure appropriate for a phishing-enabling bank flaw?"
+],
+"source": "https://law.justia.com/cases/federal/district-courts/michigan/miedce/2:2009cv14890/244989/66/",
+"long_summary": "",
+"extra_sources": [],
+"tags": []
 },
 {
 "id": 121,
@@ -1691,8 +2572,15 @@
 "disclosure": "Media-first",
 "outcome": "Civil threat (details unpublished)",
 "chilling": "No",
-"dilemmas": "(i) Is publishing evidence of intrusions into a telecom's systems research or a breach? (ii) Do unpublished legal threats deserve the same weight as documented ones? (iii) How should groups that access data to prove flaws be judged?",
-"source": "https://seclists.org/funsec/2009/q2/793"
+"dilemmas": [
+"Is publishing evidence of intrusions into a telecom's systems research or a breach?",
+"Do unpublished legal threats deserve the same weight as documented ones?",
+"How should groups that access data to prove flaws be judged?"
+],
+"source": "https://seclists.org/funsec/2009/q2/793",
+"long_summary": "",
+"extra_sources": [],
+"tags": []
 },
 {
 "id": 122,
@@ -1705,8 +2593,15 @@
 "disclosure": "None (withheld)",
 "outcome": "Civil suit / Injunction",
 "chilling": "Yes",
-"dilemmas": "(i) Should voting machine vendors be able to block independent examination of systems used in public elections? (ii) Trade-secret claims versus voters' right to know. (iii) Should researchers accept engagements that a vendor can veto?",
-"source": "https://blog.citp.princeton.edu/2008/10/01/judge-suppresses-report-voting-machine-security/"
+"dilemmas": [
+"Should voting machine vendors be able to block independent examination of systems used in public elections?",
+"Trade-secret claims versus voters' right to know.",
+"Should researchers accept engagements that a vendor can veto?"
+],
+"source": "https://blog.citp.princeton.edu/2008/10/01/judge-suppresses-report-voting-machine-security/",
+"long_summary": "",
+"extra_sources": [],
+"tags": []
 },
 {
 "id": 123,
@@ -1719,8 +2614,15 @@
 "disclosure": "Responsible / coordinated",
 "outcome": "Civil threat",
 "chilling": "No",
-"dilemmas": "(i) Should researchers publicize threats they receive, or handle them quietly? (ii) Is it fair to the field when one firm resists a threat and another stays silent? (iii) Can legal threats against a widely embedded library ever serve its downstream users?",
-"source": "https://www.zdnet.com/article/autonomy-threatens-legal-action-over-vulnerability-alert/"
+"dilemmas": [
+"Should researchers publicize threats they receive, or handle them quietly?",
+"Is it fair to the field when one firm resists a threat and another stays silent?",
+"Can legal threats against a widely embedded library ever serve its downstream users?"
+],
+"source": "https://www.zdnet.com/article/autonomy-threatens-legal-action-over-vulnerability-alert/",
+"long_summary": "",
+"extra_sources": [],
+"tags": []
 },
 {
 "id": 124,
@@ -1733,8 +2635,15 @@
 "disclosure": "Research publication",
 "outcome": "Denied entry (no charges)",
 "chilling": "Yes",
-"dilemmas": "(i) Should border authorities be able to block researchers from sharing defensive knowledge? (ii) How should international researchers weigh travel risk when presenting in other countries? (iii) Do conferences owe foreign speakers legal and logistical support?",
-"source": "https://addxorrol.blogspot.com/2007/07/ive-been-denied-entry-to-us-essentially.html"
+"dilemmas": [
+"Should border authorities be able to block researchers from sharing defensive knowledge?",
+"How should international researchers weigh travel risk when presenting in other countries?",
+"Do conferences owe foreign speakers legal and logistical support?"
+],
+"source": "https://addxorrol.blogspot.com/2007/07/ive-been-denied-entry-to-us-essentially.html",
+"long_summary": "",
+"extra_sources": [],
+"tags": []
 },
 {
 "id": 125,
@@ -1747,8 +2656,15 @@
 "disclosure": "Media-first",
 "outcome": "Service terminated (no charges)",
 "chilling": "Yes",
-"dilemmas": "(i) Is publishing details of an ISP router backdoor justified when every customer is exposed? (ii) Is cutting off a customer's service a legitimate response or retaliation? (iii) Should passwords have been redacted before publication, not after?",
-"source": "https://www.theregister.com/security/2007/04/17/isp-ejects-whistle-blowing-student/1210989"
+"dilemmas": [
+"Is publishing details of an ISP router backdoor justified when every customer is exposed?",
+"Is cutting off a customer's service a legitimate response or retaliation?",
+"Should passwords have been redacted before publication, not after?"
+],
+"source": "https://www.theregister.com/security/2007/04/17/isp-ejects-whistle-blowing-student/1210989",
+"long_summary": "",
+"extra_sources": [],
+"tags": []
 },
 {
 "id": 126,
@@ -1761,8 +2677,15 @@
 "disclosure": "Research publication",
 "outcome": "Civil threat (talk pulled)",
 "chilling": "Yes",
-"dilemmas": "(i) Should a vendor be able to stop research on access-control cards protecting buildings? (ii) Does withholding RFID cloning research protect card holders or leave them unaware? (iii) Should an employer pull a talk to avoid litigation costs?",
-"source": "https://www.wired.com/2007/02/castrated-rfid-talk-at-black-hat/"
+"dilemmas": [
+"Should a vendor be able to stop research on access-control cards protecting buildings?",
+"Does withholding RFID cloning research protect card holders or leave them unaware?",
+"Should an employer pull a talk to avoid litigation costs?"
+],
+"source": "https://www.wired.com/2007/02/castrated-rfid-talk-at-black-hat/",
+"long_summary": "",
+"extra_sources": [],
+"tags": []
 },
 {
 "id": 127,
@@ -1775,8 +2698,15 @@
 "disclosure": "Research publication",
 "outcome": "Civil threat",
 "chilling": "No",
-"dilemmas": "(i) Deriving unpatched vulnerabilities from a vendor's protection signatures: defensive research or zero-day harvesting? (ii) Does publishing the method endanger customers relying on those rules? (iii) Can IPS vendors keep signatures confidential without slowing defense?",
-"source": "https://erratasec.blogspot.com/2009/01/im-reading-this-blog-by-verisign-in.html"
+"dilemmas": [
+"Deriving unpatched vulnerabilities from a vendor's protection signatures: defensive research or zero-day harvesting?",
+"Does publishing the method endanger customers relying on those rules?",
+"Can IPS vendors keep signatures confidential without slowing defense?"
+],
+"source": "https://erratasec.blogspot.com/2009/01/im-reading-this-blog-by-verisign-in.html",
+"long_summary": "",
+"extra_sources": [],
+"tags": []
 },
 {
 "id": 128,
@@ -1789,8 +2719,15 @@
 "disclosure": "Media-first",
 "outcome": "Civil threat",
 "chilling": "No",
-"dilemmas": "(i) Is releasing an exploit two days after a legal threat retaliation or protection of users? (ii) Should a threat end a researcher's duty to coordinate? (iii) How should small open-source theme authors handle reports they don't understand?",
-"source": "https://www.exploit-db.com/exploits/2296"
+"dilemmas": [
+"Is releasing an exploit two days after a legal threat retaliation or protection of users?",
+"Should a threat end a researcher's duty to coordinate?",
+"How should small open-source theme authors handle reports they don't understand?"
+],
+"source": "https://www.exploit-db.com/exploits/2296",
+"long_summary": "",
+"extra_sources": [],
+"tags": []
 },
 {
 "id": 129,
@@ -1803,8 +2740,15 @@
 "disclosure": "Responsible / coordinated",
 "outcome": "Civil threat (dropped)",
 "chilling": "No",
-"dilemmas": "(i) Should database customers learn about flaws even when the vendor objects to timing? (ii) Do license terms limit what researchers can say about benchmarked or tested software? (iii) Does a dropped threat still chill other researchers?",
-"source": "https://www.theregister.com/off-prem/2005/04/05/sybase-invokes-licence-gag-in-flaw-disclosure-row/804936"
+"dilemmas": [
+"Should database customers learn about flaws even when the vendor objects to timing?",
+"Do license terms limit what researchers can say about benchmarked or tested software?",
+"Does a dropped threat still chill other researchers?"
+],
+"source": "https://www.theregister.com/off-prem/2005/04/05/sybase-invokes-licence-gag-in-flaw-disclosure-row/804936",
+"long_summary": "",
+"extra_sources": [],
+"tags": []
 },
 {
 "id": 130,
@@ -1817,8 +2761,15 @@
 "disclosure": "Research publication",
 "outcome": "Civil suit / Injunction",
 "chilling": "Yes",
-"dilemmas": "(i) Should vendors be able to stop students presenting flaws in campus systems they use daily? (ii) Do confidential settlements protect students or bury research? (iii) Does a vendor's repeated conflict with student researchers (see also Demirkapi) suggest a pattern worth weighing?",
-"source": "https://www.eff.org/wp/unintended-consequences-five-years-under-the-dmca"
+"dilemmas": [
+"Should vendors be able to stop students presenting flaws in campus systems they use daily?",
+"Do confidential settlements protect students or bury research?",
+"Does a vendor's repeated conflict with student researchers (see also Demirkapi) suggest a pattern worth weighing?"
+],
+"source": "https://www.eff.org/wp/unintended-consequences-five-years-under-the-dmca",
+"long_summary": "",
+"extra_sources": [],
+"tags": []
 },
 {
 "id": 131,
@@ -1831,8 +2782,15 @@
 "disclosure": "Research publication",
 "outcome": "Civil threat (withdrawn, apology)",
 "chilling": "No",
-"dilemmas": "(i) Does a quick public apology repair the chilling effect of a threat? (ii) Should game engines used by millions be held to enterprise disclosure norms? (iii) Should researchers coordinate with game vendors before publishing?",
-"source": "https://seclists.org/bugtraq/2003/Feb/144"
+"dilemmas": [
+"Does a quick public apology repair the chilling effect of a threat?",
+"Should game engines used by millions be held to enterprise disclosure norms?",
+"Should researchers coordinate with game vendors before publishing?"
+],
+"source": "https://seclists.org/bugtraq/2003/Feb/144",
+"long_summary": "",
+"extra_sources": [],
+"tags": []
 },
 {
 "id": 132,
@@ -1845,8 +2803,15 @@
 "disclosure": "Research publication",
 "outcome": "Civil threat (DMCA)",
 "chilling": "No",
-"dilemmas": "(i) Should copyright law apply to publishing an operating system vulnerability? (ii) Is a negotiated timeline after a threat a fair outcome? (iii) Did using the DMCA here set a precedent that helped or hurt the field?",
-"source": "https://www.eff.org/wp/unintended-consequences-under-dmca"
+"dilemmas": [
+"Should copyright law apply to publishing an operating system vulnerability?",
+"Is a negotiated timeline after a threat a fair outcome?",
+"Did using the DMCA here set a precedent that helped or hurt the field?"
+],
+"source": "https://www.eff.org/wp/unintended-consequences-under-dmca",
+"long_summary": "",
+"extra_sources": [],
+"tags": []
 },
 {
 "id": 133,
@@ -1859,8 +2824,15 @@
 "disclosure": "Media-first",
 "outcome": "Convicted (suspended \u20ac5,000 fine)",
 "chilling": "Yes",
-"dilemmas": "(i) Should reverse engineering to test a security product's claims be treated as copyright infringement? (ii) Do consumers' interests in accurate antivirus marketing outweigh vendor IP? (iii) How should researchers in stricter jurisdictions publish product evaluations?",
-"source": "https://www.scworld.com/news/frenchman-fined-for-exploit-posting-exploits"
+"dilemmas": [
+"Should reverse engineering to test a security product's claims be treated as copyright infringement?",
+"Do consumers' interests in accurate antivirus marketing outweigh vendor IP?",
+"How should researchers in stricter jurisdictions publish product evaluations?"
+],
+"source": "https://www.scworld.com/news/frenchman-fined-for-exploit-posting-exploits",
+"long_summary": "",
+"extra_sources": [],
+"tags": []
 },
 {
 "id": 134,
@@ -1873,8 +2845,15 @@
 "disclosure": "Vendor non-responsive \u2192 public disclosure",
 "outcome": "Financial pressure (consultant status)",
 "chilling": "No",
-"dilemmas": "(i) When a researcher also earns income from the vendor, can disclosure decisions stay independent? (ii) Is threatening someone's business relationship a legal threat by another name? (iii) Should a vendor's refusal to share a remediation plan trigger disclosure?",
-"source": "https://seclists.org/bugtraq/2013/Apr/186"
+"dilemmas": [
+"When a researcher also earns income from the vendor, can disclosure decisions stay independent?",
+"Is threatening someone's business relationship a legal threat by another name?",
+"Should a vendor's refusal to share a remediation plan trigger disclosure?"
+],
+"source": "https://seclists.org/bugtraq/2013/Apr/186",
+"long_summary": "",
+"extra_sources": [],
+"tags": []
 },
 {
 "id": 135,
@@ -1887,8 +2866,15 @@
 "disclosure": "Media-first",
 "outcome": "Employer pressure (no legal threat)",
 "chilling": "No",
-"dilemmas": "(i) Is contacting a researcher's employer a legitimate complaint or indirect pressure? (ii) Did speaking to the press before a patch serve G1 users? (iii) Where is the line between lecturing and threatening?",
-"source": "https://www.nytimes.com/2008/10/25/technology/internet/25phone.html"
+"dilemmas": [
+"Is contacting a researcher's employer a legitimate complaint or indirect pressure?",
+"Did speaking to the press before a patch serve G1 users?",
+"Where is the line between lecturing and threatening?"
+],
+"source": "https://www.nytimes.com/2008/10/25/technology/internet/25phone.html",
+"long_summary": "",
+"extra_sources": [],
+"tags": []
 },
 {
 "id": 136,
@@ -1901,8 +2887,15 @@
 "disclosure": "None (withheld)",
 "outcome": "Talk withdrawn (NDA; disputed)",
 "chilling": "No",
-"dilemmas": "(i) Should an NDA with a vendor override disclosure of flaws affecting all users? (ii) How should the community treat suppression claims that may be publicity? (iii) Should researchers under NDA research that vendor's products at all?",
-"source": "https://www.wired.com/2008/08/security-geeks"
+"dilemmas": [
+"Should an NDA with a vendor override disclosure of flaws affecting all users?",
+"How should the community treat suppression claims that may be publicity?",
+"Should researchers under NDA research that vendor's products at all?"
+],
+"source": "https://www.wired.com/2008/08/security-geeks",
+"long_summary": "",
+"extra_sources": [],
+"tags": []
 },
 {
 "id": 137,
@@ -1915,8 +2908,15 @@
 "disclosure": "Provocation",
 "outcome": "Disclosure series cancelled (pressure rumored)",
 "chilling": "Yes",
-"dilemmas": "(i) Is a public 'bug a day' campaign legitimate pressure or reckless exposure of customers? (ii) Should frustration with a vendor's patch speed justify releasing unpatched flaws? (iii) Do rumored threats chill research as much as real ones?",
-"source": "https://www.crn.com/news/security/196600165/security-researcher-nixes-week-of-oracle-database-bugs"
+"dilemmas": [
+"Is a public 'bug a day' campaign legitimate pressure or reckless exposure of customers?",
+"Should frustration with a vendor's patch speed justify releasing unpatched flaws?",
+"Do rumored threats chill research as much as real ones?"
+],
+"source": "https://www.crn.com/news/security/196600165/security-researcher-nixes-week-of-oracle-database-bugs",
+"long_summary": "",
+"extra_sources": [],
+"tags": []
 },
 {
 "id": 138,
@@ -1929,8 +2929,15 @@
 "disclosure": "Report to institution",
 "outcome": "Charged",
 "chilling": "Yes",
-"dilemmas": "(i) Can collecting real users' credentials ever be justified to prove a system is insecure? (ii) Does a good motive excuse harm to classmates who never consented? (iii) What should a student do when an institution ignores warnings?",
-"source": "https://web.archive.org/web/20081106023458/https://www.canada.com/ottawacitizen/news/city/story.html?id=25110a8f-a73a-43a0-a2a5-1daa08d147d1"
+"dilemmas": [
+"Can collecting real users' credentials ever be justified to prove a system is insecure?",
+"Does a good motive excuse harm to classmates who never consented?",
+"What should a student do when an institution ignores warnings?"
+],
+"source": "https://web.archive.org/web/20081106023458/https://www.canada.com/ottawacitizen/news/city/story.html?id=25110a8f-a73a-43a0-a2a5-1daa08d147d1",
+"long_summary": "",
+"extra_sources": [],
+"tags": []
 },
 {
 "id": 139,
@@ -1943,8 +2950,15 @@
 "disclosure": "Responsible / coordinated",
 "outcome": "Talk cancelled (vendor request)",
 "chilling": "Yes",
-"dilemmas": "(i) Should researchers honor a polite vendor request to cancel when the vendor had months of notice? (ii) Was the request about protecting users or about the vendor's own timing? (iii) Does agreeing to cancel set an expectation that makes future requests harder to refuse?",
-"source": "https://scworld.com/news/hp-asks-researcher-not-to-reveal-router-bugs-at-toorcon"
+"dilemmas": [
+"Should researchers honor a polite vendor request to cancel when the vendor had months of notice?",
+"Was the request about protecting users or about the vendor's own timing?",
+"Does agreeing to cancel set an expectation that makes future requests harder to refuse?"
+],
+"source": "https://scworld.com/news/hp-asks-researcher-not-to-reveal-router-bugs-at-toorcon",
+"long_summary": "",
+"extra_sources": [],
+"tags": []
 },
 {
 "id": 140,
@@ -1957,8 +2971,15 @@
 "disclosure": "Research publication",
 "outcome": "Talk cancelled (reason unconfirmed)",
 "chilling": "No",
-"dilemmas": "(i) How much industrial-control vulnerability detail, and what tools, are safe to release at a hacker conference? (ii) How should the community interpret a cancellation with no stated reason? (iii) Should ICS findings go through national CERTs and vendors before any public talk?",
-"source": "https://www.darkreading.com/vulnerabilities-threats/power-plant-hack-talk-free-tools-pulled-from-def-con-lineup"
+"dilemmas": [
+"How much industrial-control vulnerability detail, and what tools, are safe to release at a hacker conference?",
+"How should the community interpret a cancellation with no stated reason?",
+"Should ICS findings go through national CERTs and vendors before any public talk?"
+],
+"source": "https://www.darkreading.com/vulnerabilities-threats/power-plant-hack-talk-free-tools-pulled-from-def-con-lineup",
+"long_summary": "",
+"extra_sources": [],
+"tags": []
 },
 {
 "id": 141,
@@ -1971,8 +2992,15 @@
 "disclosure": "Responsible / coordinated",
 "outcome": "Talk withdrawn",
 "chilling": "No",
-"dilemmas": "(i) Is withdrawing a talk over misuse fears responsible, or does it leave users uninformed? (ii) How should researchers handle discovering their work overlaps prior research? (iii) What should a vendor's public denial mean for the research's credibility?",
-"source": "https://www.nbcnews.com/id/wbna44123419"
+"dilemmas": [
+"Is withdrawing a talk over misuse fears responsible, or does it leave users uninformed?",
+"How should researchers handle discovering their work overlaps prior research?",
+"What should a vendor's public denial mean for the research's credibility?"
+],
+"source": "https://www.nbcnews.com/id/wbna44123419",
+"long_summary": "",
+"extra_sources": [],
+"tags": []
 },
 {
 "id": 142,
@@ -1985,8 +3013,15 @@
 "disclosure": "Responsible / coordinated",
 "outcome": "Talk withdrawn (vendor/government concern)",
 "chilling": "No",
-"dilemmas": "(i) Should government concern about critical infrastructure override a researcher's publication plan? (ii) Is voluntary withdrawal after an official request different from censorship? (iii) When a vendor's fix fails at the last minute, who should decide whether the talk goes ahead?",
-"source": "https://www.csoonline.com/article/531046/application-security-siemens-scada-hacking-talk-pulled-over-security-concerns.html"
+"dilemmas": [
+"Should government concern about critical infrastructure override a researcher's publication plan?",
+"Is voluntary withdrawal after an official request different from censorship?",
+"When a vendor's fix fails at the last minute, who should decide whether the talk goes ahead?"
+],
+"source": "https://www.csoonline.com/article/531046/application-security-siemens-scada-hacking-talk-pulled-over-security-concerns.html",
+"long_summary": "",
+"extra_sources": [],
+"tags": []
 },
 {
 "id": 143,
@@ -1999,8 +3034,15 @@
 "disclosure": "None (withheld)",
 "outcome": "Talk cancelled (no threat, per researcher)",
 "chilling": "No",
-"dilemmas": "(i) How should media and the community verify suppression claims before amplifying them? (ii) Does publicity-driven framing harm researchers who face real threats? (iii) Should ATM research be presented publicly at all before banks patch?",
-"source": "https://news.softpedia.com/news/Researcher-Dispels-Rumors-Surrounding-HITB-Europe-Talk-Cancellation-148181.shtml"
+"dilemmas": [
+"How should media and the community verify suppression claims before amplifying them?",
+"Does publicity-driven framing harm researchers who face real threats?",
+"Should ATM research be presented publicly at all before banks patch?"
+],
+"source": "https://news.softpedia.com/news/Researcher-Dispels-Rumors-Surrounding-HITB-Europe-Talk-Cancellation-148181.shtml",
+"long_summary": "",
+"extra_sources": [],
+"tags": []
 },
 {
 "id": 144,
@@ -2013,8 +3055,15 @@
 "disclosure": "Responsible / coordinated",
 "outcome": "Talk postponed one year",
 "chilling": "No",
-"dilemmas": "(i) Is a one-year delay a reasonable trade for giving operators time to patch ATMs? (ii) Should an employer, rather than the researcher, decide when a talk is ready? (iii) Does a live jackpotting demo inform defenders or instruct criminals?",
-"source": "https://www.theregister.com/2009/06/30/atm_talk_canceled/"
+"dilemmas": [
+"Is a one-year delay a reasonable trade for giving operators time to patch ATMs?",
+"Should an employer, rather than the researcher, decide when a talk is ready?",
+"Does a live jackpotting demo inform defenders or instruct criminals?"
+],
+"source": "https://www.theregister.com/2009/06/30/atm_talk_canceled/",
+"long_summary": "",
+"extra_sources": [],
+"tags": []
 },
 {
 "id": 145,
@@ -2027,8 +3076,16 @@
 "disclosure": "Public disclosure after vendor response",
 "outcome": "No charges filed",
 "chilling": "Yes",
-"dilemmas": "(i) Is it ethical to expose people's location just to demonstrate a privacy issue? (ii) Was publicly releasing the extension necessary? (iii) Is Facebook justified in withdrawing his internship? (iv) Is collecting existing data ethically different from creating new surveillance capabilities?",
-"source": "https://techscience.org/a/2015081101/"
+"dilemmas": [
+"Is it ethical to expose people's location just to demonstrate a privacy issue?",
+"Was publicly releasing the extension necessary?",
+"Is Facebook justified in withdrawing his internship?",
+"Is collecting existing data ethically different from creating new surveillance capabilities?"
+],
+"source": "https://techscience.org/a/2015081101/",
+"long_summary": "",
+"extra_sources": [],
+"tags": []
 },
 {
 "id": 146,
@@ -2041,8 +3098,15 @@
 "disclosure": "None (withheld)",
 "outcome": "No charges filed",
 "chilling": "No",
-"dilemmas": "(i) Is deceiving customers acceptable for national security? (ii) Should intelligence agencies act on what they learn about human rights abuses, or protect the source? (iii) Does a case like this damage trust in all encryption vendors?",
-"source": "https://www.washingtonpost.com/graphics/2020/world/national-security/cia-crypto-encryption-machines-espionage/"
+"dilemmas": [
+"Is deceiving customers acceptable for national security?",
+"Should intelligence agencies act on what they learn about human rights abuses, or protect the source?",
+"Does a case like this damage trust in all encryption vendors?"
+],
+"source": "https://www.washingtonpost.com/graphics/2020/world/national-security/cia-crypto-encryption-machines-espionage/",
+"long_summary": "",
+"extra_sources": [],
+"tags": []
 },
 {
 "id": 147,
@@ -2055,8 +3119,15 @@
 "disclosure": "None (withheld)",
 "outcome": "Law-enforcement operation; mass arrests",
 "chilling": "No",
-"dilemmas": "(i) Is it acceptable for police to run a deceptive \u201csecure\u201d product? (ii) Should agencies be able to route around domestic legal limits through foreign partners? (iii) Does this make people less willing to trust real privacy tools?",
-"source": "https://www.justice.gov/usao-sdca/pr/fbi-s-encrypted-phone-platform-infiltrated-hundreds-criminal-syndicates-result-massive"
+"dilemmas": [
+"Is it acceptable for police to run a deceptive \u201csecure\u201d product?",
+"Should agencies be able to route around domestic legal limits through foreign partners?",
+"Does this make people less willing to trust real privacy tools?"
+],
+"source": "https://www.justice.gov/usao-sdca/pr/fbi-s-encrypted-phone-platform-infiltrated-hundreds-criminal-syndicates-result-massive",
+"long_summary": "",
+"extra_sources": [],
+"tags": []
 },
 {
 "id": 148,
@@ -2069,8 +3140,15 @@
 "disclosure": "None (withheld)",
 "outcome": "No public criminal charges",
 "chilling": "No",
-"dilemmas": "(i) Is a cyberattack on infrastructure different from a conventional strike? (ii) Is it acceptable to hoard and use zero-days that leave everyone else vulnerable? (iii) Who is accountable when the code escapes its target?",
-"source": "https://lieber.westpoint.edu/firewalls-fault-lines-cyber-war-middle-east/"
+"dilemmas": [
+"Is a cyberattack on infrastructure different from a conventional strike?",
+"Is it acceptable to hoard and use zero-days that leave everyone else vulnerable?",
+"Who is accountable when the code escapes its target?"
+],
+"source": "https://lieber.westpoint.edu/firewalls-fault-lines-cyber-war-middle-east/",
+"long_summary": "",
+"extra_sources": [],
+"tags": []
 },
 {
 "id": 149,
@@ -2083,8 +3161,15 @@
 "disclosure": "Public leak",
 "outcome": "No charges filed for the leak itself",
 "chilling": "No",
-"dilemmas": "(i) Should governments keep zero-days for intelligence or disclose them to vendors? (ii) Who is responsible for the harm the leaked exploit caused? (iii) How should exploit retention be overseen?",
-"source": "https://www.microsoft.com/en-us/msrc/blog/2017/04/protecting-customers-and-evaluating-risk/"
+"dilemmas": [
+"Should governments keep zero-days for intelligence or disclose them to vendors?",
+"Who is responsible for the harm the leaked exploit caused?",
+"How should exploit retention be overseen?"
+],
+"source": "https://www.microsoft.com/en-us/msrc/blog/2017/04/protecting-customers-and-evaluating-risk/",
+"long_summary": "",
+"extra_sources": [],
+"tags": []
 },
 {
 "id": 150,
@@ -2097,8 +3182,14 @@
 "disclosure": "Public legal dispute",
 "outcome": "FBI withdrew court order after third-party access",
 "chilling": "No",
-"dilemmas": "(i) Can a company be forced to weaken its own security? (ii) One phone vs. every user\u2019s security: what responsibility does the outside party that unlocked it have?",
-"source": "https://www.justice.gov/usao-cdca/pr/statement-united-states-attorney-eileen-m-decker-government-request-vacate-order"
+"dilemmas": [
+"Can a company be forced to weaken its own security?",
+"One phone vs. every user\u2019s security: what responsibility does the outside party that unlocked it have?"
+],
+"source": "https://www.justice.gov/usao-cdca/pr/statement-united-states-attorney-eileen-m-decker-government-request-vacate-order",
+"long_summary": "",
+"extra_sources": [],
+"tags": []
 },
 {
 "id": 151,
@@ -2111,8 +3202,16 @@
 "disclosure": "None (withheld)",
 "outcome": "Ransomware incident; recovery and law-enforcement actions",
 "chilling": "No",
-"dilemmas": "(i) How quickly should vendors act when researchers report vulnerabilities in software used by many downstream organizations?; (ii) What responsibilities do managed service providers have to their customers during supply-chain incidents?; (iii) Should a patch timeline be accelerated when exploitation appears imminent?; (iv) How should vendors and researchers coordinate warnings without aiding attackers?",
-"source": "https://csirt.divd.nl/cases/DIVD-2021-00011/"
+"dilemmas": [
+"How quickly should vendors act when researchers report vulnerabilities in software used by many downstream organizations?",
+"What responsibilities do managed service providers have to their customers during supply-chain incidents?",
+"Should a patch timeline be accelerated when exploitation appears imminent?",
+"How should vendors and researchers coordinate warnings without aiding attackers?"
+],
+"source": "https://csirt.divd.nl/cases/DIVD-2021-00011/",
+"long_summary": "",
+"extra_sources": [],
+"tags": []
 },
 {
 "id": 152,
@@ -2125,8 +3224,15 @@
 "disclosure": "Vendor disclosure and later remediation",
 "outcome": "Mass exploitation and emergency remediation",
 "chilling": "No",
-"dilemmas": "(i) Should the government be able to access private systems without consent to fix a security problem? (ii) Who is responsible for cleanup when owners cannot or will not do it? (iii) Does a court order make it ethical if owners are not told first?",
-"source": "https://www.justice.gov/archives/opa/pr/justice-department-announces-court-authorized-effort-disrupt-exploitation-microsoft-exchange"
+"dilemmas": [
+"Should the government be able to access private systems without consent to fix a security problem?",
+"Who is responsible for cleanup when owners cannot or will not do it?",
+"Does a court order make it ethical if owners are not told first?"
+],
+"source": "https://www.justice.gov/archives/opa/pr/justice-department-announces-court-authorized-effort-disrupt-exploitation-microsoft-exchange",
+"long_summary": "",
+"extra_sources": [],
+"tags": []
 },
 {
 "id": 153,
@@ -2139,8 +3245,15 @@
 "disclosure": "Public incident disclosure",
 "outcome": "Global outage and remediation",
 "chilling": "No",
-"dilemmas": "(i) Should security vendors be liable for outages their products cause? (ii) Does deep system access by security tools create too much risk for the protection it gives? (iii) How fast should urgent security updates ship vs. how carefully should they be tested?",
-"source": "https://www.crowdstrike.com/falcon-content-update-remediation-and-guidance-hub/"
+"dilemmas": [
+"Should security vendors be liable for outages their products cause?",
+"Does deep system access by security tools create too much risk for the protection it gives?",
+"How fast should urgent security updates ship vs. how carefully should they be tested?"
+],
+"source": "https://www.crowdstrike.com/falcon-content-update-remediation-and-guidance-hub/",
+"long_summary": "",
+"extra_sources": [],
+"tags": []
 },
 {
 "id": 154,
@@ -2153,8 +3266,15 @@
 "disclosure": "None (withheld)",
 "outcome": "Thousands of arrests; legal challenges",
 "chilling": "No",
-"dilemmas": "(i) Is it acceptable to hack every user of a service if most are suspected criminals? (ii) Should defendants be able to challenge evidence when the technique stays secret? (iii) What happens to legitimate users caught up in the operation?",
-"source": "https://www.eurojust.europa.eu/news/dismantling-encrypted-criminal-encrochat-communications-6-500-arrests-900-eur-seized"
+"dilemmas": [
+"Is it acceptable to hack every user of a service if most are suspected criminals?",
+"Should defendants be able to challenge evidence when the technique stays secret?",
+"What happens to legitimate users caught up in the operation?"
+],
+"source": "https://www.eurojust.europa.eu/news/dismantling-encrypted-criminal-encrochat-communications-6-500-arrests-900-eur-seized",
+"long_summary": "",
+"extra_sources": [],
+"tags": []
 },
 {
 "id": 155,
@@ -2167,8 +3287,14 @@
 "disclosure": "Responsible / coordinated",
 "outcome": "Patch and public disclosure",
 "chilling": "No",
-"dilemmas": "(i) What obligations do maintainers of widely deployed security libraries have when their project is underfunded? (ii) How should organizations and funders distribute responsibility for software that is free to use but critical to security?",
-"source": "https://nvd.nist.gov/vuln/detail/CVE-2014-0160"
+"dilemmas": [
+"What obligations do maintainers of widely deployed security libraries have when their project is underfunded?",
+"How should organizations and funders distribute responsibility for software that is free to use but critical to security?"
+],
+"source": "https://nvd.nist.gov/vuln/detail/CVE-2014-0160",
+"long_summary": "",
+"extra_sources": [],
+"tags": []
 },
 {
 "id": 156,
@@ -2181,8 +3307,15 @@
 "disclosure": "Responsible / coordinated",
 "outcome": "Emergency patching and widespread exploitation",
 "chilling": "No",
-"dilemmas": "(i) Who should bear responsibility for flaws in widely used volunteer-run software? (ii) Should disclosure be delayed, or sped up, once exploitation starts? (iii) What do companies owe the open source projects they depend on?",
-"source": "https://www.cisa.gov/news-events/cybersecurity-advisories/aa21-356a"
+"dilemmas": [
+"Who should bear responsibility for flaws in widely used volunteer-run software?",
+"Should disclosure be delayed, or sped up, once exploitation starts?",
+"What do companies owe the open source projects they depend on?"
+],
+"source": "https://www.cisa.gov/news-events/cybersecurity-advisories/aa21-356a",
+"long_summary": "",
+"extra_sources": [],
+"tags": []
 },
 {
 "id": 157,
@@ -2195,8 +3328,15 @@
 "disclosure": "Media-first / leak",
 "outcome": "Criminal prosecution of source; public disclosures",
 "chilling": "Yes",
-"dilemmas": "(i) Is publishing details of government hacking tools in the public interest or a security risk? (ii) How much should a publisher redact? (iii) Is the leaker a whistleblower or a criminal?",
-"source": "https://www.justice.gov/usao-sdny/pr/former-cia-officer-joshua-adam-schulte-sentenced-40-years-prison-espionage-and-child"
+"dilemmas": [
+"Is publishing details of government hacking tools in the public interest or a security risk?",
+"How much should a publisher redact?",
+"Is the leaker a whistleblower or a criminal?"
+],
+"source": "https://www.justice.gov/usao-sdny/pr/former-cia-officer-joshua-adam-schulte-sentenced-40-years-prison-espionage-and-child",
+"long_summary": "",
+"extra_sources": [],
+"tags": []
 },
 {
 "id": 158,
@@ -2209,8 +3349,15 @@
 "disclosure": "Media-first / leak",
 "outcome": "Charges filed; Snowden remains in exile",
 "chilling": "Yes",
-"dilemmas": "(i) Is breaking secrecy obligations justified when the programs may be unlawful? (ii) Should he have used internal channels first? (iii) How should whistleblowers be protected, given there is no real public-interest defense under the Espionage Act?",
-"source": "https://www.theguardian.com/world/2013/aug/21/edward-snowden-nsa-files-revelations"
+"dilemmas": [
+"Is breaking secrecy obligations justified when the programs may be unlawful?",
+"Should he have used internal channels first?",
+"How should whistleblowers be protected, given there is no real public-interest defense under the Espionage Act?"
+],
+"source": "https://www.theguardian.com/world/2013/aug/21/edward-snowden-nsa-files-revelations",
+"long_summary": "",
+"extra_sources": [],
+"tags": []
 },
 {
 "id": 159,
@@ -2223,8 +3370,15 @@
 "disclosure": "Public leak",
 "outcome": "Data published; litigation and extortion concerns",
 "chilling": "No",
-"dilemmas": "(i) Is it acceptable to punish a company for its practices by exposing its users? (ii) Is it ethical for researchers and journalists to analyze or report on stolen personal data? (iii) Do people who used the service deserve less privacy protection?",
-"source": "https://www.priv.gc.ca/en/opc-actions-and-decisions/investigations/investigations-into-businesses/2016/pipeda-2016-005/"
+"dilemmas": [
+"Is it acceptable to punish a company for its practices by exposing its users?",
+"Is it ethical for researchers and journalists to analyze or report on stolen personal data?",
+"Do people who used the service deserve less privacy protection?"
+],
+"source": "https://www.priv.gc.ca/en/opc-actions-and-decisions/investigations/investigations-into-businesses/2016/pipeda-2016-005/",
+"long_summary": "",
+"extra_sources": [],
+"tags": []
 },
 {
 "id": 160,
@@ -2237,8 +3391,16 @@
 "disclosure": "None (withheld)",
 "outcome": "Federal investigation reported; no criminal charges publicly announced at the time of reporting",
 "chilling": "Yes",
-"dilemmas": "(i) How should universities safeguard due process while responding to federal investigations?; (ii) When does scrutiny of international research funding risk stigmatizing legitimate collaboration?; (iii) What information should institutions disclose when allegations remain unproven?; (iv) How can research-integrity procedures avoid causing disproportionate reputational harm?",
-"source": "https://www.wired.com/story/xiaofeng-wang-indiana-university-research-probe-china/"
+"dilemmas": [
+"How should universities safeguard due process while responding to federal investigations?",
+"When does scrutiny of international research funding risk stigmatizing legitimate collaboration?",
+"What information should institutions disclose when allegations remain unproven?",
+"How can research-integrity procedures avoid causing disproportionate reputational harm?"
+],
+"source": "https://www.wired.com/story/xiaofeng-wang-indiana-university-research-probe-china/",
+"long_summary": "",
+"extra_sources": [],
+"tags": []
 },
 {
 "id": 161,
@@ -2251,8 +3413,16 @@
 "disclosure": "Responsible / coordinated",
 "outcome": "Public research disclosure and subsequent vendor security advisories",
 "chilling": "No",
-"dilemmas": "(i) Should device owners be able to inspect and modify firmware despite vendor restrictions?; (ii) How much exploit detail is appropriate when it can help both defenders and attackers?; (iii) What privacy obligations arise when household sensors send data to vendor cloud services?; (iv) How can researchers promote user control without introducing new risks?",
-"source": "https://techcrunch.com/2024/08/09/ecovacs-home-robots-can-be-hacked-to-spy-on-their-owners-researchers-say/"
+"dilemmas": [
+"Should device owners be able to inspect and modify firmware despite vendor restrictions?",
+"How much exploit detail is appropriate when it can help both defenders and attackers?",
+"What privacy obligations arise when household sensors send data to vendor cloud services?",
+"How can researchers promote user control without introducing new risks?"
+],
+"source": "https://techcrunch.com/2024/08/09/ecovacs-home-robots-can-be-hacked-to-spy-on-their-owners-researchers-say/",
+"long_summary": "",
+"extra_sources": [],
+"tags": []
 },
 {
 "id": 162,
@@ -2265,8 +3435,16 @@
 "disclosure": "Media-first",
 "outcome": "No charges filed",
 "chilling": "No",
-"dilemmas": "(i) Is it ethical to disclose critical vulnerabilities before patches are available, even when disclosure could pressure vendors to respond faster? (ii) Do individuals who obtain confidential vulnerability information have an ethical obligation to respect coordinated disclosure agreements? (iii) Should researchers prioritize public awareness or adherence to disclosure timelines when millions of systems may be vulnerable? (iv) What responsibilities do researchers and distributors have when premature disclosures expose users to exploitation before patches are widely available?",
-"source": "https://thephp.foundation/blog/2026/10/21/todays-php-security-release-and-how-were-strengthening-php-security/"
+"dilemmas": [
+"Is it ethical to disclose critical vulnerabilities before patches are available, even when disclosure could pressure vendors to respond faster?",
+"Do individuals who obtain confidential vulnerability information have an ethical obligation to respect coordinated disclosure agreements?",
+"Should researchers prioritize public awareness or adherence to disclosure timelines when millions of systems may be vulnerable?",
+"What responsibilities do researchers and distributors have when premature disclosures expose users to exploitation before patches are widely available?"
+],
+"source": "https://thephp.foundation/blog/2026/10/21/todays-php-security-release-and-how-were-strengthening-php-security/",
+"long_summary": "",
+"extra_sources": [],
+"tags": []
 }
 ],
 "categories": [

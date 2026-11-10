@@ -159,7 +159,7 @@
 <div class="overlay-panel" id="overlay-panel"></div>
 
 <footer class="sitefooter"><div class="sitefooter-inner">
-  <span>Disclosure Commons &middot; cybersecurity ethics case library &middot; <!--updated--><time datetime="2026-11-03">Last updated Nov 3, 2026</time><!--/updated--></span>
+  <span>Disclosure Commons &middot; cybersecurity ethics case library &middot; <!--updated--><time datetime="2026-11-10">Last updated Nov 10, 2026</time><!--/updated--></span>
   <span><a href="../cite/">Cite this dataset</a> &middot; <a href="https://github.com/disclosure-commons/cybersecurity-ethics-commons" target="_blank" rel="noopener">GitHub</a> &middot; <a href="../contribute/">Report a correction</a></span>
 </div></footer>
 
@@ -205,6 +205,13 @@ function safeSourceUrl(value){
   } catch { return null; }
 }
 
+function dilemmaList(c){
+  if(Array.isArray(c.dilemmas)) return c.dilemmas.filter(Boolean);
+  return String(c.dilemmas || '').split(/\s*\((?:i{1,3}|iv|vi{0,3}|ix|x)\)\s*/).map(s => s.replace(/^[\s;]+|[\s;]+$/g, '')).filter(Boolean);
+}
+
+function caseTags(c){ return [c.category].concat((c.tags || []).filter(t => t && t !== c.category)); }
+
 function renderCategoryFilters(){
   const counts = countBy('category');
   const ul = document.getElementById('category-filters');
@@ -246,12 +253,12 @@ function renderChillingFilters(){
 }
 
 function matches(c){
-  if(state.categories.size && !state.categories.has(c.category)) return false;
+  if(state.categories.size && !caseTags(c).some(t => state.categories.has(t))) return false;
   if(state.actorTypes.size && !state.actorTypes.has(c.actor_type)) return false;
   if(state.chilling !== 'any' && c.chilling !== state.chilling) return false;
   if(state.search){
     const q = state.search.toLowerCase();
-    const hay = (c.institution+' '+c.summary+' '+c.dilemmas+' '+c.category).toLowerCase();
+    const hay = (c.institution+' '+c.summary+' '+dilemmaList(c).join(' ')+' '+c.category+' '+(c.tags||[]).join(' ')).toLowerCase();
     if(!hay.includes(q)) return false;
   }
   return true;
@@ -300,7 +307,16 @@ function openCase(id){
     field.append(element('label', '', label), element('div', '', value || '—'));
     grid.append(field);
   }
-  panel.append(grid, element('h3', '', 'Key ethical dilemmas'), element('p', '', c.dilemmas || '—'));
+  const extraTags = caseTags(c).slice(1);
+  if(extraTags.length){
+    const row = element('div', 'tag-row');
+    extraTags.forEach(t => row.append(element('span', 'case-tag', t)));
+    panel.insertBefore(row, panel.querySelector('.overlay-summary'));
+  }
+  const dilemmaUl = element('ul', 'dilemma-list');
+  const dilemmas = dilemmaList(c);
+  (dilemmas.length ? dilemmas : ['—']).forEach(d => dilemmaUl.append(element('li', '', d)));
+  panel.append(grid, element('h3', '', 'Key ethical dilemmas'), dilemmaUl);
   if(c.source){
     const paragraph = element('p');
     const sourceUrl = safeSourceUrl(c.source);
@@ -313,7 +329,7 @@ function openCase(id){
     } else paragraph.textContent = c.source;
     panel.append(element('h3', '', 'Source'), paragraph);
   }
-  const permalink = element('a', 'overlay-permalink', "View this case's permanent page →");
+  const permalink = element('a', 'overlay-permalink', 'View full case →');
   permalink.href = `../cases/${String(id).padStart(3,'0')}/`;
   panel.append(permalink);
   panel.classList.add('open');

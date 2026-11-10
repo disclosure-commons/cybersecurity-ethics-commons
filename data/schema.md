@@ -14,8 +14,11 @@
 | `disclosure` | How findings were disclosed (e.g. Responsible / coordinated, media-first, none/withheld) |
 | `outcome` | Legal or institutional outcome of the case |
 | `chilling` | `Yes` / `No` — did the case have a documented chilling effect on future research or disclosure? |
-| `dilemmas` | Key ethical dilemmas raised, written for classroom discussion |
-| `source` | Link to the original reporting or primary source |
+| `dilemmas` | List of key ethical dilemmas, one per bullet, written for classroom discussion |
+| `long_summary` | Full case write-up (more than 3 sentences), shown as "More details" before Sources. Blank line = new paragraph. Empty = section hidden |
+| `source` | Primary link to the original reporting or primary source |
+| `extra_sources` | List of `{"label": "...", "url": "https://..."}` for additional links covering other aspects of the case |
+| `tags` | Additional category tags (list). `category` remains the single main category used for front-page counts |
 
 ## Primary categories
 

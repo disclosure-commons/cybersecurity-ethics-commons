@@ -343,3 +343,14 @@ a{color:inherit;}
   word-break:break-word;
   margin:1.2rem 0;
 }
+
+/* ============ Dilemma bullets, source list, extra tags ============ */
+.dilemma-list, .source-list{margin:0 0 0.4rem;padding-left:1.25rem;}
+.dilemma-list{list-style:none;counter-reset:dilemma;padding-left:0;}
+.dilemma-list li{counter-increment:dilemma;position:relative;padding-left:2.6rem;margin:0 0 0.45rem;line-height:1.5;}
+.dilemma-list li::before{content:"(" counter(dilemma, lower-roman) ")";position:absolute;left:0;font-family:var(--mono);font-size:0.85em;color:var(--ink-soft);}
+.source-list{list-style:none;padding-left:0;}
+.source-list li{margin:0 0 0.5rem;overflow-wrap:anywhere;}
+.source-label{display:block;font-family:var(--mono);font-size:0.72rem;color:var(--ink-soft);text-transform:uppercase;letter-spacing:0.04em;}
+.tag-row{display:flex;flex-wrap:wrap;gap:0.4rem;margin:0.2rem 0 0.9rem;}
+.case-tag{font-family:var(--mono);font-size:0.7rem;padding:0.12rem 0.5rem;border:1px solid var(--rule);color:var(--ink-soft);background:var(--paper-raised);}

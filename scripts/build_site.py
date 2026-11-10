@@ -77,6 +77,50 @@ def safe_source_url(value):
     return None
 
 
+def dilemma_items(case):
+    """Dilemmas as a list (accepts the old '(i) ...; (ii) ...' string too)."""
+    d = case.get("dilemmas")
+    if isinstance(d, list):
+        return [str(x) for x in d if str(x).strip()]
+    return [p.strip(" ;") for p in re.split(r"\s*\((?:i{1,3}|iv|vi{0,3}|ix|x)\)\s*", d or "") if p.strip(" ;")]
+
+
+def sources_html(case):
+    """Primary source plus any extra labelled source links, as a list."""
+    entries = []
+    if case.get("source"):
+        entries.append(("Primary source", case["source"]))
+    for extra in case.get("extra_sources") or []:
+        url = extra.get("url") if isinstance(extra, dict) else extra
+        label = (extra.get("label") if isinstance(extra, dict) else "") or "Additional source"
+        if url:
+            entries.append((label, url))
+    if not entries:
+        return ""
+    items = ""
+    for label, url in entries:
+        safe = safe_source_url(url)
+        link = (f'<a href="{esc(safe)}" target="_blank" rel="noopener">{esc(url)}</a>' if safe else esc(url))
+        items += f'<li><span class="source-label">{esc(label)}</span> {link}</li>'
+    heading = "Sources" if len(entries) > 1 else "Source"
+    return f'<h3>{heading}</h3><ul class="source-list">{items}</ul>'
+
+
+def more_details_html(case):
+    text = (case.get("long_summary") or "").strip()
+    if not text:
+        return ""
+    paras = "".join(f"<p>{esc(p.strip())}</p>" for p in re.split(r"\n\s*\n", text) if p.strip())
+    return f"<h3>More details</h3>{paras}"
+
+
+def tags_html(case):
+    tags = [t for t in (case.get("tags") or []) if t and t != case.get("category")]
+    if not tags:
+        return ""
+    return '<div class="tag-row">' + "".join(f'<span class="case-tag">{esc(t)}</span>' for t in tags) + "</div>"
+
+
 def nav_html(active_path, depth):
     """depth = number of '../' needed to reach docs/ root from this page."""
     prefix = "../" * depth if depth else "./"
@@ -167,12 +211,9 @@ def build_case_page(case, all_cases, idx):
     cid = case["id"]
     color = CAT_COLORS.get(case["category"], "#999")
     chilling_stamp = '<div class="stamp">Chilling effect</div>' if case.get("chilling") == "Yes" else ""
-    source = case.get("source") or ""
-    source_url = safe_source_url(source)
-    source_html = (
-        f'<h3>Source</h3><p><a href="{esc(source_url)}" target="_blank" rel="noopener">{esc(source)}</a></p>'
-        if source_url else (f"<h3>Source</h3><p>{esc(source)}</p>" if source else "")
-    )
+    source_html = sources_html(case)
+    more_html = more_details_html(case)
+    dilemma_html = "".join(f"<li>{esc(d)}</li>" for d in dilemma_items(case)) or "<li>&mdash;</li>"
 
     prev_case = all_cases[idx - 1] if idx > 0 else None
     next_case = all_cases[idx + 1] if idx < len(all_cases) - 1 else None
@@ -183,6 +224,7 @@ def build_case_page(case, all_cases, idx):
 <div class="case-num">Case No.{cid:03d}</div>
 <h1>{esc(case['institution'])}</h1>
 <div class="case-cat" style="color:{color}">{esc(case['category'])} &middot; {esc(case['year'])}</div>
+{tags_html(case)}
 {chilling_stamp}
 <p>{esc(case['summary'])}</p>
 <div class="meta-grid">
@@ -192,7 +234,8 @@ def build_case_page(case, all_cases, idx):
   <div class="meta-field"><label>Legal outcome</label><div>{esc(case['outcome']) or '&mdash;'}</div></div>
 </div>
 <h3>Key ethical dilemmas</h3>
-<p>{esc(case['dilemmas']) or '&mdash;'}</p>
+<ul class="dilemma-list">{dilemma_html}</ul>
+{more_html}
 {source_html}
 <div class="case-nav">{prev_link}{next_link}</div>
 """
