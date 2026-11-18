@@ -11,11 +11,17 @@ which are hand-maintained. Safe to re-run any time data/cases.json changes.
 import json
 import re
 import shutil
+import sys
 from html import escape
 from urllib.parse import urlsplit
 from datetime import date
 from pathlib import Path
 from collections import Counter
+
+if __package__:
+    from .validate_data import validate_data
+else:
+    from validate_data import validate_data
 
 ROOT = Path(__file__).resolve().parent.parent
 DATA = ROOT / "data" / "cases.json"
@@ -393,7 +399,14 @@ in addition to citing the dataset as a whole.</p>
 
 
 def main():
-    data = json.loads(DATA.read_text(encoding="utf-8"))
+    try:
+        data = json.loads(DATA.read_text(encoding="utf-8"))
+        errors = validate_data(data)
+    except (OSError, ValueError) as error:
+        sys.exit(f"Cannot validate case data: {error}")
+    if errors:
+        sys.exit("\n".join([f"Invalid case data in {DATA}:", *errors]))
+
     cases = data["cases"]
     for case in cases:
         year = case.get("year")
@@ -401,11 +414,6 @@ def main():
             case["year"] = re.sub(r"^(\d{4})\.0$", r"\1", year)
 
     categories = data["categories"]
-    expected_ids = list(range(1, len(cases) + 1))
-    actual_ids = [case.get("id") for case in cases]
-    if any(type(cid) is not int for cid in actual_ids) or actual_ids != expected_ids:
-        raise ValueError("Case IDs must be sequential integers from 1 through the case count.")
-
     years = []
     for c in cases:
         years.extend(int(n) for n in re.findall(r"\d{4}", c.get("year", "")))

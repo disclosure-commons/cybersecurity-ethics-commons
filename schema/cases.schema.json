@@ -1,0 +1,173 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Disclosure Commons case dataset",
+  "type": "object",
+  "required": [
+    "cases",
+    "categories"
+  ],
+  "properties": {
+    "cases": {
+      "type": "array",
+      "items": {
+        "$ref": "#/$defs/case"
+      },
+      "minItems": 1
+    },
+    "categories": {
+      "type": "array",
+      "items": {
+        "$ref": "#/$defs/category"
+      },
+      "minItems": 1
+    }
+  },
+  "additionalProperties": false,
+  "$defs": {
+    "nonblankString": {
+      "type": "string",
+      "pattern": "\\S"
+    },
+    "categoryName": {
+      "enum": [
+        "Vulnerability Disclosure",
+        "Informed Consent & Human Subjects",
+        "Dual-Use Research",
+        "Legal Boundaries & CFAA Overreach",
+        "Institutional Suppression",
+        "Financial Conflict of Interest",
+        "Critical Infrastructure & Public Trust",
+        "Surveillance & Offensive Tools"
+      ]
+    },
+    "category": {
+      "type": "object",
+      "required": [
+        "name",
+        "description"
+      ],
+      "properties": {
+        "name": {
+          "$ref": "#/$defs/categoryName"
+        },
+        "description": {
+          "$ref": "#/$defs/nonblankString"
+        }
+      },
+      "additionalProperties": false
+    },
+    "extraSource": {
+      "type": "object",
+      "required": [
+        "label",
+        "url"
+      ],
+      "properties": {
+        "label": {
+          "$ref": "#/$defs/nonblankString"
+        },
+        "url": {
+          "$ref": "#/$defs/nonblankString"
+        }
+      },
+      "additionalProperties": false
+    },
+    "case": {
+      "type": "object",
+      "required": [
+        "id",
+        "institution",
+        "year",
+        "summary",
+        "disclosure",
+        "outcome",
+        "category",
+        "intent",
+        "actor_type",
+        "chilling",
+        "dilemmas",
+        "source"
+      ],
+      "properties": {
+        "id": {
+          "type": "integer",
+          "minimum": 1
+        },
+        "institution": {
+          "$ref": "#/$defs/nonblankString"
+        },
+        "year": {
+          "$ref": "#/$defs/nonblankString"
+        },
+        "summary": {
+          "$ref": "#/$defs/nonblankString"
+        },
+        "disclosure": {
+          "$ref": "#/$defs/nonblankString"
+        },
+        "outcome": {
+          "$ref": "#/$defs/nonblankString"
+        },
+        "category": {
+          "$ref": "#/$defs/categoryName"
+        },
+        "intent": {
+          "enum": [
+            "Good faith (intended public benefit)",
+            "Ambiguous / gray area (mixed or unclear intent)",
+            "Financially motivated (profit, stock, bounty)",
+            "Malicious / reckless (knowingly harmful)",
+            "Institutional action against researcher",
+            "Accidental / negligent"
+          ]
+        },
+        "actor_type": {
+          "enum": [
+            "Academic researcher",
+            "Student",
+            "Independent / contractor",
+            "Corporate / private sector",
+            "Journalist / activist / independent",
+            "Government / law enforcement",
+            "Government / intelligence",
+            "Cybercriminal group",
+            "Hacker / activist"
+          ]
+        },
+        "chilling": {
+          "enum": [
+            "Yes",
+            "No"
+          ]
+        },
+        "dilemmas": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/nonblankString"
+          },
+          "minItems": 1
+        },
+        "source": {
+          "$ref": "#/$defs/nonblankString"
+        },
+        "long_summary": {
+          "type": "string"
+        },
+        "extra_sources": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/extraSource"
+          }
+        },
+        "tags": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/categoryName"
+          },
+          "uniqueItems": true
+        }
+      },
+      "additionalProperties": false
+    }
+  }
+}

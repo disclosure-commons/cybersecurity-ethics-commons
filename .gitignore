@@ -1,0 +1,8 @@
+# Local IDE and OS files
+.idea/
+.DS_Store
+
+# Python caches and local virtual environments
+__pycache__/
+*.py[cod]
+.venv/

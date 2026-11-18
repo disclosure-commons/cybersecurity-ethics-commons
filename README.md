@@ -56,13 +56,24 @@ A working library of real cybersecurity research ethics cases — disclosure fig
 
 ## Updating the site
 
+Set up a local Python virtual environment from the repository root and install the validator dependency. If you already created `.venv`, start with the activation command.
+
+```bash
+python3 -m venv .venv
+source .venv/bin/activate
+python -m pip install -r requirements.txt
+```
+
 1. Edit `data/cases.csv` (or `cases.json` directly).
 2. Keep both files in sync, or regenerate `cases.json` from the CSV.
-3. Run:
-   ```
-   python3 scripts/build_site.py
+3. Validate the dataset and build the site.
+   ```bash
+   python scripts/validate_data.py
+   python scripts/build_site.py
    ```
 4. Commit the regenerated `docs/` output along with the data change.
+
+The build also validates `data/cases.json` before writing or deleting generated files. GitHub Actions runs the standalone validator on pushes and pull requests.
 
 `docs/assets/style.css` and `docs/browse/index.html` are hand-maintained. The build script leaves the stylesheet unchanged and updates only the browse page’s footer date.
 
